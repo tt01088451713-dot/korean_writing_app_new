@@ -1,0 +1,216 @@
+{
+  "title": {
+    "ko": "ᅴ형 전체 예시",
+    "en": "Syllables with 'ㅢ'-type Structure",
+    "zh": "‘ᅴ型’结构的音节例子",
+    "vi": "Các âm tiết dạng 'ᅴ'",
+    "ja": "ᅴ型の音節例",
+    "fr": "Exemples de syllabes de type 'ᅴ'",
+    "es": "Ejemplos de sílabas tipo 'ᅴ'",
+    "ru": "Примеры слогов типа 'ᅴ'",
+    "mn": "'ᅴ' бүтэцтэй үе үгсийн жишээ"
+  },
+  "unit": "2. 글자",
+  "section": "2.4_ㅢ형",
+  "type": "syllable_practice",
+  "description": {
+    "ko": "자모가 ‘ㅢ형’ 구조로 결합된 음절 예시. 교재 95–116쪽에 해당.",
+    "en": "Examples of syllables formed with the 'ㅢ'-type vowel structure. See textbook pages 95–116.",
+    "zh": "由‘ᅴ型’结构组成的音节例子。参见教材第95–116页。",
+    "vi": "Ví dụ về các âm tiết được tạo thành theo cấu trúc nguyên âm kiểu 'ᅴ'. Xem sách giáo khoa trang 95–116.",
+    "ja": "‘ᅴ型’構造で構成された音節の例。教科書95〜116ページを参照。",
+    "fr": "Exemples de syllabes construites avec la voyelle de type 'ᅴ'. Voir pages 95 à 116 du manuel.",
+    "es": "Ejemplos de sílabas con la estructura vocálica tipo 'ᅴ'. Véase páginas 95–116 del libro de texto.",
+    "ru": "Примеры слогов, содержащих гласную структуру типа 'ᅴ'. См. стр. 95–116 учебника.",
+    "mn": "'ᅴ' төрлийн эгшгийн бүтэцтэй үе үгсийн жишээ. Сурах бичгийн 95–116-р хуудсыг үзнэ үү."
+  },
+  "examples": [
+    {
+      "syllable": "과",
+      "components": {
+        "initial": "ㄱ",
+        "medial": "ㅘ",
+        "final": null
+      },
+      "audio": "gwa.mp3",
+      "romanized": "gwa",
+      "ipa": "kwa"
+    },
+    {
+      "syllable": "괘",
+      "components": {
+        "initial": "ㄱ",
+        "medial": "ㅙ",
+        "final": null
+      },
+      "audio": "gwae.mp3",
+      "romanized": "gwae",
+      "ipa": "kwɛ"
+    },
+    {
+      "syllable": "괴",
+      "components": {
+        "initial": "ㄱ",
+        "medial": "ㅚ",
+        "final": null
+      },
+      "audio": "goe.mp3",
+      "romanized": "goe",
+      "ipa": "kø"
+    },
+    {
+      "syllable": "왜",
+      "components": {
+        "initial": "ㅇ",
+        "medial": "ㅙ",
+        "final": null
+      },
+      "audio": "wae.mp3",
+      "romanized": "wae",
+      "ipa": "wɛ"
+    },
+    {
+      "syllable": "웨",
+      "components": {
+        "initial": "ㅇ",
+        "medial": "ㅞ",
+        "final": null
+      },
+      "audio": "we.mp3",
+      "romanized": "we",
+      "ipa": "we"
+    },
+    {
+      "syllable": "귀",
+      "components": {
+        "initial": "ㄱ",
+        "medial": "ㅟ",
+        "final": null
+      },
+      "audio": "gwi.mp3",
+      "romanized": "gwi",
+      "ipa": "kɥi"
+    },
+    {
+      "syllable": "뀌",
+      "components": {
+        "initial": "ㄲ",
+        "medial": "ㅟ",
+        "final": null
+      },
+      "audio": "kkwi.mp3",
+      "romanized": "kkwi",
+      "ipa": "k͈ɥi"
+    },
+    {
+      "syllable": "뒈",
+      "components": {
+        "initial": "ㄷ",
+        "medial": "ㅞ",
+        "final": null
+      },
+      "audio": "dwe.mp3",
+      "romanized": "dwe",
+      "ipa": "twe"
+    },
+    {
+      "syllable": "뉘",
+      "components": {
+        "initial": "ㄴ",
+        "medial": "ㅟ",
+        "final": null
+      },
+      "audio": "nwi.mp3",
+      "romanized": "nwi",
+      "ipa": "nɥi"
+    },
+    {
+      "syllable": "늬",
+      "components": {
+        "initial": "ㄴ",
+        "medial": "ㅢ",
+        "final": null
+      },
+      "audio": "nui.mp3",
+      "romanized": "nui",
+      "ipa": "nɰi"
+    },
+    {
+      "syllable": "의",
+      "components": {
+        "initial": "ㅇ",
+        "medial": "ㅢ",
+        "final": null
+      },
+      "audio": "ui.mp3",
+      "romanized": "ui",
+      "ipa": "ɰi"
+    },
+    {
+      "syllable": "쀼",
+      "components": {
+        "initial": "ㅃ",
+        "medial": "ㅠ",
+        "final": null
+      },
+      "audio": "ppyu.mp3",
+      "romanized": "ppyu",
+      "ipa": "p͈ju"
+    },
+    {
+      "syllable": "쮸",
+      "components": {
+        "initial": "ㅉ",
+        "medial": "ㅠ",
+        "final": null
+      },
+      "audio": "jjyu.mp3",
+      "romanized": "jjyu",
+      "ipa": "tɕ͈ju"
+    },
+    {
+      "syllable": "쯰",
+      "components": {
+        "initial": "ㅉ",
+        "medial": "ㅡ",
+        "final": "ㄹ"
+      },
+      "audio": "jjeu.mp3",
+      "romanized": "jjeu",
+      "ipa": "tɕ͈ɯ"
+    },
+    {
+      "syllable": "쐤",
+      "components": {
+        "initial": "ㅆ",
+        "medial": "ㅞ",
+        "final": null
+      },
+      "audio": "sswe.mp3",
+      "romanized": "sswe",
+      "ipa": "s͈we"
+    },
+    {
+      "syllable": "쫴",
+      "components": {
+        "initial": "ㅉ",
+        "medial": "ㅘ",
+        "final": null
+      },
+      "audio": "jjwa.mp3",
+      "romanized": "jjwa",
+      "ipa": "tɕ͈wa"
+    },
+    {
+      "syllable": "꿔",
+      "components": {
+        "initial": "ㄲ",
+        "medial": "ㅝ",
+        "final": null
+      },
+      "audio": "kk.mp3",
+      "romanized": "kk",
+      "ipa": "k͈"
+    }
+  ]
+}

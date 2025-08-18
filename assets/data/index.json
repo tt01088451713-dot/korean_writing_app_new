@@ -1,0 +1,345 @@
+[
+  {
+    "unit": "1. 자모",
+    "title": {
+      "ko": "자모",
+      "en": "Letters",
+      "zh": "字母",
+      "vi": "Chữ cái",
+      "ja": "字母",
+      "fr": "Lettres",
+      "es": "Letras",
+      "ru": "Буквы",
+      "mn": "Үсэг"
+    },
+    "children": [
+      {
+        "section": "1.1 자음자",
+        "title": {
+          "ko": "자음자",
+          "en": "Consonant Letters",
+          "vi": "Phụ âm",
+          "zh": "辅音字母",
+          "ja": "子音文字",
+          "fr": "Lettres consonantiques",
+          "es": "Letras consonantes",
+          "ru": "Согласные буквы",
+          "mn": "Гийгүүлэгч үсэг"
+        },
+        "filename": "1_1_consonantal_letter.json",
+        "type": "practice"
+      },
+      {
+        "section": "1.2 모음자",
+        "title": {
+          "ko": "모음자",
+          "en": "Vowel Letters",
+          "vi": "Nguyên âm",
+          "zh": "元音字母",
+          "ja": "母音文字",
+          "fr": "Lettres vocaliques",
+          "es": "Letras vocales",
+          "ru": "Гласные буквы",
+          "mn": "Эгшиг үсэг"
+        },
+        "filename": "1_2_vowel_letter.json",
+        "type": "practice"
+      }
+    ],
+    "section": ""
+  },
+  {
+    "unit": "2. 글자",
+    "title": {
+      "ko": "글자 단원",
+      "en": "Syllables",
+      "zh": "文字",
+      "vi": "Âm tiết",
+      "ja": "音節",
+      "fr": "Syllabes",
+      "es": "Sílabas",
+      "ru": "Слоги",
+      "mn": "Үе"
+    },
+    "children": [
+      {
+        "section": "2.0 글자의 원리",
+        "title": {
+          "ko": "한글 글자 구조 개요",
+          "en": "Overview of Korean Syllable Structure",
+          "zh": "韩文字母结构概述",
+          "vi": "Tổng quan về cấu trúc chữ cái tiếng Hàn",
+          "ja": "ハングル文字構造の概要",
+          "fr": "Aperçu de la structure des lettres coréennes",
+          "es": "Resumen de la estructura de las letras coreanas",
+          "ru": "Обзор структуры корейских слогов",
+          "mn": "Хангил үсгийн бүтэцийн тойм"
+        },
+        "filename": "2_0_principle_character.json",
+        "type": "overview"
+      },
+      {
+        "section": "2.1 좌우 결합형",
+        "title": {
+          "ko": "좌우 결합형 글자",
+          "en": "Left-Right Combined Syllables",
+          "zh": "左右结构的文字",
+          "vi": "Chữ kết hợp trái-phải",
+          "ja": "左右結合型の文字",
+          "fr": "Lettres à structure gauche-droite",
+          "es": "Letras de estructura izquierda-derecha",
+          "ru": "Слоги с лево-правой структурой",
+          "mn": "Зүүн-баруун бүтэцтэй үе үгс"
+        },
+        "filename": "2_1_left_right.json",
+        "type": "explanation"
+      },
+      {
+        "section": "2.2 상하 결합형",
+        "title": {
+          "ko": "상하 결합형 글자",
+          "en": "Top-Bottom Combined Syllables",
+          "zh": "上下结构的文字",
+          "vi": "Chữ kết hợp trên-dưới",
+          "ja": "上下結合型の文字",
+          "fr": "Lettres à structure haut-bas",
+          "es": "Letras de estructura arriba-abajo",
+          "ru": "Слоги с верхне-нижней структурой",
+          "mn": "Дээд-доод бүтэцтэй үе үгс"
+        },
+        "filename": "2_2_top_bottom.json",
+        "type": "explanation"
+      },
+      {
+        "section": "2.3 좌우상하 결합형",
+        "title": {
+          "ko": "좌우상하결합형 전체 예시",
+          "en": "Left-Right-Top-Bottom Combined Syllables",
+          "zh": "左右上下结构的文字练习",
+          "vi": "Tổng hợp chữ cái kết hợp trái-phải-trên-dưới",
+          "ja": "左右上下結合型の文字練習",
+          "fr": "Exemples de lettres combinées gauche-droite-haut-bas",
+          "es": "Ejemplos de letras con estructura izquierda-derecha-arriba-abajo",
+          "ru": "Примеры слогов с комбинированной структурой: слева-справа-сверху-снизу",
+          "mn": "Зүүн-баруун-дээд-доод хосолсон үе үгсийн жишээ"
+        },
+        "filename": "2_3_left_right_top_bottom.json",
+        "type": "explanation"
+      },
+      {
+        "section": "2.4 ᅴ형",
+        "title": {
+          "ko": "ᅴ형 전체 예시",
+          "en": "Syllables with 'ui'-type Structure",
+          "zh": "‘ᅴ型’结构的音节例子",
+          "vi": "Các âm tiết dạng 'ᅴ'",
+          "ja": "ᅴ型の音節例",
+          "fr": "Exemples de syllabes de type 'ᅴ'",
+          "es": "Ejemplos de sílabas tipo 'ᅴ'",
+          "ru": "Примеры слогов типа 'ᅴ'",
+          "mn": "'ᅴ' бүтэцтэй үе үгсийн жишээ"
+        },
+        "filename": "2_4_ui.json",
+        "type": "explanation"
+      }
+    ],
+    "section": ""
+  },
+  {
+    "unit": "3. 단어",
+    "title": {
+      "ko": "단어 단원",
+      "en": "Words",
+      "zh": "单词",
+      "vi": "Từ vựng",
+      "ja": "単語",
+      "fr": "Mots",
+      "es": "Palabras",
+      "ru": "Слова",
+      "mn": "Үг"
+    },
+    "children": [
+      {
+        "section": "3. 단어",
+        "title": {
+          "ko": "단어 학습",
+          "en": "Learning Words",
+          "zh": "单词学习",
+          "vi": "Học từ",
+          "ja": "単語学習",
+          "fr": "Apprentissage des mots",
+          "es": "Aprendizaje de palabras",
+          "ru": "Изучение слов",
+          "mn": "Үг сурцгаая"
+        },
+        "filename": "3_word.json",
+        "type": "explanation"
+      }
+    ],
+    "section": ""
+  },
+  {
+    "unit": "4. 문장",
+    "title": {
+      "ko": "문장 단원",
+      "en": "Sentences",
+      "zh": "句子",
+      "vi": "Câu",
+      "ja": "文",
+      "fr": "Phrases",
+      "es": "Oraciones",
+      "ru": "Предложения",
+      "mn": "Өгүүлбэр"
+    },
+    "children": [
+      {
+        "section": "4. 문장",
+        "title": {
+          "ko": "문장 단원",
+          "en": "Sentence Unit",
+          "zh": "句子单元",
+          "vi": "Chủ đề câu",
+          "ja": "文の単元",
+          "fr": "Unité de phrase",
+          "es": "Unidad de oración",
+          "ru": "Раздел о предложениях",
+          "mn": "Өгүүлбэрийн хичээл"
+        },
+        "filename": "4_sentence.json",
+        "type": "explanation"
+      }
+    ],
+    "section": ""
+  },
+  {
+    "unit": "5. 단락",
+    "title": {
+      "ko": "단락 단원",
+      "en": "Paragraphs",
+      "zh": "段落",
+      "vi": "Đoạn văn",
+      "ja": "段落",
+      "fr": "Paragraphes",
+      "es": "Párrafos",
+      "ru": "Параграфы",
+      "mn": "Догол мөр"
+    },
+    "children": [
+      {
+        "section": "5. 단락",
+        "title": {
+          "ko": "단락 단원",
+          "en": "Paragraph Unit",
+          "zh": "段落单元",
+          "vi": "Chủ đề đoạn văn",
+          "ja": "段落の単元",
+          "fr": "Unité de paragraphe",
+          "es": "Unidad de párrafo",
+          "ru": "Раздел о параграфах",
+          "mn": "Догол мөрийн хичээл"
+        },
+        "filename": "5_paragraph.json",
+        "type": "explanation"
+      }
+    ],
+    "section": ""
+  },
+  {
+    "unit": "6. 글",
+    "title": {
+      "ko": "글 단원",
+      "en": "Texts",
+      "zh": "文章",
+      "vi": "Văn bản",
+      "ja": "文章",
+      "fr": "Textes",
+      "es": "Textos",
+      "ru": "Тексты",
+      "mn": "Нийтлэл"
+    },
+    "children": [
+      {
+        "section": "6. 글",
+        "title": {
+          "ko": "글 단원",
+          "en": "Text Unit",
+          "zh": "文章单元",
+          "vi": "Chủ đề văn bản",
+          "ja": "文章の単元",
+          "fr": "Unité de texte",
+          "es": "Unidad de texto",
+          "ru": "Раздел о текстах",
+          "mn": "Нийтлэлийн хичээл"
+        },
+        "filename": "6_writing.json",
+        "type": "explanation"
+      }
+    ],
+    "section": ""
+  },
+  {
+    "unit": "7. 한국 문화",
+    "title": {
+      "ko": "한국 문화",
+      "en": "Korean Culture",
+      "zh": "韩国文化",
+      "vi": "Văn hóa Hàn Quốc",
+      "ja": "韓国文化",
+      "fr": "Culture coréenne",
+      "es": "Cultura coreana",
+      "ru": "Корейская культура",
+      "mn": "Солонгосын соёл"
+    },
+    "children": [
+      {
+        "section": "7.1 전통 동요",
+        "title": {
+          "ko": "전통 동요",
+          "en": "Traditional Songs",
+          "vi": "Bài hát truyền thống",
+          "zh": "传统儿歌",
+          "ja": "伝統童謡",
+          "fr": "Chansons traditionnelles",
+          "es": "Canciones tradicionales",
+          "mn": "Уламжлалт дуу",
+          "ru": "Традиционные песни"
+        },
+        "filename": "7_1_songs_multilang.json",
+        "type": "culture"
+      },
+      {
+        "section": "7.2 한국 속담",
+        "title": {
+          "ko": "한국 속담",
+          "en": "Korean Proverbs",
+          "vi": "Tục ngữ Hàn Quốc",
+          "zh": "韩国谚语",
+          "ja": "韓国のことわざ",
+          "fr": "Proverbes coréens",
+          "es": "Proverbios coreanos",
+          "mn": "Солонгос зүйр цэцэн үгс",
+          "ru": "Корейские пословицы"
+        },
+        "filename": "7_2_proverbs_multilang.json",
+        "type": "culture"
+      },
+      {
+        "section": "7.3 전통 시",
+        "title": {
+          "ko": "전통 시",
+          "en": "Traditional Poems",
+          "vi": "Thơ truyền thống",
+          "zh": "传统诗歌",
+          "ja": "伝統詩",
+          "fr": "Poèmes traditionnels",
+          "es": "Poemas tradicionales",
+          "mn": "Уламжлалт шүлгүүд",
+          "ru": "Традиционные стихи"
+        },
+        "filename": "7_3_poems_multilang_full.json",
+        "type": "culture"
+      }
+    ],
+    "section": ""
+  }
+]

@@ -1,0 +1,173 @@
+{
+  "title": "검증·수정·재빌드 체크리스트",
+  "version": "1.0.0",
+  "updatedAt": "2025-08-17",
+  "sections": [
+    {
+      "id": "data",
+      "title": "데이터 검증",
+      "items": [
+        {
+          "id": "json-consonants-schema",
+          "label": "자음자 JSON 필수 키(title/overview/parts[*].chars) 존재",
+          "type": "checkbox",
+          "default": false,
+          "note": "assets/data/1_1_consonantal_letter.json"
+        },
+        {
+          "id": "json-vowels-schema",
+          "label": "모음자 JSON 필수 키(title/overview/parts[*].chars) 존재",
+          "type": "checkbox",
+          "default": false,
+          "note": "assets/data/1_2_vowel_letter.json"
+        },
+        {
+          "id": "group-keys-match",
+          "label": "parts[*].groupKey가 i18n(ui_texts.dart)의 키와 일치",
+          "type": "checkbox",
+          "default": false
+        },
+        {
+          "id": "multilingual-fields",
+          "label": "title/overview/description/origin 등 다국어 맵 누락 없음(ko/en/ja…)",
+          "type": "checkbox",
+          "default": false
+        }
+      ]
+    },
+    {
+      "id": "i18n",
+      "title": "i18n/문구",
+      "items": [
+        {
+          "id": "supported-langs-order",
+          "label": "언어 선택 화면 순서(ko→en→ja→zh→vi→fr→es→ru→mn) 유지",
+          "type": "checkbox",
+          "default": false
+        },
+        {
+          "id": "group-headers-i18n",
+          "label": "그룹 헤더(기본/가획/이체/병서, 모음 파트)가 선택 언어로 표시",
+          "type": "checkbox",
+          "default": false
+        },
+        {
+          "id": "practice-title-i18n",
+          "label": "쓰기 연습 AppBar: \"(글자) + Writing Practice\"가 언어별로 표시",
+          "type": "checkbox",
+          "default": false
+        }
+      ]
+    },
+    {
+      "id": "ui",
+      "title": "UI/UX 확인",
+      "items": [
+        {
+          "id": "jamo-groups-render",
+          "label": "자음자: 기본자/가획자/이체자/병서가 구분되어 섹션별로 렌더링",
+          "type": "checkbox",
+          "default": false
+        },
+        {
+          "id": "origin-contrast",
+          "label": "카드 하단 설명(origin) 글자 대비/선명도 적절(검정 계열, 줄간격↑)",
+          "type": "checkbox",
+          "default": false
+        },
+        {
+          "id": "palette-menu",
+          "label": "우측 상단 메뉴: 언어 변경 + 색상 설정 표시 및 동작",
+          "type": "checkbox",
+          "default": false
+        },
+        {
+          "id": "color-persist",
+          "label": "카드/글자 색상 선택이 재시작 후에도 유지(SharedPreferences)",
+          "type": "checkbox",
+          "default": false
+        }
+      ]
+    },
+    {
+      "id": "navigation",
+      "title": "네비게이션/라우팅",
+      "items": [
+        {
+          "id": "gate-to-home",
+          "label": "언어 선택 → 커리큘럼 허브 이동",
+          "type": "checkbox",
+          "default": false
+        },
+        {
+          "id": "home-to-jamo",
+          "label": "허브 → 자모 허브 이동",
+          "type": "checkbox",
+          "default": false
+        },
+        {
+          "id": "jamo-to-consonants-vowels",
+          "label": "자모 허브 → 자음자/모음자 단원 이동",
+          "type": "checkbox",
+          "default": false
+        },
+        {
+          "id": "grid-to-write",
+          "label": "카드 탭 → 쓰기 연습 페이지 이동(인자 전달 OK)",
+          "type": "checkbox",
+          "default": false
+        }
+      ]
+    },
+    {
+      "id": "assets",
+      "title": "자산(이미지/가이드)",
+      "items": [
+        {
+          "id": "stroke-images-consonants",
+          "label": "자음자 stroke PNG 모두 존재",
+          "type": "checkbox",
+          "default": false,
+          "note": "assets/images/strokes/consonants/"
+        },
+        {
+          "id": "stroke-images-vowels",
+          "label": "모음자 stroke PNG 모두 존재",
+          "type": "checkbox",
+          "default": false,
+          "note": "assets/images/strokes/vowels/"
+        },
+        {
+          "id": "composite-guide-only",
+          "label": "합용병서는 가이드만(드로잉 비활성) 표시",
+          "type": "checkbox",
+          "default": false
+        }
+      ]
+    },
+    {
+      "id": "build",
+      "title": "빌드/배포",
+      "items": [
+        {
+          "id": "pubspec-assets",
+          "label": "pubspec.yaml의 assets 등록 누락 없음",
+          "type": "checkbox",
+          "default": false
+        },
+        {
+          "id": "hot-restart",
+          "label": "자산 추가 후 Hot Restart(또는 앱 재시작)로 반영 확인",
+          "type": "checkbox",
+          "default": false
+        },
+        {
+          "id": "release-build",
+          "label": "릴리스 빌드/실행 확인",
+          "type": "checkbox",
+          "default": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "unit": "2. 글자",
+  "section": "2.0_글자의 원리",
+  "type": "explanation",
+  "title": {
+    "ko": "한글 글자 구조 개요",
+    "en": "Overview of Korean Syllable Structure",
+    "zh": "韩文字母结构概述",
+    "vi": "Tổng quan về cấu trúc chữ cái tiếng Hàn",
+    "ja": "ハングル文字構造の概要",
+    "fr": "Aperçu de la structure des lettres coréennes",
+    "es": "Resumen de la estructura de las letras coreanas",
+    "ru": "Обзор структуры корейских слогов",
+    "mn": "Хангил үсгийн бүтэцийн тойм"
+  },
+  "content": {
+    "description": {
+      "ko": "한글은 초성, 중성, 종성이 결합된 음절 단위의 글자 구조를 가진다. 이 단원에서는 한글의 모아쓰기 방식과 실제 사용되는 글자 수, 초중종성 자모의 구성 등을 설명한다.",
+      "en": "Hangeul consists of syllabic blocks made up of an initial consonant, a medial vowel, and sometimes a final consonant. This section explains the syllable block composition, the number of actual letters used, and the formation of initial, medial, and final characters.",
+      "zh": "韩文字由初声、中声和终声组成音节单位结构。本单元介绍韩文字的合成方式、实际使用的字数以及初中终声字母的构成等。",
+      "vi": "Tiếng Hàn có cấu trúc chữ cái theo đơn vị âm tiết bao gồm phụ âm đầu, nguyên âm giữa và phụ âm cuối. Phần này giải thích cách viết chữ Hàn, số lượng chữ được sử dụng thực tế và cách cấu tạo các thành phần âm tiết.",
+      "ja": "ハングルは初声・中声・終声からなる音節単位の構造を持つ。本単元ではハングルの合成方法、実際に使われている文字数、初中終声字母の構成などを説明する。",
+      "fr": "Le hangeul est structuré en blocs syllabiques composés d’une consonne initiale, d’une voyelle médiane et parfois d’une consonne finale. Cette section explique le principe d’assemblage des caractères et leur usage réel.",
+      "es": "El hangeul tiene una estructura de caracteres en bloques silábicos compuestos por una consonante inicial, una vocal medial y una consonante final. Esta unidad explica cómo se forman estos bloques y cuántos se utilizan realmente.",
+      "ru": "Хангыль состоит из слогов, образованных начальными, гласными и финальными звуками. В этом разделе объясняется способ составления слогов и количество реально используемых символов.",
+      "mn": "Хангил нь эх эгшиг, дунд эгшиг, төгсгөлийн гийгүүлэгч зэргээс бүрдсэн үет үсгийн бүтэцтэй. Энэ хэсэгт ханзны бичих зарчим, хэрэглэгддэг үсгийн тоо, гийгүүлэгч бүрдэл зэргийг тайлбарлана."
+    },
+    "main_points": [
+      {
+        "ko": "한글은 자음과 모음이 결합되어 음절 단위 글자가 된다.",
+        "en": "Korean letters are formed by combining consonants and vowels into syllabic blocks.",
+        "zh": "韩文通过辅音和元音的组合形成音节单位的文字。",
+        "vi": "Chữ Hàn được tạo thành bằng cách kết hợp phụ âm và nguyên âm thành khối âm tiết.",
+        "ja": "ハングルは子音と母音を組み合わせて音節単位の文字を作る。",
+        "fr": "Le hangeul combine consonnes et voyelles pour former des blocs syllabiques.",
+        "es": "El hangeul combina consonantes y vocales en bloques silábicos.",
+        "ru": "Корейские буквы формируются путем объединения согласных и гласных в слоговые блоки.",
+        "mn": "Хангил нь гийгүүлэгч ба эгшгийг хослуулж үе үсэг үүсгэдэг."
+      },
+      {
+        "ko": "초성 19자, 중성 21자, 종성 27자가 있으며, 이를 조합하면 최대 11,172자의 글자를 만들 수 있다.",
+        "en": "There are 19 initial consonants, 21 medial vowels, and 27 final consonants, allowing up to 11,172 possible syllables.",
+        "zh": "韩文有19个初声、21个中声和27个终声，可组成最多11,172个音节。",
+        "vi": "Có 19 phụ âm đầu, 21 nguyên âm giữa và 27 phụ âm cuối, có thể tạo thành tối đa 11.172 âm tiết.",
+        "ja": "初声19字、中声21字、終声27字があり、最大11,172文字を作ることができる。",
+        "fr": "Il y a 19 consonnes initiales, 21 voyelles médianes et 27 consonnes finales, ce qui permet de former jusqu’à 11 172 syllabes.",
+        "es": "Hay 19 consonantes iniciales, 21 vocales mediales y 27 consonantes finales, lo que permite hasta 11.172 combinaciones.",
+        "ru": "В корейском языке 19 начальных согласных, 21 гласный и 27 конечных согласных, что позволяет сформировать до 11 172 слогов.",
+        "mn": "19 эх гийгүүлэгч, 21 дунд эгшиг, 27 төгсгөл гийгүүлэгч байдгийн улмаас 11,172 үсэг үүсгэх боломжтой."
+      }
+    ]
+  }
+}

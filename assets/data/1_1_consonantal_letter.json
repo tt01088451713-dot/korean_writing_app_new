@@ -1,0 +1,510 @@
+{
+  "title": {
+    "ko": "자음자",
+    "en": "Consonantal Letters",
+    "ja": "子音字",
+    "zh": "子音",
+    "vi": "Phụ âm tiếng Hàn",
+    "fr": "Consonnes coréennes",
+    "es": "Consonantes coreanas",
+    "ru": "Согласные корейского письма",
+    "mn": "Хангыльгийн гийгүүлэгчид"
+  },
+  "overview": {
+    "ko": "기본 자음자는 발음기관의 모양을 본뜬 ‘상형’의 원리로, 가획 자음자는 기본자에 획을 더하는 ‘가획’의 원리로 만들어졌다.",
+    "en": "Basic consonants model the shapes of speech organs, while extended consonants are formed by adding extra strokes to the basic set.",
+    "ja": "基本子音は発音器官の形を写し取り、加画子音は基本字に画を加えて作られる。",
+    "zh": "基本子音依据发音器官的形状设计，而加画子音是在基本字上加画形成的。",
+    "vi": "Phụ âm cơ bản mô phỏng hình dạng cơ quan phát âm; phụ âm mở rộng được tạo bằng cách thêm nét vào bộ cơ bản.",
+    "fr": "Les consonnes de base s’inspirent des organes de la parole ; les consonnes dérivées ajoutent des traits aux lettres de base.",
+    "es": "Las consonantes básicas se inspiran en los órganos del habla; las derivadas se forman añadiendo trazos a las básicas.",
+    "ru": "Базовые согласные отражают форму речевых органов; производные получаются добавлением штрихов к базовым.",
+    "mn": "Үндсэн гийгүүлэгчид нь дуу авианы эрхтний хэлбэрээс сэдэвлэсэн, харин нэмэлт гийгүүлэгчид нь үндсэнд зураас нэмснээр бүтдэг."
+  },
+  "parts": [
+    {
+      "id": "basic-grouped",
+      "title": {
+        "ko": "기본 자음자 / 가획 자음자 / 이체 자음자",
+        "en": "Basic / Extended / Variant Consonants",
+        "ja": "基本・加画・異体 子音",
+        "zh": "基本 / 加画 / 异体 子音",
+        "vi": "Phụ âm cơ bản / mở rộng / dị thể",
+        "fr": "Consonnes de base / dérivées / variantes",
+        "es": "Consonantes básicas / derivadas / variantes",
+        "ru": "Базовые / производные / вариантные согласные",
+        "mn": "Үндсэн / нэмэлт / хувилбар гийгүүлэгч"
+      },
+      "description": {
+        "ko": "아래 목록은 기본자, 가획자, 이체자를 구분하여 제시한다.",
+        "en": "The list below is grouped into basic, extended, and variant consonants.",
+        "ja": "以下は基本・加画・異体の子音に分けて示す。",
+        "zh": "下列清单按基本、加画、异体分类展示。",
+        "vi": "Danh sách dưới đây chia theo phụ âm cơ bản, mở rộng và dị thể.",
+        "fr": "La liste ci-dessous est répartie en consonnes de base, dérivées et variantes.",
+        "es": "La lista siguiente está agrupada en consonantes básicas, derivadas y variantes.",
+        "ru": "Ниже согласные сгруппированы на базовые, производные и варианты.",
+        "mn": "Доорх жагсаалтыг үндсэн, нэмэлт, хувилбар гийгүүлэгч болгон ангиллаа."
+      },
+      "chars": [
+        {
+          "char": "ㄱ",
+          "name_ko": "기역",
+          "name": {
+            "ko": "기역",
+            "en": "Giyeok",
+            "ja": "キヨク",
+            "zh": "Giyeok",
+            "vi": "Giyeok",
+            "fr": "Giyeok",
+            "es": "Giyeok",
+            "ru": "Giyeok",
+            "mn": "Giyeok"
+          },
+          "origin": {
+            "ko": "혓등이 연구개에 닿은 모양",
+            "en": "Tongue dorsum touching the soft palate.",
+            "ja": "舌背が軟口蓋に触れる形。",
+            "zh": "舌背接触软腭的形状。",
+            "vi": "Mặt lưng lưỡi chạm vòm mềm.",
+            "fr": "Le dos de la langue touchant le voile du palais.",
+            "es": "El dorso de la lengua tocando el paladar blando.",
+            "ru": "Спинка языка касается мягкого нёба.",
+            "mn": "Хэлний дээд хэсэг зөөлөн тагнайд хүрэх хэлбэр."
+          },
+          "group": "basic"
+        },
+        {
+          "char": "ㄴ",
+          "name_ko": "니은",
+          "name": {
+            "ko": "니은",
+            "en": "Nieun",
+            "ja": "ニウン",
+            "zh": "Nieun",
+            "vi": "Nieun",
+            "fr": "Nieun",
+            "es": "Nieun",
+            "ru": "Nieun",
+            "mn": "Nieun"
+          },
+          "origin": {
+            "ko": "혀끝이 잇몸 뒤에 닿은 모양",
+            "en": "Tongue tip touching behind the alveolar ridge.",
+            "ja": "舌先が歯茎の後ろに触れる形。",
+            "zh": "舌尖接触齿龈后的形状。",
+            "vi": "Đầu lưỡi chạm phía sau ổ răng.",
+            "fr": "La pointe de la langue touchant l’arrière des alvéoles.",
+            "es": "La punta de la lengua tocando detrás de los alveolos.",
+            "ru": "Кончик языка касается за альвеолярным гребнем.",
+            "mn": "Хэлний үзүүр шүдний буйлын ард хүрэх хэлбэр."
+          },
+          "group": "basic"
+        },
+        {
+          "char": "ㅁ",
+          "name_ko": "미음",
+          "name": {
+            "ko": "미음",
+            "en": "Mieum",
+            "ja": "ミウム",
+            "zh": "Mieum",
+            "vi": "Mieum",
+            "fr": "Mieum",
+            "es": "Mieum",
+            "ru": "Mieum",
+            "mn": "Mieum"
+          },
+          "origin": {
+            "ko": "입술이 다문 모양",
+            "en": "Closed lips.",
+            "ja": "閉じた唇の形。",
+            "zh": "闭合的嘴唇形状。",
+            "vi": "Môi khép lại.",
+            "fr": "Lèvres fermées.",
+            "es": "Labios cerrados.",
+            "ru": "Сомкнутые губы.",
+            "mn": "Ам нийлсэн хэлбэр."
+          },
+          "group": "basic"
+        },
+        {
+          "char": "ㅅ",
+          "name_ko": "시옷",
+          "name": {
+            "ko": "시옷",
+            "en": "Siot",
+            "ja": "シオッ",
+            "zh": "Siot",
+            "vi": "Siot",
+            "fr": "Siot",
+            "es": "Siot",
+            "ru": "Siot",
+            "mn": "Siot"
+          },
+          "origin": {
+            "ko": "이의 모양",
+            "en": "Shape of the teeth.",
+            "ja": "歯の形。",
+            "zh": "牙齿的形状。",
+            "vi": "Hình răng.",
+            "fr": "Forme des dents.",
+            "es": "Forma de los dientes.",
+            "ru": "Форма зубов.",
+            "mn": "Шүдний хэлбэр."
+          },
+          "group": "basic"
+        },
+        {
+          "char": "ㅇ",
+          "name_ko": "이응",
+          "name": {
+            "ko": "이응",
+            "en": "Ieung",
+            "ja": "イウン",
+            "zh": "Ieung",
+            "vi": "Ieung",
+            "fr": "Ieung",
+            "es": "Ieung",
+            "ru": "Ieung",
+            "mn": "Ieung"
+          },
+          "origin": {
+            "ko": "목구멍의 모양",
+            "en": "Shape of the throat opening.",
+            "ja": "喉の開口部の形。",
+            "zh": "咽喉开口的形状。",
+            "vi": "Hình lỗ cổ họng.",
+            "fr": "Ouverture de la gorge.",
+            "es": "Abertura de la garganta.",
+            "ru": "Форма отверстия горла.",
+            "mn": "Хоолойн нүхний хэлбэр."
+          },
+          "group": "basic"
+        },
+        {
+          "char": "ㅋ",
+          "name_ko": "키읔",
+          "name": {
+            "ko": "키읔",
+            "en": "Kieuk",
+            "ja": "キウク",
+            "zh": "Kieuk",
+            "vi": "Kieuk",
+            "fr": "Kieuk",
+            "es": "Kieuk",
+            "ru": "Kieuk",
+            "mn": "Kieuk"
+          },
+          "origin": {
+            "ko": "ㄱ에 획을 더한 모양(거센소리)",
+            "en": "ㄱ with an added stroke (aspirated).",
+            "ja": "ㄱに画を加えた形（送気音）。",
+            "zh": "在ㄱ上加一画（送气音）。",
+            "vi": "Chữ ㄱ thêm một nét (âm bật hơi).",
+            "fr": "ㄱ avec un trait ajouté (aspirée).",
+            "es": "ㄱ con un trazo añadido (aspirada).",
+            "ru": "ㄱ с добавленным штрихом (придыхательная).",
+            "mn": "ㄱ-д нэмэлт зураас (аспират)."
+          },
+          "group": "extended"
+        },
+        {
+          "char": "ㄷ",
+          "name_ko": "디귿",
+          "name": {
+            "ko": "디귿",
+            "en": "Digeut",
+            "ja": "ディグッ",
+            "zh": "Digeut",
+            "vi": "Digeut",
+            "fr": "Digeut",
+            "es": "Digeut",
+            "ru": "Digeut",
+            "mn": "Digeut"
+          },
+          "origin": {
+            "ko": "ㄴ의 변형으로 혀끝이 윗잇몸에 닿는 모양",
+            "en": "Derived from ㄴ; tongue tip against the upper gums.",
+            "ja": "ニウン由来の変形で、舌先が上の歯茎に触れる形。",
+            "zh": "源自ㄴ，舌尖顶住上齿龈。",
+            "vi": "Biến thể từ ㄴ; đầu lưỡi chạm nướu trên.",
+            "fr": "Dérivé de ㄴ ; la pointe de la langue touche la gencive supérieure.",
+            "es": "Derivado de ㄴ; la punta de la lengua toca la encía superior.",
+            "ru": "Производная от ㄴ; кончик языка касается верхних дёсен.",
+            "mn": "ㄴ-ээс хувилсан; хэлний үзүүр дээд буйлд хүрнэ."
+          },
+          "group": "extended"
+        },
+        {
+          "char": "ㅌ",
+          "name_ko": "티읕",
+          "name": {
+            "ko": "티읕",
+            "en": "Tieut",
+            "ja": "ティウッ",
+            "zh": "Tieut",
+            "vi": "Tieut",
+            "fr": "Tieut",
+            "es": "Tieut",
+            "ru": "Tieut",
+            "mn": "Tieut"
+          },
+          "origin": {
+            "ko": "ㄷ에 획을 더한 모양(거센소리)",
+            "en": "ㄷ with an added stroke (aspirated).",
+            "ja": "ㄷに画を加えた形（送気音）。",
+            "zh": "在ㄷ上加一画（送气音）。",
+            "vi": "Chữ ㄷ thêm một nét (âm bật hơi).",
+            "fr": "ㄷ avec un trait ajouté (aspirée).",
+            "es": "ㄷ con un trazo añadido (aspirada).",
+            "ru": "ㄷ с добавленным штрихом (придыхательная).",
+            "mn": "ㄷ-д нэмэлт зураас (аспират)."
+          },
+          "group": "extended"
+        },
+        {
+          "char": "ㅂ",
+          "name_ko": "비읍",
+          "name": {
+            "ko": "비읍",
+            "en": "Bieup",
+            "ja": "ビウプ",
+            "zh": "Bieup",
+            "vi": "Bieup",
+            "fr": "Bieup",
+            "es": "Bieup",
+            "ru": "Bieup",
+            "mn": "Bieup"
+          },
+          "origin": {
+            "ko": "입술의 모양에서 파생",
+            "en": "Derived from the shape of the lips.",
+            "ja": "唇の形から派生。",
+            "zh": "来源于嘴唇的形状。",
+            "vi": "Phát sinh từ hình dáng môi.",
+            "fr": "Dérivé de la forme des lèvres.",
+            "es": "Derivado de la forma de los labios.",
+            "ru": "Производная от формы губ.",
+            "mn": "Уруулын хэлбэрээс гаралтай."
+          },
+          "group": "extended"
+        },
+        {
+          "char": "ㅍ",
+          "name_ko": "피읖",
+          "name": {
+            "ko": "피읖",
+            "en": "Pieup",
+            "ja": "ピウプ",
+            "zh": "Pieup",
+            "vi": "Pieup",
+            "fr": "Pieup",
+            "es": "Pieup",
+            "ru": "Pieup",
+            "mn": "Pieup"
+          },
+          "origin": {
+            "ko": "ㅂ에 획을 더한 모양(거센소리)",
+            "en": "ㅂ with an added stroke (aspirated).",
+            "ja": "ㅂに画を加えた形（送気音）。",
+            "zh": "在ㅂ上加一画（送气音）。",
+            "vi": "Chữ ㅂ thêm một nét (âm bật hơi).",
+            "fr": "ㅂ avec un trait ajouté (aspirée).",
+            "es": "ㅂ con un trazo añadido (aspirada).",
+            "ru": "ㅂ с добавленным штрихом (придыхательная).",
+            "mn": "ㅂ-д нэмэлт зураас (аспират)."
+          },
+          "group": "extended"
+        },
+        {
+          "char": "ㅈ",
+          "name_ko": "지읒",
+          "name": {
+            "ko": "지읒",
+            "en": "Jieut",
+            "ja": "ジウッ",
+            "zh": "Jieut",
+            "vi": "Jieut",
+            "fr": "Jieut",
+            "es": "Jieut",
+            "ru": "Jieut",
+            "mn": "Jieut"
+          },
+          "origin": {
+            "ko": "ㅅ에 획을 더해 만든 모양",
+            "en": "Based on ㅅ with an added stroke.",
+            "ja": "ㅅに画を加えて作った形。",
+            "zh": "在ㅅ上加一画形成。",
+            "vi": "Dựa trên ㅅ và thêm một nét.",
+            "fr": "Forme basée sur ㅅ, avec un trait ajouté.",
+            "es": "Forma basada en ㅅ con un trazo añadido.",
+            "ru": "Основана на ㅅ с добавленным штрихом.",
+            "mn": "ㅅ-д нэмэлт зураас нэмсэн хувилбар."
+          },
+          "group": "extended"
+        },
+        {
+          "char": "ㅊ",
+          "name_ko": "치읓",
+          "name": {
+            "ko": "치읓",
+            "en": "Chieut",
+            "ja": "チウッ",
+            "zh": "Chieut",
+            "vi": "Chieut",
+            "fr": "Chieut",
+            "es": "Chieut",
+            "ru": "Chieut",
+            "mn": "Chieut"
+          },
+          "origin": {
+            "ko": "ㅈ에 획을 더한 모양(거센소리)",
+            "en": "ㅈ with an added stroke (aspirated).",
+            "ja": "ㅈに画を加えた形（送気音）。",
+            "zh": "在ㅈ上加一画（送气音）。",
+            "vi": "Chữ ㅈ thêm một nét (âm bật hơi).",
+            "fr": "ㅈ avec un trait ajouté (aspirée).",
+            "es": "ㅈ con un trazo añadido (aspirada).",
+            "ru": "ㅈ с добавленным штрихом (придыхательная).",
+            "mn": "ㅈ-д нэмэлт зураас (аспират)."
+          },
+          "group": "extended"
+        },
+        {
+          "char": "ㅎ",
+          "name_ko": "히읗",
+          "name": {
+            "ko": "히읗",
+            "en": "Hieut",
+            "ja": "ヒウッ",
+            "zh": "Hieut",
+            "vi": "Hieut",
+            "fr": "Hieut",
+            "es": "Hieut",
+            "ru": "Hieut",
+            "mn": "Hieut"
+          },
+          "origin": {
+            "ko": "목구멍에서 나는 숨소리를 본뜸",
+            "en": "Represents the breath sound at the glottis.",
+            "ja": "喉頭部の息音を表す。",
+            "zh": "仿喉部气流之声。",
+            "vi": "Mô phỏng hơi thở ở thanh môn.",
+            "fr": "Représente le souffle glottique.",
+            "es": "Representa el soplo glótico.",
+            "ru": "Передаёт придыхание в области голосовой щели.",
+            "mn": "Хоолойн амсрын амьсгалын авиаг дүрсэлнэ."
+          },
+          "group": "extended"
+        },
+        {
+          "char": "ㄹ",
+          "name_ko": "리을",
+          "name": {
+            "ko": "리을",
+            "en": "Rieul",
+            "ja": "リウル",
+            "zh": "Rieul",
+            "vi": "Rieul",
+            "fr": "Rieul",
+            "es": "Rieul",
+            "ru": "Rieul",
+            "mn": "Rieul"
+          },
+          "origin": {
+            "ko": "ㄹ은 기본자 ㄴ의 이체자이다.",
+            "en": "ㄹ is a variant of the basic consonant ㄴ.",
+            "ja": "ㄹは基本子音ㄴの異体である。",
+            "zh": "ㄹ是基本子音ㄴ的异体。",
+            "vi": "ㄹ là dị thể của phụ âm cơ bản ㄴ.",
+            "fr": "ㄹ est une variante de la consonne de base ㄴ.",
+            "es": "ㄹ es una variante de la consonante básica ㄴ.",
+            "ru": "ㄹ — вариантная форма базовой согласной ㄴ.",
+            "mn": "ㄹ нь үндсэн ㄴ гийгүүлэгчийн хувилбар юм."
+          },
+          "group": "variant"
+        }
+      ]
+    },
+    {
+      "id": "byungseo",
+      "title": {
+        "ko": "병서 자음자 (읽기 가이드)",
+        "en": "Consonant Clusters & Tensed (Guide Only)",
+        "ja": "並書子音（濃音・連結）〈ガイド〉",
+        "zh": "并书子音（紧音·连缀）〈指南〉",
+        "vi": "Phụ âm viết ghép & căng (chỉ hướng dẫn)",
+        "fr": "Consonnes doubles et groupes (guide)",
+        "es": "Consonantes dobles y grupos (guía)",
+        "ru": "Удвоенные и сочетания согласных (только справочно)",
+        "mn": "Давхар ба нийлмэл гийгүүлэгч (зөвлөмж)"
+      },
+      "description": {
+        "ko": "각자병서(된소리)와 합용병서는 조합 글자라 정해진 획순이 없으므로 읽기 가이드만 제공합니다.",
+        "en": "Tensed doubles and clusters are combinational forms without fixed stroke order; this app provides reading guides only.",
+        "ja": "濃音（二重）と連結子音は組み合わせ字で、決まった筆順がないため読み方ガイドのみ提供します。",
+        "zh": "紧音（双写）与连缀属于组合字，因无固定笔顺，本应用仅提供阅读指引。",
+        "vi": "Phụ âm căng và cụm phụ âm là dạng tổ hợp, không có thứ tự nét cố định; ứng dụng chỉ cung cấp hướng dẫn đọc.",
+        "fr": "Les doubles tendues et les groupes sont des combinaisons sans ordre de traits fixe ; nous fournissons un guide de lecture uniquement.",
+        "es": "Los dobles tensos y los grupos son combinaciones sin un orden de trazos fijo; esta app ofrece solo guías de lectura.",
+        "ru": "Удвоенные и кластерные согласные — комбинации без фиксированного порядка штрихов; приложение даёт лишь подсказки для чтения.",
+        "mn": "Давхар болон нийлмэл гийгүүлэгч нь тогтсон бичих дараалалгүй тул зөвхөн унших заавар өгнө."
+      },
+      "subparts": [
+        {
+          "subpart": "각자병서",
+          "title": {
+            "ko": "각자병서",
+            "en": "Tensed (Double) Consonants",
+            "ja": "濃音（二重子音）",
+            "zh": "紧音（双写）",
+            "vi": "Phụ âm căng (viết đôi)",
+            "fr": "Consonnes tendues (doubles)",
+            "es": "Consonantes tensas (dobles)",
+            "ru": "Усиленные двойные согласные",
+            "mn": "Хүчтэй (давхар) гийгүүлэгч"
+          },
+          "description": {
+            "ko": "같은 자모를 나란히 써서 된소리를 나타낸 글자이다.",
+            "en": "Formed by writing the same consonant twice to represent tense sounds.",
+            "ja": "同じ字母を二度書いて濃音を表す。",
+            "zh": "将同一字母并写以表示紧音。",
+            "vi": "Viết đôi cùng một phụ âm để biểu thị âm căng.",
+            "fr": "On écrit la même consonne deux fois pour marquer une articulation tendue.",
+            "es": "Se escribe dos veces la misma consonante para indicar sonidos tensos.",
+            "ru": "Та же согласная пишется дважды для передачи напряжённого звука.",
+            "mn": "Нэг гийгүүлэгчийг давхарлан бичиж хүчтэй авиаг тэмдэглэнэ."
+          },
+          "chars": ["ㄲ", "ㄸ", "ㅃ", "ㅆ", "ㅉ"]
+        },
+        {
+          "subpart": "합용병서",
+          "title": {
+            "ko": "합용병서",
+            "en": "Consonant Clusters",
+            "ja": "子音連結（合用並書）",
+            "zh": "辅音连缀（合用并书）",
+            "vi": "Cụm phụ âm",
+            "fr": "Groupes consonantiques",
+            "es": "Grupos consonánticos",
+            "ru": "Кластеры согласных",
+            "mn": "Гийгүүлэгчийн нийлмэл"
+          },
+          "description": {
+            "ko": "서로 다른 자모를 결합하여 만든 병서 자음자이다. 받침에서만 쓰인다.",
+            "en": "Clusters made by combining different consonants; used only in final (coda) position.",
+            "ja": "異なる字母を結合して作られ、終声でのみ用いられる。",
+            "zh": "由不同字母组合而成，仅用于收尾位置。",
+            "vi": "Kết hợp các phụ âm khác nhau; chỉ dùng ở vị trí cuối âm tiết.",
+            "fr": "Combinaisons de consonnes différentes ; utilisées uniquement en position finale.",
+            "es": "Combinaciones de consonantes distintas; se usan solo en posición final.",
+            "ru": "Сочетания разных согласных; употребляются только в финальной позиции слога.",
+            "mn": "Өөр өөр гийгүүлэгчдийг хослуулсан хэлбэр; үгийн төгсгөлд л хэрэглэнэ."
+          },
+          "chars": ["ㄳ", "ㄵ", "ㄶ", "ㄺ", "ㄻ", "ㄼ", "ㄽ", "ㄾ", "ㄿ", "ㅀ", "ㅄ"]
+        }
+      ]
+    }
+  ]
+}

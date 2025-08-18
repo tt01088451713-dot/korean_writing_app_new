@@ -1,0 +1,403 @@
+{
+  "title": {
+    "ko": "단어 학습",
+    "en": "Learning Words",
+    "zh": "单词学习",
+    "vi": "Học từ",
+    "ja": "単語学習",
+    "fr": "Apprentissage des mots",
+    "es": "Aprendizaje de palabras",
+    "ru": "Изучение слов",
+    "mn": "Үг сурцгаая"
+  },
+  "unit": "3. 단어",
+  "description": "품사별 대표 단어 학습",
+  "sections": [
+    {
+      "title": "3.1 명사",
+      "type": "자립명사",
+      "examples": [
+        {
+          "word": "대한민국",
+          "syllables": [
+            "대",
+            "한",
+            "민",
+            "국"
+          ],
+          "audio": "대한민국.mp3",
+          "features": {
+            "writing_enabled": true,
+            "listening_enabled": true
+          }
+        },
+        {
+          "word": "의자",
+          "syllables": [
+            "의",
+            "자"
+          ],
+          "audio": "의자.mp3",
+          "features": {
+            "writing_enabled": true,
+            "listening_enabled": true
+          }
+        },
+        {
+          "word": "학교",
+          "syllables": [
+            "학",
+            "교"
+          ],
+          "audio": "학교.mp3",
+          "features": {
+            "writing_enabled": true,
+            "listening_enabled": true
+          }
+        },
+        {
+          "word": "사람",
+          "syllables": [
+            "사",
+            "람"
+          ],
+          "audio": "사람.mp3",
+          "features": {
+            "writing_enabled": true,
+            "listening_enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "3.2 대명사",
+      "type": "인칭대명사",
+      "examples": [
+        {
+          "word": "나",
+          "syllables": [
+            "나"
+          ],
+          "audio": "나.mp3",
+          "features": {
+            "writing_enabled": true,
+            "listening_enabled": true
+          }
+        },
+        {
+          "word": "너",
+          "syllables": [
+            "너"
+          ],
+          "audio": "너.mp3",
+          "features": {
+            "writing_enabled": true,
+            "listening_enabled": true
+          }
+        },
+        {
+          "word": "우리",
+          "syllables": [
+            "우",
+            "리"
+          ],
+          "audio": "우리.mp3",
+          "features": {
+            "writing_enabled": true,
+            "listening_enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "3.3 수사",
+      "type": "양수사",
+      "examples": [
+        {
+          "word": "하나",
+          "syllables": [
+            "하",
+            "나"
+          ],
+          "audio": "하나.mp3",
+          "features": {
+            "writing_enabled": true,
+            "listening_enabled": true
+          }
+        },
+        {
+          "word": "둘",
+          "syllables": [
+            "둘"
+          ],
+          "audio": "둘.mp3",
+          "features": {
+            "writing_enabled": true,
+            "listening_enabled": true
+          }
+        },
+        {
+          "word": "셋",
+          "syllables": [
+            "셋"
+          ],
+          "audio": "셋.mp3",
+          "features": {
+            "writing_enabled": true,
+            "listening_enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "3.4 동사",
+      "type": "기본동사",
+      "examples": [
+        {
+          "word": "가다",
+          "syllables": [
+            "가",
+            "다"
+          ],
+          "audio": "가다.mp3",
+          "features": {
+            "writing_enabled": true,
+            "listening_enabled": true
+          }
+        },
+        {
+          "word": "먹다",
+          "syllables": [
+            "먹",
+            "다"
+          ],
+          "audio": "먹다.mp3",
+          "features": {
+            "writing_enabled": true,
+            "listening_enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "3.5 형용사",
+      "type": "성질형용사",
+      "examples": [
+        {
+          "word": "예쁘다",
+          "syllables": [
+            "예",
+            "쁘",
+            "다"
+          ],
+          "audio": "예쁘다.mp3",
+          "features": {
+            "writing_enabled": true,
+            "listening_enabled": true
+          }
+        },
+        {
+          "word": "크다",
+          "syllables": [
+            "크",
+            "다"
+          ],
+          "audio": "크다.mp3",
+          "features": {
+            "writing_enabled": true,
+            "listening_enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "3.6 관형사",
+      "type": "지시관형사",
+      "examples": [
+        {
+          "word": "이",
+          "syllables": [
+            "이"
+          ],
+          "audio": "이.mp3",
+          "features": {
+            "writing_enabled": true,
+            "listening_enabled": true
+          }
+        },
+        {
+          "word": "그",
+          "syllables": [
+            "그"
+          ],
+          "audio": "그.mp3",
+          "features": {
+            "writing_enabled": true,
+            "listening_enabled": true
+          }
+        },
+        {
+          "word": "저",
+          "syllables": [
+            "저"
+          ],
+          "audio": "저.mp3",
+          "features": {
+            "writing_enabled": true,
+            "listening_enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "3.7 부사",
+      "type": "정도부사",
+      "examples": [
+        {
+          "word": "매우",
+          "syllables": [
+            "매",
+            "우"
+          ],
+          "audio": "매우.mp3",
+          "features": {
+            "writing_enabled": true,
+            "listening_enabled": true
+          }
+        },
+        {
+          "word": "빨리",
+          "syllables": [
+            "빨",
+            "리"
+          ],
+          "audio": "빨리.mp3",
+          "features": {
+            "writing_enabled": true,
+            "listening_enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "3.8 감탄사",
+      "type": "감탄 표현",
+      "examples": [
+        {
+          "word": "아이고",
+          "syllables": [
+            "아",
+            "이",
+            "고"
+          ],
+          "audio": "아이고.mp3",
+          "features": {
+            "writing_enabled": true,
+            "listening_enabled": true
+          }
+        },
+        {
+          "word": "와",
+          "syllables": [
+            "와"
+          ],
+          "audio": "와.mp3",
+          "features": {
+            "writing_enabled": true,
+            "listening_enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "3.9 조사",
+      "type": "격조사",
+      "examples": [
+        {
+          "word": "이",
+          "syllables": [
+            "이"
+          ],
+          "audio": "이_조사.mp3",
+          "features": {
+            "writing_enabled": true,
+            "listening_enabled": true
+          }
+        },
+        {
+          "word": "가",
+          "syllables": [
+            "가"
+          ],
+          "audio": "가.mp3",
+          "features": {
+            "writing_enabled": true,
+            "listening_enabled": true
+          }
+        },
+        {
+          "word": "을",
+          "syllables": [
+            "을"
+          ],
+          "audio": "을.mp3",
+          "features": {
+            "writing_enabled": true,
+            "listening_enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "3.10 어미",
+      "type": "어말어미",
+      "examples": [
+        {
+          "word": "는다",
+          "syllables": [
+            "는",
+            "다"
+          ],
+          "audio": "는다.mp3",
+          "features": {
+            "writing_enabled": true,
+            "listening_enabled": true
+          }
+        },
+        {
+          "word": "었",
+          "syllables": [
+            "었"
+          ],
+          "audio": "었.mp3",
+          "features": {
+            "writing_enabled": true,
+            "listening_enabled": true
+          }
+        },
+        {
+          "word": "시",
+          "syllables": [
+            "시"
+          ],
+          "audio": "시.mp3",
+          "features": {
+            "writing_enabled": true,
+            "listening_enabled": true
+          }
+        }
+      ]
+    }
+  ],
+  "description_multilang": {
+    "ko": "이 단원에서는 한국어의 품사별 주요 단어를 학습합니다.",
+    "en": "In this unit, learners study key words in each part of speech in Korean.",
+    "zh": "本单元学习韩语中各类词性的代表词汇。",
+    "vi": "Trong bài này, học viên sẽ học các từ chính theo từng loại từ loại trong tiếng Hàn.",
+    "ja": "この単元では、韓国語の品詞ごとの主要な単語を学習します。",
+    "fr": "Cette unité présente les mots clés classés par catégorie grammaticale en coréen.",
+    "es": "Esta unidad cubre las palabras clave por categoría gramatical en coreano.",
+    "ru": "В этом разделе изучаются ключевые слова по частям речи в корейском языке.",
+    "mn": "Энэ бүлэгт солонгос хэлний үгийн аймаг тус бүрийн гол үгсийг судална."
+  }
+}

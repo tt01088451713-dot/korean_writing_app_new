@@ -1,0 +1,70 @@
+{
+  "title": {
+    "ko": "단락 단원",
+    "en": "Paragraph Unit",
+    "zh": "段落单元",
+    "vi": "Chủ đề đoạn văn",
+    "ja": "段落の単元",
+    "fr": "Unité de paragraphe",
+    "es": "Unidad de párrafo",
+    "ru": "Раздел о параграфах",
+    "mn": "Догол мөрийн хичээл"
+  },
+  "chapter": "5. 단락",
+  "description": "단락은 하나의 중심 생각을 담은 글의 최소 단위로, 문단 구분과 생각의 흐름을 명확히 전달합니다.",
+  "examples": [
+    {
+      "title": "진달래와 소나무",
+      "paragraph": "진달래는 진달래대로 좋고, 소나무는 소나무대로 좋습니다. 진달래는 봄을 알려주는 꽃으로, 소나무는 한겨울에도 푸르름을 잃지 않습니다. 진달래는 자신의 화려함에 만족하고, 소나무는 자신의 끈기와 강인함에 자부심을 느낍니다.",
+      "writingPractice": true,
+      "listeningEnabled": true,
+      "audio": "audio/진달래와_소나무.mp3",
+      "sentences": [
+        {
+          "text": "진달래는 진달래대로 좋고, 소나무는 소나무대로 좋습니다.",
+          "audio": "audio/진달래와_소나무_1.mp3"
+        },
+        {
+          "text": "진달래는 봄을 알려주는 꽃으로, 소나무는 한겨울에도 푸르름을 잃지 않습니다.",
+          "audio": "audio/진달래와_소나무_2.mp3"
+        },
+        {
+          "text": "진달래는 자신의 화려함에 만족하고, 소나무는 자신의 끈기와 강인함에 자부심을 느낍니다.",
+          "audio": "audio/진달래와_소나무_3.mp3"
+        }
+      ]
+    },
+    {
+      "title": "국어사전의 정의",
+      "paragraph": "국어사전은 단어의 의미를 알려주는 책입니다. 그러나 단어의 의미는 시대와 사회에 따라 바뀔 수 있습니다. 따라서 국어사전도 시대에 맞게 내용이 달라져야 하며, 끊임없이 갱신되어야 합니다.",
+      "writingPractice": true,
+      "listeningEnabled": true,
+      "audio": "audio/국어사전의_정의.mp3",
+      "sentences": [
+        {
+          "text": "국어사전은 단어의 의미를 알려주는 책입니다.",
+          "audio": "audio/국어사전의_정의_1.mp3"
+        },
+        {
+          "text": "그러나 단어의 의미는 시대와 사회에 따라 바뀔 수 있습니다.",
+          "audio": "audio/국어사전의_정의_2.mp3"
+        },
+        {
+          "text": "따라서 국어사전도 시대에 맞게 내용이 달라져야 하며, 끊임없이 갱신되어야 합니다.",
+          "audio": "audio/국어사전의_정의_3.mp3"
+        }
+      ]
+    }
+  ],
+  "description_multilang": {
+    "ko": "단락은 하나의 중심 생각을 담은 글의 최소 단위로, 문단 구분과 생각의 흐름을 명확히 전달합니다.",
+    "en": "A paragraph is the smallest unit of writing that conveys a central idea and clearly delivers the structure and flow of thought.",
+    "zh": "段落是包含一个中心思想的最小写作单位，明确传达段落的划分和思想的流动。",
+    "vi": "Đoạn văn là đơn vị nhỏ nhất trong bài viết thể hiện một ý tưởng chính, giúp làm rõ sự phân chia và mạch lạc trong tư duy.",
+    "ja": "段落は、中心となる考えを含んだ文章の最小単位であり、文の区切りや思考の流れを明確に伝えます。",
+    "fr": "Un paragraphe est la plus petite unité d’un texte contenant une idée centrale, permettant de structurer et de transmettre clairement le fil de la pensée.",
+    "es": "Un párrafo es la unidad más pequeña de un texto que contiene una idea central y comunica claramente la estructura y el flujo del pensamiento.",
+    "ru": "Параграф — это наименьшая единица текста, содержащая основную мысль и чётко передающая структуру и ход размышлений.",
+    "mn": "Догол мөр нь төв санааг агуулсан бичгийн хамгийн жижиг нэгж бөгөөд бодлын урсгалыг ойлгомжтой илэрхийлдэг."
+  }
+}

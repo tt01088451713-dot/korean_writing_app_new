@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "sections": [
+    {
+      "title": "데이터 검증",
+      "items": [
+        { "id": "json-valid", "label": "모든 JSON 문법 유효", "note": "쉼표/따옴표 오류 없음" },
+        { "id": "group-keys", "label": "groupKey i18n 키 일치", "note": "ui_texts.dart와 동일" },
+        { "id": "lang-coverage", "label": "다국어 필드 누락 없음", "note": "ko/en/ja/zh/vi/fr/es/ru/mn" }
+      ]
+    },
+    {
+      "title": "화면 확인",
+      "items": [
+        { "id": "cards-style", "label": "카드 글자/설명 가독성", "note": "굵기/라인간격/색상" },
+        { "id": "byungseo", "label": "병서 가이드 전용 동작", "note": "쓰기 비활성 + 가이드 표시" }
+      ]
+    },
+    {
+      "title": "빌드/배포",
+      "items": [
+        { "id": "assets-pubspec", "label": "pubspec assets 경로 반영", "note": "새 자산 추가 시" },
+        { "id": "release-check", "label": "release 빌드 확인", "note": "언어/테마/음성동작" }
+      ]
+    }
+  ]
+}

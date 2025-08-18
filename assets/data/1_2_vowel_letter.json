@@ -1,0 +1,360 @@
+{
+  "title": {
+    "ko": "모음자",
+    "en": "Vowel Letters",
+    "ja": "母音字",
+    "zh": "元音",
+    "vi": "Nguyên âm",
+    "fr": "Voyelles coréennes",
+    "es": "Vocales coreanas",
+    "ru": "Гласные хангыль",
+    "mn": "Хангыльгийн эгшиг"
+  },
+  "overview": {
+    "ko": "모음자의 기본자는 ‘ㆍ’(하늘)·‘ㅡ’(땅)·‘ㅣ’(사람)을 본떠 만들고, 나머지는 이 기본자를 결합하거나 획을 더해 만들었다.",
+    "en": "Basic vowels model heaven (ㆍ), earth (ㅡ), and human (ㅣ). Others are formed by combining them or adding strokes.",
+    "ja": "基本母音は「ㆍ（天）」「ㅡ（地）」「ㅣ（人）」に由来し、その他はそれらの結合や加画で作られる。",
+    "zh": "基本元音取自「ㆍ（天）」「ㅡ（地）」「ㅣ（人）」；其余由组合或加画而成。",
+    "vi": "Nguyên âm cơ bản mô phỏng trời (ㆍ), đất (ㅡ), người (ㅣ); các nguyên âm khác do kết hợp hoặc thêm nét.",
+    "fr": "Les voyelles de base reflètent le ciel (ㆍ), la terre (ㅡ) et l’homme (ㅣ) ; les autres proviennent de combinaisons ou d’ajouts de traits.",
+    "es": "Las vocales básicas representan cielo (ㆍ), tierra (ㅡ) y persona (ㅣ); las demás se forman combinándolas o añadiendo trazos.",
+    "ru": "Базовые гласные отражают небо (ㆍ), землю (ㅡ) и человека (ㅣ); прочие образуются их комбинацией или добавлением штрихов.",
+    "mn": "Үндсэн эгшиг нь тэнгэр (ㆍ), газар (ㅡ), хүн (ㅣ)-ийг дүрслэж, бусад нь тэдгээрийн хослолоор эсвэл зурлага нэмснээр бий болдог."
+  },
+  "parts": [
+    {
+      "id": "basic",
+      "groupKey": "basicVowels",
+      "title": {
+        "ko": "기본 모음자",
+        "en": "Basic Vowels",
+        "ja": "基本母音",
+        "zh": "基本元音",
+        "vi": "Nguyên âm cơ bản",
+        "fr": "Voyelles de base",
+        "es": "Vocales básicas",
+        "ru": "Базовые гласные",
+        "mn": "Үндсэн эгшиг"
+      },
+      "description": {
+        "ko": "‘ㆍ’는 하늘, ‘ㅡ’는 땅, ‘ㅣ’는 사람을 상징한다. 아래아(ㆍ)는 현대 한국어에서 쓰이지 않는다(설명만 제공).",
+        "en": "ㆍ symbolizes heaven, ㅡ earth, and ㅣ a human. The arae-a (ㆍ) is no longer used in Modern Korean (description only).",
+        "ja": "ㆍは天、ㅡは地、ㅣは人を象徴します。アレア(ㆍ)は現代韓国語では使用されません（説明のみ）。",
+        "zh": "ㆍ象征天，ㅡ象征地，ㅣ象征人。下阿(ㆍ)在现代韩语中不再使用（仅作说明）。",
+        "vi": "ㆍ tượng trưng cho trời, ㅡ cho đất, ㅣ cho con người. Arae-a (ㆍ) hiện không dùng trong tiếng Hàn hiện đại (chỉ giải thích).",
+        "fr": "ㆍ symbolise le ciel, ㅡ la terre et ㅣ l’homme. L’arae-a (ㆍ) n’est plus utilisé en coréen moderne (description uniquement).",
+        "es": "ㆍ simboliza el cielo, ㅡ la tierra y ㅣ a la persona. El arae-a (ㆍ) ya no se usa en el coreano moderno (solo explicación).",
+        "ru": "ㆍ — символ неба, ㅡ — земли, ㅣ — человека. Ареа-а (ㆍ) в современном корейском не используется (только описание).",
+        "mn": "ㆍ нь тэнгэр, ㅡ нь газар, ㅣ нь хүнийг бэлгэднэ. Араэ-а (ㆍ) нь орчин үеийн солонгос хэлэнд хэрэглэгддэггүй (танилцуулга л байна)."
+      },
+      "chars": [
+        {
+          "id": "arae_a",
+          "glyph": "ㆍ",
+          "name": {
+            "ko": "아래아",
+            "en": "arae-a",
+            "ja": "アレア",
+            "zh": "arae-a",
+            "vi": "arae-a",
+            "fr": "arae-a",
+            "es": "arae-a",
+            "ru": "arae-a",
+            "mn": "arae-a"
+          },
+          "origin": {
+            "ko": "하늘(天)을 상징",
+            "en": "Symbol of heaven",
+            "ja": "天を象徴",
+            "zh": "象征天空",
+            "vi": "Biểu tượng bầu trời",
+            "fr": "Symbole du ciel",
+            "es": "Símbolo del cielo",
+            "ru": "Символ неба",
+            "mn": "Тэнгэрийн бэлгэ тэмдэг"
+          }
+        },
+        {
+          "id": "eu",
+          "glyph": "ㅡ",
+          "name": {
+            "ko": "으",
+            "en": "eu",
+            "ja": "ウ",
+            "zh": "eu",
+            "vi": "eu",
+            "fr": "eu",
+            "es": "eu",
+            "ru": "eu",
+            "mn": "eu"
+          },
+          "origin": {
+            "ko": "땅(地)을 상징",
+            "en": "Symbol of earth",
+            "ja": "地を象徴",
+            "zh": "象征大地",
+            "vi": "Biểu tượng mặt đất",
+            "fr": "Symbole de la terre",
+            "es": "Símbolo de la tierra",
+            "ru": "Символ земли",
+            "mn": "Газрын бэлгэ тэмдэг"
+          },
+          "pronunciation": { "ko": "으", "en": "eu" }
+        },
+        {
+          "id": "i",
+          "glyph": "ㅣ",
+          "name": {
+            "ko": "이",
+            "en": "i",
+            "ja": "イ",
+            "zh": "i",
+            "vi": "i",
+            "fr": "i",
+            "es": "i",
+            "ru": "i",
+            "mn": "i"
+          },
+          "origin": {
+            "ko": "사람(人)을 상징",
+            "en": "Symbol of a human",
+            "ja": "人を象徴",
+            "zh": "象征人",
+            "vi": "Biểu tượng con người",
+            "fr": "Symbole de l’homme",
+            "es": "Símbolo de la persona",
+            "ru": "Символ человека",
+            "mn": "Хүний бэлгэ тэмдэг"
+          },
+          "pronunciation": { "ko": "이", "en": "i" }
+        }
+      ]
+    },
+    {
+      "id": "first-derivatives",
+      "groupKey": "firstDerivedVowels",
+      "title": {
+        "ko": "초출자",
+        "en": "First Derivatives",
+        "ja": "初出字",
+        "zh": "初出字",
+        "vi": "Phái sinh bậc một",
+        "fr": "Premières dérivées",
+        "es": "Derivadas de primer grado",
+        "ru": "Первичные производные",
+        "mn": "Эх гарлын нийлэмж"
+      },
+      "description": {
+        "ko": "기본자 ㆍ·ㅡ·ㅣ를 결합하여 만든 모음자.",
+        "en": "Vowels formed by combining ㆍ, ㅡ and ㅣ.",
+        "ja": "ㆍ・ㅡ・ㅣを組み合わせて作られた母音。",
+        "zh": "由ㆍ、ㅡ、ㅣ组合而成的元音。",
+        "vi": "Nguyên âm tạo bởi sự kết hợp ㆍ, ㅡ, ㅣ.",
+        "fr": "Voyelles issues de la combinaison de ㆍ, ㅡ et ㅣ.",
+        "es": "Vocales formadas combinando ㆍ, ㅡ y ㅣ.",
+        "ru": "Гласные, образованные комбинацией ㆍ, ㅡ и ㅣ.",
+        "mn": "ㆍ, ㅡ, ㅣ-гийн хослолын үр дүн."
+      },
+      "chars": [
+        {
+          "id": "a",
+          "glyph": "ㅏ",
+          "name": { "ko": "아", "en": "a", "ja": "ア", "zh": "a", "vi": "a", "fr": "a", "es": "a", "ru": "a", "mn": "a" },
+          "pronunciation": { "ko": "아", "en": "a" }
+        },
+        {
+          "id": "eo",
+          "glyph": "ㅓ",
+          "name": { "ko": "어", "en": "eo", "ja": "オ", "zh": "eo", "vi": "eo", "fr": "eo", "es": "eo", "ru": "eo", "mn": "eo" },
+          "pronunciation": { "ko": "어", "en": "eo" }
+        },
+        {
+          "id": "o",
+          "glyph": "ㅗ",
+          "name": { "ko": "오", "en": "o", "ja": "オ", "zh": "o", "vi": "o", "fr": "o", "es": "o", "ru": "o", "mn": "o" },
+          "pronunciation": { "ko": "오", "en": "o" }
+        },
+        {
+          "id": "u",
+          "glyph": "ㅜ",
+          "name": { "ko": "우", "en": "u", "ja": "ウ", "zh": "u", "vi": "u", "fr": "u", "es": "u", "ru": "u", "mn": "u" },
+          "pronunciation": { "ko": "우", "en": "u" }
+        }
+      ]
+    },
+    {
+      "id": "second-derivatives",
+      "groupKey": "secondDerivedVowels",
+      "title": {
+        "ko": "재출자",
+        "en": "Second Derivatives",
+        "ja": "再出字",
+        "zh": "再出字",
+        "vi": "Phái sinh bậc hai",
+        "fr": "Secondes dérivées",
+        "es": "Derivadas de segundo grado",
+        "ru": "Вторичные производные",
+        "mn": "Дахин гарлын нийлэмж"
+      },
+      "description": {
+        "ko": "초출자에 획을 더하여 만든 글자。",
+        "en": "Created by adding strokes to first derivatives.",
+        "ja": "初出字に画を加えて作られる母音。",
+        "zh": "在初出字基础上加画而成。",
+        "vi": "Thêm nét vào nhóm bậc một để tạo thành.",
+        "fr": "Créées en ajoutant des traits aux premières dérivées.",
+        "es": "Creadas añadiendo trazos a las derivadas de primer grado.",
+        "ru": "Создаются добавлением штрихов к первичным производным.",
+        "mn": "Анхны нийлэмж дээр зурлага нэмж үүсгэнэ."
+      },
+      "chars": [
+        {
+          "id": "ya",
+          "glyph": "ㅑ",
+          "name": { "ko": "야", "en": "ya", "ja": "ヤ", "zh": "ya", "vi": "ya", "fr": "ya", "es": "ya", "ru": "ya", "mn": "ya" },
+          "pronunciation": { "ko": "야", "en": "ya" }
+        },
+        {
+          "id": "yeo",
+          "glyph": "ㅕ",
+          "name": { "ko": "여", "en": "yeo", "ja": "ヨ", "zh": "yeo", "vi": "yeo", "fr": "yeo", "es": "yeo", "ru": "yeo", "mn": "yeo" },
+          "pronunciation": { "ko": "여", "en": "yeo" }
+        },
+        {
+          "id": "yo",
+          "glyph": "ㅛ",
+          "name": { "ko": "요", "en": "yo", "ja": "ヨ", "zh": "yo", "vi": "yo", "fr": "yo", "es": "yo", "ru": "yo", "mn": "yo" },
+          "pronunciation": { "ko": "요", "en": "yo" }
+        },
+        {
+          "id": "yu",
+          "glyph": "ㅠ",
+          "name": { "ko": "유", "en": "yu", "ja": "ユ", "zh": "yu", "vi": "yu", "fr": "yu", "es": "yu", "ru": "yu", "mn": "yu" },
+          "pronunciation": { "ko": "유", "en": "yu" }
+        }
+      ]
+    },
+    {
+      "id": "two-vowel-combo",
+      "groupKey": "mixedCompoundVowels",
+      "title": {
+        "ko": "이자합용자",
+        "en": "Mixed Compound Vowels",
+        "ja": "二字合用",
+        "zh": "二字合用",
+        "vi": "Kết hợp hai nguyên âm",
+        "fr": "Combinaison de deux voyelles",
+        "es": "Combinación de dos vocales",
+        "ru": "Комбинация двух гласных",
+        "mn": "Хоёр эгшгийн хослол"
+      },
+      "description": {
+        "ko": "두 모음 글자를 결합해 만든 글자.",
+        "en": "Formed by combining two vowels.",
+        "ja": "二つの基本母音を組み合わせて作られます。",
+        "zh": "由两个基本元音组合而成。",
+        "vi": "Hình thành bằng cách kết hợp hai nguyên âm cơ bản.",
+        "fr": "Formées par combinaison de deux voyelles de base.",
+        "es": "Formadas combinando dos vocales básicas.",
+        "ru": "Образованы комбинацией двух базовых гласных.",
+        "mn": "Хоёр үндсэн эгшгийг нэгтгэж бүтсэн."
+      },
+      "chars": [
+        {
+          "id": "wa",
+          "glyph": "ㅘ",
+          "name": { "ko": "와", "en": "wa", "ja": "ワ", "zh": "wa", "vi": "wa", "fr": "wa", "es": "wa", "ru": "wa", "mn": "wa" },
+          "pronunciation": { "ko": "와", "en": "wa" }
+        },
+        {
+          "id": "wo",
+          "glyph": "ㅝ",
+          "name": { "ko": "워", "en": "wo", "ja": "ウォ", "zh": "wo", "vi": "wo", "fr": "wo", "es": "wo", "ru": "wo", "mn": "wo" },
+          "pronunciation": { "ko": "워", "en": "wo" }
+        }
+      ]
+    },
+    {
+      "id": "i-based-diphthongs",
+      "groupKey": "iHarmonyVowels",
+      "title": {
+        "ko": "ㅣ상합자",
+        "en": "ㅣ-combining Vowels",
+        "ja": "ㅣ相合字",
+        "zh": "ㅣ相合字",
+        "vi": "Nguyên âm đôi với ㅣ",
+        "fr": "Diphtongues avec ㅣ",
+        "es": "Diptongos con ㅣ",
+        "ru": "Дифтонги с ㅣ",
+        "mn": "ㅣ-тэй хосолсон эгшиг"
+      },
+      "description": {
+        "ko": "ㅣ와 결합하여 만들어진 이중모음.",
+        "en": "Diphthongs formed with ㅣ.",
+        "ja": "ㅣと組み合わせて形成された二重母音。",
+        "zh": "与ㅣ结合形成的双元音。",
+        "vi": "Nguyên âm đôi được tạo cùng với ㅣ.",
+        "fr": "Diphtongues formées avec ㅣ.",
+        "es": "Diptongos formados con ㅣ.",
+        "ru": "Дифтонги, образованные с ㅣ.",
+        "mn": "ㅣ-тэй нийлж бүрдсэн хос эгшиг."
+      },
+      "chars": [
+        {
+          "id": "ae",
+          "glyph": "ㅐ",
+          "name": { "ko": "애", "en": "ae", "ja": "エ", "zh": "ae", "vi": "ae", "fr": "ae", "es": "ae", "ru": "ae", "mn": "ae" },
+          "pronunciation": { "ko": "애", "en": "ae" }
+        },
+        {
+          "id": "e",
+          "glyph": "ㅔ",
+          "name": { "ko": "에", "en": "e", "ja": "エ", "zh": "e", "vi": "e", "fr": "e", "es": "e", "ru": "e", "mn": "e" },
+          "pronunciation": { "ko": "에", "en": "e" }
+        },
+        {
+          "id": "yae",
+          "glyph": "ㅒ",
+          "name": { "ko": "얘", "en": "yae", "ja": "イェ", "zh": "yae", "vi": "yae", "fr": "yae", "es": "yae", "ru": "yae", "mn": "yae" },
+          "pronunciation": { "ko": "얘", "en": "yae" }
+        },
+        {
+          "id": "ye",
+          "glyph": "ㅖ",
+          "name": { "ko": "예", "en": "ye", "ja": "イェ", "zh": "ye", "vi": "ye", "fr": "ye", "es": "ye", "ru": "ye", "mn": "ye" },
+          "pronunciation": { "ko": "예", "en": "ye" }
+        },
+        {
+          "id": "oe",
+          "glyph": "ㅚ",
+          "name": { "ko": "외", "en": "oe", "ja": "ウェ", "zh": "oe", "vi": "oe", "fr": "oe", "es": "oe", "ru": "oe", "mn": "oe" },
+          "pronunciation": { "ko": "외", "en": "oe" }
+        },
+        {
+          "id": "wi",
+          "glyph": "ㅟ",
+          "name": { "ko": "위", "en": "wi", "ja": "ウィ", "zh": "wi", "vi": "wi", "fr": "wi", "es": "wi", "ru": "wi", "mn": "wi" },
+          "pronunciation": { "ko": "위", "en": "wi" }
+        },
+        {
+          "id": "ui",
+          "glyph": "ㅢ",
+          "name": { "ko": "의", "en": "ui", "ja": "ウイ", "zh": "ui", "vi": "ui", "fr": "ui", "es": "ui", "ru": "ui", "mn": "ui" },
+          "pronunciation": { "ko": "의", "en": "ui" }
+        },
+        {
+          "id": "wae",
+          "glyph": "ㅙ",
+          "name": { "ko": "왜", "en": "wae", "ja": "ウェ", "zh": "wae", "vi": "wae", "fr": "wae", "es": "wae", "ru": "wae", "mn": "wae" },
+          "pronunciation": { "ko": "왜", "en": "wae" }
+        },
+        {
+          "id": "we",
+          "glyph": "ㅞ",
+          "name": { "ko": "웨", "en": "we", "ja": "ウェ", "zh": "we", "vi": "we", "fr": "we", "es": "we", "ru": "we", "mn": "we" },
+          "pronunciation": { "ko": "웨", "en": "we" }
+        }
+      ]
+    }
+  ]
+}

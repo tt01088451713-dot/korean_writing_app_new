@@ -1,0 +1,153 @@
+{
+  "type": "overview",
+  "unit": "1.0",
+  "title": {
+    "ko": "자모 개요",
+    "en": "Overview of Letters",
+    "zh": "字母概述",
+    "vi": "Tổng quan về chữ cái",
+    "ja": "文字の概要",
+    "fr": "Aperçu des lettres",
+    "es": "Resumen de las letras",
+    "ru": "Обзор букв",
+    "mn": "Үсгийн тойм"
+  },
+  "description": {
+    "ko": "한글은 기존의 어떤 문자를 오랜 세월에 걸쳐 변모 발전시킨 것이 아니라 세종대왕이 독창적으로 만든 글자이다. 이러한 점은 세계 문자 발달사에서 보기 드문 특징이다. 훈민정음에서는 자음자 17자와 모음자 11자를 새로 만들어 자모들을 어떤 원리로 만들었는지를 밝혔다.",
+    "en": "Hangul is not a script that evolved over centuries from existing characters, but one that King Sejong created uniquely. This is an extremely rare feature in the history of world writing systems. In the Hunminjeongeum, 17 consonants and 11 vowels were newly created, explaining the principles by which they were formed.",
+    "zh": "韩文字不是从已有文字历经岁月演变而来的，而是世宗大王独创的文字。这在世界文字发展史上极为罕见。《训民正音》中新创了17个子音字和11个母音字，并说明了它们的创制原理。",
+    "ja": "ハングルは既存の文字を長い歳月をかけて発展させたものではなく、世宗大王が独自に創り出した文字である。この点は世界の文字発達史において非常に珍しい特徴である。『訓民正音』では、子音字17字と母音字11字を新たに作り、それらの作り方の原理を明らかにしている。",
+    "vi": "Tiếng Hàn không phải là chữ viết phát triển dần theo thời gian từ các ký tự có sẵn, mà là chữ viết do vua Sejong sáng tạo ra một cách độc đáo. Điều này là rất hiếm trong lịch sử phát triển chữ viết của thế giới. Trong sách Huấn dân chính âm, 17 phụ âm và 11 nguyên âm đã được tạo mới, đồng thời giải thích nguyên lý tạo chữ.",
+    "fr": "Le hangeul n’est pas un système d’écriture ayant évolué au fil du temps à partir de caractères existants, mais une création originale du roi Sejong. Cela constitue une caractéristique rare dans l’histoire mondiale des systèmes d’écriture. Dans le Hunminjeongeum, 17 consonnes et 11 voyelles ont été créées selon des principes bien définis.",
+    "es": "El hangeul no es un sistema de escritura que evolucionó a partir de caracteres existentes, sino una creación original del rey Sejong. Esto es una característica poco común en la historia mundial de los sistemas de escritura. En el Hunminjeongeum se crearon 17 consonantes y 11 vocales nuevas, explicando los principios de su formación.",
+    "ru": "Хангыль — это не система письма, развивавшаяся из существующих символов, а уникальное изобретение короля Седжона. Это редкость в истории мировых письменностей. В «Хунминчонъым» объясняются принципы создания 17 согласных и 11 гласных букв."
+  },
+  "tables": [
+    {
+      "type": "제4항",
+      "label": "기본 자모 명칭",
+      "items": [
+        {
+          "char": "ㄱ",
+          "name": "기역",
+          "sound": "audio/giyeok.mp3"
+        },
+        {
+          "char": "ㄴ",
+          "name": "니은",
+          "sound": "audio/nieun.mp3"
+        },
+        {
+          "char": "ㄷ",
+          "name": "디귿",
+          "sound": "audio/digeut.mp3"
+        },
+        {
+          "char": "ㄹ",
+          "name": "리을",
+          "sound": "audio/rieul.mp3"
+        },
+        {
+          "char": "ㅁ",
+          "name": "미음",
+          "sound": "audio/mieum.mp3"
+        },
+        {
+          "char": "ㅂ",
+          "name": "비읍",
+          "sound": "audio/bieup.mp3"
+        },
+        {
+          "char": "ㅅ",
+          "name": "시옷",
+          "sound": "audio/siot.mp3"
+        },
+        {
+          "char": "ㅇ",
+          "name": "이응",
+          "sound": "audio/ieung.mp3"
+        },
+        {
+          "char": "ㅈ",
+          "name": "지읒",
+          "sound": "audio/jieut.mp3"
+        },
+        {
+          "char": "ㅊ",
+          "name": "치읓",
+          "sound": "audio/chieut.mp3"
+        },
+        {
+          "char": "ㅋ",
+          "name": "키읔",
+          "sound": "audio/kieuk.mp3"
+        },
+        {
+          "char": "ㅌ",
+          "name": "티읕",
+          "sound": "audio/tieut.mp3"
+        },
+        {
+          "char": "ㅍ",
+          "name": "피읖",
+          "sound": "audio/pieup.mp3"
+        },
+        {
+          "char": "ㅎ",
+          "name": "히읗",
+          "sound": "audio/hieut.mp3"
+        },
+        {
+          "char": "ㅏ",
+          "name": "아",
+          "sound": "audio/a.mp3"
+        },
+        {
+          "char": "ㅑ",
+          "name": "야",
+          "sound": "audio/ya.mp3"
+        },
+        {
+          "char": "ㅓ",
+          "name": "어",
+          "sound": "audio/eo.mp3"
+        },
+        {
+          "char": "ㅕ",
+          "name": "여",
+          "sound": "audio/yeo.mp3"
+        },
+        {
+          "char": "ㅗ",
+          "name": "오",
+          "sound": "audio/o.mp3"
+        },
+        {
+          "char": "ㅛ",
+          "name": "요",
+          "sound": "audio/yo.mp3"
+        },
+        {
+          "char": "ㅜ",
+          "name": "우",
+          "sound": "audio/u.mp3"
+        },
+        {
+          "char": "ㅠ",
+          "name": "유",
+          "sound": "audio/yu.mp3"
+        },
+        {
+          "char": "ㅡ",
+          "name": "으",
+          "sound": "audio/eu.mp3"
+        },
+        {
+          "char": "ㅣ",
+          "name": "이",
+          "sound": "audio/i.mp3"
+        }
+      ]
+    }
+  ]
+}
