@@ -10,7 +10,7 @@ import 'package:intl/intl.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-import 'package:korean_writing_app_new/utils/stroke_path.dart'; // ★ 변경: StrokeAssets → StrokePath
+import 'package:korean_writing_app_new/data_loader/stroke_assets.dart';
 import 'package:korean_writing_app_new/i18n/ui_texts.dart';
 import 'package:korean_writing_app_new/tts_helpers.dart';
 
@@ -42,22 +42,10 @@ class _WritingPracticePageState extends State<WritingPracticePage> {
   // for saving
   final _captureKey = GlobalKey();
 
-  // guide asset path (json/png) 비동기 로딩
-  late Future<_GuideInfo> _guideFuture;
-
   @override
   void initState() {
     super.initState();
     _loadPrefs();
-    _guideFuture = _loadGuide(widget.charGlyph);
-  }
-
-  @override
-  void didUpdateWidget(covariant WritingPracticePage oldWidget) {
-    super.didUpdateWidget(oldWidget);
-    if (oldWidget.charGlyph != widget.charGlyph) {
-      _guideFuture = _loadGuide(widget.charGlyph);
-    }
   }
 
   Future<void> _loadPrefs() async {
@@ -76,38 +64,6 @@ class _WritingPracticePageState extends State<WritingPracticePage> {
     await p.setDouble(_kWidth,   _strokeWidth);
   }
 
-  // ───────── helper: 자모 성격 판정 ─────────
-  bool _isVowelGlyph(String g) {
-    const vowels = {
-      'ㆍ','ㅡ','ㅣ','ㅏ','ㅓ','ㅗ','ㅜ','ㅑ','ㅕ','ㅛ','ㅠ',
-      'ㅐ','ㅔ','ㅒ','ㅖ','ㅚ','ㅟ','ㅢ','ㅙ','ㅞ','ㅘ','ㅝ'
-    };
-    return vowels.contains(g);
-  }
-
-  /// 정책:
-  /// - 자음: 모두 쓰기 가능
-  /// - 모음: 기본/초출/재출만 쓰기 가능
-  ///         (이자합용자: ㅘ, ㅝ / ㅣ상합자: ㅐ,ㅔ,ㅒ,ㅖ,ㅚ,ㅟ,ㅢ,ㅙ,ㅞ → 가이드 전용)
-  bool _isCompositeVowelGuideOnly(String g) {
-    const iHarmony = {'ㅐ','ㅔ','ㅒ','ㅖ','ㅚ','ㅟ','ㅢ','ㅙ','ㅞ'};
-    const mixed = {'ㅘ','ㅝ'};
-    return iHarmony.contains(g) || mixed.contains(g);
-  }
-
-  /// StrokePath를 사용해 가이드 자산 경로를 찾고,
-  /// 가이드 전용 여부를 결정한다.
-  Future<_GuideInfo> _loadGuide(String glyph) async {
-    final isVowel = _isVowelGlyph(glyph);
-    final kind = isVowel ? LetterKind.vowel : LetterKind.consonant;
-
-    final path = await StrokePath.find(kind: kind, glyph: glyph);
-    final guideOnly = isVowel && _isCompositeVowelGuideOnly(glyph);
-
-    // 아래아(ㆍ)처럼 path가 없을 수도 있음 → guideOnly로 안내만
-    return _GuideInfo(assetPath: path, guideOnly: guideOnly);
-  }
-
   // ───────── 단축키용 Intent ─────────
   static const _undoIntent = _UndoIntent();
   static const _saveIntent = _SaveIntent();
@@ -117,6 +73,11 @@ class _WritingPracticePageState extends State<WritingPracticePage> {
   @override
   Widget build(BuildContext context) {
     final glyph = widget.charGlyph;
+
+    // ✅ 변경 포인트: 실제 가이드 자산 존재 여부로 연습 가능/불가 결정
+    final guide = StrokeAssets.get(glyph);
+    // guide가 없으면 가이드 전용(그리기 불가), 있으면 연습 허용
+    final guideOnly = (guide == null);
 
     final shortcuts = <LogicalKeySet, Intent>{
       LogicalKeySet(LogicalKeyboardKey.control, LogicalKeyboardKey.keyZ): _undoIntent,
@@ -130,12 +91,9 @@ class _WritingPracticePageState extends State<WritingPracticePage> {
       child: Actions(
         actions: <Type, Action<Intent>>{
           _UndoIntent: CallbackAction<_UndoIntent>(onInvoke: (_) {
-            setState(() {
-              if (_paths.isNotEmpty) {
-                _paths.removeLast();
-                _paints.removeLast();
-              }
-            });
+            if (!guideOnly && _paths.isNotEmpty) {
+              setState(() { _paths.removeLast(); _paints.removeLast(); });
+            }
             return null;
           }),
           _SaveIntent: CallbackAction<_SaveIntent>(onInvoke: (_) {
@@ -155,166 +113,158 @@ class _WritingPracticePageState extends State<WritingPracticePage> {
         },
         child: Focus(
           autofocus: true,
-          child: FutureBuilder<_GuideInfo>(
-            future: _guideFuture,
-            builder: (context, snap) {
-              final guidePath = snap.data?.assetPath;
-              final guideOnly = snap.data?.guideOnly ?? false;
-
-              return Scaffold(
-                appBar: AppBar(
-                  title: Text('$glyph ${UiText.t("practice")}'),
-                  actions: [
-                    IconButton(
-                      tooltip: UiText.t('read'),
-                      icon: const Icon(Icons.volume_up),
-                      onPressed: () => AppTts.speakGlyphOrText(glyph),
-                    ),
-                    IconButton(
-                      tooltip: UiText.t('toggleGuide'),
-                      icon: Icon(_showGuide ? Icons.visibility : Icons.visibility_off),
-                      onPressed: () {
-                        setState(() => _showGuide = !_showGuide);
-                        _savePrefs();
-                      },
-                    ),
-                    IconButton(
-                      tooltip: UiText.t('toggleGrid'),
-                      icon: const Icon(Icons.grid_on),
-                      onPressed: () {
-                        setState(() => _showGrid = !_showGrid);
-                        _savePrefs();
-                      },
-                    ),
-                    if (!guideOnly) ...[
-                      IconButton(
-                        tooltip: UiText.t('undo'),
-                        icon: const Icon(Icons.undo),
-                        onPressed: () {
-                          if (_paths.isNotEmpty) {
-                            setState(() {
-                              _paths.removeLast();
-                              _paints.removeLast();
-                            });
-                          }
-                        },
-                      ),
-                      IconButton(
-                        tooltip: UiText.t('clear'),
-                        icon: const Icon(Icons.delete),
-                        onPressed: () => setState(() {
-                          _paths.clear();
-                          _paints.clear();
-                        }),
-                      ),
-                    ],
-                    PopupMenuButton<String>(
-                      tooltip: UiText.t('toolMenu'),
-                      onSelected: (v) async {
-                        switch (v) {
-                          case 'color':
-                            if (!guideOnly) _pickColor(context);
-                            break;
-                          case 'width':
-                            if (!guideOnly) _pickWidth(context);
-                            break;
-                          case 'save':
-                            await _saveAsPng(context, glyph);
-                            break;
-                        }
-                      },
-                      itemBuilder: (_) => [
-                        PopupMenuItem(value: 'color', child: Text(UiText.t('pickColor'))),
-                        PopupMenuItem(value: 'width', child: Text(UiText.t('pickWidth'))),
-                        PopupMenuItem(value: 'save',  child: Text(UiText.t('savePng'))),
-                      ],
-                    ),
+          child: Scaffold(
+            appBar: AppBar(
+              title: Text('$glyph ${UiText.t("practice")}'),
+              actions: [
+                IconButton(
+                  tooltip: UiText.t('read'),
+                  icon: const Icon(Icons.volume_up),
+                  onPressed: () => AppTts.speakGlyphOrText(glyph),
+                ),
+                IconButton(
+                  tooltip: UiText.t('toggleGuide'),
+                  icon: Icon(_showGuide ? Icons.visibility : Icons.visibility_off),
+                  onPressed: () {
+                    setState(() => _showGuide = !_showGuide);
+                    _savePrefs();
+                  },
+                ),
+                IconButton(
+                  tooltip: UiText.t('toggleGrid'),
+                  icon: const Icon(Icons.grid_on),
+                  onPressed: () {
+                    setState(() => _showGrid = !_showGrid);
+                    _savePrefs();
+                  },
+                ),
+                if (!guideOnly) ...[
+                  IconButton(
+                    tooltip: UiText.t('undo'),
+                    icon: const Icon(Icons.undo),
+                    onPressed: () {
+                      if (_paths.isNotEmpty) {
+                        setState(() {
+                          _paths.removeLast();
+                          _paints.removeLast();
+                        });
+                      }
+                    },
+                  ),
+                  IconButton(
+                    tooltip: UiText.t('clear'),
+                    icon: const Icon(Icons.delete),
+                    onPressed: () => setState(() {
+                      _paths.clear();
+                      _paints.clear();
+                    }),
+                  ),
+                ],
+                PopupMenuButton<String>(
+                  tooltip: UiText.t('toolMenu'),
+                  onSelected: (v) async {
+                    switch (v) {
+                      case 'color':
+                        if (!guideOnly) _pickColor(context);
+                        break;
+                      case 'width':
+                        if (!guideOnly) _pickWidth(context);
+                        break;
+                      case 'save':
+                        await _saveAsPng(context, glyph);
+                        break;
+                    }
+                  },
+                  itemBuilder: (_) => [
+                    PopupMenuItem(value: 'color', child: Text(UiText.t('pickColor'))),
+                    PopupMenuItem(value: 'width', child: Text(UiText.t('pickWidth'))),
+                    PopupMenuItem(value: 'save',  child: Text(UiText.t('savePng'))),
                   ],
                 ),
-                body: Column(
-                  children: [
-                    if (guideOnly)
-                      Padding(
-                        padding: const EdgeInsets.fromLTRB(12, 10, 12, 0),
-                        child: Text(
-                          UiText.t('compositeNote'),
-                          textAlign: TextAlign.center,
-                          style: const TextStyle(fontSize: 12, color: Colors.black54),
-                        ),
-                      ),
-                    Expanded(
-                      child: Center(
-                        child: AspectRatio(
-                          aspectRatio: 1,
-                          child: RepaintBoundary(
-                            key: _captureKey,
-                            child: Stack(
-                              children: [
-                                if (_showGrid)
-                                  Positioned.fill(
+              ],
+            ),
+            body: Column(
+              children: [
+                if (guideOnly)
+                  Padding(
+                    padding: const EdgeInsets.fromLTRB(12, 10, 12, 0),
+                    child: Text(
+                      UiText.t('compositeNote'),
+                      textAlign: TextAlign.center,
+                      style: const TextStyle(fontSize: 12, color: Colors.black54),
+                    ),
+                  ),
+                Expanded(
+                  child: Center(
+                    child: AspectRatio(
+                      aspectRatio: 1,
+                      child: RepaintBoundary(
+                        key: _captureKey,
+                        child: Stack(
+                          children: [
+                            if (_showGrid)
+                              Positioned.fill(
+                                child: CustomPaint(
+                                  painter: _GridPainter(
+                                    color: Colors.black12,
+                                    gridSize: 32,
+                                  ),
+                                ),
+                              ),
+                            if (_showGuide && guide != null)
+                              Positioned.fill(
+                                child: Opacity(
+                                  opacity: 0.45,
+                                  child: Image.asset(guide, fit: BoxFit.contain),
+                                ),
+                              ),
+                            if (!guideOnly)
+                              Positioned.fill(
+                                child: GestureDetector(
+                                  onPanStart: (d) {
+                                    final p = Paint()
+                                      ..style = PaintingStyle.stroke
+                                      ..strokeWidth = _strokeWidth
+                                      ..strokeCap = StrokeCap.round
+                                      ..strokeJoin = StrokeJoin.round
+                                      ..color = _strokeColor;
+                                    _current = Path()
+                                      ..moveTo(d.localPosition.dx, d.localPosition.dy);
+                                    setState(() {
+                                      _paths.add(_current!);
+                                      _paints.add(p);
+                                    });
+                                  },
+                                  onPanUpdate: (d) => setState(() {
+                                    _current?.lineTo(
+                                      d.localPosition.dx,
+                                      d.localPosition.dy,
+                                    );
+                                  }),
+                                  onPanEnd: (_) => _current = null,
+                                  child: RepaintBoundary(
                                     child: CustomPaint(
-                                      painter: _GridPainter(
-                                        color: Colors.black12,
-                                        gridSize: 32,
-                                      ),
+                                      painter: _StrokePainter(_paths, _paints),
                                     ),
                                   ),
-                                if (_showGuide && guidePath != null)
-                                  Positioned.fill(
-                                    child: Opacity(
-                                      opacity: 0.45,
-                                      child: Image.asset(guidePath, fit: BoxFit.contain),
-                                    ),
-                                  ),
-                                if (!guideOnly)
-                                  Positioned.fill(
-                                    child: GestureDetector(
-                                      onPanStart: (d) {
-                                        final p = Paint()
-                                          ..style = PaintingStyle.stroke
-                                          ..strokeWidth = _strokeWidth
-                                          ..strokeCap = StrokeCap.round
-                                          ..strokeJoin = StrokeJoin.round
-                                          ..color = _strokeColor;
-                                        _current = Path()
-                                          ..moveTo(d.localPosition.dx, d.localPosition.dy);
-                                        setState(() {
-                                          _paths.add(_current!);
-                                          _paints.add(p);
-                                        });
-                                      },
-                                      onPanUpdate: (d) => setState(() {
-                                        _current?.lineTo(
-                                          d.localPosition.dx,
-                                          d.localPosition.dy,
-                                        );
-                                      }),
-                                      onPanEnd: (_) => _current = null,
-                                      child: RepaintBoundary(
-                                        child: CustomPaint(
-                                          painter: _StrokePainter(_paths, _paints),
-                                        ),
-                                      ),
-                                    ),
-                                  ),
-                              ],
-                            ),
-                          ),
+                                ),
+                              ),
+                          ],
                         ),
                       ),
                     ),
-                    Padding(
-                      padding: const EdgeInsets.fromLTRB(12, 8, 12, 12),
-                      child: Text(
-                        guideOnly ? UiText.t('compositeNote') : UiText.t('tip'),
-                        style: const TextStyle(fontSize: 12, color: Colors.black45),
-                        textAlign: TextAlign.center,
-                      ),
-                    ),
-                  ],
+                  ),
                 ),
-              );
-            },
+                Padding(
+                  padding: const EdgeInsets.fromLTRB(12, 8, 12, 12),
+                  child: Text(
+                    guideOnly ? UiText.t('compositeNote') : UiText.t('tip'),
+                    style: const TextStyle(fontSize: 12, color: Colors.black45),
+                    textAlign: TextAlign.center,
+                  ),
+                ),
+              ],
+            ),
           ),
         ),
       ),
@@ -454,12 +404,7 @@ class _WritingPracticePageState extends State<WritingPracticePage> {
   }
 }
 
-// ================= 모델/페인터 =================
-class _GuideInfo {
-  final String? assetPath; // png/json (현재는 png 가정)
-  final bool guideOnly;
-  const _GuideInfo({required this.assetPath, required this.guideOnly});
-}
+// ================= Painters =================
 
 class _StrokePainter extends CustomPainter {
   _StrokePainter(this.paths, this.paints);

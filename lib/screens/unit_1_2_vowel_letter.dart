@@ -1,17 +1,20 @@
 import 'package:flutter/material.dart';
 
+// 패키지 경로 임포트
 import 'package:korean_writing_app_new/data_loader/data_loader.dart';
 import 'package:korean_writing_app_new/tts_helpers.dart';
 import 'package:korean_writing_app_new/lang_state.dart';
 import 'package:korean_writing_app_new/screens/writing_practice_page.dart';
 
+// i18n/테마
 import 'package:korean_writing_app_new/i18n/ui_texts.dart';
 import 'package:korean_writing_app_new/theme_state.dart';
+import 'package:korean_writing_app_new/data_loader/stroke_assets.dart';
 
 /// 모음자 데이터 경로
-const String kVowelAsset = 'assets/data/1_2_vowel_letter.json';
+const String kUnitAsset = 'assets/data/1_2_vowel_letter.json';
 
-/// 다국어 필드에서 언어 우선 선택 (기본: AppLang.value)
+/// 다국어 필드에서 현재 언어 텍스트 선택
 String pickMl(dynamic v, {String? lang}) {
   final use = lang ?? AppLang.value;
   if (v == null) return '';
@@ -23,7 +26,7 @@ String pickMl(dynamic v, {String? lang}) {
   return '$v';
 }
 
-/// 설명 추출: description(다국어) → description_ko
+/// 파트/서브파트 설명: description(맵) 우선 → description_ko 폴백
 String pickDesc(Map p) {
   final dMl = pickMl(p['description']);
   if (dMl.isNotEmpty) return dMl;
@@ -32,7 +35,7 @@ String pickDesc(Map p) {
   return '';
 }
 
-/// 파트 제목: title(다국어) → groupKey를 UiText로 → part(ko 문자열)
+/// 파트 제목: title(맵) 우선 → groupKey를 UiText로 → part(ko 문자열) 폴백
 String partTitleOf(Map p) {
   final t = pickMl(p['title']);
   if (t.isNotEmpty) return t;
@@ -48,7 +51,7 @@ String partTitleOf(Map p) {
   return 'Section';
 }
 
-/// 카드 하단 설명: origin(다국어) → origin_ko → principle → principle_translation
+/// 카드 하단 설명: origin(맵) 우선 → origin_ko → principle → principle_translation
 String pickOrigin(Map item) {
   final oMl = pickMl(item['origin']);
   if (oMl.isNotEmpty) return oMl;
@@ -68,19 +71,19 @@ String pickOrigin(Map item) {
   return '';
 }
 
-class UnitVowelPage extends StatefulWidget {
-  const UnitVowelPage({super.key});
+class VowelOverviewPage extends StatefulWidget {
+  const VowelOverviewPage({super.key});
   @override
-  State<UnitVowelPage> createState() => _UnitVowelPageState();
+  State<VowelOverviewPage> createState() => _VowelOverviewPageState();
 }
 
-class _UnitVowelPageState extends State<UnitVowelPage> {
+class _VowelOverviewPageState extends State<VowelOverviewPage> {
   late Future<Map<String, dynamic>> future;
 
   @override
   void initState() {
     super.initState();
-    future = loadJsonAsset(kVowelAsset);
+    future = loadJsonAsset(kUnitAsset);
   }
 
   @override
@@ -105,14 +108,13 @@ class _UnitVowelPageState extends State<UnitVowelPage> {
         final title = pickMl(data['title']);
         final subtitle = pickMl(data['subtitle']);
 
-        // 개요: i18n 우선 → ko 소개 폴백
         String overview = pickMl(data['overview']);
         if (overview.isEmpty) {
           final koIntro = data['introduction_ko'];
           if (koIntro is String) overview = koIntro;
         }
 
-        final parts = (data['parts'] as List?) ?? const [];
+        final parts = (data['parts'] as List?) ?? [];
 
         return Scaffold(
           appBar: AppBar(
@@ -121,7 +123,7 @@ class _UnitVowelPageState extends State<UnitVowelPage> {
               PopupMenuButton<String>(
                 onSelected: (v) {
                   if (v == 'lang') {
-                    Navigator.pushReplacementNamed(context, '/'); // 언어 선택
+                    Navigator.pushReplacementNamed(context, '/');
                   } else if (v == 'theme') {
                     _showColorSheet(context);
                   }
@@ -149,7 +151,6 @@ class _UnitVowelPageState extends State<UnitVowelPage> {
                 ],
                 if (parts.isEmpty)
                   const Text('목록이 비어 있습니다. (parts[*].chars 경로를 확인하세요)'),
-
                 ...parts.map((pAny) {
                   final p = pAny as Map;
                   final partTitle = partTitleOf(p);
@@ -171,10 +172,8 @@ class _UnitVowelPageState extends State<UnitVowelPage> {
                       ],
                       const SizedBox(height: 8),
 
-                      // subparts가 없으면 이 파트의 chars를 섹션으로 분류하여 출력
-                      if (subparts.isEmpty && chars.isNotEmpty) _VowelGrid(chars),
+                      if (subparts.isEmpty && chars.isNotEmpty) _GlyphGrid(chars),
 
-                      // 서브 파트가 있으면 각자 출력
                       ...subparts.map((spAny) {
                         final sp = spAny as Map;
                         final subTitle = partTitleOf(sp);
@@ -193,7 +192,7 @@ class _UnitVowelPageState extends State<UnitVowelPage> {
                               Text(subDesc, style: Theme.of(context).textTheme.bodySmall),
                             ],
                             const SizedBox(height: 6),
-                            _VowelGrid(subChars),
+                            _GlyphGrid(subChars),
                           ],
                         );
                       }),
@@ -210,7 +209,6 @@ class _UnitVowelPageState extends State<UnitVowelPage> {
     );
   }
 
-  // 색상 설정 시트
   void _showColorSheet(BuildContext context) {
     showModalBottomSheet(
       context: context,
@@ -293,12 +291,11 @@ class _UnitVowelPageState extends State<UnitVowelPage> {
   }
 }
 
-/// ─────────────────────────────────────────────────────────────
-/// 그리드 + 분류(기본/초출/재출/이자합용/ㅣ상합)
-/// ─────────────────────────────────────────────────────────────
-class _VowelGrid extends StatelessWidget {
-  const _VowelGrid(this.items, {super.key});
+class _GlyphGrid extends StatelessWidget {
+  const _GlyphGrid(this.items, {super.key});
   final List items;
+
+  bool _isAraeA(String glyph) => glyph == 'ㆍ';
 
   @override
   Widget build(BuildContext context) {
@@ -309,206 +306,120 @@ class _VowelGrid extends StatelessWidget {
       );
     }
 
-    // 카드(공통 UI) 빌더
-    Widget buildCard(dynamic it) {
-      String glyph = '';
-      String nameLabel = '';
-      String origin = '';
+    return GridView.builder(
+      shrinkWrap: true,
+      physics: const NeverScrollableScrollPhysics(),
+      padding: const EdgeInsets.symmetric(vertical: 4),
+      gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
+        crossAxisCount: 6,
+        mainAxisSpacing: 8,
+        crossAxisSpacing: 8,
+        childAspectRatio: 1.18,
+      ),
+      itemCount: items.length,
+      itemBuilder: (context, i) {
+        final it = items[i];
 
-      if (it is Map) {
-        glyph = (it['char'] ?? it['glyph'] ?? it['text'] ?? '').toString();
-        nameLabel = pickMl(it['name']);
-        if (nameLabel.isEmpty) nameLabel = (it['name_ko'] ?? '').toString();
-        origin = pickOrigin(it);
-        if (glyph.isEmpty) glyph = pickMl(it);
-      } else {
-        glyph = '$it';
-      }
+        String glyph = '';
+        String nameLabel = '';
+        String origin = '';
 
-      return ValueListenableBuilder<Color>(
-        valueListenable: AppTheme.cardColor,
-        builder: (_, cardC, __) {
-          return ValueListenableBuilder<Color>(
-            valueListenable: AppTheme.glyphColor,
-            builder: (_, glyphC, __) {
-              return Card(
-                color: cardC.withOpacity(kCardBgOpacity),
-                clipBehavior: Clip.hardEdge,
-                child: InkWell(
-                  onTap: () {
-                    Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                        builder: (_) => WritingPracticePage(charGlyph: glyph),
-                      ),
-                    );
-                  },
-                  child: Padding(
-                    padding: const EdgeInsets.symmetric(horizontal: 6),
-                    child: Stack(
-                      children: [
-                        Center(
-                          child: Column(
-                            mainAxisSize: MainAxisSize.min,
-                            children: [
-                              Text(glyph, style: TextStyle(fontSize: 28, color: glyphC)),
-                              if (nameLabel.isNotEmpty)
-                                Padding(
-                                  padding: const EdgeInsets.only(top: 4),
-                                  child: Text(
-                                    nameLabel,
-                                    style: const TextStyle(fontSize: 12, fontWeight: FontWeight.w600),
-                                    overflow: TextOverflow.ellipsis,
-                                  ),
-                                ),
-                              if (origin.isNotEmpty)
-                                Padding(
-                                  padding: const EdgeInsets.only(top: 2),
-                                  child: Text(
-                                    origin,
-                                    textAlign: TextAlign.center,
-                                    style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                                      height: 1.25,
-                                      color: Colors.black87,
+        if (it is Map) {
+          glyph = (it['char'] ?? it['glyph'] ?? it['text'] ?? '').toString();
+          nameLabel = pickMl(it['name']);
+          if (nameLabel.isEmpty) {
+            nameLabel = (it['name_ko'] ?? '').toString();
+          }
+          origin = pickOrigin(it);
+          if (glyph.isEmpty) glyph = pickMl(it);
+        } else {
+          glyph = '$it';
+        }
+
+        // 가이드 자산 존재 여부만 확인(안내 문구는 모음 화면에서 표시하지 않음)
+        final guide = StrokeAssets.get(glyph);
+        final hasGuide = guide != null;
+
+        return ValueListenableBuilder<Color>(
+          valueListenable: AppTheme.cardColor,
+          builder: (_, cardC, __) {
+            return ValueListenableBuilder<Color>(
+              valueListenable: AppTheme.glyphColor,
+              builder: (_, glyphC, __) {
+                return Card(
+                  color: cardC.withOpacity(kCardBgOpacity),
+                  clipBehavior: Clip.hardEdge,
+                  child: InkWell(
+                    onTap: () {
+                      if (_isAraeA(glyph)) {
+                        ScaffoldMessenger.of(context).showSnackBar(
+                          SnackBar(content: Text(UiText.t('araeOnly'))),
+                        );
+                        return;
+                      }
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (_) => WritingPracticePage(charGlyph: glyph),
+                        ),
+                      );
+                    },
+                    child: Padding(
+                      padding: const EdgeInsets.symmetric(horizontal: 6),
+                      child: Stack(
+                        children: [
+                          Center(
+                            child: Column(
+                              mainAxisSize: MainAxisSize.min,
+                              children: [
+                                Text(glyph, style: TextStyle(fontSize: 28, color: glyphC)),
+                                if (nameLabel.isNotEmpty)
+                                  Padding(
+                                    padding: const EdgeInsets.only(top: 4),
+                                    child: Text(
+                                      nameLabel,
+                                      style: const TextStyle(fontSize: 12, fontWeight: FontWeight.w600),
+                                      overflow: TextOverflow.ellipsis,
                                     ),
-                                    maxLines: 2,
-                                    overflow: TextOverflow.ellipsis,
                                   ),
-                                ),
-                            ],
+                                if (origin.isNotEmpty)
+                                  Padding(
+                                    padding: const EdgeInsets.only(top: 2),
+                                    child: Text(
+                                      origin,
+                                      textAlign: TextAlign.center,
+                                      style: Theme.of(context).textTheme.bodySmall?.copyWith(
+                                        height: 1.25,
+                                        color: Colors.black87,
+                                      ),
+                                      maxLines: 2,
+                                      overflow: TextOverflow.ellipsis,
+                                    ),
+                                  ),
+                                // (모음 화면은 compositeNote를 표시하지 않습니다)
+                                if (!hasGuide) const SizedBox(height: 0),
+                              ],
+                            ),
                           ),
-                        ),
-                        Positioned(
-                          right: 2,
-                          bottom: 2,
-                          child: IconButton(
-                            tooltip: UiText.t('read'),
-                            icon: const Icon(Icons.volume_up, size: 18),
-                            onPressed: () => AppTts.speakGlyphOrText(glyph, label: nameLabel),
+                          Positioned(
+                            right: 2,
+                            bottom: 2,
+                            child: IconButton(
+                              tooltip: UiText.t('read'),
+                              icon: const Icon(Icons.volume_up, size: 18),
+                              onPressed: () => AppTts.speakGlyphOrText(glyph, label: nameLabel),
+                            ),
                           ),
-                        ),
-                      ],
+                        ],
+                      ),
                     ),
                   ),
-                ),
-              );
-            },
-          );
-        },
-      );
-    }
-
-    // ── 분류 로직 ─────────────────────────────────────────
-    // 데이터에 group/groupKey 있으면 우선 사용 → 없으면 glyph/id로 추론
-    String inferGroup(Map it) {
-      final explicit = (it['group'] ?? it['groupKey'])?.toString();
-      if (explicit != null && explicit.isNotEmpty) {
-        final m = {
-          'basicVowels': 'basic',
-          'firstDerivedVowels': 'first',
-          'secondDerivedVowels': 'second',
-          'mixedCompoundVowels': 'mixed',
-          'iHarmonyVowels': 'ih',
-          // 혹시 'basic','first','second','mixed','ih'로 들어온 경우
-          'basic': 'basic',
-          'first': 'first',
-          'second': 'second',
-          'mixed': 'mixed',
-          'ih': 'ih',
-        };
-        if (m.containsKey(explicit)) return m[explicit]!;
-      }
-
-      final glyph = (it['char'] ?? it['glyph'] ?? '').toString();
-      final id = (it['id'] ?? '').toString().toLowerCase();
-
-      // 1) 글자 기준 (최우선)
-      const basicGlyphs = ['ㆍ', 'ㅡ', 'ㅣ'];
-      const firstGlyphs = ['ㅏ', 'ㅓ', 'ㅗ', 'ㅜ'];
-      const secondGlyphs = ['ㅑ', 'ㅕ', 'ㅛ', 'ㅠ'];
-      const mixedGlyphs = ['ㅘ', 'ㅝ', 'ㅙ', 'ㅞ']; // 혼합 합용
-      const iHarmonyGlyphs = ['ㅐ', 'ㅔ', 'ㅚ', 'ㅟ', 'ㅢ', 'ㅖ', 'ㅒ']; // ㅣ상합
-
-      if (basicGlyphs.contains(glyph)) return 'basic';
-      if (firstGlyphs.contains(glyph)) return 'first';
-      if (secondGlyphs.contains(glyph)) return 'second';
-      if (mixedGlyphs.contains(glyph)) return 'mixed';
-      if (iHarmonyGlyphs.contains(glyph)) return 'ih';
-
-      // 2) id(별칭 포함) 보조 판단
-      const basicIds = {'arae_a','eu','i','ㅡ','ㅣ','ㆍ'};
-      const firstIds = {'a','eo','o','u'};
-      const secondIds = {'ya','yeo','yo','yu'};
-      const mixedIds = {'wa','wo','wae','we'};
-      const ihIds = {'ae','e','oe','wi','ui','ye','yae'};
-
-      if (basicIds.contains(id)) return 'basic';
-      if (firstIds.contains(id)) return 'first';
-      if (secondIds.contains(id)) return 'second';
-      if (mixedIds.contains(id)) return 'mixed';
-      if (ihIds.contains(id)) return 'ih';
-
-      return 'basic';
-    }
-
-    // Map 변환
-    final data = items.map((e) => e is Map ? e : {'glyph': '$e'}).cast<Map>().toList();
-
-    // 그룹핑
-    final grouped = <String, List<Map>>{
-      'basic': [],
-      'first': [],
-      'second': [],
-      'mixed': [],
-      'ih': [],
-    };
-    for (final it in data) {
-      grouped[inferGroup(it)]!.add(it);
-    }
-
-    // 실제 섹션만 출력
-    final order = ['basic', 'first', 'second', 'mixed', 'ih']
-        .where((k) => grouped[k]!.isNotEmpty)
-        .toList();
-
-    String label(String g) {
-      switch (g) {
-        case 'basic': return UiText.t('basicVowels');
-        case 'first': return UiText.t('firstDerivedVowels');
-        case 'second': return UiText.t('secondDerivedVowels');
-        case 'mixed': return UiText.t('mixedCompoundVowels');
-        case 'ih': return UiText.t('iHarmonyVowels');
-        default: return UiText.t('others');
-      }
-    }
-
-    return Column(
-      crossAxisAlignment: CrossAxisAlignment.start,
-      children: [
-        for (final g in order) ...[
-          Padding(
-            padding: const EdgeInsets.fromLTRB(4, 8, 4, 6),
-            child: Text(
-              label(g),
-              style: Theme.of(context).textTheme.titleSmall?.copyWith(fontWeight: FontWeight.w600),
-            ),
-          ),
-          GridView.builder(
-            shrinkWrap: true,
-            physics: const NeverScrollableScrollPhysics(),
-            padding: const EdgeInsets.symmetric(vertical: 4),
-            gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-              crossAxisCount: 6,
-              mainAxisSpacing: 8,
-              crossAxisSpacing: 8,
-              childAspectRatio: 1.18,
-            ),
-            itemCount: grouped[g]!.length,
-            itemBuilder: (_, i) => buildCard(grouped[g]![i]),
-          ),
-          const SizedBox(height: 4),
-        ],
-      ],
+                );
+              },
+            );
+          },
+        );
+      },
     );
   }
 }

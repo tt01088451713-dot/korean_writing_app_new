@@ -264,7 +264,7 @@
           "id": "wa",
           "glyph": "ㅘ",
           "name": { "ko": "와", "en": "wa", "ja": "ワ", "zh": "wa", "vi": "wa", "fr": "wa", "es": "wa", "ru": "wa", "mn": "wa" },
-          "pronunciation": { "ko": "와", "en": "wa" }
+        "pronunciation": { "ko": "와", "en": "wa" }
         },
         {
           "id": "wo",

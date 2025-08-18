@@ -1,0 +1,29 @@
+{
+  "title": {
+    "ko": "모음자",
+    "en": "Vowels"
+  },
+  "chars": [
+    { "id": "a",   "label": "ㅏ", "image": "assets/images/strokes/vowels/a.png" },
+    { "id": "ae",  "label": "ㅐ", "image": "assets/images/strokes/vowels/ae.png" },
+    { "id": "e",   "label": "ㅔ", "image": "assets/images/strokes/vowels/e.png" },
+    { "id": "eo",  "label": "ㅓ", "image": "assets/images/strokes/vowels/eo.png" },
+    { "id": "eu",  "label": "ㅡ", "image": "assets/images/strokes/vowels/eu.png" },
+    { "id": "i",   "label": "ㅣ", "image": "assets/images/strokes/vowels/i.png" },
+    { "id": "o",   "label": "ㅗ", "image": "assets/images/strokes/vowels/o.png" },
+    { "id": "oe",  "label": "ㅚ", "image": "assets/images/strokes/vowels/oe.png" },
+    { "id": "u",   "label": "ㅜ", "image": "assets/images/strokes/vowels/u.png" },
+    { "id": "ui",  "label": "ㅢ", "image": "assets/images/strokes/vowels/ui.png" },
+    { "id": "wa",  "label": "ㅘ", "image": "assets/images/strokes/vowels/wa.png" },
+    { "id": "wae", "label": "ㅙ", "image": "assets/images/strokes/vowels/wae.png" },
+    { "id": "we",  "label": "ㅞ", "image": "assets/images/strokes/vowels/we.png" },
+    { "id": "wi",  "label": "ㅟ", "image": "assets/images/strokes/vowels/wi.png" },
+    { "id": "wo",  "label": "ㅝ", "image": "assets/images/strokes/vowels/wo.png" },
+    { "id": "ya",  "label": "ㅑ", "image": "assets/images/strokes/vowels/ya.png" },
+    { "id": "yae", "label": "ㅒ", "image": "assets/images/strokes/vowels/yae.png" },
+    { "id": "ye",  "label": "ㅖ", "image": "assets/images/strokes/vowels/ye.png" },
+    { "id": "yeo", "label": "ㅕ", "image": "assets/images/strokes/vowels/yeo.png" },
+    { "id": "yo",  "label": "ㅛ", "image": "assets/images/strokes/vowels/yo.png" },
+    { "id": "yu",  "label": "ㅠ", "image": "assets/images/strokes/vowels/yu.png" }
+  ]
+}
