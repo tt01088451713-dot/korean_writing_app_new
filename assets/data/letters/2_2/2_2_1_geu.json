@@ -1,0 +1,24 @@
+{
+  "id": "2_2_1_a",
+  "unitId": "2_2_1_geu",
+  "type": "letters",
+  "title": {
+    "ko": "2.2 (1) 그~흐 세트 (…으)",
+    "en": "2.2 (1) Vowel ㅡ (geu~heu)",
+    "ja": "2.2 (1) 母音 ㅡ（geu〜heu）",
+    "zh": "2.2 (1) 元音 ㅡ（geu~heu）",
+    "vi": "2.2 (1) Nguyên âm ㅡ (geu~heu)",
+    "fr": "2.2 (1) Voyelle ㅡ (geu~heu)",
+    "de": "2.2 (1) Vokal ㅡ (geu–heu)",
+    "es": "2.2 (1) Vocal ㅡ (geu~heu)",
+    "ru": "2.2 (1) Гласный ㅡ (geu~heu)",
+    "mn": "2.2 (1) Эгшиг ㅡ (geu~heu)"
+  },
+  "assetConventions": {
+    "strokeJson": "assets/strokes/syllables/{glyph}.json",
+    "audioMp3": "assets/audio/syllables/{glyph}.mp3"
+  },
+  "practice": { "enabled": true, "strokeAsset": "template", "audio": true, "repeat": 3 },
+  "sequence": ["그","느","드","르","므","브","스","으","즈","츠","크","트","프","흐"],
+  "uiHints": { "grid": 7, "rowGap": 8, "colGap": 8 }
+}

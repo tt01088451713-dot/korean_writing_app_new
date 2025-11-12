@@ -1,0 +1,44 @@
+{
+  "id": "2_4_4_we_wi_cv",
+  "unitId": "2_4_4_we_wi_cv",
+  "type": "letters",
+
+  "title": {
+    "ko": "2.4.4 ㅞ·ㅟ — 받침 없음(CV)",
+    "en": "2.4.4 ㅞ/ㅟ — No Final (CV)",
+    "ja": "2.4.4 ㅞ・ㅟ — パッチムなし（CV）",
+    "zh": "2.4.4 ㅞ/ㅟ — 无收音（CV）",
+    "vi": "2.4.4 ㅞ/ㅟ — Không phụ âm cuối (CV)",
+    "fr": "2.4.4 ㅞ/ㅟ — Sans finale (CV)",
+    "de": "2.4.4 ㅞ/ㅟ — Ohne Endkonsonant (CV)",
+    "es": "2.4.4 ㅞ/ㅟ — Sin final (CV)",
+    "ru": "2.4.4 ㅞ/ㅟ — Без финали (CV)",
+    "mn": "2.4.4 ㅞ/ㅟ — Төгсгөлгүй (CV)"
+  },
+
+  "description": {
+    "ko": "복합 모음 ㅞ, ㅟ로 이루어진 받침 없는(CV) 음절을 연습합니다.",
+    "en": "Practice CV syllables with the compound vowels ㅞ and ㅟ.",
+    "ja": "複合母音 ㅞ・ㅟ を用いたパッチムなし（CV）の音節を練習します。",
+    "zh": "练习由复合元音 ㅞ、ㅟ 构成的无收音（CV）音节。",
+    "vi": "Luyện các âm tiết CV với nguyên âm ghép ㅞ và ㅟ.",
+    "fr": "Entraînez des syllabes CV avec les voyelles composées ㅞ et ㅟ.",
+    "de": "Üben Sie CV-Silben mit den zusammengesetzten Vokalen ㅞ und ㅟ.",
+    "es": "Practica sílabas CV con las vocales compuestas ㅞ y ㅟ.",
+    "ru": "Тренируйте слоги CV с составными гласными ㅞ и ㅟ.",
+    "mn": "Нийлмэл эгшиг ㅞ, ㅟ-тэй төгсгөлгүй (CV) үеийг дадлага хийнэ."
+  },
+
+  "vowels": ["ㅞ","ㅟ"],
+  "initials": ["ㄱ","ㄴ","ㄷ","ㄹ","ㅁ","ㅂ","ㅅ","ㅇ","ㅈ","ㅊ","ㅋ","ㅌ","ㅍ","ㅎ"],
+
+  "sequence": [
+    "궤","눼","뒈","뤠","뭬","붸","쉐","웨","줴","췌","퀘","퉤","푀","훼",
+    "귀","뉘","뒤","뤼","뮈","뷔","쉬","위","쥐","취","퀴","튀","퓌","휘"
+  ],
+
+  "assetConventions": {
+    "strokeJson": "assets/strokes/syllables/{glyph}.json",
+    "audioMp3": "assets/audio/syllables/{glyph}.mp3"
+  }
+}

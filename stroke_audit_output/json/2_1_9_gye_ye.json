@@ -1,0 +1,206 @@
+{
+  "id": "2_1_9",
+  "title": {
+    "ko": "(9) 계 계열(…ㅖ)",
+    "en": "(9) GYE set (…ㅖ)"
+  },
+  "description": {
+    "ko": "자음과 ㅖ(ye)가 좌우로 결합한 음절. 일부 조합은 사용 빈도가 낮습니다.",
+    "en": "Consonant + ㅖ (ye) in a left–right layout. Some combinations are low‑frequency.",
+    "zh": "子音与ㅖ（ye）的左右结合法。部分组合较少使用。",
+    "ja": "子音とㅖ（ye）の左右結合。一部は使用頻度が低いです。",
+    "vi": "Phụ âm + ㅖ (ye) theo bố cục trái–phải. Một số tổ hợp ít dùng.",
+    "fr": "Consonne + ㅖ (ye) en disposition gauche‑droite. Certaines combinaisons sont peu fréquentes.",
+    "es": "Consonante + ㅖ (ye) en disposición izquierda‑derecha. Algunas combinaciones son poco frecuentes.",
+    "ru": "Согласная + ㅖ (ye) в лево‑правой компоновке. Некоторые сочетания редки.",
+    "mn": "Гийгүүлэгч + ㅖ (ye) зүүн‑баруун байрлалтай. Зарим нийлбэр ховор."
+  },
+  "chars": [
+    {
+      "label": "계",
+      "ttsKey": "gye",
+      "core": true,
+      "strokeOrder": "assets/strokes/gye.json",
+      "guideOnly": true,
+      "freq": "high",
+      "writing": {
+        "order": "assets/strokes/gye.json",
+        "strokes": [],
+        "guideOnly": true
+      }
+    },
+    {
+      "label": "녜",
+      "ttsKey": "nye",
+      "core": false,
+      "strokeOrder": "assets/strokes/nye.json",
+      "guideOnly": true,
+      "freq": "low",
+      "writing": {
+        "order": "assets/strokes/nye.json",
+        "strokes": [],
+        "guideOnly": true
+      }
+    },
+    {
+      "label": "뎨",
+      "ttsKey": "dye",
+      "core": false,
+      "strokeOrder": "assets/strokes/dye.json",
+      "guideOnly": true,
+      "freq": "low",
+      "writing": {
+        "order": "assets/strokes/dye.json",
+        "strokes": [],
+        "guideOnly": true
+      }
+    },
+    {
+      "label": "례",
+      "ttsKey": "rye",
+      "core": true,
+      "strokeOrder": "assets/strokes/rye.json",
+      "guideOnly": true,
+      "freq": "high",
+      "writing": {
+        "order": "assets/strokes/rye.json",
+        "strokes": [],
+        "guideOnly": true
+      }
+    },
+    {
+      "label": "몌",
+      "ttsKey": "mye",
+      "core": false,
+      "strokeOrder": "assets/strokes/mye.json",
+      "guideOnly": true,
+      "freq": "low",
+      "writing": {
+        "order": "assets/strokes/mye.json",
+        "strokes": [],
+        "guideOnly": true
+      }
+    },
+    {
+      "label": "볘",
+      "ttsKey": "bye",
+      "core": false,
+      "strokeOrder": "assets/strokes/bye.json",
+      "guideOnly": true,
+      "freq": "low",
+      "writing": {
+        "order": "assets/strokes/bye.json",
+        "strokes": [],
+        "guideOnly": true
+      }
+    },
+    {
+      "label": "셰",
+      "ttsKey": "sye",
+      "core": true,
+      "strokeOrder": "assets/strokes/sye.json",
+      "guideOnly": true,
+      "freq": "high",
+      "writing": {
+        "order": "assets/strokes/sye.json",
+        "strokes": [],
+        "guideOnly": true
+      }
+    },
+    {
+      "label": "예",
+      "ttsKey": "ye",
+      "core": true,
+      "strokeOrder": "assets/strokes/ye.json",
+      "guideOnly": true,
+      "freq": "high",
+      "writing": {
+        "order": "assets/strokes/ye.json",
+        "strokes": [],
+        "guideOnly": true
+      }
+    },
+    {
+      "label": "졔",
+      "ttsKey": "jye",
+      "core": false,
+      "strokeOrder": "assets/strokes/jye.json",
+      "guideOnly": true,
+      "freq": "low",
+      "writing": {
+        "order": "assets/strokes/jye.json",
+        "strokes": [],
+        "guideOnly": true
+      }
+    },
+    {
+      "label": "쳬",
+      "ttsKey": "chye",
+      "core": false,
+      "strokeOrder": "assets/strokes/chye.json",
+      "guideOnly": true,
+      "freq": "low",
+      "writing": {
+        "order": "assets/strokes/chye.json",
+        "strokes": [],
+        "guideOnly": true
+      }
+    },
+    {
+      "label": "켸",
+      "ttsKey": "kye",
+      "core": false,
+      "strokeOrder": "assets/strokes/kye.json",
+      "guideOnly": true,
+      "freq": "low",
+      "writing": {
+        "order": "assets/strokes/kye.json",
+        "strokes": [],
+        "guideOnly": true
+      }
+    },
+    {
+      "label": "톄",
+      "ttsKey": "tye",
+      "core": false,
+      "strokeOrder": "assets/strokes/tye.json",
+      "guideOnly": true,
+      "freq": "low",
+      "writing": {
+        "order": "assets/strokes/tye.json",
+        "strokes": [],
+        "guideOnly": true
+      }
+    },
+    {
+      "label": "폐",
+      "ttsKey": "pye",
+      "core": false,
+      "strokeOrder": "assets/strokes/pye.json",
+      "guideOnly": true,
+      "freq": "low",
+      "writing": {
+        "order": "assets/strokes/pye.json",
+        "strokes": [],
+        "guideOnly": true
+      }
+    },
+    {
+      "label": "혜",
+      "ttsKey": "hye",
+      "core": true,
+      "strokeOrder": "assets/strokes/hye.json",
+      "guideOnly": true,
+      "freq": "high",
+      "writing": {
+        "order": "assets/strokes/hye.json",
+        "strokes": [],
+        "guideOnly": true
+      }
+    }
+  ],
+  "definition": {
+    "ko": "(9) 계 계열(…ㅖ) 단원의 핵심 정의",
+    "en": "Core definition of (9) GYE set (…ㅖ) section"
+  }
+}

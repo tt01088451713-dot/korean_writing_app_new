@@ -1,0 +1,206 @@
+{
+  "id": "2_1_6",
+  "title": {
+    "ko": "(6) 거 계열(…ㅓ)",
+    "en": "(6) GEO set (…ㅓ)"
+  },
+  "description": {
+    "ko": "자음과 ㅓ가 좌우로 결합한 음절(거~허).",
+    "en": "Consonant + ㅓ in a left–right layout (geo…heo).",
+    "zh": "子音与ㅓ的左右结合法（거~허）。",
+    "ja": "子音とㅓの左右結合（거〜허）。",
+    "vi": "Phụ âm + ㅓ theo bố cục trái–phải (geo…heo).",
+    "fr": "Consonne + ㅓ en disposition gauche‑droite (geo…heo).",
+    "es": "Consonante + ㅓ en disposición izquierda‑derecha (geo…heo).",
+    "ru": "Согласная + ㅓ в лево‑правой компоновке (geo…heo).",
+    "mn": "Гийгүүлэгч + ㅓ зүүн‑баруун байрлалтай (geo…heo)."
+  },
+  "chars": [
+    {
+      "label": "거",
+      "ttsKey": "geo",
+      "core": true,
+      "strokeOrder": "assets/strokes/geo.json",
+      "guideOnly": true,
+      "freq": "high",
+      "writing": {
+        "order": "assets/strokes/geo.json",
+        "strokes": [],
+        "guideOnly": true
+      }
+    },
+    {
+      "label": "너",
+      "ttsKey": "neo",
+      "core": true,
+      "strokeOrder": "assets/strokes/neo.json",
+      "guideOnly": true,
+      "freq": "high",
+      "writing": {
+        "order": "assets/strokes/neo.json",
+        "strokes": [],
+        "guideOnly": true
+      }
+    },
+    {
+      "label": "더",
+      "ttsKey": "deo",
+      "core": true,
+      "strokeOrder": "assets/strokes/deo.json",
+      "guideOnly": true,
+      "freq": "high",
+      "writing": {
+        "order": "assets/strokes/deo.json",
+        "strokes": [],
+        "guideOnly": true
+      }
+    },
+    {
+      "label": "러",
+      "ttsKey": "reo",
+      "core": true,
+      "strokeOrder": "assets/strokes/reo.json",
+      "guideOnly": true,
+      "freq": "high",
+      "writing": {
+        "order": "assets/strokes/reo.json",
+        "strokes": [],
+        "guideOnly": true
+      }
+    },
+    {
+      "label": "머",
+      "ttsKey": "meo",
+      "core": true,
+      "strokeOrder": "assets/strokes/meo.json",
+      "guideOnly": true,
+      "freq": "high",
+      "writing": {
+        "order": "assets/strokes/meo.json",
+        "strokes": [],
+        "guideOnly": true
+      }
+    },
+    {
+      "label": "버",
+      "ttsKey": "beo",
+      "core": true,
+      "strokeOrder": "assets/strokes/beo.json",
+      "guideOnly": true,
+      "freq": "high",
+      "writing": {
+        "order": "assets/strokes/beo.json",
+        "strokes": [],
+        "guideOnly": true
+      }
+    },
+    {
+      "label": "서",
+      "ttsKey": "seo",
+      "core": true,
+      "strokeOrder": "assets/strokes/seo.json",
+      "guideOnly": true,
+      "freq": "high",
+      "writing": {
+        "order": "assets/strokes/seo.json",
+        "strokes": [],
+        "guideOnly": true
+      }
+    },
+    {
+      "label": "어",
+      "ttsKey": "eo",
+      "core": true,
+      "strokeOrder": "assets/strokes/eo.json",
+      "guideOnly": true,
+      "freq": "high",
+      "writing": {
+        "order": "assets/strokes/eo.json",
+        "strokes": [],
+        "guideOnly": true
+      }
+    },
+    {
+      "label": "저",
+      "ttsKey": "jeo",
+      "core": true,
+      "strokeOrder": "assets/strokes/jeo.json",
+      "guideOnly": true,
+      "freq": "high",
+      "writing": {
+        "order": "assets/strokes/jeo.json",
+        "strokes": [],
+        "guideOnly": true
+      }
+    },
+    {
+      "label": "처",
+      "ttsKey": "cheo",
+      "core": true,
+      "strokeOrder": "assets/strokes/cheo.json",
+      "guideOnly": true,
+      "freq": "high",
+      "writing": {
+        "order": "assets/strokes/cheo.json",
+        "strokes": [],
+        "guideOnly": true
+      }
+    },
+    {
+      "label": "커",
+      "ttsKey": "keo",
+      "core": true,
+      "strokeOrder": "assets/strokes/keo.json",
+      "guideOnly": true,
+      "freq": "high",
+      "writing": {
+        "order": "assets/strokes/keo.json",
+        "strokes": [],
+        "guideOnly": true
+      }
+    },
+    {
+      "label": "터",
+      "ttsKey": "teo",
+      "core": true,
+      "strokeOrder": "assets/strokes/teo.json",
+      "guideOnly": true,
+      "freq": "high",
+      "writing": {
+        "order": "assets/strokes/teo.json",
+        "strokes": [],
+        "guideOnly": true
+      }
+    },
+    {
+      "label": "퍼",
+      "ttsKey": "peo",
+      "core": true,
+      "strokeOrder": "assets/strokes/peo.json",
+      "guideOnly": true,
+      "freq": "high",
+      "writing": {
+        "order": "assets/strokes/peo.json",
+        "strokes": [],
+        "guideOnly": true
+      }
+    },
+    {
+      "label": "허",
+      "ttsKey": "heo",
+      "core": true,
+      "strokeOrder": "assets/strokes/heo.json",
+      "guideOnly": true,
+      "freq": "high",
+      "writing": {
+        "order": "assets/strokes/heo.json",
+        "strokes": [],
+        "guideOnly": true
+      }
+    }
+  ],
+  "definition": {
+    "ko": "(6) 거 계열(…ㅓ) 단원의 핵심 정의",
+    "en": "Core definition of (6) GEO set (…ㅓ) section"
+  }
+}

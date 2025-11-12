@@ -1,0 +1,41 @@
+{
+  "id": "2_4_4_wo_cvc",
+  "unitId": "2_4_4_wo_cvc",
+  "type": "letters",
+
+  "title": {
+    "ko": "2.4.4 ㅝ — 받침 있음(CVC)",
+    "en": "2.4.4 ㅝ — With Final (CVC)",
+    "ja": "2.4.4 ㅝ — パッチムあり（CVC）",
+    "zh": "2.4.4 ㅝ — 有收音（CVC）",
+    "vi": "2.4.4 ㅝ — Có phụ âm cuối (CVC)",
+    "fr": "2.4.4 ㅝ — Avec finale (CVC)",
+    "de": "2.4.4 ㅝ — Mit Endkonsonant (CVC)",
+    "es": "2.4.4 ㅝ — Con final (CVC)",
+    "ru": "2.4.4 ㅝ — С конечным согласным (CVC)",
+    "mn": "2.4.4 ㅝ — Төгсгөлтэй (CVC)"
+  },
+
+  "description": {
+    "ko": "복합 모음 ㅝ로 이루어진 받침 있는(CVC) 음절을 연습합니다.",
+    "en": "Practice CVC syllables with the compound vowel ㅝ (with a coda).",
+    "ja": "複合母音 ㅝ を用いたパッチムあり（CVC）の音節を練習します。",
+    "zh": "练习由复合元音 ㅝ 构成的有收音（CVC）音节。",
+    "vi": "Luyện các âm tiết CVC với nguyên âm ghép ㅝ (có phụ âm cuối).",
+    "fr": "Entraînez des syllabes CVC avec la voyelle composée ㅝ (avec finale).",
+    "de": "Üben Sie CVC-Silben mit dem zusammengesetzten Vokal ㅝ (mit Auslaut).",
+    "es": "Practica sílabas CVC con la vocal compuesta ㅝ (con coda).",
+    "ru": "Тренируйте слоги CVC с составной гласной ㅝ (с конечным согласным).",
+    "mn": "Нийлмэл эгшиг ㅝ-тэй төгсгөлтэй (CVC) үеийг дадлага хийнэ."
+  },
+
+  "vowels": ["ㅝ"],
+  "sequence": ["원","월","웟","웡"],
+
+  "assetConventions": {
+    "strokeJson": "assets/strokes/syllables/{glyph}.json",
+    "audioMp3": "assets/audio/syllables/{glyph}.mp3"
+  },
+  "practice": { "enabled": true, "strokeAsset": "template", "audio": true, "repeat": 3 },
+  "uiHints": { "grid": 4, "rowGap": 8, "colGap": 8 }
+}

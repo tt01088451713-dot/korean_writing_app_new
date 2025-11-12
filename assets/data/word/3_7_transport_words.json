@@ -1,0 +1,128 @@
+{
+  "unit": "3. 단어",
+  "lesson_id": "3_7",
+  "title": {
+    "ko": "길/교통 단어",
+    "en": "Transport/Direction Words",
+    "ja": "交通/道案内の単語",
+    "zh": "交通/问路词汇",
+    "vi": "Từ về giao thông/hỏi đường",
+    "fr": "Mots du transport/de l’orientation",
+    "de": "Wörter zu Verkehr/Wegbeschreibung",
+    "es": "Palabras de transporte/direcciones",
+    "ru": "Слова: транспорт/направления",
+    "mn": "Тээвэр/зам заах үгс"
+  },
+  "themes": [
+    { "id": "tr_vehicle", "name": { "ko": "교통수단", "en": "Vehicles" } },
+    { "id": "tr_place", "name": { "ko": "장소/시설", "en": "Places" } },
+    { "id": "tr_direction", "name": { "ko": "방향", "en": "Directions" } }
+  ],
+  "items": [
+    {
+      "id": "tr_0001",
+      "type": "word",
+      "text": "버스",
+      "meanings": { "ko": "", "en": "bus", "ja": "バス", "zh": "公交车", "vi": "xe buýt", "fr": "bus", "de": "Bus", "es": "autobús", "ru": "автобус", "mn": "автобус" },
+      "reading": { "enabled": true },
+      "writing": { "enabled": true, "guides": ["버","스"] },
+      "tts": { "text": "버스", "lang": "ko-KR", "rate": 0.48 },
+      "metadata": { "theme": "교통수단" }
+    },
+    {
+      "id": "tr_0002",
+      "type": "word",
+      "text": "지하철",
+      "meanings": { "ko": "", "en": "subway/metro", "ja": "地下鉄", "zh": "地铁", "vi": "tàu điện ngầm", "fr": "métro", "de": "U-Bahn", "es": "metro", "ru": "метро", "mn": "газар доорх галт тэрэг" },
+      "reading": { "enabled": true },
+      "writing": { "enabled": true, "guides": ["지","하","철"] },
+      "tts": { "text": "지하철", "lang": "ko-KR", "rate": 0.48 },
+      "metadata": { "theme": "교통수단" }
+    },
+    {
+      "id": "tr_0003",
+      "type": "word",
+      "text": "택시",
+      "meanings": { "ko": "", "en": "taxi", "ja": "タクシー", "zh": "出租车", "vi": "taxi", "fr": "taxi", "de": "Taxi", "es": "taxi", "ru": "такси", "mn": "такси" },
+      "reading": { "enabled": true },
+      "writing": { "enabled": true, "guides": ["택","시"] },
+      "tts": { "text": "택시", "lang": "ko-KR", "rate": 0.48 },
+      "metadata": { "theme": "교통수단" }
+    },
+    {
+      "id": "tr_0004",
+      "type": "word",
+      "text": "역",
+      "meanings": { "ko": "", "en": "station", "ja": "駅", "zh": "车站", "vi": "ga/nhà ga", "fr": "gare", "de": "Bahnhof", "es": "estación", "ru": "станция/вокзал", "mn": "буудал" },
+      "reading": { "enabled": true },
+      "writing": { "enabled": true, "guides": ["역"] },
+      "tts": { "text": "역", "lang": "ko-KR", "rate": 0.5 },
+      "metadata": { "theme": "장소/시설" }
+    },
+    {
+      "id": "tr_0005",
+      "type": "word",
+      "text": "정류장",
+      "meanings": { "ko": "", "en": "bus stop", "ja": "バス停", "zh": "公交站", "vi": "trạm xe buýt", "fr": "arrêt de bus", "de": "Bushaltestelle", "es": "parada de autobús", "ru": "автобусная остановка", "mn": "автобусны зогсоол" },
+      "reading": { "enabled": true },
+      "writing": { "enabled": true, "guides": ["정","류","장"] },
+      "tts": { "text": "정류장", "lang": "ko-KR", "rate": 0.5 },
+      "metadata": { "theme": "장소/시설" }
+    },
+    {
+      "id": "tr_0006",
+      "type": "word",
+      "text": "지도",
+      "meanings": { "ko": "", "en": "map", "ja": "地図", "zh": "地图", "vi": "bản đồ", "fr": "carte", "de": "Karte", "es": "mapa", "ru": "карта", "mn": "газрын зураг" },
+      "reading": { "enabled": true },
+      "writing": { "enabled": true, "guides": ["지","도"] },
+      "tts": { "text": "지도", "lang": "ko-KR", "rate": 0.5 },
+      "metadata": { "theme": "장소/시설" }
+    },
+    {
+      "id": "tr_0007",
+      "type": "word",
+      "text": "왼쪽",
+      "meanings": { "ko": "", "en": "left", "ja": "左", "zh": "左边", "vi": "bên trái", "fr": "gauche", "de": "links", "es": "izquierda", "ru": "налево/левая сторона", "mn": "зүүн" },
+      "reading": { "enabled": true },
+      "writing": { "enabled": true, "guides": ["왼","쪽"] },
+      "tts": { "text": "왼쪽", "lang": "ko-KR", "rate": 0.5 },
+      "metadata": { "theme": "방향" }
+    },
+    {
+      "id": "tr_0008",
+      "type": "word",
+      "text": "오른쪽",
+      "meanings": { "ko": "", "en": "right", "ja": "右", "zh": "右边", "vi": "bên phải", "fr": "droite", "de": "rechts", "es": "derecha", "ru": "направо/правая сторона", "mn": "баруун" },
+      "reading": { "enabled": true },
+      "writing": { "enabled": true, "guides": ["오","른","쪽"] },
+      "tts": { "text": "오른쪽", "lang": "ko-KR", "rate": 0.5 },
+      "metadata": { "theme": "방향" }
+    },
+    {
+      "id": "tr_0009",
+      "type": "word",
+      "text": "직진",
+      "meanings": { "ko": "", "en": "go straight", "ja": "直進", "zh": "直行", "vi": "đi thẳng", "fr": "tout droit", "de": "geradeaus", "es": "todo recto", "ru": "прямо", "mn": "шулуун явах" },
+      "reading": { "enabled": true },
+      "writing": { "enabled": true, "guides": ["직","진"] },
+      "tts": { "text": "직진", "lang": "ko-KR", "rate": 0.5 },
+      "metadata": { "theme": "방향" }
+    },
+    {
+      "id": "tr_0010",
+      "type": "word",
+      "text": "신호등",
+      "meanings": { "ko": "", "en": "traffic light", "ja": "信号", "zh": "红绿灯", "vi": "đèn giao thông", "fr": "feu de circulation", "de": "Ampel", "es": "semáforo", "ru": "светофор", "mn": "гэрлэн дохио" },
+      "reading": { "enabled": true },
+      "writing": { "enabled": true, "guides": ["신","호","등"] },
+      "tts": { "text": "신호등", "lang": "ko-KR", "rate": 0.5 },
+      "metadata": { "theme": "장소/시설" }
+    }
+  ],
+  "activities": [
+    { "id": "a_read_cards_vehicle", "type": "read_cards", "title": { "ko": "읽기 카드: 교통수단", "en": "Reading Cards: Vehicles" }, "options": { "items": ["tr_0001","tr_0002","tr_0003"], "autoShuffle": true } },
+    { "id": "a_write_direction", "type": "write_words", "title": { "ko": "따라 쓰기: 방향", "en": "Copy Words: Directions" }, "options": { "items": ["tr_0007","tr_0008","tr_0009"] } }
+  ],
+  "routing": { "hubRoute": "/words/hub", "detailRoute": "/words/lesson" }
+}

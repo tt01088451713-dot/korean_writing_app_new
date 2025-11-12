@@ -1,0 +1,41 @@
+{
+  "id": "2_4_5_ui_cv",
+  "unitId": "2_4_5_ui_cv",
+  "type": "letters",
+
+  "title": {
+    "ko": "2.4.5 ㅢ — 받침 없음(CV)",
+    "en": "2.4.5 ㅢ — No Final (CV)",
+    "ja": "2.4.5 ㅢ — パッチムなし（CV）",
+    "zh": "2.4.5 ㅢ — 无收音（CV）",
+    "vi": "2.4.5 ㅢ — Không phụ âm cuối (CV)",
+    "fr": "2.4.5 ㅢ — Sans finale (CV)",
+    "de": "2.4.5 ㅢ — Ohne Endkonsonant (CV)",
+    "es": "2.4.5 ㅢ — Sin final (CV)",
+    "ru": "2.4.5 ㅢ — Без финали (CV)",
+    "mn": "2.4.5 ㅢ — Төгсгөлгүй (CV)"
+  },
+
+  "description": {
+    "ko": "복합 모음 ㅢ로 이루어진 받침 없는(CV) 음절을 연습합니다.",
+    "en": "Practice CV syllables with the compound vowel ㅢ.",
+    "ja": "複合母音 ㅢ を用いたパッチムなし（CV）の音節を練習します。",
+    "zh": "练习由复合元音 ㅢ 构成的无收音（CV）音节。",
+    "vi": "Luyện các âm tiết CV với nguyên âm ghép ㅢ.",
+    "fr": "Entraînez des syllabes CV avec la voyelle composée ㅢ.",
+    "de": "Üben Sie CV-Silben mit dem zusammengesetzten Vokal ㅢ.",
+    "es": "Practica sílabas CV con la vocal compuesta ㅢ.",
+    "ru": "Тренируйте слоги CV с составной гласной ㅢ.",
+    "mn": "Нийлмэл эгшиг ㅢ-тэй төгсгөлгүй (CV) үеийг дадлага хийнэ."
+  },
+
+  "vowels": ["ㅢ"],
+  "initials": ["ㄱ","ㄴ","ㄷ","ㄹ","ㅁ","ㅂ","ㅅ","ㅇ","ㅈ","ㅊ","ㅋ","ㅌ","ㅍ","ㅎ"],
+
+  "sequence": ["긔","늬","듸","릐","믜","븨","싀","의","즤","취","킈","튀","픠","휘"],
+
+  "assetConventions": {
+    "strokeJson": "assets/strokes/syllables/{glyph}.json",
+    "audioMp3": "assets/audio/syllables/{glyph}.mp3"
+  }
+}

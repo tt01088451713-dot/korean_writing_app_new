@@ -1,0 +1,299 @@
+{
+  "unit": "4. 문장",
+  "lesson_id": "4_5",
+  "title": {
+    "ko": "가게에서",
+    "en": "At a Store/Market",
+    "ja": "お店・市場で",
+    "zh": "在商店/市场",
+    "vi": "Ở cửa hàng/chợ",
+    "fr": "Au magasin/au marché",
+    "de": "Im Geschäft/auf dem Markt",
+    "es": "En la tienda/mercado",
+    "ru": "В магазине/на рынке",
+    "mn": "Дэлгүүр/зах дээр"
+  },
+  "patterns": [
+    {
+      "id": "p_price",
+      "name": { "ko": "가격 묻기", "en": "Asking the Price" },
+      "explain": {
+        "ko": "물건의 가격을 자연스럽게 묻는 표현입니다.",
+        "en": "Natural expressions for asking the price of an item."
+      }
+    },
+    {
+      "id": "p_payment",
+      "name": { "ko": "결제/영수증", "en": "Payment & Receipt" },
+      "explain": {
+        "ko": "현금/카드 결제와 영수증 요청 표현입니다.",
+        "en": "Expressions for paying by cash/card and asking for a receipt."
+      }
+    },
+    {
+      "id": "p_request_store",
+      "name": { "ko": "요청/사이즈/교환", "en": "Request/Size/Exchange" },
+      "explain": {
+        "ko": "사이즈, 색상, 교환/환불 등의 상황 표현입니다.",
+        "en": "Asking for size/color and exchange/return situations."
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": "st_0001",
+      "type": "sentence",
+      "text": "이거 얼마예요?",
+      "translations": {
+        "ko": "",
+        "en": "How much is this?",
+        "ja": "これはいくらですか。",
+        "zh": "这个多少钱？",
+        "vi": "Cái này bao nhiêu tiền?",
+        "fr": "C'est combien ?",
+        "de": "Wie viel kostet das?",
+        "es": "¿Cuánto cuesta esto?",
+        "ru": "Сколько это стоит?",
+        "mn": "Энэ хэд вэ?"
+      },
+      "reading": { "enabled": true, "display": "text", "fragments": ["이거","얼마예요?"] },
+      "writing": { "enabled": true, "guides": ["이","거","얼","마","예","요?"] },
+      "tts": { "text": "이거 얼마예요?", "lang": "ko-KR", "rate": 0.5, "pitch": 1.0, "volume": 1.0 },
+      "metadata": { "theme": "가격", "pattern": "의문문" }
+    },
+    {
+      "id": "st_0002",
+      "type": "sentence",
+      "text": "조금 싸게 해 주세요.",
+      "translations": {
+        "ko": "",
+        "en": "Please make it a bit cheaper.",
+        "ja": "もう少し安くしてください。",
+        "zh": "请便宜一点。",
+        "vi": "Làm ơn bớt cho một chút.",
+        "fr": "Faites un peu moins cher, s'il vous plaît.",
+        "de": "Bitte machen Sie es etwas günstiger.",
+        "es": "Por favor, hágamelo un poco más barato.",
+        "ru": "Сделайте, пожалуйста, подешевле.",
+        "mn": "Бага зэрэг хямдруулж өгнө үү."
+      },
+      "reading": { "enabled": true },
+      "writing": { "enabled": true, "guides": ["조","금","싸","게","해","주","세","요."] },
+      "tts": { "text": "조금 싸게 해 주세요.", "lang": "ko-KR", "rate": 0.48, "pitch": 1.0, "volume": 1.0 },
+      "metadata": { "theme": "가격", "pattern": "요청문" }
+    },
+    {
+      "id": "st_0003",
+      "type": "sentence",
+      "text": "할인 있어요?",
+      "translations": {
+        "ko": "",
+        "en": "Do you have a discount?",
+        "ja": "割引はありますか。",
+        "zh": "有折扣吗？",
+        "vi": "Có giảm giá không?",
+        "fr": "Y a-t-il une réduction ?",
+        "de": "Gibt es einen Rabatt?",
+        "es": "¿Hay descuento?",
+        "ru": "Есть скидка?",
+        "mn": "Хямдрал байна уу?"
+      },
+      "reading": { "enabled": true },
+      "writing": { "enabled": true, "guides": ["할","인","있","어","요?"] },
+      "tts": { "text": "할인 있어요?", "lang": "ko-KR", "rate": 0.52, "pitch": 1.0, "volume": 1.0 },
+      "metadata": { "theme": "가격", "pattern": "의문문" }
+    },
+    {
+      "id": "st_0004",
+      "type": "sentence",
+      "text": "다른 색 있어요?",
+      "translations": {
+        "ko": "",
+        "en": "Do you have another color?",
+        "ja": "他の色はありますか。",
+        "zh": "有别的颜色吗？",
+        "vi": "Có màu khác không?",
+        "fr": "Avez-vous une autre couleur ?",
+        "de": "Gibt es eine andere Farbe?",
+        "es": "¿Tiene otro color?",
+        "ru": "Есть другой цвет?",
+        "mn": "Өөр өнгө байна уу?"
+      },
+      "reading": { "enabled": true },
+      "writing": { "enabled": true, "guides": ["다","른","색","있","어","요?"] },
+      "tts": { "text": "다른 색 있어요?", "lang": "ko-KR", "rate": 0.52, "pitch": 1.0, "volume": 1.0 },
+      "metadata": { "theme": "선택", "pattern": "의문문" }
+    },
+    {
+      "id": "st_0005",
+      "type": "sentence",
+      "text": "다른 사이즈 있어요?",
+      "translations": {
+        "ko": "",
+        "en": "Do you have another size?",
+        "ja": "他のサイズはありますか。",
+        "zh": "有别的尺码吗？",
+        "vi": "Có kích cỡ khác không?",
+        "fr": "Avez-vous une autre taille ?",
+        "de": "Gibt es eine andere Größe?",
+        "es": "¿Tiene otra talla?",
+        "ru": "Есть другой размер?",
+        "mn": "Өөр хэмжээ байна уу?"
+      },
+      "reading": { "enabled": true },
+      "writing": { "enabled": true, "guides": ["다","른","사","이","즈","있","어","요?"] },
+      "tts": { "text": "다른 사이즈 있어요?", "lang": "ko-KR", "rate": 0.52, "pitch": 1.0, "volume": 1.0 },
+      "metadata": { "theme": "선택", "pattern": "의문문" }
+    },
+    {
+      "id": "st_0006",
+      "type": "sentence",
+      "text": "이거 입어 봐도 돼요?",
+      "translations": {
+        "ko": "",
+        "en": "May I try this on?",
+        "ja": "これ、試着してもいいですか。",
+        "zh": "这个可以试穿吗？",
+        "vi": "Tôi thử cái này được không?",
+        "fr": "Je peux l'essayer ?",
+        "de": "Darf ich das anprobieren?",
+        "es": "¿Puedo probármelo?",
+        "ru": "Можно это примерить?",
+        "mn": "Энийг өмсөж үзэж болох уу?"
+      },
+      "reading": { "enabled": true, "fragments": ["이거","입어","봐도","돼요?"] },
+      "writing": { "enabled": true, "guides": ["이","거","입","어","봐","도","돼","요?"] },
+      "tts": { "text": "이거 입어 봐도 돼요?", "lang": "ko-KR", "rate": 0.5, "pitch": 1.0, "volume": 1.0 },
+      "metadata": { "theme": "요청", "pattern": "허락 요청" }
+    },
+    {
+      "id": "st_0007",
+      "type": "sentence",
+      "text": "현금으로 계산할게요.",
+      "translations": {
+        "ko": "",
+        "en": "I'll pay in cash.",
+        "ja": "現金で支払います。",
+        "zh": "我用现金付款。",
+        "vi": "Tôi sẽ trả bằng tiền mặt.",
+        "fr": "Je paierai en espèces.",
+        "de": "Ich zahle bar.",
+        "es": "Pagaré en efectivo.",
+        "ru": "Я заплачу наличными.",
+        "mn": "Бэлнээр тооцоо хийе."
+      },
+      "reading": { "enabled": true },
+      "writing": { "enabled": true, "guides": ["현","금","으","로","계","산","할","게","요."] },
+      "tts": { "text": "현금으로 계산할게요.", "lang": "ko-KR", "rate": 0.48, "pitch": 1.0, "volume": 1.0 },
+      "metadata": { "theme": "결제", "pattern": "평서문" }
+    },
+    {
+      "id": "st_0008",
+      "type": "sentence",
+      "text": "카드 되나요?",
+      "translations": {
+        "ko": "",
+        "en": "Do you take cards?",
+        "ja": "カードは使えますか。",
+        "zh": "可以刷卡吗？",
+        "vi": "Thanh toán bằng thẻ được không?",
+        "fr": "Prenez-vous la carte ?",
+        "de": "Nehmen Sie Karte?",
+        "es": "¿Aceptan tarjeta?",
+        "ru": "Можно заплатить картой?",
+        "mn": "Карт уншдаг уу?"
+      },
+      "reading": { "enabled": true },
+      "writing": { "enabled": true, "guides": ["카","드","되","나","요?"] },
+      "tts": { "text": "카드 되나요?", "lang": "ko-KR", "rate": 0.5, "pitch": 1.0, "volume": 1.0 },
+      "metadata": { "theme": "결제", "pattern": "의문문" }
+    },
+    {
+      "id": "st_0009",
+      "type": "sentence",
+      "text": "영수증 주세요.",
+      "translations": {
+        "ko": "",
+        "en": "Please give me the receipt.",
+        "ja": "レシート（領収書）をください。",
+        "zh": "请给我收据。",
+        "vi": "Cho tôi hóa đơn.",
+        "fr": "Donnez-moi le reçu, s'il vous plaît.",
+        "de": "Bitte geben Sie mir die Quittung.",
+        "es": "La factura/el recibo, por favor.",
+        "ru": "Дайте, пожалуйста, чек.",
+        "mn": "Баримт өгнө үү."
+      },
+      "reading": { "enabled": true },
+      "writing": { "enabled": true, "guides": ["영","수","증","주","세","요."] },
+      "tts": { "text": "영수증 주세요.", "lang": "ko-KR", "rate": 0.5, "pitch": 1.0, "volume": 1.0 },
+      "metadata": { "theme": "결제", "pattern": "요청문" }
+    },
+    {
+      "id": "st_0010",
+      "type": "sentence",
+      "text": "교환이나 환불 되나요?",
+      "translations": {
+        "ko": "",
+        "en": "Can I exchange or get a refund?",
+        "ja": "交換や返金はできますか。",
+        "zh": "可以换货或退款吗？",
+        "vi": "Có đổi hoặc hoàn tiền được không?",
+        "fr": "Puis-je échanger ou me faire rembourser ?",
+        "de": "Kann ich umtauschen oder eine Rückerstattung bekommen?",
+        "es": "¿Puedo cambiar o recibir un reembolso?",
+        "ru": "Можно обменять или вернуть?",
+        "mn": "Солих эсвэл буцаалт хийж болох уу?"
+      },
+      "reading": { "enabled": true },
+      "writing": { "enabled": true, "guides": ["교","환","이","나","환","불","되","나","요?"] },
+      "tts": { "text": "교환이나 환불 되나요?", "lang": "ko-KR", "rate": 0.52, "pitch": 1.0, "volume": 1.0 },
+      "metadata": { "theme": "교환/환불", "pattern": "의문문" }
+    }
+  ],
+  "activities": [
+    {
+      "id": "a_read_cards_store",
+      "type": "read_cards",
+      "title": {
+        "ko": "읽기 카드: 가게",
+        "en": "Reading Cards: Store"
+      },
+      "options": { "items": ["st_0001","st_0002","st_0003","st_0004","st_0008","st_0009"], "autoShuffle": true }
+    },
+    {
+      "id": "a_reorder_price",
+      "type": "read_reorder_fragments",
+      "title": {
+        "ko": "어절 순서 배열(가격)",
+        "en": "Reorder Words (Price)"
+      },
+      "options": { "target": "st_0001", "fragments": ["얼마예요?","이거"] }
+    },
+    {
+      "id": "a_write_store",
+      "type": "write_sentences",
+      "title": {
+        "ko": "문장 따라 쓰기: 가게",
+        "en": "Copy the Sentences: Store"
+      },
+      "options": { "items": ["st_0002","st_0007","st_0009"] }
+    },
+    {
+      "id": "a_match_store_meaning",
+      "type": "read_match_meaning",
+      "title": {
+        "ko": "뜻과 연결: 가게 문장",
+        "en": "Match Meaning: Store Sentences"
+      },
+      "options": {
+        "pairs": [
+          ["st_0001", "price"],
+          ["st_0008", "card"],
+          ["st_0009", "receipt"]
+        ]
+      }
+    }
+  ],
+  "routing": { "hubRoute": "/sentences/hub", "detailRoute": "/sentences/lesson" }
+}

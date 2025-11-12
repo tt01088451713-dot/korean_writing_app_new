@@ -1,0 +1,23 @@
+{
+  "unitId": "2_1_9_gye_ye",
+  "type": "letters",
+  "title": {
+  "ko": "계~혜 (…예)",
+  "en": "Gye–Hye (…-ye series)",
+  "ja": "ゲェ〜ヘェ（…-ye 系）",
+  "zh": "桂~惠（…-ye 系列）",
+  "vi": "Gye–Hye (nhóm …-ye)",
+  "fr": "Gye–Hye (série …-ye)",
+  "de": "Gye–Hye (…-ye-Reihe)",
+  "es": "Gye–Hye (serie …-ye)",
+  "ru": "Gye–Hye (ряд …-ye)",
+  "mn": "Gye–Hye (…-ye цуврал)"
+  },
+  "practice": { "enabled": true, "strokeAsset": "template", "audio": true, "repeat": 3 },
+  "sequence": ["계","녜","뎨","례","몌","볘","셰","예","졔","쳬","켸","톄","폐","혜"],
+  "assetConventions": {
+    "strokeJson": "assets/strokes/syllables/{glyph}.json",
+    "audioMp3": "assets/audio/syllables/{glyph}.mp3"
+  },
+  "uiHints": { "grid": 7, "rowGap": 8, "colGap": 8 }
+}

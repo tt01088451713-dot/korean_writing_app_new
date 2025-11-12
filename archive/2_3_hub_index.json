@@ -1,0 +1,36 @@
+{
+  "id": "2_3_hub_index",
+  "title": { 
+    "ko": "좌우상하 결합형", 
+    "en": "Complex (Left–Right + Bottom)",
+    "ja": "左右上下結合型",
+    "zh": "左右上下结合法",
+    "vi": "Kết hợp trái–phải + trên–dưới",
+    "fr": "Combinaison gauche–droite + haut–bas",
+    "de": "Kombination Links–Rechts + Oben–Unten",
+    "es": "Combinación Izq-Der + Arriba-Abajo",
+    "ru": "Комбинация слева-справа + сверху-снизу",
+    "mn": "Зүүн-баруун + Дээр-доор хослол"
+  },
+
+  "overviewRef": "assets/data/letters/overviews/2_3_overview.json",
+  "desc": {
+    "ko": "좌우 결합에 받침(아래)이 더해지는 복합(CVC) 배열입니다. 아래 카드에서 파트를 선택하면 해당 인덱스로 이동합니다.",
+    "en": "Complex blocks combining left–right layout with a bottom final. Choose a part below to open its index."
+  },
+
+  "items": [
+    {
+      "title": { "ko": "(1) ㅏ·ㅑ·ㅐ·ㅒ + 받침", "en": "(1) a/ya/ae/yae + finals" },
+      "route": "assets/data/letters/2_3/2_3_1_a_ya_ae_yae_cvc.json"
+    },
+    {
+      "title": { "ko": "(2) ㅓ·ㅕ·ㅔ·ㅖ + 받침", "en": "(2) eo/yeo/e/ye + finals" },
+      "route": "assets/data/letters/2_3/2_3_2_eo_yeo_e_ye_cvc.json"
+    },
+    {
+      "title": { "ko": "(3) ㅣ + 받침", "en": "(3) i + finals" },
+      "route": "assets/data/letters/2_3/2_3_3_i_cvc.json"
+    }
+  ]
+}

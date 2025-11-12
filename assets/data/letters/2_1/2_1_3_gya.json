@@ -1,0 +1,23 @@
+{
+  "unitId": "2_1_3_gya",
+  "type": "letters",
+  "title": {
+  "ko": "갸~햐 (…야)",
+  "en": "Gya–Hya (…-ya series)",
+  "ja": "キャ〜ヒャ（…-ya 系）",
+  "zh": "加亚~哈亚（…-ya 系列）",
+  "vi": "Gya–Hya (nhóm …-ya)",
+  "fr": "Gya–Hya (série …-ya)",
+  "de": "Gya–Hya (…-ya-Reihe)",
+  "es": "Gya–Hya (serie …-ya)",
+  "ru": "Gya–Hya (ряд …-ya)",
+  "mn": "Gya–Hya (…-ya цуврал)"
+  },
+  "practice": { "enabled": true, "strokeAsset": "template", "audio": true, "repeat": 3 },
+  "sequence": ["갸","냐","댜","랴","먀","뱌","샤","야","쟈","챠","캬","탸","퍄","햐"],
+  "assetConventions": {
+    "strokeJson": "assets/strokes/syllables/{glyph}.json",
+    "audioMp3": "assets/audio/syllables/{glyph}.mp3"
+  },
+  "uiHints": { "grid": 7, "rowGap": 8, "colGap": 8 }
+}

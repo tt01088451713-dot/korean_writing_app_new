@@ -1,0 +1,23 @@
+{
+  "unitId": "2_1_7_gyeo_yeo",
+  "type": "letters",
+  "title": {
+  "ko": "겨~혀 (…여)",
+  "en": "Gyeo–Hyeo (…-yeo series)",
+  "ja": "キョ〜ヒョ（…-yeo 系）",
+  "zh": "敬~许（…-yeo 系列）",
+  "vi": "Gyeo–Hyeo (nhóm …-yeo)",
+  "fr": "Gyeo–Hyeo (série …-yeo)",
+  "de": "Gyeo–Hyeo (…-yeo-Reihe)",
+  "es": "Gyeo–Hyeo (serie …-yeo)",
+  "ru": "Gyeo–Hyeo (ряд …-yeo)",
+  "mn": "Gyeо–Hyeo (…-yeo цуврал)"
+  },
+  "practice": { "enabled": true, "strokeAsset": "template", "audio": true, "repeat": 3 },
+  "sequence": ["겨","녀","뎌","려","며","벼","셔","여","져","쳐","켜","텨","펴","혀"],
+  "assetConventions": {
+    "strokeJson": "assets/strokes/syllables/{glyph}.json",
+    "audioMp3": "assets/audio/syllables/{glyph}.mp3"
+  },
+  "uiHints": { "grid": 7, "rowGap": 8, "colGap": 8 }
+}

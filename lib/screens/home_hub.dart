@@ -2,53 +2,66 @@
 import 'package:flutter/material.dart';
 import 'package:korean_writing_app_new/i18n/ui_texts.dart';
 import 'package:korean_writing_app_new/theme_state.dart';
+// 앱 정보 페이지 import (사용됨)
+import 'package:korean_writing_app_new/screens/app_info_page.dart';
 
 class CurriculumHubPage extends StatelessWidget {
   const CurriculumHubPage({super.key});
 
+  // i18n 안전 폴백
+  String _t(String key, String fallback) {
+    try {
+      final s = UiText.t(key);
+      if (s.trim().isNotEmpty && s != key) return s;
+    } catch (_) {}
+    return fallback;
+  }
+
+  // 네비게이션 안전 가드
+  void _safePushNamed(BuildContext context, String route) {
+    try {
+      Navigator.pushNamed(context, route);
+    } catch (e) {
+      debugPrint('Navigation error to $route: $e');
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(content: Text(_t('navError', '이동 중 오류가 발생했습니다.'))),
+      );
+    }
+  }
+
   @override
   Widget build(BuildContext context) {
-    // i18n 키가 없을 때 깔끔한 폴백(표시: 'QA')
-    final qaLabel = (() {
-      final s = UiText.t('qaChecklist');
-      return (s == 'qaChecklist') ? 'QA' : s;
-    })();
-
+    // 메뉴 라벨 i18n 폴백
     final items = <_HubItem>[
-      _HubItem(UiText.t('menuJamo'), Icons.grid_on, '/jamo'),
-      _HubItem(UiText.t('menuLetters'), Icons.view_module, '/letters'),
-      _HubItem(UiText.t('menuWords'), Icons.text_fields, '/words'),
-      // ✅ QA 체크리스트 독립 화면
-      _HubItem(qaLabel, Icons.fact_check, '/qa'),
+      _HubItem(_t('menuJamo', '자모'), Icons.grid_on, '/jamo'),
+      _HubItem(_t('menuLetters', '글자'), Icons.view_module, '/letters'),
+      _HubItem(_t('menuWords', '단어'), Icons.text_fields, '/words'),
+      _HubItem(_t('menuSentences', '문장'), Icons.short_text, '/sentences'),
+      // ✅ 하단에 추가될 App Info 카드 (특수 route 값 사용)
+      _HubItem(_t('appInfo', 'App Info'), Icons.info_outline, '__app_info__'),
     ];
 
     return Scaffold(
       appBar: AppBar(
-        title: Text(UiText.t('curriculum')),
+        title: Text(_t('curriculum', '커리큘럼')),
         actions: [
+          // ✅ 상단 App Info 아이콘 제거, 기존 언어/테마 메뉴만 유지
           PopupMenuButton<String>(
             onSelected: (v) {
               if (v == 'lang') {
-                Navigator.pushReplacementNamed(context, '/'); // 언어 선택으로
+                Navigator.pushReplacementNamed(context, '/');
               } else if (v == 'theme') {
                 _showColorSheet(context);
-              } else if (v == 'qa') {
-                Navigator.pushNamed(context, '/qa'); // ✅ QA로 이동
               }
             },
             itemBuilder: (_) => [
               PopupMenuItem(
                 value: 'lang',
-                child: Text(UiText.t('changeLanguage')),
+                child: Text(_t('changeLanguage', '언어 변경')),
               ),
               PopupMenuItem(
                 value: 'theme',
-                child: Text(UiText.t('customizeColors')),
-              ),
-              const PopupMenuDivider(),
-              PopupMenuItem(
-                value: 'qa',
-                child: Text(qaLabel),
+                child: Text(_t('customizeColors', '색상 커스터마이즈')),
               ),
             ],
           ),
@@ -57,7 +70,19 @@ class CurriculumHubPage extends StatelessWidget {
       body: LayoutBuilder(
         builder: (context, c) {
           final w = c.maxWidth;
-          final cross = w >= 1100 ? 4 : w >= 750 ? 3 : 2; // 반응형 컬럼 수
+          final cross = w >= 1100
+              ? 4
+              : w >= 750
+              ? 3
+              : 2;
+          final ratio = w >= 1100
+              ? 1.15
+              : w >= 750
+              ? 1.12
+              : 1.08;
+
+          // 화면 폭에 따른 라벨 글꼴 크기(안정적 권장값)
+          final double labelSize = w >= 1100 ? 22.0 : (w >= 750 ? 20.0 : 18.0);
 
           return GridView.builder(
             padding: const EdgeInsets.all(16),
@@ -65,7 +90,7 @@ class CurriculumHubPage extends StatelessWidget {
               crossAxisCount: cross,
               mainAxisSpacing: 12,
               crossAxisSpacing: 12,
-              childAspectRatio: 1.1,
+              childAspectRatio: ratio,
             ),
             itemCount: items.length,
             itemBuilder: (_, i) {
@@ -76,26 +101,47 @@ class CurriculumHubPage extends StatelessWidget {
                   return ValueListenableBuilder<Color>(
                     valueListenable: AppTheme.glyphColor,
                     builder: (_, glyphC, __) {
-                      return Card(
-                        color: cardC.withOpacity(kCardBgOpacity),
-                        clipBehavior: Clip.hardEdge,
-                        child: InkWell(
-                          onTap: () => Navigator.pushNamed(context, it.route),
-                          child: Center(
-                            child: Column(
-                              mainAxisSize: MainAxisSize.min,
-                              children: [
-                                Icon(it.icon, size: 40, color: glyphC),
-                                const SizedBox(height: 10),
-                                Text(
-                                  it.label,
-                                  style: Theme.of(context)
-                                      .textTheme
-                                      .titleMedium
-                                      ?.copyWith(color: glyphC),
-                                  textAlign: TextAlign.center,
-                                ),
-                              ],
+                      return Semantics(
+                        button: true,
+                        label: it.label,
+                        child: Card(
+                          color: cardC.withValues(alpha: kCardBgOpacity),
+                          clipBehavior: Clip.hardEdge,
+                          child: InkWell(
+                            onTap: () {
+                              // ✅ App Info 카드만 직접 AppInfoPage로 이동
+                              if (it.route == '__app_info__') {
+                                Navigator.push(
+                                  context,
+                                  MaterialPageRoute(
+                                    builder: (context) =>
+                                    const AppInfoPage(),
+                                  ),
+                                );
+                              } else {
+                                _safePushNamed(context, it.route);
+                              }
+                            },
+                            child: Center(
+                              child: Column(
+                                mainAxisSize: MainAxisSize.min,
+                                children: [
+                                  Icon(it.icon, size: 40, color: glyphC),
+                                  const SizedBox(height: 10),
+                                  Text(
+                                    it.label,
+                                    style: Theme.of(context)
+                                        .textTheme
+                                        .titleMedium
+                                        ?.copyWith(
+                                      color: glyphC,
+                                      fontSize: labelSize,
+                                      fontWeight: FontWeight.w600,
+                                    ),
+                                    textAlign: TextAlign.center,
+                                  ),
+                                ],
+                              ),
                             ),
                           ),
                         ),
@@ -116,7 +162,7 @@ class _HubItem {
   final String label;
   final IconData icon;
   final String route;
-  _HubItem(this.label, this.icon, this.route);
+  const _HubItem(this.label, this.icon, this.route);
 }
 
 // ───────── 색상 설정 시트 ─────────
@@ -130,14 +176,20 @@ void _showColorSheet(BuildContext context) {
           mainAxisSize: MainAxisSize.min,
           children: [
             Text(
-              UiText.t('customizeColors'),
+              UiText.t('customizeColors') != 'customizeColors'
+                  ? UiText.t('customizeColors')
+                  : '색상 커스터마이즈',
               style: const TextStyle(fontWeight: FontWeight.bold),
             ),
             const SizedBox(height: 8),
             Row(
               crossAxisAlignment: CrossAxisAlignment.center,
               children: [
-                Text(UiText.t('cardColor')),
+                Text(
+                  UiText.t('cardColor') != 'cardColor'
+                      ? UiText.t('cardColor')
+                      : '카드 색상',
+                ),
                 const SizedBox(width: 12),
                 Expanded(
                   child: Wrap(
@@ -166,7 +218,11 @@ void _showColorSheet(BuildContext context) {
             Row(
               crossAxisAlignment: CrossAxisAlignment.center,
               children: [
-                Text(UiText.t('letterColor')),
+                Text(
+                  UiText.t('letterColor') != 'letterColor'
+                      ? UiText.t('letterColor')
+                      : '글자 색상',
+                ),
                 const SizedBox(width: 12),
                 Expanded(
                   child: Wrap(
@@ -196,7 +252,9 @@ void _showColorSheet(BuildContext context) {
               alignment: Alignment.centerRight,
               child: TextButton(
                 onPressed: AppTheme.reset,
-                child: Text(UiText.t('reset')),
+                child: Text(
+                  UiText.t('reset') != 'reset' ? UiText.t('reset') : '초기화',
+                ),
               ),
             ),
           ],

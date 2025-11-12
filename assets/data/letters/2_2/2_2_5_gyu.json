@@ -1,0 +1,24 @@
+{
+  "id": "2_2_5_a",
+  "unitId": "2_2_5_gyu",
+  "type": "letters",
+  "title": {
+    "ko": "2.2 (5) 규~휴 세트 (…유)",
+    "en": "2.2 (5) Vowel ㅠ (gyu~hyu)",
+    "ja": "2.2 (5) 母音 ㅠ（gyu〜hyu）",
+    "zh": "2.2 (5) 元音 ㅠ（gyu~hyu）",
+    "vi": "2.2 (5) Nguyên âm ㅠ (gyu~hyu)",
+    "fr": "2.2 (5) Voyelle ㅠ (gyu~hyu)",
+    "de": "2.2 (5) Vokal ㅠ (gyu–hyu)",
+    "es": "2.2 (5) Vocal ㅠ (gyu~hyu)",
+    "ru": "2.2 (5) Гласный ㅠ (gyu~hyu)",
+    "mn": "2.2 (5) Эгшиг ㅠ (gyu~hyu)"
+  },
+  "assetConventions": {
+    "strokeJson": "assets/strokes/syllables/{glyph}.json",
+    "audioMp3": "assets/audio/syllables/{glyph}.mp3"
+  },
+  "practice": { "enabled": true, "strokeAsset": "template", "audio": true, "repeat": 3 },
+  "sequence": ["규","뉴","듀","류","뮤","뷰","슈","유","쥬","츄","큐","튜","퓨","휴"],
+  "uiHints": { "grid": 7, "rowGap": 8, "colGap": 8 }
+}

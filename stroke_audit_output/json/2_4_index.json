@@ -1,0 +1,114 @@
+{
+  "id": "2_4_index",
+  "ttsVersion": "1.0",
+  "title": {
+    "ko": "‘ㅢ형’ (ㄴ형·L-Shape 복합모음)",
+    "en": "“UI-type” (ㄴ/L-shape Compound Vowels)",
+    "zh": "“ㅢ型”（ㄴ形/L形复合元音）",
+    "ja": "「ㅢ型」（ㄴ形・L字型の複合母音）",
+    "vi": "Dạng “ㅢ” (chữ ㄴ/L, nguyên âm ghép)",
+    "fr": "Type « ㅢ » (voyelles composées en L)",
+    "es": "Tipo «ㅢ» (vocal compuesta en L)",
+    "ru": "Тип «ㅢ» (составные гласные формы ㄴ/L)",
+    "mn": "“ㅢ” төрөл (ㄴ/L хэлбэрийн нийлмэл эгшиг)"
+  },
+  "description": {
+    "ko": "‘ㅢ형’은 자모가 ㄴ(L)자 배치로 결합하는 형태입니다. CV(이합식: 초성+복합모음)에서는 초성이 좌측 상단, 복합모음(ㅘ·ㅙ·ㅚ·ㅝ·ㅞ·ㅟ·ㅢ)이 우측에 세로 기둥처럼 놓여 ㄴ형을 이루며, CVC(삼합식)에서는 여기에 종성이 하부에 더해집니다. 본 단원은 사용 빈도가 높은 예를 우선 수록하고, 모든 항목에 TTS 매핑을 포함합니다.",
+    "en": "The “UI-type” uses an L-shaped layout: in CV the initial is top-left and the compound vowel (ㅘ/ㅙ/ㅚ/ㅝ/ㅞ/ㅟ/ㅢ) forms a right vertical pillar; in CVC a final consonant is added at the bottom. We prioritize frequent forms and include TTS mappings.",
+    "zh": "“ㅢ型”为ㄴ/L形排列：CV中初声在左上、复合元音在右侧竖列；CVC时下方再加终声。本单元以常用形式为主，并附TTS映射。",
+    "ja": "「ㅢ型」はㄴ（L）字配置です。CVでは初声が左上、複合母音が右側に縦柱として置かれ、CVCでは下部に終声が加わります。使用頻度の高い形を優先し、TTSを付与します。",
+    "vi": "Dạng “ㅢ” có bố cục chữ ㄴ/L: ở CV phụ âm đầu ở góc trái-trên, nguyên âm ghép là cột bên phải; ở CVC thêm 받침 phía dưới. Ưu tiên dạng thông dụng và kèm TTS.",
+    "fr": "Le type « ㅢ » adopte une disposition en ㄴ/L : en CV, l’initiale en haut-gauche et la voyelle composée en pilier droit ; en CVC, une finale est ajoutée en bas. Les formes fréquentes sont privilégiées avec TTS.",
+    "es": "El tipo «ㅢ» usa disposición en ㄴ/L: en CV la inicial arriba-izquierda y la vocal compuesta como pilar derecho; en CVC se añade una final abajo. Priorizamos formas frecuentes con TTS.",
+    "ru": "Тип «ㅢ» — раскладка в форме ㄴ/L: в CV начальная слева-сверху, составная гласная справа столбцом; в CVC добавляется финаль внизу. В приоритете частые формы с TTS.",
+    "mn": "“ㅢ” төрөл нь ㄴ/L хэлбэрийн байрлалтай. CV-д эхний гийгүүлэгч зүүн дээдэд, нийлмэл эгшиг баруун талд; CVC-д доор 받чим нэмэгдэнэ. Түгээмэл хэлбэрүүдийг TTS-тайгаар үзүүлнэ."
+  },
+  "notesRoute": "/letters/2_4_notes_multilang.json",
+  "ttsRulesRoute": "/assets/data/common/tts_rules.json",
+  "parts": [
+    {
+      "id": "2_4_1",
+      "slug": "wa",
+      "title": {
+        "ko": "(1) ㅘ",
+        "en": "(1) ㅘ"
+      },
+      "subtitle": {
+        "ko": "CV + CVC(관·괄·괌·광…)",
+        "en": "CV + CVC (gwan, gwal, gwam, gwang…)"
+      },
+      "route": "/letters/2_4_1_wa_cvc.json",
+      "hasCV": true,
+      "hasCVC": true
+    },
+    {
+      "id": "2_4_2",
+      "slug": "wae_oe",
+      "title": {
+        "ko": "(2) ㅙ·ㅚ",
+        "en": "(2) ㅙ/ㅚ"
+      },
+      "subtitle": {
+        "ko": "CV + CVC(괜·괼 / 괸·괼·굄…)",
+        "en": "CV + CVC (gwaen, gwael / goen, goel, gyom…)"
+      },
+      "route": "/letters/2_4_2_wae_oe_cvc.json",
+      "hasCV": true,
+      "hasCVC": true,
+      "extraRoutes": [
+        {
+          "label": {
+            "ko": "확장: 겹받침 포함",
+            "en": "Extension: with double finals"
+          },
+          "route": "/letters/2_4_2_with_batchim.json"
+        }
+      ]
+    },
+    {
+      "id": "2_4_3",
+      "slug": "wo",
+      "title": {
+        "ko": "(3) ㅝ",
+        "en": "(3) ㅝ"
+      },
+      "subtitle": {
+        "ko": "CV + CVC(원·월·웜·웡…)",
+        "en": "CV + CVC (won, wol, wom, wong…)"
+      },
+      "route": "/letters/2_4_3_wo_cvc.json",
+      "hasCV": true,
+      "hasCVC": true
+    },
+    {
+      "id": "2_4_4",
+      "slug": "we_wi",
+      "title": {
+        "ko": "(4) ㅞ·ㅟ",
+        "en": "(4) ㅞ/ㅟ"
+      },
+      "subtitle": {
+        "ko": "CV + CVC(웰·윈·윌·윙…)",
+        "en": "CV + CVC (wel, win, wil, wing…)"
+      },
+      "route": "/letters/2_4_4_we_wi_cvc.json",
+      "hasCV": true,
+      "hasCVC": true
+    },
+    {
+      "id": "2_4_5",
+      "slug": "ui",
+      "title": {
+        "ko": "(5) ㅢ",
+        "en": "(5) ㅢ (ui)"
+      },
+      "subtitle": {
+        "ko": "CV(의·희) + CVC(흰…)",
+        "en": "CV (ui/hui) + CVC (hwin…)"
+      },
+      "route": "/letters/2_4_5_ui_cvc.json",
+      "hasCV": true,
+      "hasCVC": true
+    }
+  ]
+}

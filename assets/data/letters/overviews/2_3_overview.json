@@ -1,0 +1,29 @@
+{
+  "id": "2_3",
+  "title": {
+    "ko": "좌우상하 결합형",
+    "en": "Complex Structure (LR+TB)",
+    "ja": "左右上下結合型",
+    "zh": "左右上下结合法",
+    "vi": "Cấu trúc phức hợp (trái-phải + trên-dưới)",
+    "fr": "Structure complexe (gauche-droite + haut-bas)",
+    "de": "Komplexe Struktur (links-rechts + oben-unten)",
+    "es": "Estructura compleja (izq-der + arriba-abajo)",
+    "ru": "Сложная структура (слева-справа + сверху-снизу)",
+    "mn": "Нийлмэл бүтэц (зүүн-баруун + дээр-доор)"
+  },
+  "description": {
+    "ko": "초성과 중성이 좌우로 결합하고, 종성이 그 아래에 놓이는 글자 구조를 연습합니다.",
+    "en": "Practice syllables where the initial and medial combine side-by-side, with the final consonant placed below.",
+    "ja": "初声と中声が左右に配置され、その下に終声が加わる文字構造を練習します。",
+    "zh": "练习声母与中声左右排列，终声位于下方的字形结构。",
+    "vi": "Luyện cấu trúc chữ có âm đầu và âm chính đặt cạnh nhau, với phụ âm cuối bên dưới.",
+    "fr": "Entraînez des syllabes dont l'initiale et la médiane sont côte à côte, avec la finale placée en dessous.",
+    "de": "Üben Sie Silben, bei denen Anlaut und Inlaut nebeneinander stehen und der Endkonsonant darunter gesetzt wird.",
+    "es": "Practica sílabas donde la inicial y la medial se combinan lado a lado, con la final colocada debajo.",
+    "ru": "Тренируйте слоги, где начальная и срединная части стоят рядом, а конечная согласная помещается снизу.",
+    "mn": "Эх ба гол элементүүд хажуугаар байрлаж, төгсгөл гийгүүлэгч доор байрлах бүтэц дээр дадлага хийнэ."
+  },
+  "overviewRef": "assets/data/letters/overviews/2_3_overview.json",
+  "variants": []
+}

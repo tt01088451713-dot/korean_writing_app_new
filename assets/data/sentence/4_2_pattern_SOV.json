@@ -1,0 +1,206 @@
+{
+  "unit": "4. 문장",
+  "lesson_id": "4_2",
+  "title": {
+    "ko": "문장 패턴: SOV",
+    "en": "Sentence Pattern: SOV",
+    "ja": "文型：SOV",
+    "zh": "句型：SOV",
+    "vi": "Mẫu câu: SOV",
+    "fr": "Schéma de phrase : SOV",
+    "de": "Satzmuster: SOV",
+    "es": "Patrón de oración: SOV",
+    "ru": "Модель предложения: SOV",
+    "mn": "Өгүүлбэрийн хэв: SOV"
+  },
+  "patterns": [
+    {
+      "id": "p_sov_core",
+      "name": {
+        "ko": "SOV 기본형",
+        "en": "SOV Basic",
+        "ja": "SOV基本型",
+        "zh": "SOV 基本型",
+        "vi": "Mẫu SOV cơ bản",
+        "fr": "SOV de base",
+        "de": "SOV-Grundmuster",
+        "es": "SOV básico",
+        "ru": "Базовый SOV",
+        "mn": "SOV үндсэн хэлбэр"
+      },
+      "explain": {
+        "ko": "한국어의 기본 어순은 주어-목적어-서술어(SOV)입니다.",
+        "en": "Korean basic word order is Subject–Object–Verb (SOV).",
+        "ja": "韓国語の基本語順は主語–目的語–述語（SOV）です。",
+        "zh": "韩语的基本语序是主语–宾语–谓语（SOV）。",
+        "vi": "Trật tự cơ bản của tiếng Hàn là Chủ ngữ–Tân ngữ–Vị ngữ (SOV).",
+        "fr": "L’ordre de base en coréen est Sujet–Objet–Verbe (SOV).",
+        "de": "Die Grundwortstellung im Koreanischen ist Subjekt–Objekt–Verb (SOV).",
+        "es": "El orden básico en coreano es Sujeto–Objeto–Verbo (SOV).",
+        "ru": "Базовый порядок слов: Подлежащее–Дополнение–Сказуемое (SOV).",
+        "mn": "Солонгос хэлний үндсэн дараалал нь Эз–Тус–Өг (SOV) юм."
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": "sov_0001",
+      "type": "sentence",
+      "text": "저는 밥을 먹어요.",
+      "translations": {
+        "ko": "",
+        "en": "I eat a meal.",
+        "ja": "私はご飯を食べます。",
+        "zh": "我吃饭。",
+        "vi": "Tôi ăn cơm.",
+        "fr": "Je mange un repas.",
+        "de": "Ich esse eine Mahlzeit.",
+        "es": "Como una comida.",
+        "ru": "Я ем еду.",
+        "mn": "Би хоол иддэг."
+      },
+      "reading": { "enabled": true, "display": "text", "fragments": ["저는","밥을","먹어요."] },
+      "writing": { "enabled": true, "guides": ["저는","밥을","먹어요."] },
+      "tts": { "text": "저는 밥을 먹어요.", "lang": "ko-KR", "rate": 0.5, "pitch": 1.0, "volume": 1.0 },
+      "metadata": { "pattern": "SOV", "politeness": "해요체", "themes": ["일상","음식/음료"] }
+    },
+    {
+      "id": "sov_0002",
+      "type": "sentence",
+      "text": "학생이 공을 던져요.",
+      "translations": {
+        "ko": "",
+        "en": "The student throws a ball.",
+        "ja": "学生がボールを投げます。",
+        "zh": "学生扔球。",
+        "vi": "Học sinh ném bóng.",
+        "fr": "L'élève lance une balle.",
+        "de": "Der Schüler wirft einen Ball.",
+        "es": "El estudiante lanza una pelota.",
+        "ru": "Студент бросает мяч.",
+        "mn": "Оюутан бөмбөг шиддэг."
+      },
+      "reading": { "enabled": true, "display": "text", "fragments": ["학생이","공을","던져요."] },
+      "writing": { "enabled": true, "guides": ["학생이","공을","던져요."] },
+      "tts": { "text": "학생이 공을 던져요.", "lang": "ko-KR", "rate": 0.5, "pitch": 1.0, "volume": 1.0 },
+      "metadata": { "pattern": "SOV", "politeness": "해요체", "themes": ["학교","운동"] }
+    },
+    {
+      "id": "sov_0003",
+      "type": "sentence",
+      "text": "저는 한국어를 배워요.",
+      "translations": {
+        "ko": "",
+        "en": "I learn Korean.",
+        "ja": "私は韓国語を学びます。",
+        "zh": "我学习韩语。",
+        "vi": "Tôi học tiếng Hàn.",
+        "fr": "J'apprends le coréen.",
+        "de": "Ich lerne Koreanisch.",
+        "es": "Aprendo coreano.",
+        "ru": "Я учу корейский.",
+        "mn": "Би солонгос хэл сурдаг."
+      },
+      "reading": { "enabled": true, "display": "text", "fragments": ["저는","한국어를","배워요."] },
+      "writing": { "enabled": true, "guides": ["저는","한국어를","배워요."] },
+      "tts": { "text": "저는 한국어를 배워요.", "lang": "ko-KR", "rate": 0.5, "pitch": 1.0, "volume": 1.0 },
+      "metadata": { "pattern": "SOV", "politeness": "해요체", "themes": ["학습","언어"] }
+    },
+    {
+      "id": "sov_0004",
+      "type": "sentence",
+      "text": "우리는 숙제를 해요.",
+      "translations": {
+        "ko": "",
+        "en": "We do homework.",
+        "ja": "私たちは宿題をします。",
+        "zh": "我们做作业。",
+        "vi": "Chúng tôi làm bài tập về nhà.",
+        "fr": "Nous faisons les devoirs.",
+        "de": "Wir machen Hausaufgaben.",
+        "es": "Hacemos la tarea.",
+        "ru": "Мы делаем домашнее задание.",
+        "mn": "Бид гэрийн даалгавар хийдэг."
+      },
+      "reading": { "enabled": true, "display": "text", "fragments": ["우리는","숙제를","해요."] },
+      "writing": { "enabled": true, "guides": ["우리는","숙제를","해요."] },
+      "tts": { "text": "우리는 숙제를 해요.", "lang": "ko-KR", "rate": 0.5, "pitch": 1.0, "volume": 1.0 },
+      "metadata": { "pattern": "SOV", "politeness": "해요체", "themes": ["학습"] }
+    },
+    {
+      "id": "sov_0005",
+      "type": "sentence",
+      "text": "그는 편지를 써요.",
+      "translations": {
+        "ko": "",
+        "en": "He writes a letter.",
+        "ja": "彼は手紙を書きます。",
+        "zh": "他写信。",
+        "vi": "Anh ấy viết thư.",
+        "fr": "Il écrit une lettre.",
+        "de": "Er schreibt einen Brief.",
+        "es": "Él escribe una carta.",
+        "ru": "Он пишет письмо.",
+        "mn": "Тэр захидал бичдэг."
+      },
+      "reading": { "enabled": true, "display": "text", "fragments": ["그는","편지를","써요."] },
+      "writing": { "enabled": true, "guides": ["그는","편지를","써요."] },
+      "tts": { "text": "그는 편지를 써요.", "lang": "ko-KR", "rate": 0.5, "pitch": 1.0, "volume": 1.0 },
+      "metadata": { "pattern": "SOV", "politeness": "해요체", "themes": ["쓰기","소통"] }
+    }
+  ],
+  "activities": [
+    {
+      "id": "a_read_sov_01",
+      "type": "read_sentences",
+      "title": {
+        "ko": "읽기 모드",
+        "en": "Reading Mode",
+        "ja": "読む",
+        "zh": "阅读",
+        "vi": "Đọc",
+        "fr": "Lecture",
+        "de": "Lesen",
+        "es": "Lectura",
+        "ru": "Чтение",
+        "mn": "Унших"
+      },
+      "options": { "items": ["sov_0001","sov_0002","sov_0003","sov_0004","sov_0005"], "autoShuffle": false }
+    },
+    {
+      "id": "a_reorder_sov_01",
+      "type": "read_reorder_fragments",
+      "title": {
+        "ko": "SOV 순서 배열",
+        "en": "Reorder to SOV",
+        "ja": "SOV語順に並べ替え",
+        "zh": "按 SOV 排序",
+        "vi": "Sắp xếp thành SOV",
+        "fr": "Remettre en SOV",
+        "de": "In SOV-Reihenfolge bringen",
+        "es": "Reordenar a SOV",
+        "ru": "Упорядочить в SOV",
+        "mn": "SOV дараалалд оруулах"
+      },
+      "options": { "target": "sov_0003", "fragments": ["한국어를","저는","배워요."] }
+    },
+    {
+      "id": "a_write_sov_01",
+      "type": "write_sentences",
+      "title": {
+        "ko": "문장 따라 쓰기",
+        "en": "Copy the Sentences",
+        "ja": "文を書き写す",
+        "zh": "抄写句子",
+        "vi": "Chép câu",
+        "fr": "Copier les phrases",
+        "de": "Sätze abschreiben",
+        "es": "Copiar las oraciones",
+        "ru": "Переписать предложения",
+        "mn": "Өгүүлбэр хуулж бич"
+      },
+      "options": { "items": ["sov_0001","sov_0004","sov_0005"] }
+    }
+  ],
+  "routing": { "hubRoute": "/sentences/hub", "detailRoute": "/sentences/lesson" }
+}

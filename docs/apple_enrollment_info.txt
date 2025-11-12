@@ -1,0 +1,5 @@
+Team Name / Company: KST Lingua Studio
+App Name (English): Korean Writing App
+App Name (Korean): 쉽게 배우는 한국어 쓰기 교본 기반
+Preferred Display Name: Korean Writing App
+Subtitle: Based on “Easy Korean Writing Textbook”

@@ -1,0 +1,113 @@
+{
+  "id": "2_2_index",
+  "title": {
+    "ko": "상하결합형",
+    "en": "Top–Bottom Type",
+    "zh": "上下结合法",
+    "ja": "上下結合型",
+    "vi": "Kiểu trên–dưới",
+    "fr": "Type haut–bas",
+    "es": "Tipo arriba–abajo",
+    "ru": "Верх‑низ тип",
+    "mn": "Дээд‑доод хэлбэр"
+  },
+  "description": {
+    "ko": "가로형 모음(ㅗ, ㅛ, ㅜ, ㅠ, ㅡ)이 초성의 위나 아래에 놓여 상·하로 결합합니다. 각 파트는 (A) 초성+중성(CV)과 (B) 초·중·종성(CVC, 받침 포함) 예시를 함께 제공합니다.",
+    "en": "Horizontal vowels (ㅗ, ㅛ, ㅜ, ㅠ, ㅡ) combine above/below the initial. Each part provides (A) CV and (B) CVC (with batchim) examples.",
+    "zh": "水平元音（ㅗ、ㅛ、ㅜ、ㅠ、ㅡ）与初声上下结合。各部分同时提供 (A) CV 与 (B) CVC（含终声）示例。",
+    "ja": "横母音（ㅗ・ㅛ・ㅜ・ㅠ・ㅡ）が初声と上下に結合します。各パートで (A) CV と (B) CVC（終声あり）を併載します。",
+    "vi": "Nguyên âm ngang (ㅗ, ㅛ, ㅜ, ㅠ, ㅡ) kết hợp trên/dưới phụ âm đầu. Mỗi phần cung cấp (A) CV và (B) CVC (có 받침).",
+    "fr": "Les voyelles horizontales (ㅗ, ㅛ, ㅜ, ㅠ, ㅡ) se combinent au‑dessus/en dessous de l’initiale. Chaque partie fournit (A) CV et (B) CVC (avec finale).",
+    "es": "Las vocales horizontales (ㅗ, ㅛ, ㅜ, ㅠ, ㅡ) se combinan arriba/abajo de la inicial. Cada parte incluye (A) CV y (B) CVC (con final).",
+    "ru": "Горизонтальные гласные (ㅗ, ㅛ, ㅜ, ㅠ, ㅡ) сочетаются сверху/снизу с начальной. В каждой части есть (A) CV и (B) CVC (с финалью).",
+    "mn": "Хэвтээ эгшиг (ㅗ, ㅛ, ㅜ, ㅠ, ㅡ) нь эх гийгүүлэгчтэй дээд/доод байрлалтай хосолдог. Бүр хэсэгт (A) CV ба (B) CVC (받침-тэй) жишээг хавсаргав."
+  },
+  "definition": {
+    "ko": "상하결합형은 초성과 중성이 위·아래로 쌓이는 CV 구조이며, 필요 시 종성(받침)이 하단에 추가되어 CVC가 됩니다.",
+    "en": "Top–bottom type stacks the vowel above/below the initial (CV). When a final is added at the bottom, it becomes CVC.",
+    "zh": "上下结合法为初声与元音上下堆叠（CV），在下方再加终声则为 CVC。",
+    "ja": "上下結合型は初声と母音を上下に積む CV 構造で、下部に終声が加わると CVC になります.",
+    "vi": "Kiểu trên–dưới xếp nguyên âm trên/dưới phụ âm đầu (CV); thêm 받침 ở dưới thành CVC.",
+    "fr": "Le type haut‑bas empile la voyelle au‑dessus/au‑dessous de l’initiale (CV) ; l’ajout d’une finale en bas donne CVC.",
+    "es": "El tipo arriba‑abajo apila la vocal encima/debajo de la inicial (CV); con final abajo pasa a CVC.",
+    "ru": "Тип «верх‑низ» — гласная над/под начальной (CV); добавление финали снизу даёт CVC.",
+    "mn": "Дээд‑доод хэлбэрт эгшиг нь эх гийгүүлэгчийн дээр/доор байрлах CV; доор 받чим нэмбэл CVC болно."
+  },
+  "ttsRulesRoute": "/assets/data/common/tts_rules.json",
+  "parts": [
+    {
+      "id": "2_2_1",
+      "title": {
+        "ko": "(1) 고 계열(…ㅗ)",
+        "en": "(1) GO set (…ㅗ)"
+      },
+      "subtitle": {
+        "ko": "CV: 고·노… / CVC: 곤·골·곰·공…",
+        "en": "CV: go, no… / CVC: gon, gol, gom, gong…"
+      },
+      "route": "/letters/2_2_1_go_o.json",
+      "hasCVC": true
+    },
+    {
+      "id": "2_2_2",
+      "title": {
+        "ko": "(2) 교 계열(…ㅛ)",
+        "en": "(2) GYO set (…ㅛ)"
+      },
+      "subtitle": {
+        "ko": "CV+대표 CVC 동시 제공",
+        "en": "CV + common CVC included"
+      },
+      "route": "/letters/2_2_2_gyo_yo.json",
+      "hasCVC": true
+    },
+    {
+      "id": "2_2_3",
+      "title": {
+        "ko": "(3) 구 계열(…ㅜ)",
+        "en": "(3) GU set (…ㅜ)"
+      },
+      "subtitle": {
+        "ko": "CV: 구·누… / CVC: 군·굴·굼·궁…",
+        "en": "CV: gu, nu… / CVC: gun, gul, gum, gung…"
+      },
+      "route": "/letters/2_2_3_gu_u.json",
+      "hasCVC": true
+    },
+    {
+      "id": "2_2_4",
+      "title": {
+        "ko": "(4) 규 계열(…ㅠ)",
+        "en": "(4) GYU set (…ㅠ)"
+      },
+      "subtitle": {
+        "ko": "CV+대표 CVC 동시 제공",
+        "en": "CV + common CVC included"
+      },
+      "route": "/letters/2_2_4_gyu_yu.json",
+      "hasCVC": true
+    },
+    {
+      "id": "2_2_5",
+      "title": {
+        "ko": "(5) 그 계열(…ㅡ)",
+        "en": "(5) GEU set (…ㅡ)"
+      },
+      "subtitle": {
+        "ko": "CV: 그·느… / CVC: 근·글·금·긍…",
+        "en": "CV: geu, neu… / CVC: geun, geul, geum, geung…"
+      },
+      "route": "/letters/2_2_5_geu_eu.json",
+      "hasCVC": true
+    }
+  ],
+  "extraRoutes": [
+    {
+      "label": {
+        "ko": "확장: 받침 포함(CVC)",
+        "en": "Extension: with finals (CVC)"
+      },
+      "route": "/letters/2_2_with_batchim.json"
+    }
+  ]
+}

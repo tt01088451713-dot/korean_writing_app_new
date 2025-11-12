@@ -1,0 +1,45 @@
+{
+  "id": "2_2_hub_index",
+  "type": "subhub",
+  "title": {
+    "ko": "상하결합형",
+    "en": "Top–Bottom Type",
+    "ja": "上下結合型",
+    "zh": "上下结合法",
+    "vi": "Kiểu trên–dưới",
+    "fr": "Type haut–bas",
+    "de": "Oben–Unten-Typ",
+    "es": "Tipo arriba–abajo",
+    "ru": "Верх-низ тип",
+    "mn": "Дээд-доод хэлбэр"
+  },
+  "subtitle": {
+    "ko": "가로 모음이 위·아래에 놓이는 배열",
+    "en": "Horizontal vowels placed above/below",
+    "ja": "横母音が上または下に配置",
+    "zh": "水平元音位于上或下",
+    "vi": "Nguyên âm ngang ở trên/dưới",
+    "fr": "Voyelles horizontales en haut/bas",
+    "de": "Horizontale Vokale oben/unten platziert",
+    "es": "Vocales horizontales arriba/abajo",
+    "ru": "Горизонтальные гласные сверху/снизу",
+    "mn": "Хэвтээ эгшиг дээд/доод талд"
+  },
+  "desc": {
+    "ko": "가로(ㅡ 계열) 모음이 위·아래에 놓이는 상하 결합(CV/CVC) 배열입니다. 아래에서 형태를 선택하면 해당 인덱스로 이동합니다."
+  },
+  "overviewRef": "assets/data/letters/overviews/2_2_overview.json",
+  "defaultVariant": "base",
+  "variants": [
+    {
+      "key": "base",
+      "title": { "ko": "초성+중성 (받침 없음)", "en": "Initial+Medial (no final)" },
+      "route": "assets/data/letters/2_2_top_bottom_index.json"
+    },
+    {
+      "key": "batchim",
+      "title": { "ko": "초성+중성+종성 (받침 포함)", "en": "Initial+Medial+Final (with batchim)" },
+      "route": "assets/data/letters/2_2_with_batchim_index.json"
+    }
+  ]
+}

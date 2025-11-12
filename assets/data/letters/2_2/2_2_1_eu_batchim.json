@@ -1,0 +1,38 @@
+{
+  "id": "2_2_2_a",
+  "unitId": "2_2_1_eu_batchim",
+  "type": "letters",
+  "title": {
+    "ko": "2.2 (2) ㅡ 받침 확장 (은~응)",
+    "en": "2.2 (2) Vowel ㅡ with finals (eun~eung)",
+    "ja": "2.2 (2) 母音 ㅡ の終声拡張（eun〜eung）",
+    "zh": "2.2 (2) 元音 ㅡ 的终声扩展（eun~eung）",
+    "vi": "2.2 (2) Nguyên âm ㅡ với phụ âm cuối (eun~eung)",
+    "fr": "2.2 (2) Voyelle ㅡ avec consonnes finales (eun~eung)",
+    "de": "2.2 (2) Vokal ㅡ mit Endkonsonanten (eun–eung)",
+    "es": "2.2 (2) Vocal ㅡ con finales (eun~eung)",
+    "ru": "2.2 (2) Гласный ㅡ с конечными согласными (eun–eung)",
+    "mn": "2.2 (2) Эгшиг ㅡ төгсгөлийн гийгүүлэгчтэй (eun–eung)"
+  },
+  "assetConventions": {
+    "strokeJson": "assets/strokes/syllables/{glyph}.json",
+    "audioMp3": "assets/audio/syllables/{glyph}.mp3"
+  },
+  "practice": {
+    "enabled": true,
+    "strokeAsset": "template",
+    "audio": true,
+    "repeat": 3
+  },
+  "sequence": [
+    "은",
+    "을",
+    "음",
+    "응"
+  ],
+  "uiHints": {
+    "grid": 4,
+    "rowGap": 8,
+    "colGap": 8
+  }
+}

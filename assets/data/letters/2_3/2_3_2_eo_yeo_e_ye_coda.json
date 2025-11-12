@@ -1,0 +1,42 @@
+{
+  "unitId": "2_3_2_eo_yeo_e_ye_coda",
+  "type": "letters",
+
+  "title": {
+    "ko": "2.3 (2) ㅓ·ㅕ·ㅔ·ㅖ + 종성(받침)",
+    "en": "2.3 (2) eo/yeo/e/ye + final (CVC)",
+    "ja": "2.3 (2) eo/yeo/e/ye + 終声 (CVC)",
+    "zh": "2.3 (2) eo/yeo/e/ye + 终声 (CVC)",
+    "vi": "2.3 (2) eo/yeo/e/ye + final (CVC)",
+    "fr": "2.3 (2) eo/yeo/e/ye + finale (CVC)",
+    "de": "2.3 (2) eo/yeo/e/ye + Endkonsonant (CVC)",
+    "es": "2.3 (2) eo/yeo/e/ye + final (CVC)",
+    "ru": "2.3 (2) eo/yeo/e/ye + final (CVC)",
+    "mn": "2.3 (2) eo/yeo/e/ye + final (CVC)"
+  },
+
+  "assetConventions": {
+    "strokeJson": "assets/strokes/syllables/{glyph}.json",
+    "audioMp3": "assets/audio/syllables/{glyph}.mp3"
+  },
+
+  "practice": {
+    "enabled": true,
+    "strokeAsset": "template",
+    "audio": true,
+    "repeat": 3
+  },
+
+  "sequence": [
+    "걱","건","걸","검","공","겁","것",
+    "격","견","결","겸","경","겹","곁",
+    "겍","겐","겔","겜","겡","겝","겟",
+    "곕","곗"
+  ],
+
+  "uiHints": {
+    "grid": 7,
+    "rowGap": 8,
+    "colGap": 8
+  }
+}

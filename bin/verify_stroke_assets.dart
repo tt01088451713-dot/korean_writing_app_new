@@ -10,9 +10,9 @@ import 'dart:convert';
 import 'dart:io';
 
 const consonantJson = 'assets/data/1_1_consonantal_letter.json';
-const vowelJson     = 'assets/data/1_2_vowel_letter.json';
-const consDir       = 'assets/images/strokes/consonants';
-const vowelDir      = 'assets/images/strokes/vowels';
+const vowelJson = 'assets/data/1_2_vowel_letter.json';
+const consDir = 'assets/images/strokes/consonants';
+const vowelDir = 'assets/images/strokes/vowels';
 
 // 연습 제외 등 "누락 허용" id 목록 (필요 시 여기에 추가)
 const allowMissingVowelIds = <String>{
@@ -26,18 +26,20 @@ void main(List<String> args) async {
   final strict = args.contains('--strict');
 
   final errors = <String>[];
-  final warns  = <String>[];
+  final warns = <String>[];
 
   // ---------- JSON 로드 ----------
   Map consMap, vowMap;
   try {
-    consMap = jsonDecode(await File(consonantJson).readAsString(encoding: utf8)) as Map;
+    consMap = jsonDecode(await File(consonantJson).readAsString(encoding: utf8))
+        as Map;
   } catch (e) {
     stderr.writeln('❌ 자음 JSON 로드 실패: $consonantJson — $e');
     exit(1);
   }
   try {
-    vowMap  = jsonDecode(await File(vowelJson).readAsString(encoding: utf8)) as Map;
+    vowMap =
+        jsonDecode(await File(vowelJson).readAsString(encoding: utf8)) as Map;
   } catch (e) {
     stderr.writeln('❌ 모음 JSON 로드 실패: $vowelJson — $e');
     exit(1);
@@ -45,10 +47,10 @@ void main(List<String> args) async {
 
   // ---------- id 수집 + 중복 감지 ----------
   final consIds = _collectIds(consMap);
-  final vowIds  = _collectIds(vowMap);
+  final vowIds = _collectIds(vowMap);
 
   final consDup = _collectDuplicateIds(consMap);
-  final vowDup  = _collectDuplicateIds(vowMap);
+  final vowDup = _collectDuplicateIds(vowMap);
 
   if (consDup.isNotEmpty) {
     errors.add('자음: 중복 id 감지 → ${consDup.join(', ')}');
@@ -69,7 +71,7 @@ void main(List<String> args) async {
     warns.add('모음: 허용되지 않은 확장자 → $bad (허용: ${allowedExts.join(', ')})');
   }
 
-  final consStems  = consDirScan.stems;
+  final consStems = consDirScan.stems;
   final vowelStems = vowelDirScan.stems;
 
   // ---------- 누락 검사 (JSON → 자산) ----------
@@ -168,8 +170,8 @@ Set<String> _collectDuplicateIds(Map m) {
 // 디렉토리 스캔 결과 구조체
 class _DirScan {
   _DirScan(this.stems, this.unexpectedExtFiles);
-  final Set<String> stems;                 // 확장자 제거한 파일명 집합
-  final List<String> unexpectedExtFiles;   // 허용 확장자 외 파일들의 전체 경로
+  final Set<String> stems; // 확장자 제거한 파일명 집합
+  final List<String> unexpectedExtFiles; // 허용 확장자 외 파일들의 전체 경로
 }
 
 // 디렉토리에서 stem 집합 수집 + 허용되지 않은 확장자 목록 수집
@@ -178,15 +180,15 @@ _DirScan _scanDir(String dirPath) {
   if (!dir.existsSync()) return _DirScan(<String>{}, <String>[]);
 
   final stems = <String>{};
-  final bads  = <String>[];
+  final bads = <String>[];
   for (final e in dir.listSync(recursive: false, followLinks: false)) {
     if (e is! File) continue;
     final path = e.path.replaceAll('\\', '/');
     final name = path.split('/').last;
-    final dot  = name.lastIndexOf('.');
+    final dot = name.lastIndexOf('.');
     if (dot <= 0) continue;
     final stem = name.substring(0, dot);
-    final ext  = name.substring(dot + 1).toLowerCase();
+    final ext = name.substring(dot + 1).toLowerCase();
     if (allowedExts.contains(ext)) {
       stems.add(stem);
     } else {

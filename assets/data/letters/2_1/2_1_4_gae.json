@@ -1,0 +1,23 @@
+{
+  "unitId": "2_1_4_gae",
+  "type": "letters",
+  "title": {
+  "ko": "개~해 (…애)",
+  "en": "Gae–Hae (…-ae series)",
+  "ja": "ゲ〜ヘ（…-ae 系）",
+  "zh": "介~海（…-ae 系列）",
+  "vi": "Gae–Hae (nhóm …-ae)",
+  "fr": "Gae–Hae (série …-ae)",
+  "de": "Gae–Hae (…-ae-Reihe)",
+  "es": "Gae–Hae (serie …-ae)",
+  "ru": "Gae–Hae (ряд …-ae)",
+  "mn": "Gae–Hae (…-ae цуврал)"
+  },
+  "practice": { "enabled": true, "strokeAsset": "template", "audio": true, "repeat": 3 },
+  "sequence": ["개","내","대","래","매","배","새","애","재","채","캐","태","패","해"],
+  "assetConventions": {
+    "strokeJson": "assets/strokes/syllables/{glyph}.json",
+    "audioMp3": "assets/audio/syllables/{glyph}.mp3"
+  },
+  "uiHints": { "grid": 7, "rowGap": 8, "colGap": 8 }
+}

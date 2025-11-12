@@ -7,8 +7,8 @@ Future<List<dynamic>> loadCharData(String filename) async {
   final data = await json.decode(response);
   return data['chars'];
 }
+
 Future<Map<String, dynamic>> loadJsonAsset(String assetPath) async {
   final raw = await rootBundle.loadString(assetPath, cache: false);
   return json.decode(raw) as Map<String, dynamic>;
 }
-

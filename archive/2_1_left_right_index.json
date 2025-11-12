@@ -1,0 +1,98 @@
+{
+  "unitId": "2_1_left_right_index",
+  "title": {
+    "ko": "2.1 좌우 결합형 글자",
+    "en": "2.1 Left–Right Syllable Blocks",
+    "ja": "2.1 左右結合型の音節",
+    "zh": "2.1 左右结合法音节",
+    "vi": "2.1 Âm tiết kiểu trái–phải",
+    "fr": "2.1 Blocs syllabiques gauche-droite",
+    "de": "[DEÜbersetzung benötigt] 2.1 Left–Right Syllable Blocks",
+    "es": "2.1 Bloques silábicos izquierda-derecha",
+    "ru": "2.1 Слоговые блоки лево-правого типа",
+    "mn": "2.1 Зүүн-баруун байрлалтай үеийн блокууд"
+  },
+  "overviewRef": "assets/data/letters/overviews/2_1_overview.json",
+  "description": {
+    "ko": "세로형 모음(ㅣ 계열)이 오른쪽에 놓이는 좌우 결합(CV) 배열입니다. 아래 카드에서 세트를 선택하면 글자 그리드와 쓰기 연습으로 이동합니다.",
+    "en": "Left–right layout where vertical vowels (ㅣ-series) sit on the right. Choose a card below to open the syllable grid and start writing practice.",
+    "ja": "左右結合型：縦母音（ㅣ系）が右側に配置されます。下のカードを選ぶと、音節グリッドと書き取り練習へ進みます。",
+    "zh": "左右结合法：竖直元音（ㅣ系列）位于右侧。请选择下方卡片进入音节网格并开始书写练习。",
+    "vi": "Bố cục trái–phải: nguyên âm dọc (nhóm ㅣ) nằm ở bên phải. Chọn một thẻ bên dưới để mở lưới âm tiết và luyện viết.",
+    "fr": "Disposition gauche-droite : les voyelles verticales (série ㅣ) se placent à droite. Sélectionnez une carte ci-dessous pour ouvrir la grille des syllabes et commencer l’écriture.",
+    "de": "[DEÜbersetzung benötigt] Left–right layout where vertical vowels (ㅣ-series) sit on the right. Choose a card below to open the syllable grid and start writing practice.",
+    "es": "Disposición izquierda-derecha: las vocales verticales (serie ㅣ) se sitúan a la derecha. Elige una tarjeta para abrir la cuadrícula de sílabas y practicar la escritura.",
+    "ru": "Лево-правый тип: вертикальные гласные (ряд ㅣ) располагаются справа. Выберите карточку ниже, чтобы открыть сетку слогов и начать тренировку письма.",
+    "mn": "Зүүн-баруун байрлал: босоо эгшиг (ㅣ цуврал) баруун талд байрлана. Доорх картуудыг сонгон үеийн торыг нээгээд бичгийн дасгал хийж эхлээрэй."
+  },
+  "desc": {
+    "ko": "세로형 모음(ㅣ 계열)이 오른쪽에 놓이는 좌우 결합(CV) 배열입니다. 아래 카드에서 세트를 선택하면 음절 그리드와 쓰기 연습으로 이동합니다."
+  },
+  "items": [
+    {
+      "id": "2_1_1",
+      "title": { "ko": "기~히 (...이)", "en": "...이 set" },
+      "subtitle": "‘…-i’ 모음 계열",
+      "route": "assets/data/letters/2_1/2_1_1_basic.json"
+    },
+    {
+      "id": "2_1_2",
+      "title": { "ko": "가~하 (...아)", "en": "...아 set" },
+      "subtitle": "‘…-a’ 모음 계열",
+      "route": "assets/data/letters/2_1/2_1_2_ga.json"
+    },
+    {
+      "id": "2_1_3",
+      "title": { "ko": "갸~햐 (...야)", "en": "...야 set" },
+      "subtitle": "‘…-ya’ 모음 계열",
+      "route": "assets/data/letters/2_1/2_1_3_gya.json"
+    },
+    {
+      "id": "2_1_4",
+      "title": { "ko": "개~해 (...애)", "en": "...애 set" },
+      "subtitle": "‘…-ae’ 모음 계열",
+      "route": "assets/data/letters/2_1/2_1_4_gae.json"
+    },
+    {
+      "id": "2_1_5",
+      "title": { "ko": "걔~햬 (...얘)", "en": "...얘 set" },
+      "subtitle": "‘…-yae’ 모음 계열",
+      "route": "assets/data/letters/2_1/2_1_5_gyae.json"
+    },
+    {
+      "id": "2_1_6",
+      "title": { "ko": "거~허 (...어)", "en": "...어 set" },
+      "subtitle": "‘…-eo’ 모음 계열",
+      "route": "assets/data/letters/2_1/2_1_6_geo_eo.json"
+    },
+    {
+      "id": "2_1_7",
+      "title": { "ko": "겨~혀 (...여)", "en": "...여 set" },
+      "subtitle": "‘…-yeo’ 모음 계열",
+      "route": "assets/data/letters/2_1/2_1_7_gyeo_yeo.json"
+    },
+    {
+      "id": "2_1_8",
+      "title": { "ko": "게~헤 (...에)", "en": "...에 set" },
+      "subtitle": "‘…-e’ 모음 계열",
+      "route": "assets/data/letters/2_1/2_1_8_ge_e.json"
+    },
+    {
+      "id": "2_1_9",
+      "title": { "ko": "계~혜 (...예)", "en": "...예 set" },
+      "subtitle": "‘…-ye’ 모음 계열",
+      "route": "assets/data/letters/2_1/2_1_9_gye_ye.json"
+    }
+  ],
+  "meta": {
+    "sourcePages": "교본 p.24–28 (요약)",
+    "notes": [
+      "개별 음절의 다국어 번역은 포함하지 않습니다.",
+      "쓰기 연습과 오디오 재생을 위한 경로만 템플릿으로 제공합니다."
+    ]
+  },
+  "assetConventions": {
+    "strokeJson": "assets/strokes/syllables/{glyph}.json",
+    "audioMp3": "assets/audio/syllables/{glyph}.mp3"
+  }
+}

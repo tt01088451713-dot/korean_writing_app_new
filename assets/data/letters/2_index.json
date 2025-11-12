@@ -1,0 +1,150 @@
+{
+  "id": "letters_2",
+  "overviewRef": "assets/data/letters/overviews/2_0_overview.json",
+  "title": {
+    "ko": "글자",
+    "en": "Letters (Syllable) Unit",
+    "ja": "文字（音節）ユニット",
+    "zh": "音节单元",
+    "vi": "Bài học Chữ (Âm tiết)",
+    "fr": "Unité des lettres (syllabes)",
+    "de": "Einheit: Silbenblöcke",
+    "es": "Unidad de letras (sílabas)",
+    "ru": "Раздел слоговых блоков",
+    "mn": "Үсэг (үе) нэгж"
+  },
+  "description": {
+    "ko": "한글 음절(글자) 구조를 유형별로 학습합니다.",
+    "en": "Learn Hangul syllable-block structures by type.",
+    "ja": "ハングルの音節ブロック構造を種類別に学びます。",
+    "zh": "按类型学习韩语音节方块的结构。",
+    "vi": "Học cấu trúc khối âm tiết Hangul theo từng loại.",
+    "fr": "Apprenez les structures des blocs syllabiques du hangeul par type.",
+    "de": "Lernen Sie die Struktur von Hangeul-Silbenblöcken nach Typ.",
+    "es": "Aprende las estructuras de los bloques silábicos del hangul por tipo.",
+    "ru": "Изучайте типы структур слоговых блоков хангыль.",
+    "mn": "Ханз үсгийн үеийн (блок) бүтцийг төрөл бүрээр нь судална."
+  },
+  "categories": [
+    {
+      "id": "2_1",
+      "title": {
+        "ko": "좌우 결합형",
+        "en": "Left–Right Structure",
+        "ja": "左右結合型",
+        "zh": "左右结构",
+        "vi": "Cấu trúc trái–phải",
+        "fr": "Structure gauche–droite",
+        "de": "Links–Rechts-Struktur",
+        "es": "Estructura izquierda–derecha",
+        "ru": "Лево–правое построение",
+        "mn": "Зүүн–баруун бүтэц"
+      },
+      "subtitle": {
+        "ko": "초성+중성(좌우 배열)",
+        "en": "Initial + Medial (side-by-side)",
+        "ja": "初声＋中声（左右配置）",
+        "zh": "初声＋中声（左右排列）",
+        "vi": "Âm đầu + Âm chính (cạnh nhau)",
+        "fr": "Initiale + médiane (côte à côte)",
+        "de": "Anlaut + Inlaut (nebeneinander)",
+        "es": "Inicial + medial (en paralelo)",
+        "ru": "Начальная + срединная (рядом)",
+        "mn": "Эх + гол (зэрэгцээ)"
+      },
+      "route": "assets/data/letters/2_1_left_right_index.json",
+      "layout": "category",
+      "overviewRef": "assets/data/letters/overviews/2_1_overview.json"
+    },
+    {
+      "id": "2_2",
+      "title": {
+        "ko": "상하 결합형",
+        "en": "Top–Bottom Structure",
+        "ja": "上下結合型",
+        "zh": "上下结构",
+        "vi": "Cấu trúc trên–dưới",
+        "fr": "Structure haut–bas",
+        "de": "Oben–Unten-Struktur",
+        "es": "Estructura arriba–abajo",
+        "ru": "Верх–низ построение",
+        "mn": "Дээш–доош бүтэц"
+      },
+      "subtitle": {
+        "ko": "초성+중성(상하 배열)",
+        "en": "Initial + Medial (stacked)",
+        "ja": "初声＋中声（上下配置）",
+        "zh": "初声＋中声（上下排列）",
+        "vi": "Âm đầu + Âm chính (xếp dọc)",
+        "fr": "Initiale + médiane (empilées)",
+        "de": "Anlaut + Inlaut (gestapelt)",
+        "es": "Inicial + medial (apilado)",
+        "ru": "Начальная + срединная (вертикально)",
+        "mn": "Эх + гол (босоо)"
+      },
+      "route": "assets/data/letters/2_2_top_bottom_index.json",
+      "layout": "category",
+      "overviewRef": "assets/data/letters/overviews/2_2_overview.json"
+    },
+    {
+      "id": "2_3",
+      "title": {
+        "ko": "좌우상하 결합형",
+        "en": "Complex Structure (LR+TB)",
+        "ja": "左右上下複合型",
+        "zh": "左右上下复合型",
+        "vi": "Cấu trúc phức hợp (TP+TD)",
+        "fr": "Structure complexe (GD+HB)",
+        "de": "Komplexe Struktur (LR+OU)",
+        "es": "Estructura compleja (ID+AA)",
+        "ru": "Сложное построение (ЛП+ВН)",
+        "mn": "Нийлмэл бүтэц (ЗБ+ДД)"
+      },
+      "subtitle": {
+        "ko": "초성+중성은 좌우로, 종성은 아래에 놓이는 결합형",
+        "en": "Initial + medial side-by-side; final below",
+        "ja": "初声＋中声は左右、終声は下に置く結合型",
+        "zh": "初声与中声左右排列，终声置于下方",
+        "vi": "Âm đầu + âm chính đặt cạnh nhau, phụ âm cuối ở dưới",
+        "fr": "Initiale + médiane côte à côte, finale en dessous",
+        "de": "Anlaut + Inlaut nebeneinander, Endkonsonant darunter",
+        "es": "Inicial + medial en paralelo, final debajo",
+        "ru": "Начальная и срединная рядом, финаль снизу",
+        "mn": "Эх ба гол зэрэгцэж, төгсгөл гийгүүлэгч доор байрлах"
+      },
+      "route": "assets/data/letters/2_3_complex_index.json",
+      "layout": "category",
+      "overviewRef": "assets/data/letters/overviews/2_3_overview.json"
+    },
+    {
+      "id": "2_4",
+      "title": {
+        "ko": "ㅢ형",
+        "en": "Ui-type (ㅢ)",
+        "ja": "ㅢ型",
+        "zh": "「ㅢ」型",
+        "vi": "Kiểu ㅢ",
+        "fr": "Type ㅢ",
+        "de": "ㅢ-Typ",
+        "es": "Tipo ㅢ",
+        "ru": "Тип ㅢ",
+        "mn": "ㅢ төрлийн"
+      },
+      "subtitle": {
+        "ko": "특정 배치 규칙(ㅢ형)",
+        "en": "Specific layout rule (Ui-type)",
+        "ja": "特定の配置規則（ㅢ型）",
+        "zh": "特定的布局规则（「ㅢ」型）",
+        "vi": "Quy tắc bố cục riêng (kiểu ㅢ)",
+        "fr": "Règle d’agencement spécifique (type ㅢ)",
+        "de": "Spezielle Anordnung (ㅢ-Typ)",
+        "es": "Regla de disposición específica (tipo ㅢ)",
+        "ru": "Особое правило компоновки (тип ㅢ)",
+        "mn": "Тусгай байрлалын дүрэм (ㅢ хэлбэр)"
+      },
+      "route": "assets/data/letters/2_4_ui_index.json",
+      "layout": "category",
+      "overviewRef": "assets/data/letters/overviews/2_4_overview.json"
+    }
+  ]
+}

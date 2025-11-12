@@ -1,0 +1,1087 @@
+{
+  "unitId": "2_3_3_i_coda",
+  "type": "letters",
+  "title": {
+    "ko": "2.3 (3) ㅣ + 받침",
+    "en": "2.3 (3) i + finals (CVC)",
+    "ja": "2.3 (3) i + finals (CVC)",
+    "zh": "2.3 (3) i + finals (CVC)",
+    "vi": "2.3 (3) i + finals (CVC)",
+    "fr": "2.3 (3) i + finals (CVC)",
+    "de": "2.3 (3) i + Endkonsonanten (CVC)",
+    "es": "2.3 (3) i + finals (CVC)",
+    "ru": "2.3 (3) i + finals (CVC)",
+    "mn": "2.3 (3) i + finals (CVC)"
+  },
+  "definition": {
+    "ko": "세로형 모음에 받침을 결합한 좌우+하부 CVC 배열입니다. 단일·겹받침을 모두 예시합니다.",
+    "en": "Complex CVC layout (left–right + bottom) with vertical vowels; includes single and double finals."
+  },
+  "assetConventions": {
+    "strokeJson": "assets/strokes/syllables/{glyph}.json",
+    "audioMp3": "assets/audio/syllables/{glyph}.mp3"
+  },
+  "practice": {
+    "enabled": true,
+    "strokeAsset": "template",
+    "audio": true,
+    "repeat": 3
+  },
+  "uiHints": {
+    "grid": 7,
+    "rowGap": 8,
+    "colGap": 8
+  },
+  "vowels": [
+    "ㅣ"
+  ],
+  "initials": [
+    "ㄱ",
+    "ㄴ",
+    "ㄷ",
+    "ㄹ",
+    "ㅁ",
+    "ㅂ",
+    "ㅅ",
+    "ㅇ",
+    "ㅈ",
+    "ㅊ",
+    "ㅋ",
+    "ㅌ",
+    "ㅍ",
+    "ㅎ"
+  ],
+  "finals": {
+    "common": [
+      "ㄱ",
+      "ㄴ",
+      "ㄹ",
+      "ㅁ",
+      "ㅇ",
+      "ㅂ",
+      "ㅅ"
+    ],
+    "doubleExamples": [
+      "ㄳ",
+      "ㄵ",
+      "ㄶ",
+      "ㄺ",
+      "ㄻ",
+      "ㄼ",
+      "ㅀ",
+      "ㅄ"
+    ]
+  },
+  "items": [
+    {
+      "syllable": "긱",
+      "cho": "ㄱ",
+      "jung": "ㅣ",
+      "jong": "ㄱ",
+      "finalType": "single"
+    },
+    {
+      "syllable": "긴",
+      "cho": "ㄱ",
+      "jung": "ㅣ",
+      "jong": "ㄴ",
+      "finalType": "single"
+    },
+    {
+      "syllable": "길",
+      "cho": "ㄱ",
+      "jung": "ㅣ",
+      "jong": "ㄹ",
+      "finalType": "single"
+    },
+    {
+      "syllable": "김",
+      "cho": "ㄱ",
+      "jung": "ㅣ",
+      "jong": "ㅁ",
+      "finalType": "single"
+    },
+    {
+      "syllable": "깅",
+      "cho": "ㄱ",
+      "jung": "ㅣ",
+      "jong": "ㅇ",
+      "finalType": "single"
+    },
+    {
+      "syllable": "깁",
+      "cho": "ㄱ",
+      "jung": "ㅣ",
+      "jong": "ㅂ",
+      "finalType": "single"
+    },
+    {
+      "syllable": "깃",
+      "cho": "ㄱ",
+      "jung": "ㅣ",
+      "jong": "ㅅ",
+      "finalType": "single"
+    },
+    {
+      "syllable": "긳",
+      "cho": "ㄱ",
+      "jung": "ㅣ",
+      "jong": "ㄳ",
+      "finalType": "double"
+    },
+    {
+      "syllable": "긵",
+      "cho": "ㄱ",
+      "jung": "ㅣ",
+      "jong": "ㄵ",
+      "finalType": "double"
+    },
+    {
+      "syllable": "닉",
+      "cho": "ㄴ",
+      "jung": "ㅣ",
+      "jong": "ㄱ",
+      "finalType": "single"
+    },
+    {
+      "syllable": "닌",
+      "cho": "ㄴ",
+      "jung": "ㅣ",
+      "jong": "ㄴ",
+      "finalType": "single"
+    },
+    {
+      "syllable": "닐",
+      "cho": "ㄴ",
+      "jung": "ㅣ",
+      "jong": "ㄹ",
+      "finalType": "single"
+    },
+    {
+      "syllable": "님",
+      "cho": "ㄴ",
+      "jung": "ㅣ",
+      "jong": "ㅁ",
+      "finalType": "single"
+    },
+    {
+      "syllable": "닝",
+      "cho": "ㄴ",
+      "jung": "ㅣ",
+      "jong": "ㅇ",
+      "finalType": "single"
+    },
+    {
+      "syllable": "닙",
+      "cho": "ㄴ",
+      "jung": "ㅣ",
+      "jong": "ㅂ",
+      "finalType": "single"
+    },
+    {
+      "syllable": "닛",
+      "cho": "ㄴ",
+      "jung": "ㅣ",
+      "jong": "ㅅ",
+      "finalType": "single"
+    },
+    {
+      "syllable": "닋",
+      "cho": "ㄴ",
+      "jung": "ㅣ",
+      "jong": "ㄳ",
+      "finalType": "double"
+    },
+    {
+      "syllable": "닍",
+      "cho": "ㄴ",
+      "jung": "ㅣ",
+      "jong": "ㄵ",
+      "finalType": "double"
+    },
+    {
+      "syllable": "딕",
+      "cho": "ㄷ",
+      "jung": "ㅣ",
+      "jong": "ㄱ",
+      "finalType": "single"
+    },
+    {
+      "syllable": "딘",
+      "cho": "ㄷ",
+      "jung": "ㅣ",
+      "jong": "ㄴ",
+      "finalType": "single"
+    },
+    {
+      "syllable": "딜",
+      "cho": "ㄷ",
+      "jung": "ㅣ",
+      "jong": "ㄹ",
+      "finalType": "single"
+    },
+    {
+      "syllable": "딤",
+      "cho": "ㄷ",
+      "jung": "ㅣ",
+      "jong": "ㅁ",
+      "finalType": "single"
+    },
+    {
+      "syllable": "딩",
+      "cho": "ㄷ",
+      "jung": "ㅣ",
+      "jong": "ㅇ",
+      "finalType": "single"
+    },
+    {
+      "syllable": "딥",
+      "cho": "ㄷ",
+      "jung": "ㅣ",
+      "jong": "ㅂ",
+      "finalType": "single"
+    },
+    {
+      "syllable": "딧",
+      "cho": "ㄷ",
+      "jung": "ㅣ",
+      "jong": "ㅅ",
+      "finalType": "single"
+    },
+    {
+      "syllable": "딗",
+      "cho": "ㄷ",
+      "jung": "ㅣ",
+      "jong": "ㄳ",
+      "finalType": "double"
+    },
+    {
+      "syllable": "딙",
+      "cho": "ㄷ",
+      "jung": "ㅣ",
+      "jong": "ㄵ",
+      "finalType": "double"
+    },
+    {
+      "syllable": "릭",
+      "cho": "ㄹ",
+      "jung": "ㅣ",
+      "jong": "ㄱ",
+      "finalType": "single"
+    },
+    {
+      "syllable": "린",
+      "cho": "ㄹ",
+      "jung": "ㅣ",
+      "jong": "ㄴ",
+      "finalType": "single"
+    },
+    {
+      "syllable": "릴",
+      "cho": "ㄹ",
+      "jung": "ㅣ",
+      "jong": "ㄹ",
+      "finalType": "single"
+    },
+    {
+      "syllable": "림",
+      "cho": "ㄹ",
+      "jung": "ㅣ",
+      "jong": "ㅁ",
+      "finalType": "single"
+    },
+    {
+      "syllable": "링",
+      "cho": "ㄹ",
+      "jung": "ㅣ",
+      "jong": "ㅇ",
+      "finalType": "single"
+    },
+    {
+      "syllable": "립",
+      "cho": "ㄹ",
+      "jung": "ㅣ",
+      "jong": "ㅂ",
+      "finalType": "single"
+    },
+    {
+      "syllable": "릿",
+      "cho": "ㄹ",
+      "jung": "ㅣ",
+      "jong": "ㅅ",
+      "finalType": "single"
+    },
+    {
+      "syllable": "릯",
+      "cho": "ㄹ",
+      "jung": "ㅣ",
+      "jong": "ㄳ",
+      "finalType": "double"
+    },
+    {
+      "syllable": "릱",
+      "cho": "ㄹ",
+      "jung": "ㅣ",
+      "jong": "ㄵ",
+      "finalType": "double"
+    },
+    {
+      "syllable": "믹",
+      "cho": "ㅁ",
+      "jung": "ㅣ",
+      "jong": "ㄱ",
+      "finalType": "single"
+    },
+    {
+      "syllable": "민",
+      "cho": "ㅁ",
+      "jung": "ㅣ",
+      "jong": "ㄴ",
+      "finalType": "single"
+    },
+    {
+      "syllable": "밀",
+      "cho": "ㅁ",
+      "jung": "ㅣ",
+      "jong": "ㄹ",
+      "finalType": "single"
+    },
+    {
+      "syllable": "밈",
+      "cho": "ㅁ",
+      "jung": "ㅣ",
+      "jong": "ㅁ",
+      "finalType": "single"
+    },
+    {
+      "syllable": "밍",
+      "cho": "ㅁ",
+      "jung": "ㅣ",
+      "jong": "ㅇ",
+      "finalType": "single"
+    },
+    {
+      "syllable": "밉",
+      "cho": "ㅁ",
+      "jung": "ㅣ",
+      "jong": "ㅂ",
+      "finalType": "single"
+    },
+    {
+      "syllable": "밋",
+      "cho": "ㅁ",
+      "jung": "ㅣ",
+      "jong": "ㅅ",
+      "finalType": "single"
+    },
+    {
+      "syllable": "믻",
+      "cho": "ㅁ",
+      "jung": "ㅣ",
+      "jong": "ㄳ",
+      "finalType": "double"
+    },
+    {
+      "syllable": "믽",
+      "cho": "ㅁ",
+      "jung": "ㅣ",
+      "jong": "ㄵ",
+      "finalType": "double"
+    },
+    {
+      "syllable": "빅",
+      "cho": "ㅂ",
+      "jung": "ㅣ",
+      "jong": "ㄱ",
+      "finalType": "single"
+    },
+    {
+      "syllable": "빈",
+      "cho": "ㅂ",
+      "jung": "ㅣ",
+      "jong": "ㄴ",
+      "finalType": "single"
+    },
+    {
+      "syllable": "빌",
+      "cho": "ㅂ",
+      "jung": "ㅣ",
+      "jong": "ㄹ",
+      "finalType": "single"
+    },
+    {
+      "syllable": "빔",
+      "cho": "ㅂ",
+      "jung": "ㅣ",
+      "jong": "ㅁ",
+      "finalType": "single"
+    },
+    {
+      "syllable": "빙",
+      "cho": "ㅂ",
+      "jung": "ㅣ",
+      "jong": "ㅇ",
+      "finalType": "single"
+    },
+    {
+      "syllable": "빕",
+      "cho": "ㅂ",
+      "jung": "ㅣ",
+      "jong": "ㅂ",
+      "finalType": "single"
+    },
+    {
+      "syllable": "빗",
+      "cho": "ㅂ",
+      "jung": "ㅣ",
+      "jong": "ㅅ",
+      "finalType": "single"
+    },
+    {
+      "syllable": "빇",
+      "cho": "ㅂ",
+      "jung": "ㅣ",
+      "jong": "ㄳ",
+      "finalType": "double"
+    },
+    {
+      "syllable": "빉",
+      "cho": "ㅂ",
+      "jung": "ㅣ",
+      "jong": "ㄵ",
+      "finalType": "double"
+    },
+    {
+      "syllable": "식",
+      "cho": "ㅅ",
+      "jung": "ㅣ",
+      "jong": "ㄱ",
+      "finalType": "single"
+    },
+    {
+      "syllable": "신",
+      "cho": "ㅅ",
+      "jung": "ㅣ",
+      "jong": "ㄴ",
+      "finalType": "single"
+    },
+    {
+      "syllable": "실",
+      "cho": "ㅅ",
+      "jung": "ㅣ",
+      "jong": "ㄹ",
+      "finalType": "single"
+    },
+    {
+      "syllable": "심",
+      "cho": "ㅅ",
+      "jung": "ㅣ",
+      "jong": "ㅁ",
+      "finalType": "single"
+    },
+    {
+      "syllable": "싱",
+      "cho": "ㅅ",
+      "jung": "ㅣ",
+      "jong": "ㅇ",
+      "finalType": "single"
+    },
+    {
+      "syllable": "십",
+      "cho": "ㅅ",
+      "jung": "ㅣ",
+      "jong": "ㅂ",
+      "finalType": "single"
+    },
+    {
+      "syllable": "싯",
+      "cho": "ㅅ",
+      "jung": "ㅣ",
+      "jong": "ㅅ",
+      "finalType": "single"
+    },
+    {
+      "syllable": "싟",
+      "cho": "ㅅ",
+      "jung": "ㅣ",
+      "jong": "ㄳ",
+      "finalType": "double"
+    },
+    {
+      "syllable": "싡",
+      "cho": "ㅅ",
+      "jung": "ㅣ",
+      "jong": "ㄵ",
+      "finalType": "double"
+    },
+    {
+      "syllable": "익",
+      "cho": "ㅇ",
+      "jung": "ㅣ",
+      "jong": "ㄱ",
+      "finalType": "single"
+    },
+    {
+      "syllable": "인",
+      "cho": "ㅇ",
+      "jung": "ㅣ",
+      "jong": "ㄴ",
+      "finalType": "single"
+    },
+    {
+      "syllable": "일",
+      "cho": "ㅇ",
+      "jung": "ㅣ",
+      "jong": "ㄹ",
+      "finalType": "single"
+    },
+    {
+      "syllable": "임",
+      "cho": "ㅇ",
+      "jung": "ㅣ",
+      "jong": "ㅁ",
+      "finalType": "single"
+    },
+    {
+      "syllable": "잉",
+      "cho": "ㅇ",
+      "jung": "ㅣ",
+      "jong": "ㅇ",
+      "finalType": "single"
+    },
+    {
+      "syllable": "입",
+      "cho": "ㅇ",
+      "jung": "ㅣ",
+      "jong": "ㅂ",
+      "finalType": "single"
+    },
+    {
+      "syllable": "잇",
+      "cho": "ㅇ",
+      "jung": "ㅣ",
+      "jong": "ㅅ",
+      "finalType": "single"
+    },
+    {
+      "syllable": "읷",
+      "cho": "ㅇ",
+      "jung": "ㅣ",
+      "jong": "ㄳ",
+      "finalType": "double"
+    },
+    {
+      "syllable": "읹",
+      "cho": "ㅇ",
+      "jung": "ㅣ",
+      "jong": "ㄵ",
+      "finalType": "double"
+    },
+    {
+      "syllable": "직",
+      "cho": "ㅈ",
+      "jung": "ㅣ",
+      "jong": "ㄱ",
+      "finalType": "single"
+    },
+    {
+      "syllable": "진",
+      "cho": "ㅈ",
+      "jung": "ㅣ",
+      "jong": "ㄴ",
+      "finalType": "single"
+    },
+    {
+      "syllable": "질",
+      "cho": "ㅈ",
+      "jung": "ㅣ",
+      "jong": "ㄹ",
+      "finalType": "single"
+    },
+    {
+      "syllable": "짐",
+      "cho": "ㅈ",
+      "jung": "ㅣ",
+      "jong": "ㅁ",
+      "finalType": "single"
+    },
+    {
+      "syllable": "징",
+      "cho": "ㅈ",
+      "jung": "ㅣ",
+      "jong": "ㅇ",
+      "finalType": "single"
+    },
+    {
+      "syllable": "집",
+      "cho": "ㅈ",
+      "jung": "ㅣ",
+      "jong": "ㅂ",
+      "finalType": "single"
+    },
+    {
+      "syllable": "짓",
+      "cho": "ㅈ",
+      "jung": "ㅣ",
+      "jong": "ㅅ",
+      "finalType": "single"
+    },
+    {
+      "syllable": "짃",
+      "cho": "ㅈ",
+      "jung": "ㅣ",
+      "jong": "ㄳ",
+      "finalType": "double"
+    },
+    {
+      "syllable": "짅",
+      "cho": "ㅈ",
+      "jung": "ㅣ",
+      "jong": "ㄵ",
+      "finalType": "double"
+    },
+    {
+      "syllable": "칙",
+      "cho": "ㅊ",
+      "jung": "ㅣ",
+      "jong": "ㄱ",
+      "finalType": "single"
+    },
+    {
+      "syllable": "친",
+      "cho": "ㅊ",
+      "jung": "ㅣ",
+      "jong": "ㄴ",
+      "finalType": "single"
+    },
+    {
+      "syllable": "칠",
+      "cho": "ㅊ",
+      "jung": "ㅣ",
+      "jong": "ㄹ",
+      "finalType": "single"
+    },
+    {
+      "syllable": "침",
+      "cho": "ㅊ",
+      "jung": "ㅣ",
+      "jong": "ㅁ",
+      "finalType": "single"
+    },
+    {
+      "syllable": "칭",
+      "cho": "ㅊ",
+      "jung": "ㅣ",
+      "jong": "ㅇ",
+      "finalType": "single"
+    },
+    {
+      "syllable": "칩",
+      "cho": "ㅊ",
+      "jung": "ㅣ",
+      "jong": "ㅂ",
+      "finalType": "single"
+    },
+    {
+      "syllable": "칫",
+      "cho": "ㅊ",
+      "jung": "ㅣ",
+      "jong": "ㅅ",
+      "finalType": "single"
+    },
+    {
+      "syllable": "칛",
+      "cho": "ㅊ",
+      "jung": "ㅣ",
+      "jong": "ㄳ",
+      "finalType": "double"
+    },
+    {
+      "syllable": "칝",
+      "cho": "ㅊ",
+      "jung": "ㅣ",
+      "jong": "ㄵ",
+      "finalType": "double"
+    },
+    {
+      "syllable": "킥",
+      "cho": "ㅋ",
+      "jung": "ㅣ",
+      "jong": "ㄱ",
+      "finalType": "single"
+    },
+    {
+      "syllable": "킨",
+      "cho": "ㅋ",
+      "jung": "ㅣ",
+      "jong": "ㄴ",
+      "finalType": "single"
+    },
+    {
+      "syllable": "킬",
+      "cho": "ㅋ",
+      "jung": "ㅣ",
+      "jong": "ㄹ",
+      "finalType": "single"
+    },
+    {
+      "syllable": "킴",
+      "cho": "ㅋ",
+      "jung": "ㅣ",
+      "jong": "ㅁ",
+      "finalType": "single"
+    },
+    {
+      "syllable": "킹",
+      "cho": "ㅋ",
+      "jung": "ㅣ",
+      "jong": "ㅇ",
+      "finalType": "single"
+    },
+    {
+      "syllable": "킵",
+      "cho": "ㅋ",
+      "jung": "ㅣ",
+      "jong": "ㅂ",
+      "finalType": "single"
+    },
+    {
+      "syllable": "킷",
+      "cho": "ㅋ",
+      "jung": "ㅣ",
+      "jong": "ㅅ",
+      "finalType": "single"
+    },
+    {
+      "syllable": "킧",
+      "cho": "ㅋ",
+      "jung": "ㅣ",
+      "jong": "ㄳ",
+      "finalType": "double"
+    },
+    {
+      "syllable": "킩",
+      "cho": "ㅋ",
+      "jung": "ㅣ",
+      "jong": "ㄵ",
+      "finalType": "double"
+    },
+    {
+      "syllable": "틱",
+      "cho": "ㅌ",
+      "jung": "ㅣ",
+      "jong": "ㄱ",
+      "finalType": "single"
+    },
+    {
+      "syllable": "틴",
+      "cho": "ㅌ",
+      "jung": "ㅣ",
+      "jong": "ㄴ",
+      "finalType": "single"
+    },
+    {
+      "syllable": "틸",
+      "cho": "ㅌ",
+      "jung": "ㅣ",
+      "jong": "ㄹ",
+      "finalType": "single"
+    },
+    {
+      "syllable": "팀",
+      "cho": "ㅌ",
+      "jung": "ㅣ",
+      "jong": "ㅁ",
+      "finalType": "single"
+    },
+    {
+      "syllable": "팅",
+      "cho": "ㅌ",
+      "jung": "ㅣ",
+      "jong": "ㅇ",
+      "finalType": "single"
+    },
+    {
+      "syllable": "팁",
+      "cho": "ㅌ",
+      "jung": "ㅣ",
+      "jong": "ㅂ",
+      "finalType": "single"
+    },
+    {
+      "syllable": "팃",
+      "cho": "ㅌ",
+      "jung": "ㅣ",
+      "jong": "ㅅ",
+      "finalType": "single"
+    },
+    {
+      "syllable": "틳",
+      "cho": "ㅌ",
+      "jung": "ㅣ",
+      "jong": "ㄳ",
+      "finalType": "double"
+    },
+    {
+      "syllable": "틵",
+      "cho": "ㅌ",
+      "jung": "ㅣ",
+      "jong": "ㄵ",
+      "finalType": "double"
+    },
+    {
+      "syllable": "픽",
+      "cho": "ㅍ",
+      "jung": "ㅣ",
+      "jong": "ㄱ",
+      "finalType": "single"
+    },
+    {
+      "syllable": "핀",
+      "cho": "ㅍ",
+      "jung": "ㅣ",
+      "jong": "ㄴ",
+      "finalType": "single"
+    },
+    {
+      "syllable": "필",
+      "cho": "ㅍ",
+      "jung": "ㅣ",
+      "jong": "ㄹ",
+      "finalType": "single"
+    },
+    {
+      "syllable": "핌",
+      "cho": "ㅍ",
+      "jung": "ㅣ",
+      "jong": "ㅁ",
+      "finalType": "single"
+    },
+    {
+      "syllable": "핑",
+      "cho": "ㅍ",
+      "jung": "ㅣ",
+      "jong": "ㅇ",
+      "finalType": "single"
+    },
+    {
+      "syllable": "핍",
+      "cho": "ㅍ",
+      "jung": "ㅣ",
+      "jong": "ㅂ",
+      "finalType": "single"
+    },
+    {
+      "syllable": "핏",
+      "cho": "ㅍ",
+      "jung": "ㅣ",
+      "jong": "ㅅ",
+      "finalType": "single"
+    },
+    {
+      "syllable": "픿",
+      "cho": "ㅍ",
+      "jung": "ㅣ",
+      "jong": "ㄳ",
+      "finalType": "double"
+    },
+    {
+      "syllable": "핁",
+      "cho": "ㅍ",
+      "jung": "ㅣ",
+      "jong": "ㄵ",
+      "finalType": "double"
+    },
+    {
+      "syllable": "힉",
+      "cho": "ㅎ",
+      "jung": "ㅣ",
+      "jong": "ㄱ",
+      "finalType": "single"
+    },
+    {
+      "syllable": "힌",
+      "cho": "ㅎ",
+      "jung": "ㅣ",
+      "jong": "ㄴ",
+      "finalType": "single"
+    },
+    {
+      "syllable": "힐",
+      "cho": "ㅎ",
+      "jung": "ㅣ",
+      "jong": "ㄹ",
+      "finalType": "single"
+    },
+    {
+      "syllable": "힘",
+      "cho": "ㅎ",
+      "jung": "ㅣ",
+      "jong": "ㅁ",
+      "finalType": "single"
+    },
+    {
+      "syllable": "힝",
+      "cho": "ㅎ",
+      "jung": "ㅣ",
+      "jong": "ㅇ",
+      "finalType": "single"
+    },
+    {
+      "syllable": "힙",
+      "cho": "ㅎ",
+      "jung": "ㅣ",
+      "jong": "ㅂ",
+      "finalType": "single"
+    },
+    {
+      "syllable": "힛",
+      "cho": "ㅎ",
+      "jung": "ㅣ",
+      "jong": "ㅅ",
+      "finalType": "single"
+    },
+    {
+      "syllable": "힋",
+      "cho": "ㅎ",
+      "jung": "ㅣ",
+      "jong": "ㄳ",
+      "finalType": "double"
+    },
+    {
+      "syllable": "힍",
+      "cho": "ㅎ",
+      "jung": "ㅣ",
+      "jong": "ㄵ",
+      "finalType": "double"
+    }
+  ],
+  "sequence": [
+    "긱",
+    "긴",
+    "길",
+    "김",
+    "깅",
+    "깁",
+    "깃",
+    "긳",
+    "긵",
+    "닉",
+    "닌",
+    "닐",
+    "님",
+    "닝",
+    "닙",
+    "닛",
+    "닋",
+    "닍",
+    "딕",
+    "딘",
+    "딜",
+    "딤",
+    "딩",
+    "딥",
+    "딧",
+    "딗",
+    "딙",
+    "릭",
+    "린",
+    "릴",
+    "림",
+    "링",
+    "립",
+    "릿",
+    "릯",
+    "릱",
+    "믹",
+    "민",
+    "밀",
+    "밈",
+    "밍",
+    "밉",
+    "밋",
+    "믻",
+    "믽",
+    "빅",
+    "빈",
+    "빌",
+    "빔",
+    "빙",
+    "빕",
+    "빗",
+    "빇",
+    "빉",
+    "식",
+    "신",
+    "실",
+    "심",
+    "싱",
+    "십",
+    "싯",
+    "싟",
+    "싡",
+    "익",
+    "인",
+    "일",
+    "임",
+    "잉",
+    "입",
+    "잇",
+    "읷",
+    "읹",
+    "직",
+    "진",
+    "질",
+    "짐",
+    "징",
+    "집",
+    "짓",
+    "짃",
+    "짅",
+    "칙",
+    "친",
+    "칠",
+    "침",
+    "칭",
+    "칩",
+    "칫",
+    "칛",
+    "칝",
+    "킥",
+    "킨",
+    "킬",
+    "킴",
+    "킹",
+    "킵",
+    "킷",
+    "킧",
+    "킩",
+    "틱",
+    "틴",
+    "틸",
+    "팀",
+    "팅",
+    "팁",
+    "팃",
+    "틳",
+    "틵",
+    "픽",
+    "핀",
+    "필",
+    "핌",
+    "핑",
+    "핍",
+    "핏",
+    "픿",
+    "핁",
+    "힉",
+    "힌",
+    "힐",
+    "힘",
+    "힝",
+    "힙",
+    "힛",
+    "힋",
+    "힍"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "2_2_5_b",
+  "unitId": "2_2_5_yu_batchim",
+  "type": "letters",
+  "title": {
+    "ko": "2.2 (5-b) ㅠ 받침 확장 (윤~융)",
+    "en": "2.2 (5-b) Vowel ㅠ with finals (yun~yung)",
+    "ja": "2.2 (5-b) 母音 ㅠ の終声拡張（yun〜yung）",
+    "zh": "2.2 (5-b) 元音 ㅠ 的终声扩展（yun~yung）",
+    "vi": "2.2 (5-b) Nguyên âm ㅠ với phụ âm cuối (yun~yung)",
+    "fr": "2.2 (5-b) Voyelle ㅠ avec finales (yun~yung)",
+    "de": "2.2 (5-b) Vokal ㅠ mit Endkonsonanten (yun–yung)",
+    "es": "2.2 (5-b) Vocal ㅠ con finales (yun~yung)",
+    "ru": "2.2 (5-b) Гласный ㅠ с конечными согласными (yun–yung)",
+    "mn": "2.2 (5-b) Эгшиг ㅠ төгсгөлийн гийгүүлэгчтэй (yun–yung)"
+  },
+  "assetConventions": {
+    "strokeJson": "assets/strokes/syllables/{glyph}.json",
+    "audioMp3": "assets/audio/syllables/{glyph}.mp3"
+  },
+  "practice": {
+    "enabled": true,
+    "strokeAsset": "template",
+    "audio": true,
+    "repeat": 3
+  },
+  "sequence": [
+    "윤",
+    "율",
+    "윰",
+    "융"
+  ],
+  "uiHints": {
+    "grid": 4,
+    "rowGap": 8,
+    "colGap": 8
+  }
+}

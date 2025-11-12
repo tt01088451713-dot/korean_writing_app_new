@@ -1,0 +1,39 @@
+{
+  "id": "2_4_b5_we_wi_cvc",
+  "unitId": "2_4_b5_we_wi_cvc",
+  "type": "list",
+  "title": {
+    "ko": "2.4 확장 — ㅞ·ㅟ 받침(CVC)",
+    "en": "2.4 Extension — vowels ㅞ/ㅟ with finals (CVC)",
+    "ja": "2.4 拡張 — ㅞ・ㅟ の終声（CVC）",
+    "zh": "2.4 扩展 — 元音 ㅞ/ㅟ 含终声（CVC）",
+    "vi": "2.4 Mở rộng — nguyên âm ㅞ/ㅟ có phụ âm cuối (CVC)",
+    "fr": "2.4 Extension — voyelles ㅞ/ㅟ avec finale (CVC)",
+    "de": "2.4 Erweiterung — Vokale ㅞ/ㅟ mit Endkonsonant (CVC)",
+    "es": "2.4 Extensión — vocales ㅞ/ㅟ con final (CVC)",
+    "ru": "2.4 Расширение — гласные ㅞ/ㅟ с конечной (CVC)",
+    "mn": "2.4 Өргөтгөл — ㅞ/ㅟ эгшиг төгсгөлтэй (CVC)"
+  },
+  "description": {
+    "ko": "복합모음 ㅞ·ㅟ에 자주 쓰이는 CVC(받침) 조합을 익힙니다.",
+    "en": "Learn frequent CVC (final) combinations with the compound vowels ㅞ and ㅟ."
+  },
+  "ttsRulesRoute": "assets/data/common/tts_rules.json",
+  "assetConventions": {
+    "strokeJson": "assets/strokes/syllables/{glyph}.json",
+    "audioMp3": "assets/audio/syllables/{glyph}.mp3"
+  },
+  "practice": { "enabled": true, "strokeAsset": "template", "audio": true, "repeat": 3 },
+  "uiHints": { "grid": 7, "rowGap": 8, "colGap": 8 },
+  "vowel": "ㅞ/ㅟ",
+  "base": "웨/위",
+  "commonFinals": ["ㄴ", "ㄹ", "ㅇ"],
+  "items": [
+    { "syllable": "웬", "title": { "ko": "웬" }, "final": "ㄴ", "tts": { "ko": "웬", "roman": "wen" } },
+    { "syllable": "웰", "title": { "ko": "웰" }, "final": "ㄹ", "tts": { "ko": "웰", "roman": "wel" } },
+    { "syllable": "윈", "title": { "ko": "윈" }, "final": "ㄴ", "tts": { "ko": "윈", "roman": "win" } },
+    { "syllable": "윌", "title": { "ko": "윌" }, "final": "ㄹ", "tts": { "ko": "윌", "roman": "wil" } },
+    { "syllable": "윙", "title": { "ko": "윙" }, "final": "ㅇ", "tts": { "ko": "윙", "roman": "wing" } }
+  ],
+  "sequence": ["웬", "웰", "윈", "윌", "윙"]
+}

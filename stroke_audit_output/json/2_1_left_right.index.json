@@ -1,0 +1,173 @@
+{
+  "id": "2_1_index",
+  "title": {
+    "ko": "좌우결합형",
+    "en": "Left–Right Type",
+    "zh": "左右结合法",
+    "ja": "左右結合型",
+    "vi": "Kiểu trái–phải",
+    "fr": "Type gauche–droite",
+    "es": "Tipo izquierda–derecha",
+    "ru": "Лево‑правый тип",
+    "mn": "Зүүн‑баруун хэлбэр"
+  },
+  "definition": {
+    "ko": "좌우결합형은 초성이 좌측, 중성이 우측에 놓이는 CV 구조입니다. 세로형 모음에 받침이 결합해 하부가 생기는 경우는 2.3(복합형)에서 다룹니다.",
+    "en": "Left–right type: the initial on the left, the vowel on the right (CV). If a vertical vowel gets a bottom final, that CVC layout is covered in 2.3 (complex).",
+    "zh": "左右结合法：初声在左，元音在右（CV）。竖直元音加下部终声构成的CVC在2.3中学习。",
+    "ja": "左右結合型：初声が左、母音が右（CV）。縦型母音に終声が付くCVCは2.3で扱います。",
+    "vi": "Kiểu trái–phải: phụ âm đầu bên trái, nguyên âm bên phải (CV). CVC có đáy (với nguyên âm dọc) nằm ở mục 2.3.",
+    "fr": "Type gauche‑droite : initiale à gauche, voyelle à droite (CV). Les CVC avec base (voyelle verticale + finale) sont en 2.3.",
+    "es": "Tipo izq‑der: inicial a la izquierda y vocal a la derecha (CV). Los CVC con base (vocal vertical + final) están en 2.3.",
+    "ru": "Лево‑правый тип: начальная слева, гласная справа (CV). CVC с нижней финалью для вертикальных гласных — в 2.3.",
+    "mn": "Зүүн‑баруун хэлбэр: эх зүүнд, эгшиг баруунд (CV). Босоо эгшигтэй доод 받чим орсон CVC‑г 2.3‑т үзнэ."
+  },
+  "description": {
+    "ko": "세로형 모음(ㅣ, ㅏ, ㅑ, ㅐ, ㅒ, ㅓ, ㅕ, ㅔ, ㅖ)이 초성의 오른쪽에 배치되는 글자 배열입니다.",
+    "en": "Vertical vowels (ㅣ, ㅏ, ㅑ, ㅐ, ㅒ, ㅓ, ㅕ, ㅔ, ㅖ) are placed to the right of the initial consonant.",
+    "zh": "竖直元音（ㅣ, ㅏ, ㅑ, ㅐ, ㅒ, ㅓ, ㅕ, ㅔ, ㅖ）位于初声右侧的排列。",
+    "ja": "縦母音（ㅣ, ㅏ, ㅑ, ㅐ, ㅒ, ㅓ, ㅕ, ㅔ, ㅖ）が初声の右側に置かれる配置です。",
+    "vi": "Các nguyên âm dọc (ㅣ, ㅏ, ㅑ, ㅐ, ㅒ, ㅓ, ㅕ, ㅔ, ㅖ) được đặt bên phải phụ âm đầu.",
+    "fr": "Les voyelles verticales (ㅣ, ㅏ, ㅑ, ㅐ, ㅒ, ㅓ, ㅕ, ㅔ, ㅖ) se placent à droite de l'initiale.",
+    "es": "Las vocales verticales (ㅣ, ㅏ, ㅑ, ㅐ, ㅒ, ㅓ, ㅕ, ㅔ, ㅖ) se sitúan a la derecha de la consonante inicial.",
+    "ru": "Вертикальные гласные (ㅣ, ㅏ, ㅑ, ㅐ, ㅒ, ㅓ, ㅕ, ㅔ, ㅖ) располагаются справа от начальной согласной.",
+    "mn": "Босоо эгшгүүд (ㅣ, ㅏ, ㅑ, ㅐ, ㅒ, ㅓ, ㅕ, ㅔ, ㅖ) нь эх гийгүүлэгчийн баруун талд байрлана."
+  },
+  "parts": [
+    {
+      "id": "2_1_1",
+      "title": {
+        "ko": "(1) 기본자 계열(…ㅣ)",
+        "en": "(1) Basic set (…ㅣ)",
+        "zh": "(1) 基本组（…ㅣ）",
+        "ja": "(1) 基本群（…ㅣ）",
+        "vi": "(1) Tập cơ bản (…ㅣ)",
+        "fr": "(1) Série de base (…ㅣ)",
+        "es": "(1) Conjunto básico (…ㅣ)",
+        "ru": "(1) Базовый набор (…ㅣ)",
+        "mn": "(1) Үндсэн багц (…ㅣ)"
+      },
+      "route": "/letters/2_1_1_basic_i.json"
+    },
+    {
+      "id": "2_1_2",
+      "title": {
+        "ko": "(2) 가 계열(…ㅏ)",
+        "en": "(2) GA set (…ㅏ)",
+        "zh": "(2) GA 组（…ㅏ）",
+        "ja": "(2) GA 系（…ㅏ）",
+        "vi": "(2) Nhóm GA (…ㅏ)",
+        "fr": "(2) Série GA (…ㅏ)",
+        "es": "(2) Conjunto GA (…ㅏ)",
+        "ru": "(2) Набор GA (…ㅏ)",
+        "mn": "(2) GA цуглуулга (…ㅏ)"
+      },
+      "route": "/letters/2_1_2_ga_a.json"
+    },
+    {
+      "id": "2_1_3",
+      "title": {
+        "ko": "(3) 갸 계열(…ㅑ)",
+        "en": "(3) GYA set (…ㅑ)",
+        "zh": "(3) GYA 组（…ㅑ）",
+        "ja": "(3) GYA 系（…ㅑ）",
+        "vi": "(3) Nhóm GYA (…ㅑ)",
+        "fr": "(3) Série GYA (…ㅑ)",
+        "es": "(3) Conjunto GYA (…ㅑ)",
+        "ru": "(3) Набор GYA (…ㅑ)",
+        "mn": "(3) GYA цуглуулга (…ㅑ)"
+      },
+      "route": "/letters/2_1_3_gya_ya.json"
+    },
+    {
+      "id": "2_1_4",
+      "title": {
+        "ko": "(4) 개 계열(…ㅐ)",
+        "en": "(4) GAE set (…ㅐ)",
+        "zh": "(4) GAE 组（…ㅐ）",
+        "ja": "(4) GAE 系（…ㅐ）",
+        "vi": "(4) Nhóm GAE (…ㅐ)",
+        "fr": "(4) Série GAE (…ㅐ)",
+        "es": "(4) Conjunto GAE (…ㅐ)",
+        "ru": "(4) Набор GAE (…ㅐ)",
+        "mn": "(4) GAE цуглуулга (…ㅐ)"
+      },
+      "route": "/letters/2_1_4_gae_ae.json"
+    },
+    {
+      "id": "2_1_5",
+      "title": {
+        "ko": "(5) 걔 계열(…ㅒ)",
+        "en": "(5) GYAE set (…ㅒ)",
+        "zh": "(5) GYAE 组（…ㅒ）",
+        "ja": "(5) GYAE 系（…ㅒ）",
+        "vi": "(5) Nhóm GYAE (…ㅒ)",
+        "fr": "(5) Série GYAE (…ㅒ)",
+        "es": "(5) Conjunto GYAE (…ㅒ)",
+        "ru": "(5) Набор GYAE (…ㅒ)",
+        "mn": "(5) GYAE цуглуулга (…ㅒ)"
+      },
+      "route": "/letters/2_1_5_gyae_yae.json"
+    },
+    {
+      "id": "2_1_6",
+      "title": {
+        "ko": "(6) 거 계열(…ㅓ)",
+        "en": "(6) GEO set (…ㅓ)",
+        "zh": "(6) GEO 组（…ㅓ）",
+        "ja": "(6) GEO 系（…ㅓ）",
+        "vi": "(6) Nhóm GEO (…ㅓ)",
+        "fr": "(6) Série GEO (…ㅓ)",
+        "es": "(6) Conjunto GEO (…ㅓ)",
+        "ru": "(6) Набор GEO (…ㅓ)",
+        "mn": "(6) GEO цуглуулга (…ㅓ)"
+      },
+      "route": "/letters/2_1_6_geo_eo.json"
+    },
+    {
+      "id": "2_1_7",
+      "title": {
+        "ko": "(7) 겨 계열(…ㅕ)",
+        "en": "(7) GYEO set (…ㅕ)",
+        "zh": "(7) GYEO 组（…ㅕ）",
+        "ja": "(7) GYEO 系（…ㅕ）",
+        "vi": "(7) Nhóm GYEO (…ㅕ)",
+        "fr": "(7) Série GYEO (…ㅕ)",
+        "es": "(7) Conjunto GYEO (…ㅕ)",
+        "ru": "(7) Набор GYEO (…ㅕ)",
+        "mn": "(7) GYEO цуглуулга (…ㅕ)"
+      },
+      "route": "/letters/2_1_7_gyeo_yeo.json"
+    },
+    {
+      "id": "2_1_8",
+      "title": {
+        "ko": "(8) 게 계열(…ㅔ)",
+        "en": "(8) GE set (…ㅔ)",
+        "zh": "(8) GE 组（…ㅔ）",
+        "ja": "(8) GE 系（…ㅔ）",
+        "vi": "(8) Nhóm GE (…ㅔ)",
+        "fr": "(8) Série GE (…ㅔ)",
+        "es": "(8) Conjunto GE (…ㅔ)",
+        "ru": "(8) Набор GE (…ㅔ)",
+        "mn": "(8) GE цуглуулга (…ㅔ)"
+      },
+      "route": "/letters/2_1_8_ge_e.json"
+    },
+    {
+      "id": "2_1_9",
+      "title": {
+        "ko": "(9) 계 계열(…ㅖ)",
+        "en": "(9) GYE set (…ㅖ)",
+        "zh": "(9) GYE 组（…ㅖ）",
+        "ja": "(9) GYE 系（…ㅖ）",
+        "vi": "(9) Nhóm GYE (…ㅖ)",
+        "fr": "(9) Série GYE (…ㅖ)",
+        "es": "(9) Conjunto GYE (…ㅖ)",
+        "ru": "(9) Набор GYE (…ㅖ)",
+        "mn": "(9) GYE цуглуулга (…ㅖ)"
+      },
+      "route": "/letters/2_1_9_gye_ye.json"
+    }
+  ]
+}

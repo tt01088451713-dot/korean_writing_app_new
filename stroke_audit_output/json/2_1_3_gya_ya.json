@@ -1,0 +1,206 @@
+{
+  "id": "2_1_3",
+  "title": {
+    "ko": "(3) 갸 계열(…ㅑ)",
+    "en": "(3) GYA set (…ㅑ)"
+  },
+  "description": {
+    "ko": "자음과 ㅑ가 좌우로 결합한 음절(갸~햐). 일부 조합은 사용 빈도가 낮습니다.",
+    "en": "Consonant + ㅑ in a left–right layout (gya…hya). Some combinations are low‑frequency.",
+    "zh": "子音与ㅑ的左右结合法（갸~햐）。部分组合较少使用。",
+    "ja": "子音とㅑの左右結合（갸〜햐）。一部は使用頻度が低いです。",
+    "vi": "Phụ âm + ㅑ theo bố cục trái–phải (gya…hya). Một số tổ hợp ít dùng.",
+    "fr": "Consonne + ㅑ en disposition gauche‑droite (gya…hya). Certaines combinaisons sont peu fréquentes.",
+    "es": "Consonante + ㅑ en disposición izquierda‑derecha (gya…hya). Algunas combinaciones son poco frecuentes.",
+    "ru": "Согласная + ㅑ в лево‑правой компоновке (gya…hya). Некоторые сочетания редки.",
+    "mn": "Гийгүүлэгч + ㅑ зүүн‑баруун байрлалтай (gya…hya). Зарим нийлбэр ховор хэрэглэгддэг."
+  },
+  "chars": [
+    {
+      "label": "갸",
+      "ttsKey": "gya",
+      "core": true,
+      "strokeOrder": "assets/strokes/gya.json",
+      "guideOnly": true,
+      "freq": "high",
+      "writing": {
+        "order": "assets/strokes/gya.json",
+        "strokes": [],
+        "guideOnly": true
+      }
+    },
+    {
+      "label": "냐",
+      "ttsKey": "nya",
+      "core": true,
+      "strokeOrder": "assets/strokes/nya.json",
+      "guideOnly": true,
+      "freq": "high",
+      "writing": {
+        "order": "assets/strokes/nya.json",
+        "strokes": [],
+        "guideOnly": true
+      }
+    },
+    {
+      "label": "댜",
+      "ttsKey": "dya",
+      "core": false,
+      "strokeOrder": "assets/strokes/dya.json",
+      "guideOnly": true,
+      "freq": "low",
+      "writing": {
+        "order": "assets/strokes/dya.json",
+        "strokes": [],
+        "guideOnly": true
+      }
+    },
+    {
+      "label": "랴",
+      "ttsKey": "rya",
+      "core": true,
+      "strokeOrder": "assets/strokes/rya.json",
+      "guideOnly": true,
+      "freq": "high",
+      "writing": {
+        "order": "assets/strokes/rya.json",
+        "strokes": [],
+        "guideOnly": true
+      }
+    },
+    {
+      "label": "먀",
+      "ttsKey": "mya",
+      "core": true,
+      "strokeOrder": "assets/strokes/mya.json",
+      "guideOnly": true,
+      "freq": "high",
+      "writing": {
+        "order": "assets/strokes/mya.json",
+        "strokes": [],
+        "guideOnly": true
+      }
+    },
+    {
+      "label": "뱌",
+      "ttsKey": "bya",
+      "core": false,
+      "strokeOrder": "assets/strokes/bya.json",
+      "guideOnly": true,
+      "freq": "low",
+      "writing": {
+        "order": "assets/strokes/bya.json",
+        "strokes": [],
+        "guideOnly": true
+      }
+    },
+    {
+      "label": "샤",
+      "ttsKey": "sya",
+      "core": true,
+      "strokeOrder": "assets/strokes/sya.json",
+      "guideOnly": true,
+      "freq": "high",
+      "writing": {
+        "order": "assets/strokes/sya.json",
+        "strokes": [],
+        "guideOnly": true
+      }
+    },
+    {
+      "label": "야",
+      "ttsKey": "ya",
+      "core": true,
+      "strokeOrder": "assets/strokes/ya.json",
+      "guideOnly": true,
+      "freq": "high",
+      "writing": {
+        "order": "assets/strokes/ya.json",
+        "strokes": [],
+        "guideOnly": true
+      }
+    },
+    {
+      "label": "쟈",
+      "ttsKey": "jya",
+      "core": false,
+      "strokeOrder": "assets/strokes/jya.json",
+      "guideOnly": true,
+      "freq": "low",
+      "writing": {
+        "order": "assets/strokes/jya.json",
+        "strokes": [],
+        "guideOnly": true
+      }
+    },
+    {
+      "label": "챠",
+      "ttsKey": "chya",
+      "core": true,
+      "strokeOrder": "assets/strokes/chya.json",
+      "guideOnly": true,
+      "freq": "high",
+      "writing": {
+        "order": "assets/strokes/chya.json",
+        "strokes": [],
+        "guideOnly": true
+      }
+    },
+    {
+      "label": "캬",
+      "ttsKey": "kya",
+      "core": true,
+      "strokeOrder": "assets/strokes/kya.json",
+      "guideOnly": true,
+      "freq": "high",
+      "writing": {
+        "order": "assets/strokes/kya.json",
+        "strokes": [],
+        "guideOnly": true
+      }
+    },
+    {
+      "label": "탸",
+      "ttsKey": "tya",
+      "core": false,
+      "strokeOrder": "assets/strokes/tya.json",
+      "guideOnly": true,
+      "freq": "low",
+      "writing": {
+        "order": "assets/strokes/tya.json",
+        "strokes": [],
+        "guideOnly": true
+      }
+    },
+    {
+      "label": "퍄",
+      "ttsKey": "pya",
+      "core": false,
+      "strokeOrder": "assets/strokes/pya.json",
+      "guideOnly": true,
+      "freq": "low",
+      "writing": {
+        "order": "assets/strokes/pya.json",
+        "strokes": [],
+        "guideOnly": true
+      }
+    },
+    {
+      "label": "햐",
+      "ttsKey": "hya",
+      "core": false,
+      "strokeOrder": "assets/strokes/hya.json",
+      "guideOnly": true,
+      "freq": "low",
+      "writing": {
+        "order": "assets/strokes/hya.json",
+        "strokes": [],
+        "guideOnly": true
+      }
+    }
+  ],
+  "definition": {
+    "ko": "(3) 갸 계열(…ㅑ) 단원의 핵심 정의",
+    "en": "Core definition of (3) GYA set (…ㅑ) section"
+  }
+}

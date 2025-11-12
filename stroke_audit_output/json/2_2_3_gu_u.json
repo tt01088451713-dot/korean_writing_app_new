@@ -1,0 +1,796 @@
+{
+  "id": "2_2_3",
+  "title": {
+    "ko": "(3) 구 계열(…ㅜ)",
+    "en": "(3) GU set (…ㅜ)"
+  },
+  "description": {
+    "ko": "자음과 ㅜ가 상하로 결합하는 배열. CV와 CVC(받침) 예시를 함께 제공합니다.",
+    "en": "Top–bottom layout with ㅜ. Includes both CV and CVC (with finals).",
+    "zh": "与ㅜ的上下结合，同时给出CV与CVC示例。",
+    "ja": "ㅜとの上下結合。CVとCVC（終声付き）を併載。",
+    "vi": "Bố cục với ㅜ. Gồm cả CV và CVC (có 받침).",
+    "fr": "Disposition avec ㅜ. CV et CVC (avec finale).",
+    "es": "Disposición con ㅜ. Incluye CV y CVC (con finales).",
+    "ru": "Компоновка с ㅜ. Есть CV и CVC (с финалями).",
+    "mn": "ㅜ‑тай дээд‑доод байрлал. CV ба CVC‑г хамтад нь өглөө."
+  },
+  "sections": {
+    "cv": {
+      "chars": [
+        {
+          "label": "구",
+          "ttsKey": "gu",
+          "core": true,
+          "strokeOrder": "assets/strokes/gu.json",
+          "guideOnly": true,
+          "glyph": "구",
+          "type": "CV",
+          "sound": {
+            "ko": "구",
+            "ipa": "ku"
+          },
+          "writing": {
+            "strokes": [],
+            "order": "assets/strokes/gu.json",
+            "guideOnly": true
+          },
+          "tts": {
+            "ko": "구",
+            "en": "gu",
+            "rule": "auto"
+          }
+        },
+        {
+          "label": "누",
+          "ttsKey": "nu",
+          "core": true,
+          "strokeOrder": "assets/strokes/nu.json",
+          "guideOnly": true,
+          "glyph": "누",
+          "type": "CV",
+          "sound": {
+            "ko": "누",
+            "ipa": "nu"
+          },
+          "writing": {
+            "strokes": [],
+            "order": "assets/strokes/nu.json",
+            "guideOnly": true
+          },
+          "tts": {
+            "ko": "누",
+            "en": "nu",
+            "rule": "auto"
+          }
+        },
+        {
+          "label": "두",
+          "ttsKey": "du",
+          "core": true,
+          "strokeOrder": "assets/strokes/du.json",
+          "guideOnly": true,
+          "glyph": "두",
+          "type": "CV",
+          "sound": {
+            "ko": "두",
+            "ipa": "tu"
+          },
+          "writing": {
+            "strokes": [],
+            "order": "assets/strokes/du.json",
+            "guideOnly": true
+          },
+          "tts": {
+            "ko": "두",
+            "en": "du",
+            "rule": "auto"
+          }
+        },
+        {
+          "label": "루",
+          "ttsKey": "ru",
+          "core": true,
+          "strokeOrder": "assets/strokes/ru.json",
+          "guideOnly": true,
+          "glyph": "루",
+          "type": "CV",
+          "sound": {
+            "ko": "루",
+            "ipa": "ɾu"
+          },
+          "writing": {
+            "strokes": [],
+            "order": "assets/strokes/ru.json",
+            "guideOnly": true
+          },
+          "tts": {
+            "ko": "루",
+            "en": "ru",
+            "rule": "auto"
+          }
+        },
+        {
+          "label": "무",
+          "ttsKey": "mu",
+          "core": true,
+          "strokeOrder": "assets/strokes/mu.json",
+          "guideOnly": true,
+          "glyph": "무",
+          "type": "CV",
+          "sound": {
+            "ko": "무",
+            "ipa": "mu"
+          },
+          "writing": {
+            "strokes": [],
+            "order": "assets/strokes/mu.json",
+            "guideOnly": true
+          },
+          "tts": {
+            "ko": "무",
+            "en": "mu",
+            "rule": "auto"
+          }
+        },
+        {
+          "label": "부",
+          "ttsKey": "bu",
+          "core": true,
+          "strokeOrder": "assets/strokes/bu.json",
+          "guideOnly": true,
+          "glyph": "부",
+          "type": "CV",
+          "sound": {
+            "ko": "부",
+            "ipa": "pu"
+          },
+          "writing": {
+            "strokes": [],
+            "order": "assets/strokes/bu.json",
+            "guideOnly": true
+          },
+          "tts": {
+            "ko": "부",
+            "en": "bu",
+            "rule": "auto"
+          }
+        },
+        {
+          "label": "수",
+          "ttsKey": "su",
+          "core": true,
+          "strokeOrder": "assets/strokes/su.json",
+          "guideOnly": true,
+          "glyph": "수",
+          "type": "CV",
+          "sound": {
+            "ko": "수",
+            "ipa": "su"
+          },
+          "writing": {
+            "strokes": [],
+            "order": "assets/strokes/su.json",
+            "guideOnly": true
+          },
+          "tts": {
+            "ko": "수",
+            "en": "su",
+            "rule": "auto"
+          }
+        },
+        {
+          "label": "우",
+          "ttsKey": "u",
+          "core": true,
+          "strokeOrder": "assets/strokes/u.json",
+          "guideOnly": true,
+          "glyph": "우",
+          "type": "CV",
+          "sound": {
+            "ko": "우",
+            "ipa": "u"
+          },
+          "writing": {
+            "strokes": [],
+            "order": "assets/strokes/u.json",
+            "guideOnly": true
+          },
+          "tts": {
+            "ko": "우",
+            "en": "u",
+            "rule": "auto"
+          }
+        },
+        {
+          "label": "주",
+          "ttsKey": "ju",
+          "core": true,
+          "strokeOrder": "assets/strokes/ju.json",
+          "guideOnly": true,
+          "glyph": "주",
+          "type": "CV",
+          "sound": {
+            "ko": "주",
+            "ipa": "tɕu"
+          },
+          "writing": {
+            "strokes": [],
+            "order": "assets/strokes/ju.json",
+            "guideOnly": true
+          },
+          "tts": {
+            "ko": "주",
+            "en": "ju",
+            "rule": "auto"
+          }
+        },
+        {
+          "label": "추",
+          "ttsKey": "chu",
+          "core": true,
+          "strokeOrder": "assets/strokes/chu.json",
+          "guideOnly": true,
+          "glyph": "추",
+          "type": "CV",
+          "sound": {
+            "ko": "추",
+            "ipa": "tɕʰu"
+          },
+          "writing": {
+            "strokes": [],
+            "order": "assets/strokes/chu.json",
+            "guideOnly": true
+          },
+          "tts": {
+            "ko": "추",
+            "en": "chu",
+            "rule": "auto"
+          }
+        },
+        {
+          "label": "쿠",
+          "ttsKey": "ku",
+          "core": true,
+          "strokeOrder": "assets/strokes/ku.json",
+          "guideOnly": true,
+          "glyph": "쿠",
+          "type": "CV",
+          "sound": {
+            "ko": "쿠",
+            "ipa": "kʰu"
+          },
+          "writing": {
+            "strokes": [],
+            "order": "assets/strokes/ku.json",
+            "guideOnly": true
+          },
+          "tts": {
+            "ko": "쿠",
+            "en": "ku",
+            "rule": "auto"
+          }
+        },
+        {
+          "label": "투",
+          "ttsKey": "tu",
+          "core": true,
+          "strokeOrder": "assets/strokes/tu.json",
+          "guideOnly": true,
+          "glyph": "투",
+          "type": "CV",
+          "sound": {
+            "ko": "투",
+            "ipa": "tʰu"
+          },
+          "writing": {
+            "strokes": [],
+            "order": "assets/strokes/tu.json",
+            "guideOnly": true
+          },
+          "tts": {
+            "ko": "투",
+            "en": "tu",
+            "rule": "auto"
+          }
+        },
+        {
+          "label": "푸",
+          "ttsKey": "pu",
+          "core": true,
+          "strokeOrder": "assets/strokes/pu.json",
+          "guideOnly": true,
+          "glyph": "푸",
+          "type": "CV",
+          "sound": {
+            "ko": "푸",
+            "ipa": "pʰu"
+          },
+          "writing": {
+            "strokes": [],
+            "order": "assets/strokes/pu.json",
+            "guideOnly": true
+          },
+          "tts": {
+            "ko": "푸",
+            "en": "pu",
+            "rule": "auto"
+          }
+        },
+        {
+          "label": "후",
+          "ttsKey": "hu",
+          "core": true,
+          "strokeOrder": "assets/strokes/hu.json",
+          "guideOnly": true,
+          "glyph": "후",
+          "type": "CV",
+          "sound": {
+            "ko": "후",
+            "ipa": "hu"
+          },
+          "writing": {
+            "strokes": [],
+            "order": "assets/strokes/hu.json",
+            "guideOnly": true
+          },
+          "tts": {
+            "ko": "후",
+            "en": "hu",
+            "rule": "auto"
+          }
+        }
+      ]
+    },
+    "cvc": {
+      "note": {
+        "ko": "대표 받침 ㄴ·ㄹ·ㅁ·ㅇ·ㄱ 중심으로 실사용 예시를 제시합니다.",
+        "en": "Representative finals ㄴ, ㄹ, ㅁ, ㅇ, ㄱ with common words.",
+        "zh": "以常见终声ㄴ、ㄹ、ㅁ、ㅇ、ㄱ为主并给出示例词。",
+        "ja": "代表的な終声（ㄴ・ㄹ・ㅁ・ㅇ・ㄱ）の実用例を示します。",
+        "vi": "Đưa các ví dụ phổ biến với 받침 ㄴ, ㄹ, ㅁ, ㅇ, ㄱ.",
+        "fr": "Exemples usuels avec finales ㄴ, ㄹ, ㅁ, ㅇ, ㄱ.",
+        "es": "Ejemplos de uso con finales ㄴ, ㄹ, ㅁ, ㅇ, ㄱ.",
+        "ru": "Примеры употребления с финалями ㄴ, ㄹ, ㅁ, ㅇ, ㄱ.",
+        "mn": "Их хэрэглээтэй ㄴ, ㄹ, ㅁ, ㅇ, ㄱ 받침тай жишээ үгс."
+      },
+      "examples": [
+        {
+          "base": "구",
+          "commonFinals": [
+            "ㄱ",
+            "ㄴ",
+            "ㄹ",
+            "ㅁ",
+            "ㅇ"
+          ],
+          "items": [
+            {
+              "syllable": "국",
+              "final": "ㄱ",
+              "samples": [
+                "국가",
+                "국수"
+              ],
+              "glyph": "국",
+              "type": "CVC",
+              "sound": {
+                "ko": "국",
+                "ipa": "kuk̚"
+              },
+              "writing": {
+                "strokes": [],
+                "order": null,
+                "guideOnly": true
+              },
+              "tts": {
+                "ko": "국",
+                "en": "guk",
+                "rule": "auto",
+                "finalRoman": "k",
+                "finalIpa": "k̚"
+              },
+              "ttsKey": "guk",
+              "guideOnly": true,
+              "strokeOrder": null
+            },
+            {
+              "syllable": "군",
+              "final": "ㄴ",
+              "samples": [
+                "군대",
+                "군인"
+              ],
+              "glyph": "군",
+              "type": "CVC",
+              "sound": {
+                "ko": "군",
+                "ipa": "kun"
+              },
+              "writing": {
+                "strokes": [],
+                "order": null,
+                "guideOnly": true
+              },
+              "tts": {
+                "ko": "군",
+                "en": "gun",
+                "rule": "auto",
+                "finalRoman": "n",
+                "finalIpa": "n"
+              },
+              "ttsKey": "gun",
+              "guideOnly": true,
+              "strokeOrder": null
+            },
+            {
+              "syllable": "굴",
+              "final": "ㄹ",
+              "samples": [
+                "굴(해산물)",
+                "굴곡"
+              ],
+              "glyph": "굴",
+              "type": "CVC",
+              "sound": {
+                "ko": "굴",
+                "ipa": "kul"
+              },
+              "writing": {
+                "strokes": [],
+                "order": null,
+                "guideOnly": true
+              },
+              "tts": {
+                "ko": "굴",
+                "en": "gul",
+                "rule": "auto",
+                "finalRoman": "l",
+                "finalIpa": "l"
+              },
+              "ttsKey": "gul",
+              "guideOnly": true,
+              "strokeOrder": null
+            },
+            {
+              "syllable": "굼",
+              "final": "ㅁ",
+              "glyph": "굼",
+              "type": "CVC",
+              "sound": {
+                "ko": "굼",
+                "ipa": "kum"
+              },
+              "writing": {
+                "strokes": [],
+                "order": null,
+                "guideOnly": true
+              },
+              "tts": {
+                "ko": "굼",
+                "en": "gum",
+                "rule": "auto",
+                "finalRoman": "m",
+                "finalIpa": "m"
+              },
+              "ttsKey": "gum",
+              "guideOnly": true,
+              "strokeOrder": null
+            },
+            {
+              "syllable": "궁",
+              "final": "ㅇ",
+              "samples": [
+                "궁전",
+                "궁금"
+              ],
+              "glyph": "궁",
+              "type": "CVC",
+              "sound": {
+                "ko": "궁",
+                "ipa": "kuŋ"
+              },
+              "writing": {
+                "strokes": [],
+                "order": null,
+                "guideOnly": true
+              },
+              "tts": {
+                "ko": "궁",
+                "en": "gung",
+                "rule": "auto",
+                "finalRoman": "ng",
+                "finalIpa": "ŋ"
+              },
+              "ttsKey": "gung",
+              "guideOnly": true,
+              "strokeOrder": null
+            }
+          ]
+        },
+        {
+          "base": "수",
+          "commonFinals": [
+            "ㄴ",
+            "ㄹ",
+            "ㅁ",
+            "ㅇ",
+            "ㅂ"
+          ],
+          "items": [
+            {
+              "syllable": "순",
+              "final": "ㄴ",
+              "samples": [
+                "순서",
+                "순수"
+              ],
+              "glyph": "순",
+              "type": "CVC",
+              "sound": {
+                "ko": "순",
+                "ipa": "sun"
+              },
+              "writing": {
+                "strokes": [],
+                "order": null,
+                "guideOnly": true
+              },
+              "tts": {
+                "ko": "순",
+                "en": "sun",
+                "rule": "auto",
+                "finalRoman": "n",
+                "finalIpa": "n"
+              },
+              "ttsKey": "sun",
+              "guideOnly": true,
+              "strokeOrder": null
+            },
+            {
+              "syllable": "술",
+              "final": "ㄹ",
+              "samples": [
+                "술",
+                "술집"
+              ],
+              "glyph": "술",
+              "type": "CVC",
+              "sound": {
+                "ko": "술",
+                "ipa": "sul"
+              },
+              "writing": {
+                "strokes": [],
+                "order": null,
+                "guideOnly": true
+              },
+              "tts": {
+                "ko": "술",
+                "en": "sul",
+                "rule": "auto",
+                "finalRoman": "l",
+                "finalIpa": "l"
+              },
+              "ttsKey": "sul",
+              "guideOnly": true,
+              "strokeOrder": null
+            },
+            {
+              "syllable": "숨",
+              "final": "ㅁ",
+              "samples": [
+                "숨",
+                "숨결"
+              ],
+              "glyph": "숨",
+              "type": "CVC",
+              "sound": {
+                "ko": "숨",
+                "ipa": "sum"
+              },
+              "writing": {
+                "strokes": [],
+                "order": null,
+                "guideOnly": true
+              },
+              "tts": {
+                "ko": "숨",
+                "en": "sum",
+                "rule": "auto",
+                "finalRoman": "m",
+                "finalIpa": "m"
+              },
+              "ttsKey": "sum",
+              "guideOnly": true,
+              "strokeOrder": null
+            },
+            {
+              "syllable": "승",
+              "final": "ㅇ",
+              "samples": [
+                "승리",
+                "승강기"
+              ],
+              "glyph": "승",
+              "type": "CVC",
+              "sound": {
+                "ko": "승",
+                "ipa": "sɯŋ"
+              },
+              "writing": {
+                "strokes": [],
+                "order": null,
+                "guideOnly": true
+              },
+              "tts": {
+                "ko": "승",
+                "en": "seung",
+                "rule": "auto",
+                "finalRoman": "ng",
+                "finalIpa": "ŋ"
+              },
+              "ttsKey": "seung",
+              "guideOnly": true,
+              "strokeOrder": null
+            },
+            {
+              "syllable": "숲",
+              "final": "ㅂ",
+              "samples": [
+                "숲"
+              ],
+              "glyph": "숲",
+              "type": "CVC",
+              "sound": {
+                "ko": "숲",
+                "ipa": "sup̚"
+              },
+              "writing": {
+                "strokes": [],
+                "order": null,
+                "guideOnly": true
+              },
+              "tts": {
+                "ko": "숲",
+                "en": "sup",
+                "rule": "auto",
+                "finalRoman": "p",
+                "finalIpa": "p̚"
+              },
+              "ttsKey": "sup",
+              "guideOnly": true,
+              "strokeOrder": null
+            }
+          ]
+        },
+        {
+          "base": "부",
+          "commonFinals": [
+            "ㄴ",
+            "ㄹ",
+            "ㅁ",
+            "ㅇ"
+          ],
+          "items": [
+            {
+              "syllable": "분",
+              "final": "ㄴ",
+              "samples": [
+                "분류",
+                "분리"
+              ],
+              "glyph": "분",
+              "type": "CVC",
+              "sound": {
+                "ko": "분",
+                "ipa": "pun"
+              },
+              "writing": {
+                "strokes": [],
+                "order": null,
+                "guideOnly": true
+              },
+              "tts": {
+                "ko": "분",
+                "en": "bun",
+                "rule": "auto",
+                "finalRoman": "n",
+                "finalIpa": "n"
+              },
+              "ttsKey": "bun",
+              "guideOnly": true,
+              "strokeOrder": null
+            },
+            {
+              "syllable": "불",
+              "final": "ㄹ",
+              "samples": [
+                "불",
+                "불꽃"
+              ],
+              "glyph": "불",
+              "type": "CVC",
+              "sound": {
+                "ko": "불",
+                "ipa": "pul"
+              },
+              "writing": {
+                "strokes": [],
+                "order": null,
+                "guideOnly": true
+              },
+              "tts": {
+                "ko": "불",
+                "en": "bul",
+                "rule": "auto",
+                "finalRoman": "l",
+                "finalIpa": "l"
+              },
+              "ttsKey": "bul",
+              "guideOnly": true,
+              "strokeOrder": null
+            },
+            {
+              "syllable": "붐",
+              "final": "ㅁ",
+              "samples": [
+                "붐비다"
+              ],
+              "glyph": "붐",
+              "type": "CVC",
+              "sound": {
+                "ko": "붐",
+                "ipa": "pum"
+              },
+              "writing": {
+                "strokes": [],
+                "order": null,
+                "guideOnly": true
+              },
+              "tts": {
+                "ko": "붐",
+                "en": "bum",
+                "rule": "auto",
+                "finalRoman": "m",
+                "finalIpa": "m"
+              },
+              "ttsKey": "bum",
+              "guideOnly": true,
+              "strokeOrder": null
+            },
+            {
+              "syllable": "붕",
+              "final": "ㅇ",
+              "samples": [
+                "붕대",
+                "붕어빵"
+              ],
+              "glyph": "붕",
+              "type": "CVC",
+              "sound": {
+                "ko": "붕",
+                "ipa": "puŋ"
+              },
+              "writing": {
+                "strokes": [],
+                "order": null,
+                "guideOnly": true
+              },
+              "tts": {
+                "ko": "붕",
+                "en": "bung",
+                "rule": "auto",
+                "finalRoman": "ng",
+                "finalIpa": "ŋ"
+              },
+              "ttsKey": "bung",
+              "guideOnly": true,
+              "strokeOrder": null
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

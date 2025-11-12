@@ -5,7 +5,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
-	<string>Korean Writing App New</string>
+	<string>Korean Writing App</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -45,5 +45,11 @@
 	<true/>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
+
+	<!-- ✅ 갤러리(사진 보관함) 권한 안내: 저장/읽기 보수적 추가 -->
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>학습한 쓰기 연습 이미지를 사진 보관함에 저장하기 위해 권한이 필요합니다.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>학습 이미지를 보여주거나 저장하기 위해 사진 보관함 접근 권한이 필요합니다.</string>
 </dict>
 </plist>

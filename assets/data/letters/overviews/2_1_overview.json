@@ -1,0 +1,29 @@
+{
+  "id": "2_1",
+  "title": {
+    "ko": "좌우 결합형",
+    "en": "Left–Right Structure",
+    "ja": "左右結合型",
+    "zh": "左右结构",
+    "vi": "Cấu trúc trái–phải",
+    "fr": "Structure gauche–droite",
+    "de": "Links–Rechts-Struktur",
+    "es": "Estructura izquierda–derecha",
+    "ru": "Лево–правое построение",
+    "mn": "Зүүн–баруун бүтэц"
+  },
+  "description": {
+    "ko": "초성(자음)+중성(모음)이 좌우로 배치되는 글자 구조를 연습합니다.",
+    "en": "Practice syllables whose initial and medial are arranged side-by-side.",
+    "ja": "初声と中声が左右に配置される文字構造を練習します。",
+    "zh": "练习声母与韵母左右排列的字形结构。",
+    "vi": "Luyện cấu trúc chữ có âm đầu và âm chính đặt cạnh nhau.",
+    "fr": "Entraînez des syllabes dont l'initiale et la médiane sont côte à côte.",
+    "de": "Üben Sie Silben, deren Anlaut und Inlaut nebeneinander angeordnet sind.",
+    "es": "Practica sílabas con inicial y medial colocadas lado a lado.",
+    "ru": "Тренируйте слоги, где начальный и срединный элементы расположены рядом.",
+    "mn": "Эх ба гол элементүүд хажуугаар байрлах үсгийн бүтцийг давтана."
+  },
+  "overviewRef": "assets/data/letters/overviews/2_1_overview.json",
+  "variants": []
+}

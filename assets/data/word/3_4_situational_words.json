@@ -1,0 +1,78 @@
+{
+  "unit": "3. 단어",
+  "lesson_id": "3_4",
+  "title": {
+    "ko": "상황별 단어",
+    "en": "Situation-based Words",
+    "ja": "場面別単語",
+    "zh": "情境词汇",
+    "vi": "Từ theo tình huống",
+    "fr": "Mots selon la situation",
+    "de": "Situationswörter",
+    "es": "Palabras por situación",
+    "ru": "Слова по ситуациям",
+    "mn": "Нөхцөл байдлын үгс"
+  },
+  "situations": [
+    { "id": "s_restaurant", "name": { "ko": "식당에서", "en": "At a Restaurant" } },
+    { "id": "s_market", "name": { "ko": "가게/시장", "en": "At a Store/Market" } },
+    { "id": "s_transport", "name": { "ko": "길/교통", "en": "On the Road / Transport" } },
+    { "id": "s_time", "name": { "ko": "시간/날짜", "en": "Time and Date" } }
+  ],
+  "items": [
+    {
+      "id": "sw_restaurant_01",
+      "type": "word",
+      "text": "메뉴",
+      "meanings": { "ko": "", "en": "menu", "ja": "メニュー", "zh": "菜单", "vi": "thực đơn", "fr": "menu", "de": "Speisekarte", "es": "menú", "ru": "меню", "mn": "цэс" },
+      "writing": { "enabled": true, "guides": ["메","뉴"] },
+      "tts": { "text": "메뉴", "lang": "ko-KR" },
+      "metadata": { "situation": "식당에서" }
+    },
+    {
+      "id": "sw_restaurant_02",
+      "type": "word",
+      "text": "주문",
+      "meanings": { "ko": "", "en": "order", "ja": "注文", "zh": "点菜", "vi": "gọi món", "fr": "commande", "de": "Bestellung", "es": "pedido", "ru": "заказ", "mn": "захиалга" },
+      "writing": { "enabled": true, "guides": ["주","문"] },
+      "tts": { "text": "주문", "lang": "ko-KR" },
+      "metadata": { "situation": "식당에서" }
+    },
+    {
+      "id": "sw_market_01",
+      "type": "word",
+      "text": "가격",
+      "meanings": { "ko": "", "en": "price", "ja": "値段", "zh": "价格", "vi": "giá", "fr": "prix", "de": "Preis", "es": "precio", "ru": "цена", "mn": "үнэ" },
+      "writing": { "enabled": true, "guides": ["가","격"] },
+      "tts": { "text": "가격", "lang": "ko-KR" },
+      "metadata": { "situation": "가게/시장" }
+    },
+    {
+      "id": "sw_market_02",
+      "type": "word",
+      "text": "현금",
+      "meanings": { "ko": "", "en": "cash", "ja": "現金", "zh": "现金", "vi": "tiền mặt", "fr": "argent liquide", "de": "Bargeld", "es": "efectivo", "ru": "наличные", "mn": "бэлэн мөнгө" },
+      "writing": { "enabled": true, "guides": ["현","금"] },
+      "tts": { "text": "현금", "lang": "ko-KR" },
+      "metadata": { "situation": "가게/시장" }
+    },
+    {
+      "id": "sw_transport_01",
+      "type": "word",
+      "text": "지하철",
+      "meanings": { "ko": "", "en": "subway", "ja": "地下鉄", "zh": "地铁", "vi": "tàu điện ngầm", "fr": "métro", "de": "U-Bahn", "es": "metro", "ru": "метро", "mn": "газар доорх галт тэрэг" },
+      "writing": { "enabled": true, "guides": ["지","하","철"] },
+      "tts": { "text": "지하철", "lang": "ko-KR" },
+      "metadata": { "situation": "길/교통" }
+    },
+    {
+      "id": "sw_time_01",
+      "type": "word",
+      "text": "시계",
+      "meanings": { "ko": "", "en": "clock", "ja": "時計", "zh": "钟表", "vi": "đồng hồ", "fr": "montre", "de": "Uhr", "es": "reloj", "ru": "часы", "mn": "цаг" },
+      "writing": { "enabled": true, "guides": ["시","계"] },
+      "tts": { "text": "시계", "lang": "ko-KR" },
+      "metadata": { "situation": "시간/날짜" }
+    }
+  ]
+}

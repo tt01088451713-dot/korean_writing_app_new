@@ -1,0 +1,130 @@
+{
+  "unitId": "2_2_top_bottom_index",
+  "id": "2_2_basic",
+  "type": "hub",
+  "title": {
+    "ko": "2.2 상하 결합형 글자",
+    "en": "2.2 Top–Bottom Syllable Blocks",
+    "ja": "2.2 上下結合型の音節",
+    "zh": "2.2 上下结合法音节",
+    "vi": "2.2 Âm tiết kiểu trên–dưới",
+    "fr": "2.2 Blocs syllabiques haut–bas",
+    "de": "2.2 Oben–Unten-Silbenblöcke",
+    "es": "2.2 Bloques silábicos arriba–abajo",
+    "ru": "2.2 Слоговые блоки «верх–низ»",
+    "mn": "2.2 Дээд–доод байрлалтай үгийн блокууд"
+  },
+  "overviewRef": "assets/data/letters/overviews/2_2_overview.json",
+  
+  "description": {
+    "ko": "초성(자음)+중성(모음)이 상하로 결합한 CV 배열입니다. 아래 카드(모음 계열)를 선택하면 해당 음절 그리드와 쓰기 연습으로 이동합니다.",
+    "en": "CV layout where the initial and medial stack top–bottom. Pick a vowel set below to open its syllable grid and start practice.",
+    "ja": "初声と中声が上下に積むCV配置です。下の母音セットを選ぶと、音節グリッドと書き取り練習に進みます。",
+    "zh": "初声与中声上下堆叠的 CV 布局。选择下方的元音集合进入音节网格并开始练习。",
+    "vi": "Bố cục CV xếp chồng trên–dưới. Chọn bộ nguyên âm bên dưới để mở lưới âm tiết và luyện viết.",
+    "fr": "Disposition CV en pile haut–bas. Choisissez un ensemble de voyelles pour ouvrir la grille et pratiquer.",
+    "de": "CV-Anordnung (oben–unten). Wählen Sie unten ein Vokal-Set, um Raster und Übung zu öffnen.",
+    "es": "Distribución CV en pila arriba–abajo. Elige un conjunto de vocales para abrir la cuadrícula y practicar.",
+    "ru": "CV-компоновка с вертикальным складыванием. Выберите набор гласных, чтобы открыть сетку и приступить к практике.",
+    "mn": "Эх ба гол үсгийг дээд–доороор давхарласан CV байрлал. Доорх эгшгийн багцыг сонгон дасгал хийнэ."
+  },
+  "items": [
+    {
+      "id": "2_2_1",
+      "title": {
+        "ko": "그~흐 (…으)",
+        "en": "...eu set",
+        "ja": "…ウ（ㅡ）セット",
+        "zh": "…eu 集合",
+        "vi": "Bộ …eu (ㅡ)",
+        "fr": "Série …eu (ㅡ)",
+        "de": "Reihe …eu (ㅡ)",
+        "es": "Serie …eu (ㅡ)",
+        "ru": "Набор …eu (ㅡ)",
+        "mn": "…eu (ㅡ) цуглуулга"
+      },
+      "route": "assets/data/letters/2_2/2_2_1_geu.json",
+      "practice": { "glyphs": ["그","느","드","르","므","브","스","으","즈","츠","크","트","프","흐"] }
+    },
+    {
+      "id": "2_2_2",
+      "title": {
+        "ko": "고~호 (…오)",
+        "en": "...o set",
+        "ja": "…オ セット",
+        "zh": "…o 集合",
+        "vi": "Bộ …o",
+        "fr": "Série …o",
+        "de": "Reihe …o",
+        "es": "Serie …o",
+        "ru": "Набор …o",
+        "mn": "…o цуглуулга"
+      },
+      "route": "assets/data/letters/2_2/2_2_2_go.json",
+      "practice": { "glyphs": ["고","노","도","로","모","보","소","오","조","초","코","토","포","호"] }
+    },
+    {
+      "id": "2_2_3",
+      "title": {
+        "ko": "교~효 (…요)",
+        "en": "...yo set",
+        "ja": "…ヨ セット",
+        "zh": "…yo 集合",
+        "vi": "Bộ …yo",
+        "fr": "Série …yo",
+        "de": "Reihe …yo",
+        "es": "Serie …yo",
+        "ru": "Набор …yo",
+        "mn": "…yo цуглуулга"
+      },
+      "route": "assets/data/letters/2_2/2_2_3_gyo.json",
+      "practice": { "glyphs": ["교","뇨","됴","료","묘","뵤","쇼","요","죠","쵸","쿄","툐","퓨","휴"] }
+    },
+    {
+      "id": "2_2_4",
+      "title": {
+        "ko": "구~후 (…우)",
+        "en": "...u set",
+        "ja": "…ウ セット",
+        "zh": "…u 集合",
+        "vi": "Bộ …u",
+        "fr": "Série …u",
+        "de": "Reihe …u",
+        "es": "Serie …u",
+        "ru": "Набор …u",
+        "mn": "…u цуглуулга"
+      },
+      "route": "assets/data/letters/2_2/2_2_4_gu.json",
+      "practice": { "glyphs": ["구","누","두","루","무","부","수","우","주","추","쿠","투","푸","후"] }
+    },
+    {
+      "id": "2_2_5",
+      "title": {
+        "ko": "규~휴 (…유)",
+        "en": "...yu set",
+        "ja": "…ユ セット",
+        "zh": "…yu 集合",
+        "vi": "Bộ …yu",
+        "fr": "Série …yu",
+        "de": "Reihe …yu",
+        "es": "Serie …yu",
+        "ru": "Набор …yu",
+        "mn": "…yu цуглуулга"
+      },
+      "route": "assets/data/letters/2_2/2_2_5_gyu.json",
+      "practice": { "glyphs": ["규","뉴","듀","류","뮤","뷰","슈","유","쥬","츄","큐","튜","퓨","휴"] }
+    }
+  ],
+  "meta": {
+    "sourcePages": "교본 p.24–28 (상하 결합형)",
+    "notes": [
+      "개별 음절의 번역은 포함하지 않습니다.",
+      "쓰기 연습/오디오 재생은 assetConventions 규칙을 따릅니다.",
+      "복합 모음(예: ㅚ, ㅘ 등)은 2.3에서 다룹니다."
+    ]
+  },
+  "assetConventions": {
+    "strokeJson": "assets/strokes/syllables/{glyph}.json",
+    "audioMp3": "assets/audio/syllables/{glyph}.mp3"
+  }
+}

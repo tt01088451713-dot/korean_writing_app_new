@@ -1,0 +1,56 @@
+{
+  "common": {
+    "lang": {
+      "ko": "출현 빈도 태그",
+      "en": "Frequency Tags",
+      "zh": "出现频率标签",
+      "ja": "出現頻度タグ",
+      "vi": "Nhãn tần suất xuất hiện",
+      "fr": "Étiquettes de fréquence",
+      "es": "Etiquetas de frecuencia",
+      "ru": "Теги частоты",
+      "mn": "Давтамжийн шошго"
+    },
+    "description": {
+      "ko": "학습 난이도를 조절하기 위해 글자의 사용 빈도를 표시합니다.",
+      "en": "Indicates usage frequency of characters to adjust learning difficulty.",
+      "zh": "为了调整学习难度，标注文字的使用频率。",
+      "ja": "学習の難易度を調整するために文字の使用頻度を示します。",
+      "vi": "Hiển thị tần suất sử dụng chữ để điều chỉnh độ khó học.",
+      "fr": "Indique la fréquence d’utilisation des caractères pour ajuster la difficulté.",
+      "es": "Indica la frecuencia de uso de los caracteres para ajustar la dificultad.",
+      "ru": "Показывает частоту использования символов для регулировки сложности обучения.",
+      "mn": "Сурах хүндрэлийг тохируулахын тулд үсгийн хэрэглээний давтамжийг харуулна."
+    }
+  },
+  "tags": {
+    "very_common": {
+      "label": {
+        "ko": "매우 흔함",
+        "en": "Very Common"
+      },
+      "examples": ["가", "나", "다", "라", "마"]
+    },
+    "common": {
+      "label": {
+        "ko": "흔함",
+        "en": "Common"
+      },
+      "examples": ["바", "사", "아", "자", "차"]
+    },
+    "rare": {
+      "label": {
+        "ko": "드묾",
+        "en": "Rare"
+      },
+      "examples": ["괼(괴)", "웝", "윌"]
+    },
+    "archaic": {
+      "label": {
+        "ko": "고어/옛글자",
+        "en": "Archaic"
+      },
+      "examples": ["ᄙ", "ᄛ", "ㆆ"]
+    }
+  }
+}

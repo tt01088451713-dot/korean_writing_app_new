@@ -1,0 +1,216 @@
+{
+  "id": "2_4_2",
+  "title": {
+    "ko": "(2) ㅙ·ㅚ + 받침",
+    "en": "(2) ㅙ/ㅚ + finals",
+    "zh": "（2）ㅙ·ㅚ — CVC",
+    "ja": "（2）ㅙ・ㅚ — CVC",
+    "vi": "(2) ㅙ/ㅚ — CVC",
+    "fr": "(2) ㅙ/ㅚ — CVC",
+    "es": "(2) ㅙ/ㅚ — CVC",
+    "ru": "(2) ㅙ/ㅚ — CVC",
+    "mn": "(2) ㅙ/ㅚ — CVC"
+  },
+  "description": {
+    "ko": "ㅙ·ㅚ의 CV/CVC 예시. 실제 사용이 비교적 적은 편이라 대표적이고 유용한 조합만 수록합니다.",
+    "en": "CV/CVC with ㅙ and ㅚ. Fewer real‑world forms; we keep representative, useful pairs.",
+    "zh": "ㅙ与ㅚ的CV/CVC示例，收录代表性较强的组合。",
+    "ja": "ㅙ・ㅚのCV/CVC例。実用的な代表組合せのみ掲載。",
+    "vi": "CV/CVC với ㅙ, ㅚ. Chỉ giữ tổ hợp tiêu biểu, hữu dụng.",
+    "fr": "CV/CVC avec ㅙ et ㅚ; seules combinaisons utiles/usuelles.",
+    "es": "CV/CVC con ㅙ y ㅚ; se incluyen combinaciones útiles/frecuentes.",
+    "ru": "CV/CVC с ㅙ и ㅚ; представлены полезные частые сочетания.",
+    "mn": "ㅙ, ㅚ‑гийн CV/CVC. Ашигтай төлөөлөх хослолуудыг л оруулав."
+  },
+  "sections": {
+    "cv": {
+      "chars": [
+        {
+          "label": "괘",
+          "ttsKey": "gwae",
+          "tts": {
+            "ko": "괘",
+            "ipa": "kwɛ",
+            "roman": "gwae",
+            "rule": "auto"
+          },
+          "core": true,
+          "strokeOrder": "assets/strokes/gwae.json",
+          "guideOnly": true,
+          "writing": {
+            "order": "assets/strokes/gwae.json",
+            "strokes": [],
+            "guideOnly": true
+          }
+        },
+        {
+          "label": "괴",
+          "ttsKey": "goe",
+          "tts": {
+            "ko": "괴",
+            "ipa": "kwe",
+            "roman": "goe",
+            "rule": "auto"
+          },
+          "core": true,
+          "strokeOrder": "assets/strokes/goe.json",
+          "guideOnly": true,
+          "writing": {
+            "order": "assets/strokes/goe.json",
+            "strokes": [],
+            "guideOnly": true
+          }
+        }
+      ]
+    },
+    "cvc": {
+      "examples": [
+        {
+          "base": "괘",
+          "commonFinals": [
+            "ㄴ",
+            "ㄹ"
+          ],
+          "items": [
+            {
+              "syllable": "괜",
+              "final": "ㄴ",
+              "tts": {
+                "ko": "괜",
+                "ipa": "kwɛn",
+                "roman": "gwaen",
+                "final": "n",
+                "rule": "auto"
+              },
+              "samples": [
+                "괜찮다"
+              ],
+              "writing": {
+                "strokes": [],
+                "guideOnly": true
+              },
+              "guideOnly": true
+            },
+            {
+              "syllable": "괼",
+              "final": "ㄹ",
+              "tts": {
+                "ko": "괼",
+                "ipa": "kwɛl",
+                "roman": "gwael",
+                "final": "l",
+                "rule": "auto"
+              },
+              "writing": {
+                "strokes": [],
+                "guideOnly": true
+              },
+              "guideOnly": true
+            }
+          ]
+        },
+        {
+          "base": "괴",
+          "commonFinals": [
+            "ㄴ",
+            "ㄹ",
+            "ㅁ",
+            "ㅇ",
+            "ㄱ"
+          ],
+          "items": [
+            {
+              "syllable": "괸",
+              "final": "ㄴ",
+              "tts": {
+                "ko": "괸",
+                "ipa": "kwen",
+                "roman": "goen",
+                "final": "n",
+                "rule": "auto"
+              },
+              "writing": {
+                "strokes": [],
+                "guideOnly": true
+              },
+              "guideOnly": true
+            },
+            {
+              "syllable": "괼",
+              "final": "ㄹ",
+              "tts": {
+                "ko": "괼",
+                "ipa": "kwel",
+                "roman": "goel",
+                "final": "l",
+                "rule": "auto"
+              },
+              "writing": {
+                "strokes": [],
+                "guideOnly": true
+              },
+              "guideOnly": true
+            },
+            {
+              "syllable": "굄",
+              "final": "ㅁ",
+              "tts": {
+                "ko": "굄",
+                "ipa": "kjom",
+                "roman": "gyom",
+                "final": "m",
+                "rule": "auto"
+              },
+              "note": {
+                "ko": "표기 변이·고유명 중심"
+              },
+              "writing": {
+                "strokes": [],
+                "guideOnly": true
+              },
+              "guideOnly": true
+            },
+            {
+              "syllable": "공",
+              "final": "ㅇ",
+              "tts": {
+                "ko": "공",
+                "ipa": "koŋ",
+                "roman": "gong",
+                "final": "ŋ",
+                "rule": "auto"
+              },
+              "note": {
+                "ko": "어근 연계 예시(교육용)"
+              },
+              "writing": {
+                "strokes": [],
+                "guideOnly": true
+              },
+              "guideOnly": true
+            },
+            {
+              "syllable": "괵",
+              "final": "ㄱ",
+              "tts": {
+                "ko": "괵",
+                "ipa": "kwek̚",
+                "roman": "goek",
+                "final": "k̚",
+                "rule": "auto"
+              },
+              "note": {
+                "ko": "희귀"
+              },
+              "writing": {
+                "strokes": [],
+                "guideOnly": true
+              },
+              "guideOnly": true
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

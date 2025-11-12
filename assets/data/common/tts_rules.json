@@ -1,0 +1,36 @@
+{
+  "version": "1.0",
+  "consonants": {
+    "ㄱ": { "initial": { "roman": "g", "ipa": "k" }, "final": { "roman": "k", "ipa": "k̚" } },
+    "ㄴ": { "initial": { "roman": "n", "ipa": "n" }, "final": { "roman": "n", "ipa": "n" } },
+    "ㄷ": { "initial": { "roman": "d", "ipa": "t" }, "final": { "roman": "t", "ipa": "t̚" } },
+    "ㄹ": { "initial": { "roman": "r", "ipa": "ɾ" }, "final": { "roman": "l", "ipa": "l" } },
+    "ㅁ": { "initial": { "roman": "m", "ipa": "m" }, "final": { "roman": "m", "ipa": "m" } },
+    "ㅂ": { "initial": { "roman": "b", "ipa": "p" }, "final": { "roman": "p", "ipa": "p̚" } },
+    "ㅅ": { "initial": { "roman": "s", "ipa": "s" }, "final": { "roman": "t", "ipa": "t̚" } },
+    "ㅇ": { "initial": { "roman": "",  "ipa": ""  }, "final": { "roman": "ng", "ipa": "ŋ" } },
+    "ㅈ": { "initial": { "roman": "j", "ipa": "tɕ" }, "final": { "roman": "t", "ipa": "t̚" } },
+    "ㅊ": { "initial": { "roman": "ch","ipa": "tɕʰ" }, "final": { "roman": "t", "ipa": "t̚" } },
+    "ㅋ": { "initial": { "roman": "k", "ipa": "kʰ" }, "final": { "roman": "k", "ipa": "k̚" } },
+    "ㅌ": { "initial": { "roman": "t", "ipa": "tʰ" }, "final": { "roman": "t", "ipa": "t̚" } },
+    "ㅍ": { "initial": { "roman": "p", "ipa": "pʰ" }, "final": { "roman": "p", "ipa": "p̚" } },
+    "ㅎ": { "initial": { "roman": "h", "ipa": "h" }, "final": { "roman": "t", "ipa": "t̚" } }
+  },
+  "vowels": {
+    "ㅏ": { "roman": "a", "ipa": "a" }, "ㅑ": { "roman": "ya","ipa": "ja" },
+    "ㅓ": { "roman": "eo","ipa": "ʌ" }, "ㅕ": { "roman": "yeo","ipa": "jʌ" },
+    "ㅗ": { "roman": "o", "ipa": "o" }, "ㅛ": { "roman": "yo","ipa": "jo" },
+    "ㅜ": { "roman": "u", "ipa": "u" }, "ㅠ": { "roman": "yu","ipa": "ju" },
+    "ㅡ": { "roman": "eu","ipa": "ɯ" }, "ㅣ": { "roman": "i", "ipa": "i" },
+    "ㅐ": { "roman": "ae","ipa": "ɛ" }, "ㅔ": { "roman": "e", "ipa": "e" },
+    "ㅘ": { "roman": "wa","ipa": "wa" }, "ㅙ": { "roman": "wae","ipa": "wɛ" }, "ㅚ": { "roman": "oe","ipa": "we" },
+    "ㅝ": { "roman": "wo","ipa": "wʌ" }, "ㅞ": { "roman": "we","ipa": "we" }, "ㅟ": { "roman": "wi","ipa": "wi" },
+    "ㅢ": { "roman": "ui","ipa": "ɰi" }
+  },
+  "finals": { "ㄱ":"k̚","ㄲ":"k̚","ㅋ":"k̚","ㅂ":"p̚","ㅍ":"p̚","ㄷ":"t̚","ㅅ":"t̚","ㅆ":"t̚","ㅈ":"t̚","ㅊ":"t̚","ㅌ":"t̚","ㅎ":"t̚","ㄴ":"n","ㄹ":"l","ㅁ":"m","ㅇ":"ŋ" },
+  "overrides": {
+    "의": { "positions": { "initial": { "roman": "ui","ipa": "ɰi" }, "particle": { "roman": "e","ipa": "e" }, "else": { "roman": "i","ipa": "i" } } },
+    "희": { "modern": { "roman": "hi","ipa": "hi" } },
+    "흰": { "roman": "hwin","ipa": "hin" }
+  }
+}

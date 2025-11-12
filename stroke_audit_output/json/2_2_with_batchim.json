@@ -1,0 +1,695 @@
+{
+  "id": "2_2_with_batchim",
+  "ttsVersion": "1.0",
+  "title": {
+    "ko": "2.2 상하결합형 — 받침 포함(CVC) 확장",
+    "en": "2.2 Top–Bottom Type — Extension with Finals (CVC)",
+    "zh": "2.2 上下结合型 — 含终声的扩展 (CVC)",
+    "ja": "2.2 上下結合型 — 終声付き拡張 (CVC)",
+    "vi": "2.2 Kiểu trên–dưới — Mở rộng có 받침 (CVC)",
+    "fr": "2.2 Type haut‑bas — Extension avec finale (CVC)",
+    "es": "2.2 Tipo arriba‑abajo — Extensión con final (CVC)",
+    "ru": "2.2 Тип вверх‑вниз — расширение с финалью (CVC)",
+    "mn": "2.2 Дээд‑доод хэлбэр — 받чим‑тай өргөтгөл (CVC)"
+  },
+  "description": {
+    "ko": "상하결합형(ㅗ·ㅛ·ㅜ·ㅠ·ㅡ)에 받침이 결합된 CVC 예시를 모았습니다. 빈출 받침(ㄴ·ㄹ·ㅁ·ㅇ·ㄱ 등) 위주로 제시하고, 겹받침은 학습에 유용한 소수만 포함합니다.",
+    "en": "CVC examples for top–bottom vowels (ㅗ/ㅛ/ㅜ/ㅠ/ㅡ). We prioritize frequent finals (ㄴ, ㄹ, ㅁ, ㅇ, ㄱ, …) and include a few useful double finals.",
+    "zh": "针对上下结合元音（ㅗ/ㅛ/ㅜ/ㅠ/ㅡ）的CVC示例。以常见终声为主，少量加入有用的复合终声。",
+    "ja": "上下結合母音（ㅗ/ㅛ/ㅜ/ㅠ/ㅡ）に終声を加えたCVC例。頻出の終声を中心に、一部有用な二重パッチムを含みます。",
+    "vi": "Ví dụ CVC cho các nguyên âm trên–dưới (ㅗ/ㅛ/ㅜ/ㅠ/ㅡ). Ưu tiên 받침 thường gặp và thêm một số 받침 kép hữu ích.",
+    "fr": "Exemples CVC pour les voyelles haut‑bas (ㅗ/ㅛ/ㅜ/ㅠ/ㅡ). Finales fréquentes privilégiées et quelques doubles finales utiles.",
+    "es": "Ejemplos CVC para vocales arriba‑abajo (ㅗ/ㅛ/ㅜ/ㅠ/ㅡ). Priorizamos finales frecuentes e incluimos algunos dobles útiles.",
+    "ru": "Примеры CVC для «верх‑низ» гласных (ㅗ/ㅛ/ㅜ/ㅠ/ㅡ). В приоритете частые финали; добавлены некоторые двойные.",
+    "mn": "Дээд‑доод эгшгүүдэд (ㅗ/ㅛ/ㅜ/ㅠ/ㅡ) 받чим нэмсэн CVC жишээ. Түгээмэл 받чимд анхаарч, цөөн давхар 받чимыг хавсаргав."
+  },
+  "ttsRulesRoute": "/assets/data/common/tts_rules.json",
+  "notes": {
+    "ko": "종성 실현음: ㄱ/ㅋ/ㄲ→[k̚], ㅂ/ㅍ→[p̚], ㄷ/ㅅ/ㅆ/ㅈ/ㅊ/ㅌ/ㅎ→[t̚], ㄴ[n], ㄹ[l], ㅁ[m], ㅇ[ŋ]. 겹받침은 단독 종성에서 한 음가만 실현되는 경우가 많습니다.",
+    "en": "Coda allophones: ㄱ/ㅋ/ㄲ→[k̚], ㅂ/ㅍ→[p̚], ㄷ/ㅅ/ㅆ/ㅈ/ㅊ/ㅌ/ㅎ→[t̚], ㄴ[n], ㄹ[l], ㅁ[m], ㅇ[ŋ]. Double finals often surface as a single coda in isolation."
+  },
+  "sections": {
+    "cvc": {
+      "groups": [
+        {
+          "vowel": "ㅗ",
+          "base": "고",
+          "commonFinals": [
+            "ㄴ",
+            "ㄹ",
+            "ㅁ",
+            "ㅇ",
+            "ㄱ",
+            "ㅂ"
+          ],
+          "items": [
+            {
+              "syllable": "곤",
+              "final": "ㄴ",
+              "tts": {
+                "ko": "곤",
+                "ipa": "kon",
+                "roman": "gon",
+                "final": "n",
+                "rule": "auto"
+              },
+              "samples": [
+                "곤란"
+              ],
+              "writing": {
+                "strokes": [],
+                "guideOnly": true
+              },
+              "guideOnly": true
+            },
+            {
+              "syllable": "골",
+              "final": "ㄹ",
+              "tts": {
+                "ko": "골",
+                "ipa": "kol",
+                "roman": "gol",
+                "final": "l",
+                "rule": "auto"
+              },
+              "samples": [
+                "골목",
+                "골프"
+              ],
+              "writing": {
+                "strokes": [],
+                "guideOnly": true
+              },
+              "guideOnly": true
+            },
+            {
+              "syllable": "곰",
+              "final": "ㅁ",
+              "tts": {
+                "ko": "곰",
+                "ipa": "kom",
+                "roman": "gom",
+                "final": "m",
+                "rule": "auto"
+              },
+              "writing": {
+                "strokes": [],
+                "guideOnly": true
+              },
+              "guideOnly": true
+            },
+            {
+              "syllable": "공",
+              "final": "ㅇ",
+              "tts": {
+                "ko": "공",
+                "ipa": "koŋ",
+                "roman": "gong",
+                "final": "ŋ",
+                "rule": "auto"
+              },
+              "samples": [
+                "공부",
+                "공원"
+              ],
+              "writing": {
+                "strokes": [],
+                "guideOnly": true
+              },
+              "guideOnly": true
+            },
+            {
+              "syllable": "곡",
+              "final": "ㄱ",
+              "tts": {
+                "ko": "곡",
+                "ipa": "kok̚",
+                "roman": "gok",
+                "final": "k̚",
+                "rule": "auto"
+              },
+              "samples": [
+                "곡식"
+              ],
+              "writing": {
+                "strokes": [],
+                "guideOnly": true
+              },
+              "guideOnly": true
+            },
+            {
+              "syllable": "곱",
+              "final": "ㅂ",
+              "tts": {
+                "ko": "곱",
+                "ipa": "kop̚",
+                "roman": "gop",
+                "final": "p̚",
+                "rule": "auto"
+              },
+              "writing": {
+                "strokes": [],
+                "guideOnly": true
+              },
+              "guideOnly": true
+            }
+          ],
+          "doubleFinals": [
+            {
+              "syllable": "굵",
+              "final": "ㄺ",
+              "doubleFinal": true,
+              "tts": {
+                "ko": "굵",
+                "ipa": "kuk̚",
+                "roman": "gulk",
+                "final": "k̚",
+                "rule": "override",
+                "note": {
+                  "ko": "단독 종성 ㄺ→[k̚]"
+                }
+              },
+              "writing": {
+                "strokes": [],
+                "guideOnly": true
+              },
+              "guideOnly": true
+            },
+            {
+              "syllable": "굶",
+              "final": "ㄻ",
+              "doubleFinal": true,
+              "tts": {
+                "ko": "굶",
+                "ipa": "kulm",
+                "roman": "gulm",
+                "final": "m",
+                "rule": "override",
+                "note": {
+                  "ko": "단독 종성 ㄻ→[m]"
+                }
+              },
+              "writing": {
+                "strokes": [],
+                "guideOnly": true
+              },
+              "guideOnly": true
+            }
+          ]
+        },
+        {
+          "vowel": "ㅛ",
+          "base": "요",
+          "commonFinals": [
+            "ㄴ",
+            "ㄹ",
+            "ㅁ",
+            "ㅇ"
+          ],
+          "items": [
+            {
+              "syllable": "욘",
+              "final": "ㄴ",
+              "tts": {
+                "ko": "욘",
+                "ipa": "jon",
+                "roman": "yon",
+                "final": "n",
+                "rule": "auto"
+              },
+              "note": {
+                "ko": "고유명사/외래 표기 중심"
+              },
+              "writing": {
+                "strokes": [],
+                "guideOnly": true
+              },
+              "guideOnly": true
+            },
+            {
+              "syllable": "욜",
+              "final": "ㄹ",
+              "tts": {
+                "ko": "욜",
+                "ipa": "jol",
+                "roman": "yol",
+                "final": "l",
+                "rule": "auto"
+              },
+              "writing": {
+                "strokes": [],
+                "guideOnly": true
+              },
+              "guideOnly": true
+            },
+            {
+              "syllable": "욤",
+              "final": "ㅁ",
+              "tts": {
+                "ko": "욤",
+                "ipa": "jom",
+                "roman": "yom",
+                "final": "m",
+                "rule": "auto"
+              },
+              "writing": {
+                "strokes": [],
+                "guideOnly": true
+              },
+              "guideOnly": true
+            },
+            {
+              "syllable": "용",
+              "final": "ㅇ",
+              "tts": {
+                "ko": "용",
+                "ipa": "joŋ",
+                "roman": "yong",
+                "final": "ŋ",
+                "rule": "auto"
+              },
+              "samples": [
+                "용기",
+                "용도"
+              ],
+              "writing": {
+                "strokes": [],
+                "guideOnly": true
+              },
+              "guideOnly": true
+            }
+          ]
+        },
+        {
+          "vowel": "ㅜ",
+          "base": "구",
+          "commonFinals": [
+            "ㄴ",
+            "ㄹ",
+            "ㅁ",
+            "ㅇ",
+            "ㄱ",
+            "ㅂ"
+          ],
+          "items": [
+            {
+              "syllable": "군",
+              "final": "ㄴ",
+              "tts": {
+                "ko": "군",
+                "ipa": "kun",
+                "roman": "gun",
+                "final": "n",
+                "rule": "auto"
+              },
+              "samples": [
+                "군인",
+                "집중군요"
+              ],
+              "writing": {
+                "strokes": [],
+                "guideOnly": true
+              },
+              "guideOnly": true
+            },
+            {
+              "syllable": "굴",
+              "final": "ㄹ",
+              "tts": {
+                "ko": "굴",
+                "ipa": "kul",
+                "roman": "gul",
+                "final": "l",
+                "rule": "auto"
+              },
+              "samples": [
+                "굴(해산물)"
+              ],
+              "writing": {
+                "strokes": [],
+                "guideOnly": true
+              },
+              "guideOnly": true
+            },
+            {
+              "syllable": "굼",
+              "final": "ㅁ",
+              "tts": {
+                "ko": "굼",
+                "ipa": "kum",
+                "roman": "gum",
+                "final": "m",
+                "rule": "auto"
+              },
+              "writing": {
+                "strokes": [],
+                "guideOnly": true
+              },
+              "guideOnly": true
+            },
+            {
+              "syllable": "궁",
+              "final": "ㅇ",
+              "tts": {
+                "ko": "궁",
+                "ipa": "kuŋ",
+                "roman": "gung",
+                "final": "ŋ",
+                "rule": "auto"
+              },
+              "samples": [
+                "궁금"
+              ],
+              "writing": {
+                "strokes": [],
+                "guideOnly": true
+              },
+              "guideOnly": true
+            },
+            {
+              "syllable": "국",
+              "final": "ㄱ",
+              "tts": {
+                "ko": "국",
+                "ipa": "kuk̚",
+                "roman": "guk",
+                "final": "k̚",
+                "rule": "auto"
+              },
+              "samples": [
+                "국가",
+                "한국"
+              ],
+              "writing": {
+                "strokes": [],
+                "guideOnly": true
+              },
+              "guideOnly": true
+            },
+            {
+              "syllable": "굽",
+              "final": "ㅂ",
+              "tts": {
+                "ko": "굽",
+                "ipa": "kup̚",
+                "roman": "gup",
+                "final": "p̚",
+                "rule": "auto"
+              },
+              "samples": [
+                "굽다"
+              ],
+              "writing": {
+                "strokes": [],
+                "guideOnly": true
+              },
+              "guideOnly": true
+            }
+          ],
+          "doubleFinals": [
+            {
+              "syllable": "굿",
+              "final": "ㅅ",
+              "tts": {
+                "ko": "굿",
+                "ipa": "kut̚",
+                "roman": "gus",
+                "final": "t̚",
+                "rule": "auto",
+                "note": {
+                  "ko": "받침 ㅅ은 [t̚]"
+                }
+              },
+              "writing": {
+                "strokes": [],
+                "guideOnly": true
+              },
+              "guideOnly": true
+            },
+            {
+              "syllable": "귿",
+              "final": "ㅅ",
+              "tts": {
+                "ko": "귿",
+                "ipa": "kyt̚",
+                "roman": "gyus",
+                "final": "t̚",
+                "rule": "auto"
+              },
+              "note": {
+                "ko": "교육용 예시(실사용 적음)"
+              },
+              "writing": {
+                "strokes": [],
+                "guideOnly": true
+              },
+              "guideOnly": true
+            }
+          ]
+        },
+        {
+          "vowel": "ㅠ",
+          "base": "규",
+          "commonFinals": [
+            "ㄴ",
+            "ㄹ",
+            "ㅁ",
+            "ㅇ"
+          ],
+          "items": [
+            {
+              "syllable": "균",
+              "final": "ㄴ",
+              "tts": {
+                "ko": "균",
+                "ipa": "kʲun",
+                "roman": "gyun",
+                "final": "n",
+                "rule": "auto"
+              },
+              "samples": [
+                "균형",
+                "세균"
+              ],
+              "writing": {
+                "strokes": [],
+                "guideOnly": true
+              },
+              "guideOnly": true
+            },
+            {
+              "syllable": "귤",
+              "final": "ㄹ",
+              "tts": {
+                "ko": "귤",
+                "ipa": "kʲul",
+                "roman": "gyul",
+                "final": "l",
+                "rule": "auto"
+              },
+              "samples": [
+                "귤"
+              ],
+              "writing": {
+                "strokes": [],
+                "guideOnly": true
+              },
+              "guideOnly": true
+            },
+            {
+              "syllable": "굼(규 → 음운 유사)",
+              "final": "ㅁ",
+              "tts": {
+                "ko": "굼",
+                "ipa": "kum",
+                "roman": "gum",
+                "final": "m",
+                "rule": "auto"
+              },
+              "note": {
+                "ko": "모양 대비용 예시, 실제 사용은 ‘윰’이 자연스러움"
+              },
+              "writing": {
+                "strokes": [],
+                "guideOnly": true
+              },
+              "guideOnly": true
+            },
+            {
+              "syllable": "융",
+              "final": "ㅇ",
+              "tts": {
+                "ko": "융",
+                "ipa": "juŋ",
+                "roman": "yung",
+                "final": "ŋ",
+                "rule": "auto"
+              },
+              "samples": [
+                "융합"
+              ],
+              "writing": {
+                "strokes": [],
+                "guideOnly": true
+              },
+              "guideOnly": true
+            }
+          ]
+        },
+        {
+          "vowel": "ㅡ",
+          "base": "그",
+          "commonFinals": [
+            "ㄴ",
+            "ㄹ",
+            "ㅁ",
+            "ㅇ",
+            "ㅂ",
+            "ㄷ"
+          ],
+          "items": [
+            {
+              "syllable": "근",
+              "final": "ㄴ",
+              "tts": {
+                "ko": "근",
+                "ipa": "kɯn",
+                "roman": "geun",
+                "final": "n",
+                "rule": "auto"
+              },
+              "samples": [
+                "근처",
+                "근로"
+              ],
+              "writing": {
+                "strokes": [],
+                "guideOnly": true
+              },
+              "guideOnly": true
+            },
+            {
+              "syllable": "글",
+              "final": "ㄹ",
+              "tts": {
+                "ko": "글",
+                "ipa": "kɯl",
+                "roman": "geul",
+                "final": "l",
+                "rule": "auto"
+              },
+              "samples": [
+                "글자"
+              ],
+              "writing": {
+                "strokes": [],
+                "guideOnly": true
+              },
+              "guideOnly": true
+            },
+            {
+              "syllable": "금",
+              "final": "ㅁ",
+              "tts": {
+                "ko": "금",
+                "ipa": "kɯm",
+                "roman": "geum",
+                "final": "m",
+                "rule": "auto"
+              },
+              "samples": [
+                "금요일",
+                "금액"
+              ],
+              "writing": {
+                "strokes": [],
+                "guideOnly": true
+              },
+              "guideOnly": true
+            },
+            {
+              "syllable": "긍",
+              "final": "ㅇ",
+              "tts": {
+                "ko": "긍",
+                "ipa": "kɯŋ",
+                "roman": "geung",
+                "final": "ŋ",
+                "rule": "auto"
+              },
+              "samples": [
+                "긍정"
+              ],
+              "writing": {
+                "strokes": [],
+                "guideOnly": true
+              },
+              "guideOnly": true
+            },
+            {
+              "syllable": "급",
+              "final": "ㅂ",
+              "tts": {
+                "ko": "급",
+                "ipa": "kɯp̚",
+                "roman": "geup",
+                "final": "p̚",
+                "rule": "auto"
+              },
+              "samples": [
+                "급식",
+                "등급"
+              ],
+              "writing": {
+                "strokes": [],
+                "guideOnly": true
+              },
+              "guideOnly": true
+            },
+            {
+              "syllable": "긋",
+              "final": "ㄷ",
+              "tts": {
+                "ko": "긋",
+                "ipa": "kɯt̚",
+                "roman": "geud",
+                "final": "t̚",
+                "rule": "auto"
+              },
+              "samples": [
+                "긋다(문질러 긋다)"
+              ],
+              "writing": {
+                "strokes": [],
+                "guideOnly": true
+              },
+              "guideOnly": true
+            }
+          ],
+          "doubleFinals": [
+            {
+              "syllable": "읊",
+              "final": "ㄿ",
+              "doubleFinal": true,
+              "tts": {
+                "ko": "읊",
+                "ipa": "ɯlp̚",
+                "roman": "eulp",
+                "final": "p̚",
+                "rule": "override",
+                "note": {
+                  "ko": "단독 종성 ㄿ→[p̚]"
+                }
+              },
+              "writing": {
+                "strokes": [],
+                "guideOnly": true
+              },
+              "guideOnly": true
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

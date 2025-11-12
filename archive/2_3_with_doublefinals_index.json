@@ -1,0 +1,90 @@
+{
+  "unitId": "2_3_with_doublefinals_index",
+  "title": {
+    "ko": "2.3 좌우상하 — 겹받침 확장",
+    "en": "2.3 Complex — Double Finals Extension",
+    "ja": "2.3 複合型 — 二重パッチム拡張",
+    "zh": "2.3 复合型 — 复合收尾辅音扩展",
+    "vi": "2.3 Hỗn hợp — Mở rộng phụ âm cuối kép",
+    "fr": "2.3 Complexe — Extension avec codas doubles",
+    "de": "2.3 Komplex — Erweiterung mit doppelten Endkonsonanten",
+    "es": "2.3 Complejo — Extensión con codas dobles",
+    "ru": "2.3 Сложный — Расширение с двойной финалью",
+    "mn": "2.3 Нийлмэл — Давхар доод гийгүүлэгчийн өргөтгөл"
+  },
+  "definition": {
+    "ko": "세로형 모음(ㅏ/ㅑ/ㅐ/ㅒ, ㅓ/ㅕ/ㅔ/ㅖ, ㅣ)에 겹받침을 결합한 CVC 학습 확장입니다.",
+    "en": "CVC practice with double final consonants for the vertical vowel groups (a/ya/ae/yae, eo/yeo/e/ye, i).",
+    "ja": "縦型母音群（a/ya/ae/yae、eo/yeo/e/ye、i）に二重パッチムを組み合わせた CVC 練習拡張です。",
+    "zh": "针对竖直元音组（a/ya/ae/yae，eo/yeo/e/ye，i）的 CVC 训练，加入复合收尾辅音。",
+    "vi": "Luyện CVC với phụ âm cuối kép cho các nhóm nguyên âm dọc (a/ya/ae/yae, eo/yeo/e/ye, i).",
+    "fr": "Entraînement CVC avec codas doubles pour les groupes de voyelles verticales (a/ya/ae/yae, eo/yeo/e/ye, i).",
+    "de": "CVC-Übungen mit doppelten Endkonsonanten für die vertikalen Vokalgruppen (a/ya/ae/yae, eo/yeo/e/ye, i).",
+    "es": "Práctica CVC con codas dobles para los grupos de vocales verticales (a/ya/ae/yae, eo/yeo/e/ye, i).",
+    "ru": "Практика CVC с двойной финалью для вертикальных гласных групп (a/ya/ae/yae, eo/yeo/e/ye, i).",
+    "mn": "Босоо эгшгийн бүлгүүдэд (a/ya/ae/yae, eo/yeo/e/ye, i) давхар доод гийгүүлэгч нэмж хийсэн CVC дасгал.",
+  },
+  "children": [
+    {
+      "file": "2_3_with_doublefinals_ayae.json",
+      "label": {
+        "ko": "ㅏ·ㅑ·ㅐ·ㅒ + 겹받침",
+        "en": "a/ya/ae/yae + double finals",
+        "ja": "a/ya/ae/yae ＋ 二重パッチム",
+        "zh": "a/ya/ae/yae + 复合收尾辅音",
+        "vi": "a/ya/ae/yae + phụ âm cuối kép",
+        "fr": "a/ya/ae/yae + codas doubles",
+        "de": "a/ya/ae/yae + doppelte Endkonsonanten",
+        "es": "a/ya/ae/yae + codas dobles",
+        "ru": "a/ya/ae/yae + двойная финаль",
+        "mn": "a/ya/ae/yae + давхар доод гийгүүлэгч"
+      }
+    },
+    {
+      "file": "2_3_with_doublefinals_eoyeoye.json",
+      "label": {
+        "ko": "ㅓ·ㅕ·ㅔ·ㅖ + 겹받침",
+        "en": "eo/yeo/e/ye + double finals",
+        "ja": "eo/yeo/e/ye ＋ 二重パッチム",
+        "zh": "eo/yeo/e/ye + 复合收尾辅音",
+        "vi": "eo/yeo/e/ye + phụ âm cuối kép",
+        "fr": "eo/yeo/e/ye + codas doubles",
+        "de": "eo/yeo/e/ye + doppelte Endkonsonanten",
+        "es": "eo/yeo/e/ye + codas dobles",
+        "ru": "eo/yeo/e/ye + двойная финаль",
+        "mn": "eo/yeo/e/ye + давхар доод гийгүүлэгч"
+      }
+    },
+    {
+      "file": "2_3_with_doublefinals_i.json",
+      "label": {
+        "ko": "ㅣ + 겹받침",
+        "en": "i + double finals",
+        "ja": "i ＋ 二重パッチム",
+        "zh": "i + 复合收尾辅音",
+        "vi": "i + phụ âm cuối kép",
+        "fr": "i + codas doubles",
+        "de": "i + doppelte Endkonsonanten",
+        "es": "i + codas dobles",
+        "ru": "i + двойная финаль",
+        "mn": "i + давхар доод гийгүүлэгч"
+      }
+    }
+  ],
+  "assetConventions": {
+    "strokeJson": "assets/strokes/syllables/{glyph}.json",
+    "audioMp3": "assets/audio/syllables/{glyph}.mp3",
+    "notes": {
+      "ko": "{glyph}는 실제 음절 글리프 문자열로 치환됩니다.",
+      "en": "{glyph} is replaced with the actual syllable glyph string.",
+      "ja": "{glyph} は実際の音節グリフ文字列に置き換えられます。",
+      "zh": "{glyph} 将被替换为实际的音节字形字符串。",
+      "vi": "{glyph} sẽ được thay bằng chuỗi ký tự glyph âm tiết thực tế.",
+      "fr": "{glyph} sera remplacé par la chaîne du glyphe de la syllabe réelle.",
+      "de": "{glyph} wird durch die tatsächliche Silbenglyphenzeichenkette ersetzt.",
+      "es": "{glyph} se reemplaza por la cadena del glifo silábico real.",
+      "ru": "{glyph} будет заменён фактической строкой глифа слога.",
+      "mn": "{glyph} нь бодит үеийн глифийн тэмдэгт мөрөөр солигдоно."
+    }
+  }
+}

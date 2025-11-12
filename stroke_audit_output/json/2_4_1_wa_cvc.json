@@ -1,0 +1,209 @@
+{
+  "id": "2_4_1",
+  "title": {
+    "ko": "(1) ㅘ + 받침",
+    "en": "(1) ㅘ + finals",
+    "zh": "（1）ㅘ — CVC",
+    "ja": "（1）ㅘ — CVC",
+    "vi": "(1) ㅘ — CVC",
+    "fr": "(1) ㅘ — CVC",
+    "es": "(1) ㅘ — CVC",
+    "ru": "(1) ㅘ — CVC",
+    "mn": "(1) ㅘ — CVC"
+  },
+  "description": {
+    "ko": "복합모음 ㅘ의 CV/CVC 예시. 빈출 조합(관·괄·괌·광 등)을 우선 제시합니다.",
+    "en": "CV/CVC with ㅘ. Frequent forms first (gwan, gwal, gwam, gwang…).",
+    "zh": "复合元音ㅘ的CV/CVC示例，优先常见组合。",
+    "ja": "複合母音ㅘのCV/CVC例。頻出の組合せを優先。",
+    "vi": "CV/CVC với ㅘ. Ưu tiên dạng thường gặp.",
+    "fr": "CV/CVC avec ㅘ, formes fréquentes en priorité.",
+    "es": "CV/CVC con ㅘ; se priorizan formas frecuentes.",
+    "ru": "CV/CVC с ㅘ; в приоритете частые сочетания.",
+    "mn": "ㅘ‑тай CV/CVC. Түгээмэл хослолыг эхэнд нь."
+  },
+  "sections": {
+    "cv": {
+      "chars": [
+        {
+          "label": "와",
+          "ttsKey": "wa",
+          "tts": {
+            "ko": "와",
+            "ipa": "wa",
+            "roman": "wa",
+            "rule": "auto"
+          },
+          "core": true,
+          "strokeOrder": "assets/strokes/wa.json",
+          "guideOnly": true,
+          "writing": {
+            "order": "assets/strokes/wa.json",
+            "strokes": [],
+            "guideOnly": true
+          }
+        },
+        {
+          "label": "과",
+          "ttsKey": "gwa",
+          "tts": {
+            "ko": "과",
+            "ipa": "kwa",
+            "roman": "gwa",
+            "rule": "auto"
+          },
+          "core": true,
+          "strokeOrder": "assets/strokes/gwa.json",
+          "guideOnly": true,
+          "writing": {
+            "order": "assets/strokes/gwa.json",
+            "strokes": [],
+            "guideOnly": true
+          }
+        },
+        {
+          "label": "좌",
+          "ttsKey": "jwa",
+          "tts": {
+            "ko": "좌",
+            "ipa": "tɕwa",
+            "roman": "jwa",
+            "rule": "auto"
+          },
+          "core": false,
+          "strokeOrder": "assets/strokes/jwa.json",
+          "guideOnly": true,
+          "writing": {
+            "order": "assets/strokes/jwa.json",
+            "strokes": [],
+            "guideOnly": true
+          }
+        }
+      ]
+    },
+    "cvc": {
+      "note": {
+        "ko": "빈출 받침: ㄴ·ㄹ·ㅁ·ㅇ·ㄱ. 예: 관, 괄, 괌, 광, 곽.",
+        "en": "Common finals: ㄴ, ㄹ, ㅁ, ㅇ, ㄱ (gwan, gwal, gwam, gwang, gwak).",
+        "zh": "빈출 받침: ㄴ·ㄹ·ㅁ·ㅇ·ㄱ. 예: 관, 괄, 괌, 광, 곽.",
+        "ja": "빈출 받침: ㄴ·ㄹ·ㅁ·ㅇ·ㄱ. 예: 관, 괄, 괌, 광, 곽.",
+        "vi": "빈출 받침: ㄴ·ㄹ·ㅁ·ㅇ·ㄱ. 예: 관, 괄, 괌, 광, 곽.",
+        "fr": "빈출 받침: ㄴ·ㄹ·ㅁ·ㅇ·ㄱ. 예: 관, 괄, 괌, 광, 곽.",
+        "es": "빈출 받침: ㄴ·ㄹ·ㅁ·ㅇ·ㄱ. 예: 관, 괄, 괌, 광, 곽.",
+        "ru": "빈출 받침: ㄴ·ㄹ·ㅁ·ㅇ·ㄱ. 예: 관, 괄, 괌, 광, 곽.",
+        "mn": "빈출 받침: ㄴ·ㄹ·ㅁ·ㅇ·ㄱ. 예: 관, 괄, 괌, 광, 곽."
+      },
+      "examples": [
+        {
+          "base": "과",
+          "commonFinals": [
+            "ㄴ",
+            "ㄹ",
+            "ㅁ",
+            "ㅇ",
+            "ㄱ"
+          ],
+          "items": [
+            {
+              "syllable": "관",
+              "final": "ㄴ",
+              "tts": {
+                "ko": "관",
+                "ipa": "kwan",
+                "roman": "gwan",
+                "final": "n",
+                "rule": "auto"
+              },
+              "samples": [
+                "관계",
+                "관광"
+              ],
+              "writing": {
+                "strokes": [],
+                "guideOnly": true
+              },
+              "guideOnly": true
+            },
+            {
+              "syllable": "괄",
+              "final": "ㄹ",
+              "tts": {
+                "ko": "괄",
+                "ipa": "kwal",
+                "roman": "gwal",
+                "final": "l",
+                "rule": "auto"
+              },
+              "samples": [
+                "괄호"
+              ],
+              "writing": {
+                "strokes": [],
+                "guideOnly": true
+              },
+              "guideOnly": true
+            },
+            {
+              "syllable": "괌",
+              "final": "ㅁ",
+              "tts": {
+                "ko": "괌",
+                "ipa": "kwam",
+                "roman": "gwam",
+                "final": "m",
+                "rule": "auto"
+              },
+              "samples": [
+                "괌(Guam)"
+              ],
+              "writing": {
+                "strokes": [],
+                "guideOnly": true
+              },
+              "guideOnly": true
+            },
+            {
+              "syllable": "광",
+              "final": "ㅇ",
+              "tts": {
+                "ko": "광",
+                "ipa": "kwaŋ",
+                "roman": "gwang",
+                "final": "ŋ",
+                "rule": "auto"
+              },
+              "samples": [
+                "광고",
+                "관광"
+              ],
+              "writing": {
+                "strokes": [],
+                "guideOnly": true
+              },
+              "guideOnly": true
+            },
+            {
+              "syllable": "곽",
+              "final": "ㄱ",
+              "tts": {
+                "ko": "곽",
+                "ipa": "kwak̚",
+                "roman": "gwak",
+                "final": "k̚",
+                "rule": "auto"
+              },
+              "samples": [
+                "곽(성씨)"
+              ],
+              "writing": {
+                "strokes": [],
+                "guideOnly": true
+              },
+              "guideOnly": true
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

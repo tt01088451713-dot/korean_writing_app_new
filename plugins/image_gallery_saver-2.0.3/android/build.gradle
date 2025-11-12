@@ -1,0 +1,47 @@
+// C:\korean_writing_app_new\plugins\image_gallery_saver-2.0.3\android\build.gradle
+
+plugins {
+    id 'com.android.library'
+    id 'org.jetbrains.kotlin.android'
+}
+
+android {
+    // ※ namespace는 이 플러그인 모듈의 Manifest package와 동일해야 합니다.
+    //   보통 src/main/AndroidManifest.xml 열어서 package 확인 후 동일하게 입력.
+    //   모르면 아래 값 그대로 둬도 무방합니다(로컬 모듈이므로 충돌 위험 낮음).
+    namespace 'com.example.image_gallery_saver'
+
+    compileSdk 34
+
+    defaultConfig {
+        minSdk 21
+        // targetSdk는 생략 가능(루트 프로젝트 설정 따라감). 지정하려면 아래 줄 주석 해제
+        // targetSdk 34
+        consumerProguardFiles 'consumer-rules.pro'
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+    kotlinOptions {
+        jvmTarget = '17'
+    }
+
+    // AGP 8.x 문법
+    packaging {
+        resources {
+            excludes += [
+                    'META-INF/LICENSE*',
+                    'META-INF/AL2.0',
+                    'META-INF/LGPL2.1'
+            ]
+        }
+    }
+}
+
+dependencies {
+    // 특별한 네이티브 의존성은 필요 없습니다.
+    // (원본 플러그인이 별도 라이브러리를 요구하지 않음)
+    // 필요 시 여기에 추가하세요.
+}

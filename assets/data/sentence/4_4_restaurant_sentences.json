@@ -1,0 +1,207 @@
+{
+  "unit": "4. 문장",
+  "lesson_id": "4_4",
+  "title": {
+    "ko": "식당에서",
+    "en": "At a Restaurant",
+    "ja": "レストランで",
+    "zh": "在餐厅",
+    "vi": "Tại nhà hàng",
+    "fr": "Au restaurant",
+    "de": "Im Restaurant",
+    "es": "En el restaurante",
+    "ru": "В ресторане",
+    "mn": "Ресторанд"
+  },
+  "patterns": [
+    {
+      "id": "p_order",
+      "name": {
+        "ko": "주문하기",
+        "en": "Ordering Food"
+      },
+      "explain": {
+        "ko": "식당에서 음식을 주문할 때 사용하는 표현입니다.",
+        "en": "Expressions used when ordering food in a restaurant."
+      }
+    },
+    {
+      "id": "p_request",
+      "name": {
+        "ko": "요청하기",
+        "en": "Making a Request"
+      },
+      "explain": {
+        "ko": "추가로 필요한 것을 정중히 요청하는 표현입니다.",
+        "en": "Polite expressions to ask for something additional."
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": "res_0001",
+      "type": "sentence",
+      "text": "메뉴 좀 보여주세요.",
+      "translations": {
+        "ko": "",
+        "en": "Please show me the menu.",
+        "ja": "メニューを見せてください。",
+        "zh": "请给我看菜单。",
+        "vi": "Cho tôi xem thực đơn.",
+        "fr": "Montrez-moi le menu, s'il vous plaît.",
+        "de": "Bitte zeigen Sie mir die Speisekarte.",
+        "es": "Muéstreme el menú, por favor.",
+        "ru": "Покажите, пожалуйста, меню.",
+        "mn": "Цэсээ харуулна уу."
+      },
+      "reading": { "enabled": true },
+      "writing": { "enabled": true, "guides": ["메","뉴","좀","보","여","주","세","요."] },
+      "tts": { "text": "메뉴 좀 보여주세요.", "lang": "ko-KR", "rate": 0.5 },
+      "metadata": { "theme": "식당", "pattern": "요청문" }
+    },
+    {
+      "id": "res_0002",
+      "type": "sentence",
+      "text": "김치찌개 주세요.",
+      "translations": {
+        "ko": "",
+        "en": "Please give me kimchi stew.",
+        "ja": "キムチチゲをください。",
+        "zh": "请给我泡菜汤。",
+        "vi": "Cho tôi món kimchi jjigae.",
+        "fr": "Donnez-moi du kimchi jjigae, s'il vous plaît.",
+        "de": "Bitte geben Sie mir Kimchi-Eintopf.",
+        "es": "Deme estofado de kimchi, por favor.",
+        "ru": "Дайте, пожалуйста, кимчиччиге.",
+        "mn": "Кимчичигэ өгнө үү."
+      },
+      "reading": { "enabled": true },
+      "writing": { "enabled": true, "guides": ["김","치","찌","개","주","세","요."] },
+      "tts": { "text": "김치찌개 주세요.", "lang": "ko-KR", "rate": 0.5 },
+      "metadata": { "theme": "식당", "pattern": "요청문" }
+    },
+    {
+      "id": "res_0003",
+      "type": "sentence",
+      "text": "물 좀 주세요.",
+      "translations": {
+        "ko": "",
+        "en": "Please give me some water.",
+        "ja": "お水をください。",
+        "zh": "请给我点水。",
+        "vi": "Cho tôi ít nước.",
+        "fr": "Donnez-moi un peu d'eau, s'il vous plaît.",
+        "de": "Bitte geben Sie mir etwas Wasser.",
+        "es": "Deme un poco de agua, por favor.",
+        "ru": "Дайте, пожалуйста, воды.",
+        "mn": "Ус өгнө үү."
+      },
+      "reading": { "enabled": true },
+      "writing": { "enabled": true, "guides": ["물","좀","주","세","요."] },
+      "tts": { "text": "물 좀 주세요.", "lang": "ko-KR", "rate": 0.5 },
+      "metadata": { "theme": "식당", "pattern": "요청문" }
+    },
+    {
+      "id": "res_0004",
+      "type": "sentence",
+      "text": "이거 맛있어요.",
+      "translations": {
+        "ko": "",
+        "en": "This is delicious.",
+        "ja": "これ、おいしいです。",
+        "zh": "这个很好吃。",
+        "vi": "Cái này ngon.",
+        "fr": "C'est délicieux.",
+        "de": "Das ist lecker.",
+        "es": "Esto está rico.",
+        "ru": "Это вкусно.",
+        "mn": "Энэ амттай байна."
+      },
+      "reading": { "enabled": true },
+      "writing": { "enabled": true, "guides": ["이","거","맛","있","어","요."] },
+      "tts": { "text": "이거 맛있어요.", "lang": "ko-KR", "rate": 0.48 },
+      "metadata": { "theme": "식당", "pattern": "평서문" }
+    },
+    {
+      "id": "res_0005",
+      "type": "sentence",
+      "text": "계산서 주세요.",
+      "translations": {
+        "ko": "",
+        "en": "Please give me the bill.",
+        "ja": "お会計をお願いします。",
+        "zh": "请给我账单。",
+        "vi": "Cho tôi hóa đơn.",
+        "fr": "L'addition, s'il vous plaît.",
+        "de": "Die Rechnung, bitte.",
+        "es": "La cuenta, por favor.",
+        "ru": "Счёт, пожалуйста.",
+        "mn": "Тооцоогоо өгнө үү."
+      },
+      "reading": { "enabled": true },
+      "writing": { "enabled": true, "guides": ["계","산","서","주","세","요."] },
+      "tts": { "text": "계산서 주세요.", "lang": "ko-KR", "rate": 0.5 },
+      "metadata": { "theme": "식당", "pattern": "요청문" }
+    },
+    {
+      "id": "res_0006",
+      "type": "sentence",
+      "text": "맛이 어때요?",
+      "translations": {
+        "ko": "",
+        "en": "How does it taste?",
+        "ja": "味はどうですか。",
+        "zh": "味道怎么样？",
+        "vi": "Vị thế nào?",
+        "fr": "Quel goût ça a ?",
+        "de": "Wie schmeckt es?",
+        "es": "¿Qué tal sabe?",
+        "ru": "Как на вкус?",
+        "mn": "Амт нь ямар вэ?"
+      },
+      "reading": { "enabled": true },
+      "writing": { "enabled": true, "guides": ["맛","이","어","때","요?"] },
+      "tts": { "text": "맛이 어때요?", "lang": "ko-KR", "rate": 0.52 },
+      "metadata": { "theme": "식당", "pattern": "의문문" }
+    }
+  ],
+  "activities": [
+    {
+      "id": "a_read_cards_restaurant",
+      "type": "read_cards",
+      "title": {
+        "ko": "읽기 카드: 식당",
+        "en": "Reading Cards: Restaurant"
+      },
+      "options": {
+        "items": ["res_0001", "res_0002", "res_0003", "res_0004", "res_0005"],
+        "autoShuffle": true
+      }
+    },
+    {
+      "id": "a_write_sentences_restaurant",
+      "type": "write_sentences",
+      "title": {
+        "ko": "문장 따라 쓰기: 식당",
+        "en": "Copy the Sentences: Restaurant"
+      },
+      "options": { "items": ["res_0002", "res_0003", "res_0005"] }
+    },
+    {
+      "id": "a_match_meanings_restaurant",
+      "type": "read_match_meaning",
+      "title": {
+        "ko": "뜻과 연결: 식당 문장",
+        "en": "Match the Meaning: Restaurant Sentences"
+      },
+      "options": {
+        "pairs": [
+          ["res_0001", "menu"],
+          ["res_0002", "kimchi stew"],
+          ["res_0005", "bill"]
+        ]
+      }
+    }
+  ],
+  "routing": { "hubRoute": "/sentences/hub", "detailRoute": "/sentences/lesson" }
+}

@@ -1,0 +1,232 @@
+{
+  "id": "2_3_2",
+  "title": {
+    "ko": "(2) ㅓ·ㅕ·ㅔ·ㅖ + 받침",
+    "en": "(2) ㅓ/ㅕ/ㅔ/ㅖ + finals (CVC)",
+    "zh": "(2) ㅓ/ㅕ/ㅔ/ㅖ + 终声 (CVC)",
+    "ja": "（2）ㅓ・ㅕ・ㅔ・ㅖ + 終声（CVC）",
+    "vi": "(2) ㅓ/ㅕ/ㅔ/ㅖ + 받chim (CVC)",
+    "fr": "(2) ㅓ/ㅕ/ㅔ/ㅖ + finale (CVC)",
+    "es": "(2) ㅓ/ㅕ/ㅔ/ㅖ + final (CVC)",
+    "ru": "(2) ㅓ/ㅕ/ㅔ/ㅖ + финаль (CVC)",
+    "mn": "(2) ㅓ/ㅕ/ㅔ/ㅖ + 받чим (CVC)"
+  },
+  "description": {
+    "ko": "ㅓ·ㅕ·ㅔ·ㅖ 계열의 복합형(CVC) 예시입니다. 빈출 받침 위주이며, 겹받침은 별도 표시합니다.",
+    "en": "CVC with ㅓ/ㅕ/ㅔ/ㅖ. Common finals prioritized; double finals flagged.",
+    "zh": "展示 ㅓ/ㅕ/ㅔ/ㅖ 系列的 CVC 复合结构。以常见终声为主，复合终声另行标注。",
+    "ja": "ㅓ・ㅕ・ㅔ・ㅖ 系の CVC 複合例。頻出の終声を優先し、複合終声は別途明示します。",
+    "vi": "Ví dụ CVC với ㅓ/ㅕ/ㅔ/ㅖ. Ưu tiên 받침 thường gặp; 받침 kép được đánh dấu riêng.",
+    "fr": "Exemples CVC avec ㅓ/ㅕ/ㅔ/ㅖ. Finales fréquentes prioritaires ; doubles finales indiquées.",
+    "es": "CVC con ㅓ/ㅕ/ㅔ/ㅖ. Se priorizan finales comunes; finales dobles indicadas aparte.",
+    "ru": "CVC с ㅓ/ㅕ/ㅔ/ㅖ. В приоритете частые финали; двойные помечаются отдельно.",
+    "mn": "ㅓ/ㅕ/ㅔ/ㅖ-тэй CVC нийлмэл жишээ. Түгээмэл 받чимыг түрүүлж, давхар 받чимыг тусад нь тэмдэглэв."
+  },
+  "sections": {
+    "cvc": {
+      "examples": [
+        {
+          "base": "거",
+          "commonFinals": [
+            "ㄴ",
+            "ㄹ",
+            "ㅁ",
+            "ㅇ",
+            "ㄶ"
+          ],
+          "items": [
+            {
+              "syllable": "건",
+              "final": "ㄴ",
+              "tts": {
+                "ko": "건",
+                "ipa": "kʌn",
+                "roman": "geon",
+                "final": "n",
+                "rule": "auto"
+              },
+              "samples": [
+                "건물",
+                "건강"
+              ],
+              "writing": {
+                "strokes": [],
+                "guideOnly": true
+              },
+              "guideOnly": true
+            },
+            {
+              "syllable": "걸",
+              "final": "ㄹ",
+              "tts": {
+                "ko": "걸",
+                "ipa": "kʌl",
+                "roman": "geol",
+                "final": "l",
+                "rule": "auto"
+              },
+              "samples": [
+                "걸음",
+                "걸레"
+              ],
+              "writing": {
+                "strokes": [],
+                "guideOnly": true
+              },
+              "guideOnly": true
+            },
+            {
+              "syllable": "검",
+              "final": "ㅁ",
+              "tts": {
+                "ko": "검",
+                "ipa": "kʌm",
+                "roman": "geom",
+                "final": "m",
+                "rule": "auto"
+              },
+              "samples": [
+                "검정",
+                "검사"
+              ],
+              "writing": {
+                "strokes": [],
+                "guideOnly": true
+              },
+              "guideOnly": true
+            },
+            {
+              "syllable": "경",
+              "final": "ㅇ",
+              "tts": {
+                "ko": "경",
+                "ipa": "kjʌŋ",
+                "roman": "gyeong",
+                "final": "ŋ",
+                "rule": "auto"
+              },
+              "samples": [
+                "경기",
+                "환경"
+              ],
+              "writing": {
+                "strokes": [],
+                "guideOnly": true
+              },
+              "guideOnly": true
+            },
+            {
+              "syllable": "않",
+              "final": "ㄶ",
+              "doubleFinal": true,
+              "tts": {
+                "ko": "않",
+                "ipa": "an",
+                "roman": "anh",
+                "final": "n",
+                "rule": "override",
+                "note": {
+                  "ko": "단독 종성 ㄶ→[n]"
+                }
+              },
+              "samples": [
+                "않다"
+              ],
+              "writing": {
+                "strokes": [],
+                "guideOnly": true
+              },
+              "guideOnly": true
+            }
+          ]
+        },
+        {
+          "base": "혀",
+          "commonFinals": [
+            "ㄴ",
+            "ㄹ",
+            "ㅁ",
+            "ㅇ"
+          ],
+          "items": [
+            {
+              "syllable": "현",
+              "final": "ㄴ",
+              "tts": {
+                "ko": "현",
+                "ipa": "hjʌn",
+                "roman": "hyeon",
+                "final": "n",
+                "rule": "auto"
+              },
+              "writing": {
+                "strokes": [],
+                "guideOnly": true
+              },
+              "guideOnly": true
+            },
+            {
+              "syllable": "혈",
+              "final": "ㄹ",
+              "tts": {
+                "ko": "혈",
+                "ipa": "hjʌl",
+                "roman": "hyeol",
+                "final": "l",
+                "rule": "auto"
+              },
+              "writing": {
+                "strokes": [],
+                "guideOnly": true
+              },
+              "guideOnly": true
+            },
+            {
+              "syllable": "혐",
+              "final": "ㅁ",
+              "tts": {
+                "ko": "혐",
+                "ipa": "hjʌm",
+                "roman": "hyeom",
+                "final": "m",
+                "rule": "auto"
+              },
+              "writing": {
+                "strokes": [],
+                "guideOnly": true
+              },
+              "guideOnly": true
+            },
+            {
+              "syllable": "형",
+              "final": "ㅇ",
+              "tts": {
+                "ko": "형",
+                "ipa": "hjʌŋ",
+                "roman": "hyeong",
+                "final": "ŋ",
+                "rule": "auto"
+              },
+              "writing": {
+                "strokes": [],
+                "guideOnly": true
+              },
+              "guideOnly": true
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "definition": {
+    "ko": "세로형 모음(ㅓ·ㅕ·ㅔ·ㅖ)의 좌우+하부 복합(CVC) 배열로, 빈출 받침을 중심으로 제시합니다.",
+    "en": "Complex CVC layouts with vertical vowels (ㅓ/ㅕ/ㅔ/ㅖ), prioritizing frequent finals.",
+    "zh": "竖直元音（ㅓ/ㅕ/ㅔ/ㅖ）的左右+下部 CVC 复合结构，重点呈现常见终声。",
+    "ja": "縦型母音（ㅓ・ㅕ・ㅔ・ㅖ）の左右＋下部の CVC 複合配置で、頻出の終声を中心に示します。",
+    "vi": "Bố cục CVC phức hợp với nguyên âm dọc (ㅓ/ㅕ/ㅔ/ㅖ), ưu tiên các 받침 thường gặp.",
+    "fr": "Agencements CVC complexes avec voyelles verticales (ㅓ/ㅕ/ㅔ/ㅖ), en privilégiant les finales fréquentes.",
+    "es": "Diseños CVC complejos con vocales verticales (ㅓ/ㅕ/ㅔ/ㅖ), priorizando finales frecuentes.",
+    "ru": "Сложные CVC‑раскладки с вертикальными гласными (ㅓ/ㅕ/ㅔ/ㅖ), с приоритетом частых финалей.",
+    "mn": "Босоо эгшиг (ㅓ/ㅕ/ㅔ/ㅖ)-тай CVC төвөгтэй байршил; түгээмэл 받чимыг нэн тэргүүнд."
+  }
+}

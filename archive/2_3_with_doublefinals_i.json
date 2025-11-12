@@ -1,0 +1,1623 @@
+{
+  "unitId": "2_3_with_doublefinals_i",
+  "type": "letters",
+  "title": {
+    "ko": "2.3 겹받침 확장 — ㅣ + 받침",
+    "en": "2.3 Double Finals — ㅣ + finals",
+    "ja": "2.3 Double Finals — ㅣ + finals",
+    "zh": "2.3 Double Finals — ㅣ + finals",
+    "vi": "2.3 Double Finals — ㅣ + finals",
+    "fr": "2.3 Double Finals — ㅣ + finals",
+    "de": "2.3 Doppelendkonsonanten — ㅣ + Endkonsonanten",
+    "es": "2.3 Double Finals — ㅣ + finals",
+    "ru": "2.3 Double Finals — ㅣ + finals",
+    "mn": "2.3 Double Finals — ㅣ + finals"
+  },
+  "description": {
+    "ko": "세로형 모음군에 겹받침(ㄳ, ㄵ, ㄶ, ㄺ, ㄻ, ㄼ, ㄽ, ㄾ, ㄿ, ㅀ, ㅄ)을 결합한 CVC 확장 세트입니다.",
+    "en": "CVC extension with double finals for the vertical-vowel groups."
+  },
+  "notes": {
+    "ko": "겹받침 표기는 같아도 종성 실현음은 대부분 [t̚]로 중화됩니다(예: 값[갑], 앉[안], 읽[익/읽]). 교육적 혼란을 줄이기 위해 예시 중심으로 구성하세요.",
+    "en": "Note neutralization of codas (often [t̚]); focus on common examples for pedagogy."
+  },
+  "ttsRulesRoute": "assets/data/common/tts_rules.json",
+  "assetConventions": {
+    "strokeJson": "assets/strokes/syllables/{glyph}.json",
+    "audioMp3": "assets/audio/syllables/{glyph}.mp3"
+  },
+  "practice": {
+    "enabled": true,
+    "strokeAsset": "template",
+    "audio": true,
+    "repeat": 3
+  },
+  "uiHints": {
+    "grid": 7,
+    "rowGap": 8,
+    "colGap": 8
+  },
+  "vowels": [
+    "ㅣ"
+  ],
+  "initials": [
+    "ㄱ",
+    "ㄴ",
+    "ㄷ",
+    "ㄹ",
+    "ㅁ",
+    "ㅂ",
+    "ㅅ",
+    "ㅇ",
+    "ㅈ",
+    "ㅊ",
+    "ㅋ",
+    "ㅌ",
+    "ㅍ",
+    "ㅎ"
+  ],
+  "doubleFinals": [
+    "ㄳ",
+    "ㄵ",
+    "ㄶ",
+    "ㄺ",
+    "ㄻ",
+    "ㄼ",
+    "ㄽ",
+    "ㄾ",
+    "ㄿ",
+    "ㅀ",
+    "ㅄ"
+  ],
+  "items": [
+    {
+      "syllable": "긳",
+      "final": "ㄳ",
+      "tts": {
+        "ko": "긳",
+        "final": "ㄳ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "긵",
+      "final": "ㄵ",
+      "tts": {
+        "ko": "긵",
+        "final": "ㄵ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "긶",
+      "final": "ㄶ",
+      "tts": {
+        "ko": "긶",
+        "final": "ㄶ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "긹",
+      "final": "ㄺ",
+      "tts": {
+        "ko": "긹",
+        "final": "ㄺ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "긺",
+      "final": "ㄻ",
+      "tts": {
+        "ko": "긺",
+        "final": "ㄻ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "긻",
+      "final": "ㄼ",
+      "tts": {
+        "ko": "긻",
+        "final": "ㄼ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "긼",
+      "final": "ㄽ",
+      "tts": {
+        "ko": "긼",
+        "final": "ㄽ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "긽",
+      "final": "ㄾ",
+      "tts": {
+        "ko": "긽",
+        "final": "ㄾ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "긾",
+      "final": "ㄿ",
+      "tts": {
+        "ko": "긾",
+        "final": "ㄿ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "긿",
+      "final": "ㅀ",
+      "tts": {
+        "ko": "긿",
+        "final": "ㅀ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "깂",
+      "final": "ㅄ",
+      "tts": {
+        "ko": "깂",
+        "final": "ㅄ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "닋",
+      "final": "ㄳ",
+      "tts": {
+        "ko": "닋",
+        "final": "ㄳ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "닍",
+      "final": "ㄵ",
+      "tts": {
+        "ko": "닍",
+        "final": "ㄵ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "닎",
+      "final": "ㄶ",
+      "tts": {
+        "ko": "닎",
+        "final": "ㄶ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "닑",
+      "final": "ㄺ",
+      "tts": {
+        "ko": "닑",
+        "final": "ㄺ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "닒",
+      "final": "ㄻ",
+      "tts": {
+        "ko": "닒",
+        "final": "ㄻ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "닓",
+      "final": "ㄼ",
+      "tts": {
+        "ko": "닓",
+        "final": "ㄼ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "닔",
+      "final": "ㄽ",
+      "tts": {
+        "ko": "닔",
+        "final": "ㄽ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "닕",
+      "final": "ㄾ",
+      "tts": {
+        "ko": "닕",
+        "final": "ㄾ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "닖",
+      "final": "ㄿ",
+      "tts": {
+        "ko": "닖",
+        "final": "ㄿ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "닗",
+      "final": "ㅀ",
+      "tts": {
+        "ko": "닗",
+        "final": "ㅀ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "닚",
+      "final": "ㅄ",
+      "tts": {
+        "ko": "닚",
+        "final": "ㅄ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "딗",
+      "final": "ㄳ",
+      "tts": {
+        "ko": "딗",
+        "final": "ㄳ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "딙",
+      "final": "ㄵ",
+      "tts": {
+        "ko": "딙",
+        "final": "ㄵ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "딚",
+      "final": "ㄶ",
+      "tts": {
+        "ko": "딚",
+        "final": "ㄶ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "딝",
+      "final": "ㄺ",
+      "tts": {
+        "ko": "딝",
+        "final": "ㄺ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "딞",
+      "final": "ㄻ",
+      "tts": {
+        "ko": "딞",
+        "final": "ㄻ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "딟",
+      "final": "ㄼ",
+      "tts": {
+        "ko": "딟",
+        "final": "ㄼ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "딠",
+      "final": "ㄽ",
+      "tts": {
+        "ko": "딠",
+        "final": "ㄽ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "딡",
+      "final": "ㄾ",
+      "tts": {
+        "ko": "딡",
+        "final": "ㄾ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "딢",
+      "final": "ㄿ",
+      "tts": {
+        "ko": "딢",
+        "final": "ㄿ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "딣",
+      "final": "ㅀ",
+      "tts": {
+        "ko": "딣",
+        "final": "ㅀ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "딦",
+      "final": "ㅄ",
+      "tts": {
+        "ko": "딦",
+        "final": "ㅄ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "릯",
+      "final": "ㄳ",
+      "tts": {
+        "ko": "릯",
+        "final": "ㄳ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "릱",
+      "final": "ㄵ",
+      "tts": {
+        "ko": "릱",
+        "final": "ㄵ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "릲",
+      "final": "ㄶ",
+      "tts": {
+        "ko": "릲",
+        "final": "ㄶ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "릵",
+      "final": "ㄺ",
+      "tts": {
+        "ko": "릵",
+        "final": "ㄺ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "릶",
+      "final": "ㄻ",
+      "tts": {
+        "ko": "릶",
+        "final": "ㄻ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "릷",
+      "final": "ㄼ",
+      "tts": {
+        "ko": "릷",
+        "final": "ㄼ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "릸",
+      "final": "ㄽ",
+      "tts": {
+        "ko": "릸",
+        "final": "ㄽ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "릹",
+      "final": "ㄾ",
+      "tts": {
+        "ko": "릹",
+        "final": "ㄾ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "릺",
+      "final": "ㄿ",
+      "tts": {
+        "ko": "릺",
+        "final": "ㄿ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "릻",
+      "final": "ㅀ",
+      "tts": {
+        "ko": "릻",
+        "final": "ㅀ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "릾",
+      "final": "ㅄ",
+      "tts": {
+        "ko": "릾",
+        "final": "ㅄ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "믻",
+      "final": "ㄳ",
+      "tts": {
+        "ko": "믻",
+        "final": "ㄳ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "믽",
+      "final": "ㄵ",
+      "tts": {
+        "ko": "믽",
+        "final": "ㄵ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "믾",
+      "final": "ㄶ",
+      "tts": {
+        "ko": "믾",
+        "final": "ㄶ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "밁",
+      "final": "ㄺ",
+      "tts": {
+        "ko": "밁",
+        "final": "ㄺ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "밂",
+      "final": "ㄻ",
+      "tts": {
+        "ko": "밂",
+        "final": "ㄻ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "밃",
+      "final": "ㄼ",
+      "tts": {
+        "ko": "밃",
+        "final": "ㄼ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "밄",
+      "final": "ㄽ",
+      "tts": {
+        "ko": "밄",
+        "final": "ㄽ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "밅",
+      "final": "ㄾ",
+      "tts": {
+        "ko": "밅",
+        "final": "ㄾ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "밆",
+      "final": "ㄿ",
+      "tts": {
+        "ko": "밆",
+        "final": "ㄿ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "밇",
+      "final": "ㅀ",
+      "tts": {
+        "ko": "밇",
+        "final": "ㅀ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "밊",
+      "final": "ㅄ",
+      "tts": {
+        "ko": "밊",
+        "final": "ㅄ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "빇",
+      "final": "ㄳ",
+      "tts": {
+        "ko": "빇",
+        "final": "ㄳ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "빉",
+      "final": "ㄵ",
+      "tts": {
+        "ko": "빉",
+        "final": "ㄵ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "빊",
+      "final": "ㄶ",
+      "tts": {
+        "ko": "빊",
+        "final": "ㄶ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "빍",
+      "final": "ㄺ",
+      "tts": {
+        "ko": "빍",
+        "final": "ㄺ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "빎",
+      "final": "ㄻ",
+      "tts": {
+        "ko": "빎",
+        "final": "ㄻ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "빏",
+      "final": "ㄼ",
+      "tts": {
+        "ko": "빏",
+        "final": "ㄼ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "빐",
+      "final": "ㄽ",
+      "tts": {
+        "ko": "빐",
+        "final": "ㄽ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "빑",
+      "final": "ㄾ",
+      "tts": {
+        "ko": "빑",
+        "final": "ㄾ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "빒",
+      "final": "ㄿ",
+      "tts": {
+        "ko": "빒",
+        "final": "ㄿ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "빓",
+      "final": "ㅀ",
+      "tts": {
+        "ko": "빓",
+        "final": "ㅀ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "빖",
+      "final": "ㅄ",
+      "tts": {
+        "ko": "빖",
+        "final": "ㅄ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "싟",
+      "final": "ㄳ",
+      "tts": {
+        "ko": "싟",
+        "final": "ㄳ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "싡",
+      "final": "ㄵ",
+      "tts": {
+        "ko": "싡",
+        "final": "ㄵ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "싢",
+      "final": "ㄶ",
+      "tts": {
+        "ko": "싢",
+        "final": "ㄶ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "싥",
+      "final": "ㄺ",
+      "tts": {
+        "ko": "싥",
+        "final": "ㄺ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "싦",
+      "final": "ㄻ",
+      "tts": {
+        "ko": "싦",
+        "final": "ㄻ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "싧",
+      "final": "ㄼ",
+      "tts": {
+        "ko": "싧",
+        "final": "ㄼ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "싨",
+      "final": "ㄽ",
+      "tts": {
+        "ko": "싨",
+        "final": "ㄽ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "싩",
+      "final": "ㄾ",
+      "tts": {
+        "ko": "싩",
+        "final": "ㄾ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "싪",
+      "final": "ㄿ",
+      "tts": {
+        "ko": "싪",
+        "final": "ㄿ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "싫",
+      "final": "ㅀ",
+      "tts": {
+        "ko": "싫",
+        "final": "ㅀ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "싮",
+      "final": "ㅄ",
+      "tts": {
+        "ko": "싮",
+        "final": "ㅄ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "읷",
+      "final": "ㄳ",
+      "tts": {
+        "ko": "읷",
+        "final": "ㄳ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "읹",
+      "final": "ㄵ",
+      "tts": {
+        "ko": "읹",
+        "final": "ㄵ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "읺",
+      "final": "ㄶ",
+      "tts": {
+        "ko": "읺",
+        "final": "ㄶ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "읽",
+      "final": "ㄺ",
+      "tts": {
+        "ko": "읽",
+        "final": "ㄺ",
+        "rule": "auto"
+      },
+      "samples": [
+        "읽다",
+        "읽음"
+      ]
+    },
+    {
+      "syllable": "읾",
+      "final": "ㄻ",
+      "tts": {
+        "ko": "읾",
+        "final": "ㄻ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "읿",
+      "final": "ㄼ",
+      "tts": {
+        "ko": "읿",
+        "final": "ㄼ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "잀",
+      "final": "ㄽ",
+      "tts": {
+        "ko": "잀",
+        "final": "ㄽ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "잁",
+      "final": "ㄾ",
+      "tts": {
+        "ko": "잁",
+        "final": "ㄾ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "잂",
+      "final": "ㄿ",
+      "tts": {
+        "ko": "잂",
+        "final": "ㄿ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "잃",
+      "final": "ㅀ",
+      "tts": {
+        "ko": "잃",
+        "final": "ㅀ",
+        "rule": "auto"
+      },
+      "samples": [
+        "잃다"
+      ]
+    },
+    {
+      "syllable": "잆",
+      "final": "ㅄ",
+      "tts": {
+        "ko": "잆",
+        "final": "ㅄ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "짃",
+      "final": "ㄳ",
+      "tts": {
+        "ko": "짃",
+        "final": "ㄳ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "짅",
+      "final": "ㄵ",
+      "tts": {
+        "ko": "짅",
+        "final": "ㄵ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "짆",
+      "final": "ㄶ",
+      "tts": {
+        "ko": "짆",
+        "final": "ㄶ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "짉",
+      "final": "ㄺ",
+      "tts": {
+        "ko": "짉",
+        "final": "ㄺ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "짊",
+      "final": "ㄻ",
+      "tts": {
+        "ko": "짊",
+        "final": "ㄻ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "짋",
+      "final": "ㄼ",
+      "tts": {
+        "ko": "짋",
+        "final": "ㄼ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "짌",
+      "final": "ㄽ",
+      "tts": {
+        "ko": "짌",
+        "final": "ㄽ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "짍",
+      "final": "ㄾ",
+      "tts": {
+        "ko": "짍",
+        "final": "ㄾ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "짎",
+      "final": "ㄿ",
+      "tts": {
+        "ko": "짎",
+        "final": "ㄿ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "짏",
+      "final": "ㅀ",
+      "tts": {
+        "ko": "짏",
+        "final": "ㅀ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "짒",
+      "final": "ㅄ",
+      "tts": {
+        "ko": "짒",
+        "final": "ㅄ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "칛",
+      "final": "ㄳ",
+      "tts": {
+        "ko": "칛",
+        "final": "ㄳ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "칝",
+      "final": "ㄵ",
+      "tts": {
+        "ko": "칝",
+        "final": "ㄵ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "칞",
+      "final": "ㄶ",
+      "tts": {
+        "ko": "칞",
+        "final": "ㄶ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "칡",
+      "final": "ㄺ",
+      "tts": {
+        "ko": "칡",
+        "final": "ㄺ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "칢",
+      "final": "ㄻ",
+      "tts": {
+        "ko": "칢",
+        "final": "ㄻ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "칣",
+      "final": "ㄼ",
+      "tts": {
+        "ko": "칣",
+        "final": "ㄼ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "칤",
+      "final": "ㄽ",
+      "tts": {
+        "ko": "칤",
+        "final": "ㄽ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "칥",
+      "final": "ㄾ",
+      "tts": {
+        "ko": "칥",
+        "final": "ㄾ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "칦",
+      "final": "ㄿ",
+      "tts": {
+        "ko": "칦",
+        "final": "ㄿ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "칧",
+      "final": "ㅀ",
+      "tts": {
+        "ko": "칧",
+        "final": "ㅀ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "칪",
+      "final": "ㅄ",
+      "tts": {
+        "ko": "칪",
+        "final": "ㅄ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "킧",
+      "final": "ㄳ",
+      "tts": {
+        "ko": "킧",
+        "final": "ㄳ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "킩",
+      "final": "ㄵ",
+      "tts": {
+        "ko": "킩",
+        "final": "ㄵ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "킪",
+      "final": "ㄶ",
+      "tts": {
+        "ko": "킪",
+        "final": "ㄶ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "킭",
+      "final": "ㄺ",
+      "tts": {
+        "ko": "킭",
+        "final": "ㄺ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "킮",
+      "final": "ㄻ",
+      "tts": {
+        "ko": "킮",
+        "final": "ㄻ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "킯",
+      "final": "ㄼ",
+      "tts": {
+        "ko": "킯",
+        "final": "ㄼ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "킰",
+      "final": "ㄽ",
+      "tts": {
+        "ko": "킰",
+        "final": "ㄽ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "킱",
+      "final": "ㄾ",
+      "tts": {
+        "ko": "킱",
+        "final": "ㄾ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "킲",
+      "final": "ㄿ",
+      "tts": {
+        "ko": "킲",
+        "final": "ㄿ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "킳",
+      "final": "ㅀ",
+      "tts": {
+        "ko": "킳",
+        "final": "ㅀ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "킶",
+      "final": "ㅄ",
+      "tts": {
+        "ko": "킶",
+        "final": "ㅄ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "틳",
+      "final": "ㄳ",
+      "tts": {
+        "ko": "틳",
+        "final": "ㄳ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "틵",
+      "final": "ㄵ",
+      "tts": {
+        "ko": "틵",
+        "final": "ㄵ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "틶",
+      "final": "ㄶ",
+      "tts": {
+        "ko": "틶",
+        "final": "ㄶ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "틹",
+      "final": "ㄺ",
+      "tts": {
+        "ko": "틹",
+        "final": "ㄺ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "틺",
+      "final": "ㄻ",
+      "tts": {
+        "ko": "틺",
+        "final": "ㄻ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "틻",
+      "final": "ㄼ",
+      "tts": {
+        "ko": "틻",
+        "final": "ㄼ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "틼",
+      "final": "ㄽ",
+      "tts": {
+        "ko": "틼",
+        "final": "ㄽ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "틽",
+      "final": "ㄾ",
+      "tts": {
+        "ko": "틽",
+        "final": "ㄾ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "틾",
+      "final": "ㄿ",
+      "tts": {
+        "ko": "틾",
+        "final": "ㄿ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "틿",
+      "final": "ㅀ",
+      "tts": {
+        "ko": "틿",
+        "final": "ㅀ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "팂",
+      "final": "ㅄ",
+      "tts": {
+        "ko": "팂",
+        "final": "ㅄ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "픿",
+      "final": "ㄳ",
+      "tts": {
+        "ko": "픿",
+        "final": "ㄳ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "핁",
+      "final": "ㄵ",
+      "tts": {
+        "ko": "핁",
+        "final": "ㄵ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "핂",
+      "final": "ㄶ",
+      "tts": {
+        "ko": "핂",
+        "final": "ㄶ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "핅",
+      "final": "ㄺ",
+      "tts": {
+        "ko": "핅",
+        "final": "ㄺ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "핆",
+      "final": "ㄻ",
+      "tts": {
+        "ko": "핆",
+        "final": "ㄻ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "핇",
+      "final": "ㄼ",
+      "tts": {
+        "ko": "핇",
+        "final": "ㄼ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "핈",
+      "final": "ㄽ",
+      "tts": {
+        "ko": "핈",
+        "final": "ㄽ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "핉",
+      "final": "ㄾ",
+      "tts": {
+        "ko": "핉",
+        "final": "ㄾ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "핊",
+      "final": "ㄿ",
+      "tts": {
+        "ko": "핊",
+        "final": "ㄿ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "핋",
+      "final": "ㅀ",
+      "tts": {
+        "ko": "핋",
+        "final": "ㅀ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "핎",
+      "final": "ㅄ",
+      "tts": {
+        "ko": "핎",
+        "final": "ㅄ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "힋",
+      "final": "ㄳ",
+      "tts": {
+        "ko": "힋",
+        "final": "ㄳ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "힍",
+      "final": "ㄵ",
+      "tts": {
+        "ko": "힍",
+        "final": "ㄵ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "힎",
+      "final": "ㄶ",
+      "tts": {
+        "ko": "힎",
+        "final": "ㄶ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "힑",
+      "final": "ㄺ",
+      "tts": {
+        "ko": "힑",
+        "final": "ㄺ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "힒",
+      "final": "ㄻ",
+      "tts": {
+        "ko": "힒",
+        "final": "ㄻ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "힓",
+      "final": "ㄼ",
+      "tts": {
+        "ko": "힓",
+        "final": "ㄼ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "힔",
+      "final": "ㄽ",
+      "tts": {
+        "ko": "힔",
+        "final": "ㄽ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "힕",
+      "final": "ㄾ",
+      "tts": {
+        "ko": "힕",
+        "final": "ㄾ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "힖",
+      "final": "ㄿ",
+      "tts": {
+        "ko": "힖",
+        "final": "ㄿ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "힗",
+      "final": "ㅀ",
+      "tts": {
+        "ko": "힗",
+        "final": "ㅀ",
+        "rule": "auto"
+      }
+    },
+    {
+      "syllable": "힚",
+      "final": "ㅄ",
+      "tts": {
+        "ko": "힚",
+        "final": "ㅄ",
+        "rule": "auto"
+      }
+    }
+  ],
+  "sequence": [
+    "긳",
+    "긵",
+    "긶",
+    "긹",
+    "긺",
+    "긻",
+    "긼",
+    "긽",
+    "긾",
+    "긿",
+    "깂",
+    "닋",
+    "닍",
+    "닎",
+    "닑",
+    "닒",
+    "닓",
+    "닔",
+    "닕",
+    "닖",
+    "닗",
+    "닚",
+    "딗",
+    "딙",
+    "딚",
+    "딝",
+    "딞",
+    "딟",
+    "딠",
+    "딡",
+    "딢",
+    "딣",
+    "딦",
+    "릯",
+    "릱",
+    "릲",
+    "릵",
+    "릶",
+    "릷",
+    "릸",
+    "릹",
+    "릺",
+    "릻",
+    "릾",
+    "믻",
+    "믽",
+    "믾",
+    "밁",
+    "밂",
+    "밃",
+    "밄",
+    "밅",
+    "밆",
+    "밇",
+    "밊",
+    "빇",
+    "빉",
+    "빊",
+    "빍",
+    "빎",
+    "빏",
+    "빐",
+    "빑",
+    "빒",
+    "빓",
+    "빖",
+    "싟",
+    "싡",
+    "싢",
+    "싥",
+    "싦",
+    "싧",
+    "싨",
+    "싩",
+    "싪",
+    "싫",
+    "싮",
+    "읷",
+    "읹",
+    "읺",
+    "읽",
+    "읾",
+    "읿",
+    "잀",
+    "잁",
+    "잂",
+    "잃",
+    "잆",
+    "짃",
+    "짅",
+    "짆",
+    "짉",
+    "짊",
+    "짋",
+    "짌",
+    "짍",
+    "짎",
+    "짏",
+    "짒",
+    "칛",
+    "칝",
+    "칞",
+    "칡",
+    "칢",
+    "칣",
+    "칤",
+    "칥",
+    "칦",
+    "칧",
+    "칪",
+    "킧",
+    "킩",
+    "킪",
+    "킭",
+    "킮",
+    "킯",
+    "킰",
+    "킱",
+    "킲",
+    "킳",
+    "킶",
+    "틳",
+    "틵",
+    "틶",
+    "틹",
+    "틺",
+    "틻",
+    "틼",
+    "틽",
+    "틾",
+    "틿",
+    "팂",
+    "픿",
+    "핁",
+    "핂",
+    "핅",
+    "핆",
+    "핇",
+    "핈",
+    "핉",
+    "핊",
+    "핋",
+    "핎",
+    "힋",
+    "힍",
+    "힎",
+    "힑",
+    "힒",
+    "힓",
+    "힔",
+    "힕",
+    "힖",
+    "힗",
+    "힚"
+  ]
+}

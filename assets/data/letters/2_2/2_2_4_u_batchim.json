@@ -1,0 +1,38 @@
+{
+  "id": "2_2_4_b",
+  "unitId": "2_2_4_u_batchim",
+  "type": "letters",
+  "title": {
+    "ko": "2.2 (4-b) ㅜ 받침 확장 (운~웅)",
+    "en": "2.2 (4-b) Vowel ㅜ with finals (un~ung)",
+    "ja": "2.2 (4-b) 母音 ㅜ の終声拡張（un〜ung）",
+    "zh": "2.2 (4-b) 元音 ㅜ 的终声扩展（un~ung）",
+    "vi": "2.2 (4-b) Nguyên âm ㅜ với phụ âm cuối (un~ung)",
+    "fr": "2.2 (4-b) Voyelle ㅜ avec finales (un~ung)",
+    "de": "2.2 (4-b) Vokal ㅜ mit Endkonsonanten (un–ung)",
+    "es": "2.2 (4-b) Vocal ㅜ con finales (un~ung)",
+    "ru": "2.2 (4-b) Гласный ㅜ с конечными согласными (un–ung)",
+    "mn": "2.2 (4-b) Эгшиг ㅜ төгсгөлийн гийгүүлэгчтэй (un–ung)"
+  },
+  "assetConventions": {
+    "strokeJson": "assets/strokes/syllables/{glyph}.json",
+    "audioMp3": "assets/audio/syllables/{glyph}.mp3"
+  },
+  "practice": {
+    "enabled": true,
+    "strokeAsset": "template",
+    "audio": true,
+    "repeat": 3
+  },
+  "sequence": [
+    "운",
+    "울",
+    "움",
+    "웅"
+  ],
+  "uiHints": {
+    "grid": 4,
+    "rowGap": 8,
+    "colGap": 8
+  }
+}

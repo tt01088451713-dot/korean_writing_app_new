@@ -1,0 +1,269 @@
+{
+  "unit": "4. 문장",
+  "lesson_id": "4_3",
+  "title": {
+    "ko": "인사와 대화",
+    "en": "Greetings and Conversation",
+    "ja": "あいさつと会話",
+    "zh": "问候与会话",
+    "vi": "Chào hỏi và hội thoại",
+    "fr": "Salutations et conversations",
+    "de": "Begrüßung und Gespräch",
+    "es": "Saludos y conversación",
+    "ru": "Приветствия и разговор",
+    "mn": "Мэндчилгээ ба яриа"
+  },
+  "patterns": [
+    {
+      "id": "p_greet_01",
+      "name": {
+        "ko": "인사 기본형",
+        "en": "Basic Greetings",
+        "ja": "基本のあいさつ",
+        "zh": "基本问候",
+        "vi": "Chào hỏi cơ bản",
+        "fr": "Salutations de base",
+        "de": "Grundlegende Grüße",
+        "es": "Saludos básicos",
+        "ru": "Базовые приветствия",
+        "mn": "Үндсэн мэндчилгээ"
+      },
+      "explain": {
+        "ko": "짧은 고정 표현을 사용해 자연스럽게 인사합니다.",
+        "en": "Use short set phrases for natural greetings.",
+        "ja": "短い定型表現で自然にあいさつします。",
+        "zh": "用简短固定表达进行自然问候。",
+        "vi": "Dùng cụm cố định ngắn để chào hỏi tự nhiên.",
+        "fr": "Utilisez des expressions figées courtes pour saluer naturellement.",
+        "de": "Nutzen Sie kurze feste Ausdrücke für natürliche Grüße.",
+        "es": "Usa frases cortas para saludar naturalmente.",
+        "ru": "Используйте короткие устойчивые выражения для естественного приветствия.",
+        "mn": "Товч хэвшмэл хэллэг ашиглан байгаллаг мэндчил."
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": "conv_0001",
+      "type": "sentence",
+      "text": "안녕하세요.",
+      "translations": {
+        "ko": "",
+        "en": "Hello.",
+        "ja": "こんにちは。",
+        "zh": "您好。",
+        "vi": "Xin chào.",
+        "fr": "Bonjour.",
+        "de": "Hallo.",
+        "es": "Hola.",
+        "ru": "Здравствуйте.",
+        "mn": "Сайн байна уу."
+      },
+      "reading": { "enabled": true, "display": "text" },
+      "writing": { "enabled": true, "guides": ["안","녕","하","세","요."] },
+      "tts": { "text": "안녕하세요.", "lang": "ko-KR", "rate": 0.5, "pitch": 1.0, "volume": 1.0 },
+      "metadata": { "theme": "인사", "pattern": "고정표현" }
+    },
+    {
+      "id": "conv_0002",
+      "type": "sentence",
+      "text": "반갑습니다.",
+      "translations": {
+        "ko": "",
+        "en": "Nice to meet you.",
+        "ja": "はじめまして。",
+        "zh": "很高兴见到您。",
+        "vi": "Rất hân hạnh.",
+        "fr": "Enchanté(e).",
+        "de": "Freut mich, Sie kennenzulernen.",
+        "es": "Encantado/a.",
+        "ru": "Приятно познакомиться.",
+        "mn": "Таньтай танилцсандаа таатай байна."
+      },
+      "reading": { "enabled": true },
+      "writing": { "enabled": true, "guides": ["반","갑","습","니","다."] },
+      "tts": { "text": "반갑습니다.", "lang": "ko-KR", "rate": 0.48, "pitch": 1.0, "volume": 1.0 },
+      "metadata": { "theme": "인사", "pattern": "고정표현" }
+    },
+    {
+      "id": "conv_0003",
+      "type": "sentence",
+      "text": "제 이름은 민수예요.",
+      "translations": {
+        "ko": "",
+        "en": "My name is Minsu.",
+        "ja": "私の名前はミンスです。",
+        "zh": "我的名字是民秀。",
+        "vi": "Tên tôi là Minsu.",
+        "fr": "Je m'appelle Minsu.",
+        "de": "Ich heiße Minsu.",
+        "es": "Me llamo Minsu.",
+        "ru": "Меня зовут Минсу.",
+        "mn": "Миний нэр Минсу."
+      },
+      "reading": { "enabled": true, "fragments": ["제","이름은","민수예요."] },
+      "writing": { "enabled": true, "guides": ["제","이름은","민수예요."] },
+      "tts": { "text": "제 이름은 민수예요.", "lang": "ko-KR", "rate": 0.5, "pitch": 1.0, "volume": 1.0 },
+      "metadata": { "theme": "자기소개", "pattern": "S-TOP-V" }
+    },
+    {
+      "id": "conv_0004",
+      "type": "sentence",
+      "text": "어디에서 오셨어요?",
+      "translations": {
+        "ko": "",
+        "en": "Where are you from?",
+        "ja": "どちらから来ましたか。",
+        "zh": "您从哪里来？",
+        "vi": "Bạn đến từ đâu?",
+        "fr": "Vous venez d'où ?",
+        "de": "Woher kommen Sie?",
+        "es": "¿De dónde viene(s)?",
+        "ru": "Откуда вы?",
+        "mn": "Та хаанаас ирсэн бэ?"
+      },
+      "reading": { "enabled": true, "fragments": ["어디에서","오셨어요?"] },
+      "writing": { "enabled": true, "guides": ["어","디","에","서","오","셨어","요?"] },
+      "tts": { "text": "어디에서 오셨어요?", "lang": "ko-KR", "rate": 0.52, "pitch": 1.0, "volume": 1.0 },
+      "metadata": { "theme": "질문", "pattern": "의문문" }
+    },
+    {
+      "id": "conv_0005",
+      "type": "sentence",
+      "text": "감사합니다.",
+      "translations": {
+        "ko": "",
+        "en": "Thank you.",
+        "ja": "ありがとうございます。",
+        "zh": "谢谢。",
+        "vi": "Cảm ơn.",
+        "fr": "Merci.",
+        "de": "Danke.",
+        "es": "Gracias.",
+        "ru": "Спасибо.",
+        "mn": "Баярлалаа."
+      },
+      "reading": { "enabled": true },
+      "writing": { "enabled": true, "guides": ["감","사","합","니","다."] },
+      "tts": { "text": "감사합니다.", "lang": "ko-KR", "rate": 0.5, "pitch": 1.0, "volume": 1.0 },
+      "metadata": { "theme": "감사", "pattern": "고정표현" }
+    },
+    {
+      "id": "conv_0006",
+      "type": "sentence",
+      "text": "죄송합니다.",
+      "translations": {
+        "ko": "",
+        "en": "I'm sorry.",
+        "ja": "申し訳ありません。",
+        "zh": "对不起。",
+        "vi": "Xin lỗi.",
+        "fr": "Je suis désolé(e).",
+        "de": "Es tut mir leid.",
+        "es": "Lo siento.",
+        "ru": "Извините.",
+        "mn": "Уучлаарай."
+      },
+      "reading": { "enabled": true },
+      "writing": { "enabled": true, "guides": ["죄","송","합","니","다."] },
+      "tts": { "text": "죄송합니다.", "lang": "ko-KR", "rate": 0.48, "pitch": 1.0, "volume": 1.0 },
+      "metadata": { "theme": "사과", "pattern": "고정표현" }
+    },
+    {
+      "id": "conv_0007",
+      "type": "sentence",
+      "text": "괜찮아요.",
+      "translations": {
+        "ko": "",
+        "en": "It's okay.",
+        "ja": "大丈夫です。",
+        "zh": "没关系。",
+        "vi": "Không sao.",
+        "fr": "Ça va.",
+        "de": "Ist schon gut.",
+        "es": "Está bien.",
+        "ru": "Все в порядке.",
+        "mn": "Зүгээр ээ."
+      },
+      "reading": { "enabled": true },
+      "writing": { "enabled": true, "guides": ["괜","찮","아","요."] },
+      "tts": { "text": "괜찮아요.", "lang": "ko-KR", "rate": 0.5, "pitch": 1.0, "volume": 1.0 },
+      "metadata": { "theme": "사과/응답", "pattern": "고정표현" }
+    },
+    {
+      "id": "conv_0008",
+      "type": "sentence",
+      "text": "잘 부탁드립니다.",
+      "translations": {
+        "ko": "",
+        "en": "I look forward to your kind cooperation.",
+        "ja": "どうぞよろしくお願いします。",
+        "zh": "请多关照。",
+        "vi": "Mong được giúp đỡ.",
+        "fr": "Je compte sur votre coopération.",
+        "de": "Ich bitte um gute Zusammenarbeit.",
+        "es": "Le(s) ruego su amable cooperación.",
+        "ru": "Прошу вашей поддержки.",
+        "mn": "Дэмжлэг хүсье."
+      },
+      "reading": { "enabled": true },
+      "writing": { "enabled": true, "guides": ["잘","부","탁","드","립","니","다."] },
+      "tts": { "text": "잘 부탁드립니다.", "lang": "ko-KR", "rate": 0.48, "pitch": 1.0, "volume": 1.0 },
+      "metadata": { "theme": "인사/협력", "pattern": "고정표현" }
+    }
+  ],
+  "activities": [
+    {
+      "id": "a_read_cards_conv",
+      "type": "read_cards",
+      "title": {
+        "ko": "읽기 카드: 인사",
+        "en": "Reading Cards: Greetings",
+        "ja": "カードで読む：あいさつ",
+        "zh": "阅读卡片：问候",
+        "vi": "Thẻ đọc: Chào hỏi",
+        "fr": "Cartes de lecture : Salutations",
+        "de": "Lesekarten: Grüße",
+        "es": "Tarjetas de lectura: Saludos",
+        "ru": "Карточки для чтения: Приветствия",
+        "mn": "Унших карт: Мэндчилгээ"
+      },
+      "options": { "items": ["conv_0001","conv_0002","conv_0005","conv_0006","conv_0007","conv_0008"], "autoShuffle": true }
+    },
+    {
+      "id": "a_read_reorder_conv",
+      "type": "read_reorder_fragments",
+      "title": {
+        "ko": "어절 순서 배열",
+        "en": "Reorder Words",
+        "ja": "語順並べ替え",
+        "zh": "词序排列",
+        "vi": "Sắp xếp trật tự từ",
+        "fr": "Remettre en ordre",
+        "de": "Wörter ordnen",
+        "es": "Ordenar palabras",
+        "ru": "Упорядочить слова",
+        "mn": "Үгийг дараалуулах"
+      },
+      "options": { "target": "conv_0003", "fragments": ["제","이름은","민수예요."] }
+    },
+    {
+      "id": "a_write_conv",
+      "type": "write_sentences",
+      "title": {
+        "ko": "문장 따라 쓰기",
+        "en": "Copy the Sentences",
+        "ja": "文を書き写す",
+        "zh": "抄写句子",
+        "vi": "Chép câu",
+        "fr": "Copier les phrases",
+        "de": "Sätze abschreiben",
+        "es": "Copiar las oraciones",
+        "ru": "Переписать предложения",
+        "mn": "Өгүүлбэр хуулж бич"
+      },
+      "options": { "items": ["conv_0001","conv_0002","conv_0005","conv_0006"] }
+    }
+  ],
+  "routing": { "hubRoute": "/sentences/hub", "detailRoute": "/sentences/lesson" }
+}

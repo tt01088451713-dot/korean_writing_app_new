@@ -1,0 +1,29 @@
+{
+  "id": "2_2",
+  "title": {
+    "ko": "상하 결합형",
+    "en": "Top–Bottom Structure",
+    "ja": "上下結合型",
+    "zh": "上下结构",
+    "vi": "Cấu trúc trên–dưới",
+    "fr": "Structure haut–bas",
+    "de": "Top–Bottom Structure",
+    "es": "Estructura arriba–abajo",
+    "ru": "Верх–низ структура",
+    "mn": "Дээш–доош бүтэц"
+  },
+  "description": {
+    "ko": "초성(자음)+중성(모음), 초성(자음)+중성(모음)+종성(자음)이 상하로 결합한 글자 구조를 연습합니다.",
+    "en": "Practice syllables where the initial and medial, or initial+medial+final consonant, are stacked vertically.",
+    "ja": "初声と中声、または初声・中声・終声が上下に結合する文字構造を練習します。",
+    "zh": "练习声母+中声，或声母+中声+终声上下结合的字形结构。",
+    "vi": "Luyện cấu trúc chữ có âm đầu+âm chính, hoặc âm đầu+âm chính+âm cuối được xếp dọc.",
+    "fr": "Entraînez des syllabes où l’initiale et la médiane, ou l’initiale+la médiane+la finale, sont empilées verticalement.",
+    "de": "Üben Sie Silben, bei denen Anlaut+Inlaut oder Anlaut+Inlaut+Auslaut vertikal gestapelt sind.",
+    "es": "Practica sílabas donde la inicial y la medial, o la inicial+medial+final, están apiladas verticalmente.",
+    "ru": "Тренируйте слоги, где начальная+срединная, либо начальная+срединная+конечная согласная расположены вертикально.",
+    "mn": "Эх+гол, эсвэл эх+гол+эцсийн гийгүүлэгч босоо байрлалтай бүтэц дээр дадлага хийнэ."
+  },
+  "overviewRef": "assets/data/letters/overviews/2_2_overview.json",
+  "variants": []
+}

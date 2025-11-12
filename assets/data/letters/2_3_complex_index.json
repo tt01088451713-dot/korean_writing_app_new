@@ -1,0 +1,133 @@
+{
+  "unitId": "2_3_complex_index",
+  "id": "2_3",
+  "type": "hub",
+  "overviewRef": "assets/data/letters/overviews/2_3_overview.json",
+  "title": {
+    "ko": "좌우상하 결합형",
+    "en": "Complex Structure (LR+TB)",
+    "ja": "左右上下結合型",
+    "zh": "左右上下结合法",
+    "vi": "Cấu trúc phức hợp (trái–phải + trên–dưới)",
+    "fr": "Structure complexe (gauche–droite + haut–bas)",
+    "de": "Komplexe Struktur (links–rechts + oben–unten)",
+    "es": "Estructura compleja (izq–der + arriba–abajo)",
+    "ru": "Сложная структура (слева–справа + сверху–снизу)",
+    "mn": "Нийлмэл бүтэц (зүүн–баруун + дээр–доор)"
+  },
+  "description": {
+    "ko": "초성과 중성이 좌우로 결합하고, 종성(받침)이 아래에 오는 CVC 구조를 연습합니다. 카드를 누르면 곧바로 글자 선택 팝업이 뜨고, 선택 즉시 쓰기 연습으로 이동합니다.",
+    "en": "Practice CVC blocks where onset and vowel are side-by-side and the coda (batchim) sits below. Tap a card to open the picker and start practice immediately.",
+    "ja": "初声と中声が左右に並び、終声（パッチム）が下に置かれるCVC構造を練習します。カードをタップで選択ポップアップが開き、すぐ練習へ進みます。",
+    "zh": "练习声母与韵母左右排列、终声（收音）在下方的 CVC 结构。点按卡片即可弹出选择器并立即开始练习。",
+    "vi": "Luyện các khối CVC: âm đầu và nguyên âm đặt cạnh nhau, âm cuối (받침) ở phía dưới. Chạm thẻ để mở bộ chọn và luyện ngay.",
+    "fr": "Entraînez des blocs CVC : initiale et voyelle côte à côte, finale en dessous. Touchez une carte pour ouvrir le sélecteur et commencer aussitôt.",
+    "de": "Üben Sie CVC-Blöcke: Anlaut und Vokal nebeneinander, Auslaut unten. Tippen Sie auf eine Karte, um den Picker zu öffnen und sofort zu üben.",
+    "es": "Practica bloques CVC: inicial y vocal lado a lado, coda debajo. Toca una tarjeta para abrir el selector y practicar de inmediato.",
+    "ru": "Тренируйте CVC-блоки: начальный и гласный рядом, конечный снизу. Нажмите на карточку, чтобы выбрать слог и сразу перейти к письму.",
+    "mn": "CVC блок: эх ба эгшиг зэрэгцээ, төгсгөл доор. Карт дарж сонголтын цонх нээгээд шууд бичих дасгал руу орно."
+  },
+  "items": [
+    {
+      "id": "2_3_1",
+      "title": {
+        "ko": "ㅏ·ㅑ·ㅐ·ㅒ + 종성(받침)",
+        "en": "a/ya/ae/yae + coda (batchim)",
+        "ja": "a/ya/ae/yae + 終声（パッチム）",
+        "zh": "a/ya/ae/yae + 终声（收音）",
+        "vi": "a/ya/ae/yae + âm cuối (받침)",
+        "fr": "a/ya/ae/yae + finale (batchim)",
+        "de": "a/ya/ae/yae + Auslaut (Batchim)",
+        "es": "a/ya/ae/yae + coda (batchim)",
+        "ru": "a/ya/ae/yae + конечный (батчим)",
+        "mn": "a/ya/ae/yae + төгсгөл (받침)"
+      },
+      "route": "assets/data/letters/2_3/2_3_1_a_ya_ae_yae_coda.json",
+      "directPractice": true,
+      "practicePickerTitle": {
+        "ko": "2.3.1 ㅏ/ㅑ/ㅐ/ㅒ + 받침 — 쓰기 연습",
+        "en": "2.3.1 a/ya/ae/yae + coda — Writing practice",
+        "ja": "2.3.1 a/ya/ae/yae + パッチム — 書き取り練習",
+        "zh": "2.3.1 a/ya/ae/yae + 收音 — 书写练习",
+        "vi": "2.3.1 a/ya/ae/yae + 받침 — Luyện viết",
+        "fr": "2.3.1 a/ya/ae/yae + finale — Exercice d’écriture",
+        "de": "2.3.1 a/ya/ae/yae + Auslaut — Schreibübung",
+        "es": "2.3.1 a/ya/ae/yae + coda — Práctica de escritura",
+        "ru": "2.3.1 a/ya/ae/yae + конечный — Тренировка письма",
+        "mn": "2.3.1 a/ya/ae/yae + 받침 — Бичих дасгал"
+      },
+      "practiceSource": { "route": "assets/data/letters/2_3/2_3_1_a_ya_ae_yae_coda.json", "key": "sequence" }
+    },
+    {
+      "id": "2_3_2",
+      "title": {
+        "ko": "ㅓ·ㅕ·ㅔ·ㅖ + 종성(받침)",
+        "en": "eo/yeo/e/ye + coda (batchim)",
+        "ja": "eo/yeo/e/ye + 終声（パッチム）",
+        "zh": "eo/yeo/e/ye + 终声（收音）",
+        "vi": "eo/yeo/e/ye + âm cuối (받침)",
+        "fr": "eo/yeo/e/ye + finale (batchim)",
+        "de": "eo/yeo/e/ye + Auslaut (Batchim)",
+        "es": "eo/yeo/e/ye + coda (batchim)",
+        "ru": "eo/yeo/e/ye + конечный (батчим)",
+        "mn": "eo/yeo/e/ye + төгсгөл (받침)"
+      },
+      "route": "assets/data/letters/2_3/2_3_2_eo_yeo_e_ye_coda.json",
+      "directPractice": true,
+      "practicePickerTitle": {
+        "ko": "2.3.2 ㅓ/ㅕ/ㅔ/ㅖ + 받침 — 쓰기 연습",
+        "en": "2.3.2 eo/yeo/e/ye + coda — Writing practice",
+        "ja": "2.3.2 eo/yeo/e/ye + パッチム — 書き取り練習",
+        "zh": "2.3.2 eo/yeo/e/ye + 收音 — 书写练习",
+        "vi": "2.3.2 eo/yeo/e/ye + 받침 — Luyện viết",
+        "fr": "2.3.2 eo/yeo/e/ye + finale — Exercice d’écriture",
+        "de": "2.3.2 eo/yeo/e/ye + Auslaut — Schreibübung",
+        "es": "2.3.2 eo/yeo/e/ye + coda — Práctica de escritura",
+        "ru": "2.3.2 eo/yeo/e/ye + конечный — Тренировка письма",
+        "mn": "2.3.2 eo/yeo/e/ye + 받침 — Бичих дасгал"
+      },
+      "practiceSource": { "route": "assets/data/letters/2_3/2_3_2_eo_yeo_e_ye_coda.json", "key": "sequence" }
+    },
+    {
+      "id": "2_3_3",
+      "title": {
+        "ko": "ㅣ + 종성(받침)",
+        "en": "i + coda (batchim)",
+        "ja": "i + 終声（パッチム）",
+        "zh": "i + 终声（收音）",
+        "vi": "i + âm cuối (받침)",
+        "fr": "i + finale (batchim)",
+        "de": "i + Auslaut (Batchim)",
+        "es": "i + coda (batchim)",
+        "ru": "i + конечный (батчим)",
+        "mn": "i + төгсгөл (받침)"
+      },
+      "route": "assets/data/letters/2_3/2_3_3_i_coda.json",
+      "directPractice": true,
+      "practicePickerTitle": {
+        "ko": "2.3.3 ㅣ + 받침 — 쓰기 연습",
+        "en": "2.3.3 i + coda — Writing practice",
+        "ja": "2.3.3 i + パッチム — 書き取り練習",
+        "zh": "2.3.3 i + 收音 — 书写练习",
+        "vi": "2.3.3 i + 받침 — Luyện viết",
+        "fr": "2.3.3 i + finale — Exercice d’écriture",
+        "de": "2.3.3 i + Auslaut — Schreibübung",
+        "es": "2.3.3 i + coda — Práctica de escritura",
+        "ru": "2.3.3 i + конечный — Тренировка письма",
+        "mn": "2.3.3 i + 받침 — Бичих дасгал"
+      },
+      "practiceSource": { "route": "assets/data/letters/2_3/2_3_3_i_coda.json", "key": "sequence" }
+    }
+  ],
+  "meta": {
+    "sourcePages": "교본 p.26–29 (요약)",
+    "notes": [
+      "카드 설명은 좌우(CV) + 하단 종성(C) 구조를 학습자 친화적으로 서술합니다.",
+      "개별 음절의 다국어 번역은 포함하지 않습니다."
+    ]
+  },
+  "assetConventions": {
+    "strokeJson": "assets/strokes/syllables/{glyph}.json",
+    "audioMp3": "assets/audio/syllables/{glyph}.mp3"
+  }
+}

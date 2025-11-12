@@ -1,0 +1,173 @@
+{
+  "id": "2_4_3",
+  "title": {
+    "ko": "(3) ㅝ + 받침",
+    "en": "(3) ㅝ + finals",
+    "zh": "（3）ㅝ — CVC",
+    "ja": "（3）ㅝ — CVC",
+    "vi": "(3) ㅝ — CVC",
+    "fr": "(3) ㅝ — CVC",
+    "es": "(3) ㅝ — CVC",
+    "ru": "(3) ㅝ — CVC",
+    "mn": "(3) ㅝ — CVC"
+  },
+  "description": {
+    "ko": "ㅝ의 CV/CVC 예시. 원·월 등 빈출 조합을 중심으로 제시합니다.",
+    "en": "CV/CVC with ㅝ. Focus on frequent pairs such as won, wol.",
+    "zh": "ㅝ的CV/CVC示例，以常见组合（원、월）为主。",
+    "ja": "ㅝのCV/CVC例。元・月など頻出組合せ中心。",
+    "vi": "CV/CVC với ㅝ; tập trung vào 원, 월,…",
+    "fr": "CV/CVC avec ㅝ; priorité à won, wol…",
+    "es": "CV/CVC con ㅝ; se priorizan won, wol…",
+    "ru": "CV/CVC с ㅝ; в приоритете won, wol…",
+    "mn": "ㅝ‑тай CV/CVC. 원, 월 зэрэг түгээмэл хослолууд."
+  },
+  "sections": {
+    "cv": {
+      "chars": [
+        {
+          "label": "워",
+          "ttsKey": "wo",
+          "tts": {
+            "ko": "워",
+            "ipa": "wʌ",
+            "roman": "wo",
+            "rule": "auto"
+          },
+          "core": true,
+          "strokeOrder": "assets/strokes/wo.json",
+          "guideOnly": true,
+          "writing": {
+            "order": "assets/strokes/wo.json",
+            "strokes": [],
+            "guideOnly": true
+          }
+        }
+      ]
+    },
+    "cvc": {
+      "note": {
+        "ko": "빈출 받침: ㄴ·ㄹ·ㅁ·ㅇ·ㅂ. 예: 원, 월, 웜, 웡(한정), 웝(외래).",
+        "en": "Frequent finals: ㄴ, ㄹ, ㅁ, ㅇ, ㅂ (won, wol, wom, wong*, wop*). *Limited/loan.",
+        "zh": "빈출 받침: ㄴ·ㄹ·ㅁ·ㅇ·ㅂ. 예: 원, 월, 웜, 웡(한정), 웝(외래).",
+        "ja": "빈출 받침: ㄴ·ㄹ·ㅁ·ㅇ·ㅂ. 예: 원, 월, 웜, 웡(한정), 웝(외래).",
+        "vi": "빈출 받침: ㄴ·ㄹ·ㅁ·ㅇ·ㅂ. 예: 원, 월, 웜, 웡(한정), 웝(외래).",
+        "fr": "빈출 받침: ㄴ·ㄹ·ㅁ·ㅇ·ㅂ. 예: 원, 월, 웜, 웡(한정), 웝(외래).",
+        "es": "빈출 받침: ㄴ·ㄹ·ㅁ·ㅇ·ㅂ. 예: 원, 월, 웜, 웡(한정), 웝(외래).",
+        "ru": "빈출 받침: ㄴ·ㄹ·ㅁ·ㅇ·ㅂ. 예: 원, 월, 웜, 웡(한정), 웝(외래).",
+        "mn": "빈출 받침: ㄴ·ㄹ·ㅁ·ㅇ·ㅂ. 예: 원, 월, 웜, 웡(한정), 웝(외래)."
+      },
+      "examples": [
+        {
+          "base": "워",
+          "commonFinals": [
+            "ㄴ",
+            "ㄹ",
+            "ㅁ",
+            "ㅇ",
+            "ㅂ"
+          ],
+          "items": [
+            {
+              "syllable": "원",
+              "final": "ㄴ",
+              "tts": {
+                "ko": "원",
+                "ipa": "wʌn",
+                "roman": "won",
+                "final": "n",
+                "rule": "auto"
+              },
+              "samples": [
+                "원인",
+                "원화"
+              ],
+              "writing": {
+                "strokes": [],
+                "guideOnly": true
+              },
+              "guideOnly": true
+            },
+            {
+              "syllable": "월",
+              "final": "ㄹ",
+              "tts": {
+                "ko": "월",
+                "ipa": "wʌl",
+                "roman": "wol",
+                "final": "l",
+                "rule": "auto"
+              },
+              "samples": [
+                "월요일",
+                "월급"
+              ],
+              "writing": {
+                "strokes": [],
+                "guideOnly": true
+              },
+              "guideOnly": true
+            },
+            {
+              "syllable": "웜",
+              "final": "ㅁ",
+              "tts": {
+                "ko": "웜",
+                "ipa": "wʌm",
+                "roman": "wom",
+                "final": "m",
+                "rule": "auto"
+              },
+              "samples": [
+                "웜홀(loan)"
+              ],
+              "writing": {
+                "strokes": [],
+                "guideOnly": true
+              },
+              "guideOnly": true
+            },
+            {
+              "syllable": "웡",
+              "final": "ㅇ",
+              "tts": {
+                "ko": "웡",
+                "ipa": "wʌŋ",
+                "roman": "wong",
+                "final": "ŋ",
+                "rule": "auto"
+              },
+              "note": {
+                "ko": "고유명·의성어 등 제한"
+              },
+              "writing": {
+                "strokes": [],
+                "guideOnly": true
+              },
+              "guideOnly": true
+            },
+            {
+              "syllable": "웝",
+              "final": "ㅂ",
+              "tts": {
+                "ko": "웝",
+                "ipa": "wʌp̚",
+                "roman": "wop",
+                "final": "p̚",
+                "rule": "auto"
+              },
+              "note": {
+                "ko": "외래어·감탄사성"
+              },
+              "writing": {
+                "strokes": [],
+                "guideOnly": true
+              },
+              "guideOnly": true
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

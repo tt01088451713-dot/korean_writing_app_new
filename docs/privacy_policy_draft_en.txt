@@ -1,0 +1,34 @@
+===========================================
+Korean Writing App – Privacy Policy (Draft)
+===========================================
+
+1. Information We Collect
+Korean Writing App does not require user registration and does not collect any personally identifiable information.
+Only learning progress and app settings are stored locally on the user’s device.  
+No data is transmitted to external servers.
+
+2. Purpose of Information Use
+The locally stored data (learning progress and settings) is used solely to improve user convenience and maintain learning continuity.
+No data is shared with other users or third parties.
+
+3. Retention and Deletion of Information
+All data will be automatically deleted when the app is uninstalled.  
+Since the data is stored locally on the device, users do not need to take any additional action to delete it.
+
+4. Provision to Third Parties
+This app does not share, sell, or entrust any collected data to third parties under any circumstances.
+
+5. User Rights
+Users can delete all stored data by uninstalling the app or by using the reset function within the app.
+
+6. Contact for Privacy Inquiries
+Name: Kim Sang-Tae  
+Organization: KST Lingua Studio  
+Email: support-kst@naver.com
+
+7. Additional Information
+This app is an educational tool based on the textbook “쉽게 배우는 한국어 쓰기 교본 (Easy Korean Writing Textbook)”  
+and does not request or store any personal information from learners.
+
+Last Updated: November 12, 2025
+===========================================

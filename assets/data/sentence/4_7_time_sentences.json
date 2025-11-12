@@ -1,0 +1,225 @@
+{
+  "unit": "4. 문장",
+  "lesson_id": "4_7",
+  "title": {
+    "ko": "시간/약속",
+    "en": "Time & Appointments",
+    "ja": "時間・約束",
+    "zh": "时间与约定",
+    "vi": "Thời gian & cuộc hẹn",
+    "fr": "Heure & rendez-vous",
+    "de": "Zeit & Verabredungen",
+    "es": "Hora y citas",
+    "ru": "Время и встречи",
+    "mn": "Цаг/уулзалт"
+  },
+  "patterns": [
+    {
+      "id": "p_ask_time",
+      "name": { "ko": "시간 묻기", "en": "Asking the Time" },
+      "explain": {
+        "ko": "현재 시각과 일정에 대해 묻는 표현입니다.",
+        "en": "Expressions to ask for the current time and schedule."
+      }
+    },
+    {
+      "id": "p_make_appt",
+      "name": { "ko": "약속 잡기/확인", "en": "Making/Confirming Appointments" },
+      "explain": {
+        "ko": "날짜·요일·시각을 정하고 확인하는 표현입니다.",
+        "en": "Setting and confirming date/day/time."
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": "time_0001",
+      "type": "sentence",
+      "text": "지금 몇 시예요?",
+      "translations": {
+        "ko": "",
+        "en": "What time is it now?",
+        "ja": "今、何時ですか。",
+        "zh": "现在几点了？",
+        "vi": "Bây giờ mấy giờ rồi?",
+        "fr": "Il est quelle heure maintenant ?",
+        "de": "Wie spät ist es jetzt?",
+        "es": "¿Qué hora es ahora?",
+        "ru": "Который сейчас час?",
+        "mn": "Одоо хэдэн цаг вэ?"
+      },
+      "reading": { "enabled": true, "fragments": ["지금","몇","시예요?"] },
+      "writing": { "enabled": true, "guides": ["지","금","몇","시","예","요?"] },
+      "tts": { "text": "지금 몇 시예요?", "lang": "ko-KR", "rate": 0.5 },
+      "metadata": { "theme": "시각", "pattern": "의문문" }
+    },
+    {
+      "id": "time_0002",
+      "type": "sentence",
+      "text": "오늘은 월요일이에요.",
+      "translations": {
+        "ko": "",
+        "en": "Today is Monday.",
+        "ja": "今日は月曜日です。",
+        "zh": "今天是星期一。",
+        "vi": "Hôm nay là thứ Hai.",
+        "fr": "Aujourd'hui, c'est lundi.",
+        "de": "Heute ist Montag.",
+        "es": "Hoy es lunes.",
+        "ru": "Сегодня понедельник.",
+        "mn": "Өнөөдөр Даваа гараг."
+      },
+      "reading": { "enabled": true },
+      "writing": { "enabled": true, "guides": ["오","늘","은","월","요","일","이","에","요."] },
+      "tts": { "text": "오늘은 월요일이에요.", "lang": "ko-KR", "rate": 0.48 },
+      "metadata": { "theme": "요일", "pattern": "평서문" }
+    },
+    {
+      "id": "time_0003",
+      "type": "sentence",
+      "text": "내일 오후 세 시에 만나요.",
+      "translations": {
+        "ko": "",
+        "en": "Let's meet at 3 p.m. tomorrow.",
+        "ja": "明日の午後3時に会いましょう。",
+        "zh": "我们明天下午三点见。",
+        "vi": "Hẹn gặp lúc 3 giờ chiều mai.",
+        "fr": "Rendez-vous demain à 15 h.",
+        "de": "Treffen wir uns morgen um 15 Uhr.",
+        "es": "Quedemos mañana a las 3 p. m.",
+        "ru": "Встретимся завтра в 3 дня.",
+        "mn": "Маргааш өдрийн 3 цагт уулзъя."
+      },
+      "reading": { "enabled": true, "fragments": ["내일","오후","세 시에","만나요."] },
+      "writing": { "enabled": true, "guides": ["내","일","오","후","세","시","에","만","나","요."] },
+      "tts": { "text": "내일 오후 세 시에 만나요.", "lang": "ko-KR", "rate": 0.5 },
+      "metadata": { "theme": "약속", "pattern": "제안" }
+    },
+    {
+      "id": "time_0004",
+      "type": "sentence",
+      "text": "오늘 밤에 전화해도 돼요?",
+      "translations": {
+        "ko": "",
+        "en": "Is it okay to call tonight?",
+        "ja": "今夜、電話してもいいですか。",
+        "zh": "今晚打电话可以吗？",
+        "vi": "Tối nay tôi gọi điện được không?",
+        "fr": "Je peux appeler ce soir ?",
+        "de": "Kann ich heute Abend anrufen?",
+        "es": "¿Puedo llamar esta noche?",
+        "ru": "Можно позвонить сегодня вечером?",
+        "mn": "Өнөө орой залгаж болох уу?"
+      },
+      "reading": { "enabled": true },
+      "writing": { "enabled": true, "guides": ["오","늘","밤","에","전","화","해","도","돼","요?"] },
+      "tts": { "text": "오늘 밤에 전화해도 돼요?", "lang": "ko-KR", "rate": 0.52 },
+      "metadata": { "theme": "허락", "pattern": "의문문" }
+    },
+    {
+      "id": "time_0005",
+      "type": "sentence",
+      "text": "약속 시간을 바꿔도 될까요?",
+      "translations": {
+        "ko": "",
+        "en": "May we change the meeting time?",
+        "ja": "約束の時間を変えてもいいですか。",
+        "zh": "可以改约会时间吗？",
+        "vi": "Chúng ta có thể đổi giờ hẹn không?",
+        "fr": "Peut-on changer l'heure du rendez-vous ?",
+        "de": "Können wir die Uhrzeit ändern?",
+        "es": "¿Podemos cambiar la hora de la cita?",
+        "ru": "Можно изменить время встречи?",
+        "mn": "Уулзалтын цагийг өөрчилж болох уу?"
+      },
+      "reading": { "enabled": true },
+      "writing": { "enabled": true, "guides": ["약","속","시","간","을","바","꿔","도","될","까","요?"] },
+      "tts": { "text": "약속 시간을 바꿔도 될까요?", "lang": "ko-KR", "rate": 0.52 },
+      "metadata": { "theme": "약속", "pattern": "정중 요청" }
+    },
+    {
+      "id": "time_0006",
+      "type": "sentence",
+      "text": "지각해서 죄송해요.",
+      "translations": {
+        "ko": "",
+        "en": "Sorry for being late.",
+        "ja": "遅れてすみません。",
+        "zh": "迟到了，抱歉。",
+        "vi": "Xin lỗi vì đến muộn.",
+        "fr": "Désolé(e) d'être en retard.",
+        "de": "Entschuldigung, dass ich zu spät bin.",
+        "es": "Perdón por llegar tarde.",
+        "ru": "Извините за опоздание.",
+        "mn": "Хоцорсонд уучлаарай."
+      },
+      "reading": { "enabled": true },
+      "writing": { "enabled": true, "guides": ["지","각","해","서","죄","송","해","요."] },
+      "tts": { "text": "지각해서 죄송해요.", "lang": "ko-KR", "rate": 0.48 },
+      "metadata": { "theme": "사과", "pattern": "고정표현" }
+    },
+    {
+      "id": "time_0007",
+      "type": "sentence",
+      "text": "회의가 몇 시에 시작해요?",
+      "translations": {
+        "ko": "",
+        "en": "What time does the meeting start?",
+        "ja": "会議は何時に始まりますか。",
+        "zh": "会议几点开始？",
+        "vi": "Cuộc họp bắt đầu lúc mấy giờ?",
+        "fr": "La réunion commence à quelle heure ?",
+        "de": "Um wie viel Uhr beginnt die Besprechung?",
+        "es": "¿A qué hora empieza la reunión?",
+        "ru": "Во сколько начинается встреча?",
+        "mn": "Хурал хэдэн цагт эхэлдэг вэ?"
+      },
+      "reading": { "enabled": true },
+      "writing": { "enabled": true, "guides": ["회","의","가","몇","시","에","시","작","해","요?"] },
+      "tts": { "text": "회의가 몇 시에 시작해요?", "lang": "ko-KR", "rate": 0.5 },
+      "metadata": { "theme": "일정", "pattern": "의문문" }
+    },
+    {
+      "id": "time_0008",
+      "type": "sentence",
+      "text": "일요일은 시간이 없어요.",
+      "translations": {
+        "ko": "",
+        "en": "I don't have time on Sunday.",
+        "ja": "日曜日は時間がありません。",
+        "zh": "星期天我没有时间。",
+        "vi": "Chủ nhật tôi không có thời gian.",
+        "fr": "Je n'ai pas de temps le dimanche.",
+        "de": "Am Sonntag habe ich keine Zeit.",
+        "es": "No tengo tiempo el domingo.",
+        "ru": "В воскресенье у меня нет времени.",
+        "mn": "Ням гаригт надад цаг байхгүй."
+      },
+      "reading": { "enabled": true },
+      "writing": { "enabled": true, "guides": ["일","요","일","은","시","간","이","없","어","요."] },
+      "tts": { "text": "일요일은 시간이 없어요.", "lang": "ko-KR", "rate": 0.48 },
+      "metadata": { "theme": "일정", "pattern": "부정문" }
+    }
+  ],
+  "activities": [
+    {
+      "id": "a_read_cards_time",
+      "type": "read_cards",
+      "title": { "ko": "읽기 카드: 시간/약속", "en": "Reading Cards: Time/Appointments" },
+      "options": { "items": ["time_0001","time_0002","time_0003","time_0005","time_0007","time_0008"], "autoShuffle": true }
+    },
+    {
+      "id": "a_reorder_meet",
+      "type": "read_reorder_fragments",
+      "title": { "ko": "어절 순서 배열(약속)", "en": "Reorder Words (Appointment)" },
+      "options": { "target": "time_0003", "fragments": ["내일","오후","세 시에","만나요."] }
+    },
+    {
+      "id": "a_write_time",
+      "type": "write_sentences",
+      "title": { "ko": "문장 따라 쓰기: 시간", "en": "Copy the Sentences: Time" },
+      "options": { "items": ["time_0001","time_0003","time_0006"] }
+    }
+  ],
+  "routing": { "hubRoute": "/sentences/hub", "detailRoute": "/sentences/lesson" }
+}

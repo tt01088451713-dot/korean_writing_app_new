@@ -1,0 +1,344 @@
+{
+  "unitId": "2_1_left_right",
+  "type": "letters",
+  "title": {
+    "ko": "2.1 좌우 결합형 글자",
+    "en": "2.1 Left-Right Syllable Blocks",
+    "zh": "2.1 左右组合型音节",
+    "ja": "2.1 左右結合型の文字",
+    "vi": "2.1 Âm tiết ghép trái–phải",
+    "fr": "2.1 Blocs syllabiques gauche–droite",
+    "es": "2.1 Bloques silábicos izquierda–derecha",
+    "ru": "2.1 Слоговые блоки слева–справа",
+    "mn": "2.1 Зүүн–баруун хослол бүхий үе"
+  },
+  "meta": {
+    "sourcePages": "교본 p.24–28 (요약)",
+    "notes": [
+      "개별 음절의 다국어 번역은 포함하지 않습니다.",
+      "쓰기 연습과 오디오 재생을 위한 경로만 템플릿으로 제공합니다.",
+      "p.27의 경음/격음 세트는 사용자 제공 순서를 우선 반영하고, 일부 ㅖ 세트는 검증 후 보완 필요."
+    ]
+  },
+  "assetConventions": {
+    "strokeJson": "assets/strokes/syllables/{glyph}.json",
+    "audioMp3": "assets/audio/syllables/{glyph}.mp3"
+  },
+  "subsections": [
+    {
+      "id": "2_1_A",
+      "label": {
+        "ko": "① '..이' 세트",
+        "en": "Set A: ...i"
+      },
+      "sequence": [
+        "기",
+        "니",
+        "디",
+        "리",
+        "미",
+        "비",
+        "시",
+        "이",
+        "지",
+        "치",
+        "키",
+        "티",
+        "피",
+        "히"
+      ],
+      "practice": {
+        "enabled": true,
+        "strokeAsset": "template",
+        "audio": true,
+        "repeat": 3
+      },
+      "uiHints": {
+        "grid": 7,
+        "rowGap": 8,
+        "colGap": 8
+      }
+    },
+    {
+      "id": "2_1_B",
+      "label": {
+        "ko": "② '...아/가~하' 세트",
+        "en": "Set B: ...a (ga~ha)"
+      },
+      "sequence": [
+        "가",
+        "나",
+        "다",
+        "라",
+        "마",
+        "바",
+        "사",
+        "아",
+        "자",
+        "차",
+        "카",
+        "타",
+        "파",
+        "하"
+      ],
+      "practice": {
+        "enabled": true,
+        "strokeAsset": "template",
+        "audio": true,
+        "repeat": 3
+      },
+      "uiHints": {
+        "grid": 7
+      }
+    },
+    {
+      "id": "2_1_C",
+      "label": {
+        "ko": "③ '...야/갸~햐' 세트",
+        "en": "Set C: ...ya (gya~hya)"
+      },
+      "sequence": [
+        "갸",
+        "냐",
+        "댜",
+        "랴",
+        "먀",
+        "뱌",
+        "샤",
+        "야",
+        "쟈",
+        "챠",
+        "캬",
+        "탸",
+        "퍄",
+        "햐"
+      ],
+      "practice": {
+        "enabled": true,
+        "strokeAsset": "template",
+        "audio": true,
+        "repeat": 3
+      },
+      "uiHints": {
+        "grid": 7
+      }
+    },
+    {
+      "id": "2_1_D",
+      "label": {
+        "ko": "④ '...애/개~해' 세트",
+        "en": "Set D: ...ae (gae~hae)"
+      },
+      "sequence": [
+        "개",
+        "내",
+        "대",
+        "래",
+        "매",
+        "배",
+        "새",
+        "애",
+        "재",
+        "채",
+        "캐",
+        "태",
+        "패",
+        "해"
+      ],
+      "practice": {
+        "enabled": true,
+        "strokeAsset": "template",
+        "audio": true,
+        "repeat": 3
+      },
+      "uiHints": {
+        "grid": 7
+      }
+    },
+    {
+      "id": "2_1_E",
+      "label": {
+        "ko": "⑤ (p.27) 경음/격음 '..이' 세트",
+        "en": "Set E (p.27): Tense/Aspirated ...i"
+      },
+      "sequence": [
+        "끼",
+        "띠",
+        "삐",
+        "씨",
+        "찌"
+      ],
+      "practice": {
+        "enabled": true,
+        "strokeAsset": "template",
+        "audio": true,
+        "repeat": 3
+      },
+      "uiHints": {
+        "grid": 5
+      }
+    },
+    {
+      "id": "2_1_F",
+      "label": {
+        "ko": "⑥ (p.27) 경음/격음 '...아'",
+        "en": "Set F (p.27): ...a"
+      },
+      "sequence": [
+        "까",
+        "따",
+        "빠",
+        "싸",
+        "짜"
+      ],
+      "practice": {
+        "enabled": true,
+        "strokeAsset": "template",
+        "audio": true,
+        "repeat": 3
+      },
+      "uiHints": {
+        "grid": 5
+      }
+    },
+    {
+      "id": "2_1_G",
+      "label": {
+        "ko": "⑦ (p.27) 경음/격음 '...야'",
+        "en": "Set G (p.27): ...ya"
+      },
+      "sequence": [
+        "꺄",
+        "땨",
+        "뺘",
+        "쌰",
+        "쨔"
+      ],
+      "practice": {
+        "enabled": true,
+        "strokeAsset": "template",
+        "audio": true,
+        "repeat": 3
+      },
+      "uiHints": {
+        "grid": 5
+      }
+    },
+    {
+      "id": "2_1_H",
+      "label": {
+        "ko": "⑧ (p.27) 경음/격음 '...애'",
+        "en": "Set H (p.27): ...ae"
+      },
+      "sequence": [
+        "깨",
+        "때",
+        "빼",
+        "쌔",
+        "째"
+      ],
+      "practice": {
+        "enabled": true,
+        "strokeAsset": "template",
+        "audio": true,
+        "repeat": 3
+      },
+      "uiHints": {
+        "grid": 5
+      }
+    },
+    {
+      "id": "2_1_I",
+      "label": {
+        "ko": "⑨ (p.27) 경음/격음 '...어'",
+        "en": "Set I (p.27): ...eo"
+      },
+      "sequence": [
+        "꺼",
+        "떠",
+        "뻐",
+        "써",
+        "쩌"
+      ],
+      "practice": {
+        "enabled": true,
+        "strokeAsset": "template",
+        "audio": true,
+        "repeat": 3
+      },
+      "uiHints": {
+        "grid": 5
+      }
+    },
+    {
+      "id": "2_1_J",
+      "label": {
+        "ko": "⑩ (p.27) 경음/격음 '...여'",
+        "en": "Set J (p.27): ...yeo"
+      },
+      "sequence": [
+        "껴",
+        "뗘",
+        "뼈",
+        "쎠",
+        "쪄"
+      ],
+      "practice": {
+        "enabled": true,
+        "strokeAsset": "template",
+        "audio": true,
+        "repeat": 3
+      },
+      "uiHints": {
+        "grid": 5
+      }
+    },
+    {
+      "id": "2_1_K",
+      "label": {
+        "ko": "⑪ (p.27) 경음/격음 '...에'",
+        "en": "Set K (p.27): ...e"
+      },
+      "sequence": [
+        "께",
+        "떼",
+        "뻬",
+        "쎄",
+        "쩨"
+      ],
+      "practice": {
+        "enabled": true,
+        "strokeAsset": "template",
+        "audio": true,
+        "repeat": 3
+      },
+      "uiHints": {
+        "grid": 5
+      }
+    },
+    {
+      "id": "2_1_L",
+      "label": {
+        "ko": "⑫ (p.27) 경음/격음 '...예' (검증 필요)",
+        "en": "Set L (p.27): ...ye (to verify)"
+      },
+      "sequence": [
+        "꼐",
+        "뗴",
+        "뼤? (검증)",
+        "쎼? (검증)",
+        "쪠"
+      ],
+      "practice": {
+        "enabled": true,
+        "strokeAsset": "template",
+        "audio": true,
+        "repeat": 3
+      },
+      "uiHints": {
+        "grid": 5
+      },
+      "todo": "표준 표기 검증 후 보완"
+    }
+  ]
+}

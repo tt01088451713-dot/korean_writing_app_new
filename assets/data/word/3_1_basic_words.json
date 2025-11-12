@@ -1,0 +1,334 @@
+{
+  "unit": "3. 단어",
+  "lesson_id": "3_1",
+  "title": {
+    "ko": "기초 단어",
+    "en": "Basic Words",
+    "ja": "基礎単語",
+    "zh": "基础词汇",
+    "vi": "Từ cơ bản",
+    "fr": "Mots de base",
+    "de": "Grundwörter",
+    "es": "Palabras básicas",
+    "ru": "Базовые слова",
+    "mn": "Үндсэн үгс"
+  },
+  "constraints": {
+    "allowed_syllables_ref": "unit2_letters",
+    "max_syllables_per_word": 3
+  },
+  "items": [
+    {
+      "id": "w_0001",
+      "type": "word",
+      "text": "나무",
+      "meanings": {
+        "ko": "",
+        "en": "tree",
+        "ja": "木",
+        "zh": "树",
+        "vi": "cây",
+        "fr": "arbre",
+        "de": "Baum",
+        "es": "árbol",
+        "ru": "дерево",
+        "mn": "мод"
+      },
+      "reading": { "enabled": true, "display": "text" },
+      "writing": {
+        "enabled": true,
+        "guides": ["나", "무"],
+        "practice_hint": {
+          "ko": "음절 블록(나/무)로 나누어 써 보세요.",
+          "en": "Write by syllable blocks (나/무)."
+        }
+      },
+      "tts": { "text": "나무", "lang": "ko-KR", "rate": 0.5, "pitch": 1.0, "volume": 1.0 },
+      "metadata": { "pos": "명사", "themes": ["자연"] }
+    },
+    {
+      "id": "w_0002",
+      "type": "word",
+      "text": "학교",
+      "meanings": {
+        "ko": "",
+        "en": "school",
+        "ja": "学校",
+        "zh": "学校",
+        "vi": "trường học",
+        "fr": "école",
+        "de": "Schule",
+        "es": "escuela",
+        "ru": "школа",
+        "mn": "сургууль"
+      },
+      "reading": { "enabled": true, "display": "text" },
+      "writing": { "enabled": true, "guides": ["학", "교"] },
+      "tts": { "text": "학교", "lang": "ko-KR", "rate": 0.5, "pitch": 1.0, "volume": 1.0 },
+      "metadata": { "pos": "명사", "themes": ["학교"] }
+    },
+    {
+      "id": "w_0003",
+      "type": "word",
+      "text": "물",
+      "meanings": {
+        "ko": "",
+        "en": "water",
+        "ja": "水",
+        "zh": "水",
+        "vi": "nước",
+        "fr": "eau",
+        "de": "Wasser",
+        "es": "agua",
+        "ru": "вода",
+        "mn": "ус"
+      },
+      "reading": { "enabled": true, "display": "text" },
+      "writing": { "enabled": true, "guides": ["물"] },
+      "tts": { "text": "물", "lang": "ko-KR", "rate": 0.5, "pitch": 1.0, "volume": 1.0 },
+      "metadata": { "pos": "명사", "themes": ["자연", "음식/음료"] }
+    },
+    {
+      "id": "w_0004",
+      "type": "word",
+      "text": "사람",
+      "meanings": {
+        "ko": "",
+        "en": "person",
+        "ja": "人",
+        "zh": "人",
+        "vi": "người",
+        "fr": "personne",
+        "de": "Person",
+        "es": "persona",
+        "ru": "человек",
+        "mn": "хүн"
+      },
+      "reading": { "enabled": true, "display": "text" },
+      "writing": { "enabled": true, "guides": ["사", "람"] },
+      "tts": { "text": "사람", "lang": "ko-KR", "rate": 0.5, "pitch": 1.0, "volume": 1.0 },
+      "metadata": { "pos": "명사", "themes": ["일상"] }
+    },
+    {
+      "id": "w_0005",
+      "type": "word",
+      "text": "집",
+      "meanings": {
+        "ko": "",
+        "en": "house",
+        "ja": "家",
+        "zh": "家",
+        "vi": "nhà",
+        "fr": "maison",
+        "de": "Haus",
+        "es": "casa",
+        "ru": "дом",
+        "mn": "байшин"
+      },
+      "reading": { "enabled": true, "display": "text" },
+      "writing": { "enabled": true, "guides": ["집"] },
+      "tts": { "text": "집", "lang": "ko-KR", "rate": 0.5, "pitch": 1.0, "volume": 1.0 },
+      "metadata": { "pos": "명사", "themes": ["가정"] }
+    },
+    {
+      "id": "w_0006",
+      "type": "word",
+      "text": "음식",
+      "meanings": {
+        "ko": "",
+        "en": "food",
+        "ja": "食べ物",
+        "zh": "食物",
+        "vi": "thức ăn",
+        "fr": "nourriture",
+        "de": "Essen",
+        "es": "comida",
+        "ru": "еда",
+        "mn": "хоол"
+      },
+      "reading": { "enabled": true, "display": "text" },
+      "writing": { "enabled": true, "guides": ["음", "식"] },
+      "tts": { "text": "음식", "lang": "ko-KR", "rate": 0.5, "pitch": 1.0, "volume": 1.0 },
+      "metadata": { "pos": "명사", "themes": ["음식/음료"] }
+    },
+    {
+      "id": "w_0007",
+      "type": "word",
+      "text": "친구",
+      "meanings": {
+        "ko": "",
+        "en": "friend",
+        "ja": "友だち",
+        "zh": "朋友",
+        "vi": "bạn bè",
+        "fr": "ami(e)",
+        "de": "Freund(in)",
+        "es": "amigo/a",
+        "ru": "друг",
+        "mn": "найз"
+      },
+      "reading": { "enabled": true, "display": "text" },
+      "writing": { "enabled": true, "guides": ["친", "구"] },
+      "tts": { "text": "친구", "lang": "ko-KR", "rate": 0.5, "pitch": 1.0, "volume": 1.0 },
+      "metadata": { "pos": "명사", "themes": ["사람/관계"] }
+    },
+    {
+      "id": "w_0008",
+      "type": "word",
+      "text": "읽다",
+      "meanings": {
+        "ko": "",
+        "en": "to read",
+        "ja": "読む",
+        "zh": "读",
+        "vi": "đọc",
+        "fr": "lire",
+        "de": "lesen",
+        "es": "leer",
+        "ru": "читать",
+        "mn": "унших"
+      },
+      "reading": { "enabled": true, "display": "text" },
+      "writing": { "enabled": true, "guides": ["읽", "다"] },
+      "tts": { "text": "읽다", "lang": "ko-KR", "rate": 0.5, "pitch": 1.0, "volume": 1.0 },
+      "metadata": { "pos": "동사", "themes": ["학습", "독서"] }
+    },
+    {
+      "id": "w_0009",
+      "type": "word",
+      "text": "배우다",
+      "meanings": {
+        "ko": "",
+        "en": "to learn",
+        "ja": "学ぶ",
+        "zh": "学习",
+        "vi": "học",
+        "fr": "apprendre",
+        "de": "lernen",
+        "es": "aprender",
+        "ru": "учиться",
+        "mn": "сурах"
+      },
+      "reading": { "enabled": true, "display": "text" },
+      "writing": { "enabled": true, "guides": ["배", "우", "다"] },
+      "tts": { "text": "배우다", "lang": "ko-KR", "rate": 0.5, "pitch": 1.0, "volume": 1.0 },
+      "metadata": { "pos": "동사", "themes": ["학습"] }
+    },
+    {
+      "id": "w_0010",
+      "type": "word",
+      "text": "쓰다",
+      "meanings": {
+        "ko": "",
+        "en": "to write",
+        "ja": "書く",
+        "zh": "写",
+        "vi": "viết",
+        "fr": "écrire",
+        "de": "schreiben",
+        "es": "escribir",
+        "ru": "писать",
+        "mn": "бичих"
+      },
+      "reading": { "enabled": true, "display": "text" },
+      "writing": { "enabled": true, "guides": ["쓰", "다"] },
+      "tts": { "text": "쓰다", "lang": "ko-KR", "rate": 0.5, "pitch": 1.0, "volume": 1.0 },
+      "metadata": { "pos": "동사", "themes": ["학습", "쓰기"] }
+    },
+    {
+      "id": "w_0011",
+      "type": "word",
+      "text": "가다",
+      "meanings": {
+        "ko": "",
+        "en": "to go",
+        "ja": "行く",
+        "zh": "去",
+        "vi": "đi",
+        "fr": "aller",
+        "de": "gehen",
+        "es": "ir",
+        "ru": "идти",
+        "mn": "явах"
+      },
+      "reading": { "enabled": true, "display": "text" },
+      "writing": { "enabled": true, "guides": ["가", "다"] },
+      "tts": { "text": "가다", "lang": "ko-KR", "rate": 0.5, "pitch": 1.0, "volume": 1.0 },
+      "metadata": { "pos": "동사", "themes": ["이동"] }
+    },
+    {
+      "id": "w_0012",
+      "type": "word",
+      "text": "예쁘다",
+      "meanings": {
+        "ko": "",
+        "en": "to be pretty",
+        "ja": "きれいだ／かわいい",
+        "zh": "漂亮",
+        "vi": "đẹp",
+        "fr": "être joli(e)",
+        "de": "hübsch sein",
+        "es": "ser bonito/a",
+        "ru": "быть красивым",
+        "mn": "хөөрхөн байх"
+      },
+      "reading": { "enabled": true, "display": "text" },
+      "writing": { "enabled": true, "guides": ["예", "쁘", "다"] },
+      "tts": { "text": "예쁘다", "lang": "ko-KR", "rate": 0.5, "pitch": 1.0, "volume": 1.0 },
+      "metadata": { "pos": "형용사", "themes": ["묘사"] }
+    }
+  ],
+  "activities": [
+    {
+      "id": "a_read_cards_01",
+      "type": "read_cards",
+      "title": {
+        "ko": "읽기 카드",
+        "en": "Reading Cards",
+        "ja": "リーディングカード",
+        "zh": "阅读卡片",
+        "vi": "Thẻ đọc",
+        "fr": "Cartes de lecture",
+        "de": "Lesekarten",
+        "es": "Tarjetas de lectura",
+        "ru": "Карточки для чтения",
+        "mn": "Унших карт"
+      },
+      "options": { "items": ["w_0001","w_0002","w_0003","w_0004","w_0005","w_0006","w_0007","w_0008","w_0009","w_0010","w_0011","w_0012"], "autoShuffle": true }
+    },
+    {
+      "id": "a_read_match_01",
+      "type": "read_match_meaning",
+      "title": {
+        "ko": "뜻과 연결",
+        "en": "Match Meaning",
+        "ja": "意味マッチ",
+        "zh": "配对词义",
+        "vi": "Nối nghĩa",
+        "fr": "Associer le sens",
+        "de": "Bedeutung zuordnen",
+        "es": "Relacionar significado",
+        "ru": "Соотнесите значение",
+        "mn": "Утгатай тааруулах"
+      },
+      "options": { "pairs": [["w_0001","tree"], ["w_0002","school"], ["w_0003","water"], ["w_0007","friend"]] }
+    },
+    {
+      "id": "a_write_words_01",
+      "type": "write_words",
+      "title": {
+        "ko": "보고 따라 쓰기",
+        "en": "Copy the Words",
+        "ja": "書き写す",
+        "zh": "抄写",
+        "vi": "Chép theo",
+        "fr": "Copier les mots",
+        "de": "Wörter abschreiben",
+        "es": "Copiar palabras",
+        "ru": "Переписать слова",
+        "mn": "Үгийг хуулж бич"
+      },
+      "options": { "items": ["w_0002","w_0004","w_0008","w_0010","w_0011"] }
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "unitId": "2_1_6_geo_eo",
+  "type": "letters",
+  "title": {
+  "ko": "거~허 (…어)",
+  "en": "Geo–Heo (…-eo series)",
+  "ja": "コ〜ホ（…-eo 系）",
+  "zh": "格~何（…-eo 系列）",
+  "vi": "Geo–Heo (nhóm …-eo)",
+  "fr": "Geo–Heo (série …-eo)",
+  "de": "Geo–Heo (…-eo-Reihe)",
+  "es": "Geo–Heo (serie …-eo)",
+  "ru": "Geo–Heo (ряд …-eo)",
+  "mn": "Geo–Heo (…-eo цуврал)"
+  },
+  "practice": { "enabled": true, "strokeAsset": "template", "audio": true, "repeat": 3 },
+  "sequence": ["거","너","더","러","머","버","서","어","저","처","커","터","퍼","허"],
+  "assetConventions": {
+    "strokeJson": "assets/strokes/syllables/{glyph}.json",
+    "audioMp3": "assets/audio/syllables/{glyph}.mp3"
+  },
+  "uiHints": { "grid": 7, "rowGap": 8, "colGap": 8 }
+}

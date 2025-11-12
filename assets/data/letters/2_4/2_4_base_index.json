@@ -1,0 +1,121 @@
+{
+  "unitId": "2_4_base_index",
+  "id": "2_4_base",
+  "type": "hub",
+
+  "title": {
+    "ko": "2.4 ㅢ형 계열 — 받침 없음(CV)",
+    "en": "2.4 Ui-type Series — No Final (CV)",
+    "ja": "2.4 ㅢ型 系列 — パッチムなし（CV）",
+    "zh": "2.4 “ㅢ”型 系列 — 无收音（CV）",
+    "vi": "2.4 Dòng ㅢ — Không phụ âm cuối (CV)",
+    "fr": "2.4 Série de type ㅢ — Sans finale (CV)",
+    "de": "2.4 ㅢ-Typ-Reihe — Ohne Endkonsonant (CV)",
+    "es": "2.4 Serie tipo ㅢ — Sin final (CV)",
+    "ru": "2.4 Серия типа ㅢ — Без финали (CV)",
+    "mn": "2.4 ㅢ төрлийн цуврал — төгсгөлгүй (CV)"
+  },
+
+  "overviewRef": "assets/data/letters/overviews/2_4_overview.json",
+
+  "description": {
+    "ko": "복합 모음(ㅘ·ㅙ·ㅚ·ㅝ·ㅞ·ㅟ·ㅢ)의 ‘받침 없는’ 음절(CV) 연습 세트입니다. 아래 카드를 눌러 각 모음의 음절 그리드로 이동하세요.",
+    "en": "Practice sets for compound vowels (ㅘ, ㅙ, ㅚ, ㅝ, ㅞ, ㅟ, ㅢ) with no final consonant (CV). Tap a card to open the syllable grid.",
+    "ja": "複合母音（ㅘ・ㅙ・ㅚ・ㅝ・ㅞ・ㅟ・ㅢ）の「パッチムなし」音節（CV）練習セットです。カードを押して音節グリッドへ進みましょう。",
+    "zh": "复合元音（ㅘ、ㅙ、ㅚ、ㅝ、ㅞ、ㅟ、ㅢ）的“无收音”音节（CV）练习集。点按下方卡片进入音节网格。",
+    "vi": "Bộ luyện các nguyên âm ghép (ㅘ, ㅙ, ㅚ, ㅝ, ㅞ, ㅟ, ㅢ) ở dạng không có phụ âm cuối (CV). Chọn thẻ để mở lưới âm tiết.",
+    "fr": "Ensembles de pratique pour les voyelles composées (ㅘ, ㅙ, ㅚ, ㅝ, ㅞ, ㅟ, ㅢ) sans consonne finale (CV). Touchez une carte pour ouvrir la grille des syllabes.",
+    "de": "Übungssätze für zusammengesetzte Vokale (ㅘ, ㅙ, ㅚ, ㅝ, ㅞ, ㅟ, ㅢ) ohne Endkonsonant (CV). Tippe auf eine Karte, um das Silbengitter zu öffnen.",
+    "es": "Conjuntos de práctica para vocales compuestas (ㅘ, ㅙ, ㅚ, ㅝ, ㅞ, ㅟ, ㅢ) sin consonante final (CV). Toca una tarjeta para abrir la cuadrícula de sílabas.",
+    "ru": "Наборы для тренировки сложных гласных (ㅘ, ㅙ, ㅚ, ㅝ, ㅞ, ㅟ, ㅢ) без конечной согласной (CV). Нажмите на карточку, чтобы открыть таблицу слогов.",
+    "mn": "Нийлмэл эгшгүүд (ㅘ, ㅙ, ㅚ, ㅝ, ㅞ, ㅟ, ㅢ)-ийн төгсгөлгүй (CV) үеийн дасгалууд. Карт дээр дарж үеийн хүснэгт рүү орно уу."
+  },
+
+  "items": [
+    {
+      "id": "2_4_cv_1",
+      "title": {
+        "ko": "2.4.5 ㅢ — CV",
+        "en": "2.4.5 ㅢ — CV",
+        "ja": "2.4.5 ㅢ — CV",
+        "zh": "2.4.5 ㅢ — CV",
+        "vi": "2.4.5 ㅢ — CV",
+        "fr": "2.4.5 ㅢ — CV",
+        "de": "2.4.5 ㅢ — CV",
+        "es": "2.4.5 ㅢ — CV",
+        "ru": "2.4.5 ㅢ — CV",
+        "mn": "2.4.5 ㅢ — CV"
+      },
+      "route": "assets/data/letters/2_4/2_4_1_ui_cv.json"
+    },
+    {
+      "id": "2_4_cv_2",
+      "title": {
+        "ko": "2.4.1 ㅘ — CV",
+        "en": "2.4.1 ㅘ — CV",
+        "ja": "2.4.1 ㅘ — CV",
+        "zh": "2.4.1 ㅘ — CV",
+        "vi": "2.4.1 ㅘ — CV",
+        "fr": "2.4.1 ㅘ — CV",
+        "de": "2.4.1 ㅘ — CV",
+        "es": "2.4.1 ㅘ — CV",
+        "ru": "2.4.1 ㅘ — CV",
+        "mn": "2.4.1 ㅘ — CV"
+      },
+      "route": "assets/data/letters/2_4/2_4_2_wa_cv.json"
+    },
+    {
+      "id": "2_4_cv_3",
+      "title": {
+        "ko": "2.4.2 ㅙ·ㅚ — CV",
+        "en": "2.4.2 ㅙ/ㅚ — CV",
+        "ja": "2.4.2 ㅙ・ㅚ — CV",
+        "zh": "2.4.2 ㅙ/ㅚ — CV",
+        "vi": "2.4.2 ㅙ/ㅚ — CV",
+        "fr": "2.4.2 ㅙ/ㅚ — CV",
+        "de": "2.4.2 ㅙ/ㅚ — CV",
+        "es": "2.4.2 ㅙ/ㅚ — CV",
+        "ru": "2.4.2 ㅙ/ㅚ — CV",
+        "mn": "2.4.2 ㅙ/ㅚ — CV"
+      },
+      "route": "assets/data/letters/2_4/2_4_3_wae_oe_cv.json"
+    },
+    {
+      "id": "2_4_cv_4",
+      "title": {
+        "ko": "2.4.3 ㅝ — CV",
+        "en": "2.4.3 ㅝ — CV",
+        "ja": "2.4.3 ㅝ — CV",
+        "zh": "2.4.3 ㅝ — CV",
+        "vi": "2.4.3 ㅝ — CV",
+        "fr": "2.4.3 ㅝ — CV",
+        "de": "2.4.3 ㅝ — CV",
+        "es": "2.4.3 ㅝ — CV",
+        "ru": "2.4.3 ㅝ — CV",
+        "mn": "2.4.3 ㅝ — CV"
+      },
+      "route": "assets/data/letters/2_4/2_4_4_wo_cv.json"
+    },
+    {
+      "id": "2_4_cv_5",
+      "title": {
+        "ko": "2.4.4 ㅞ·ㅟ — CV",
+        "en": "2.4.4 ㅞ/ㅟ — CV",
+        "ja": "2.4.4 ㅞ・ㅟ — CV",
+        "zh": "2.4.4 ㅞ/ㅟ — CV",
+        "vi": "2.4.4 ㅞ/ㅟ — CV",
+        "fr": "2.4.4 ㅞ/ㅟ — CV",
+        "de": "2.4.4 ㅞ/ㅟ — CV",
+        "es": "2.4.4 ㅞ/ㅟ — CV",
+        "ru": "2.4.4 ㅞ/ㅟ — CV",
+        "mn": "2.4.4 ㅞ/ㅟ — CV"
+      },
+      "route": "assets/data/letters/2_4/2_4_5_we_wi_cv.json"
+    }
+  ],
+
+  "assetConventions": {
+    "strokeJson": "assets/strokes/syllables/{glyph}.json",
+    "audioMp3": "assets/audio/syllables/{glyph}.mp3"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "2_2_3_a",
+  "unitId": "2_2_3_gyo",
+  "type": "letters",
+  "title": {
+    "ko": "2.2 (3) 교~효 세트 (…요)",
+    "en": "2.2 (3) Vowel ㅛ (gyo~hyo)",
+    "ja": "2.2 (3) 母音 ㅛ（gyo〜hyo）",
+    "zh": "2.2 (3) 元音 ㅛ（gyo~hyo）",
+    "vi": "2.2 (3) Nguyên âm ㅛ (gyo~hyo)",
+    "fr": "2.2 (3 Voyelle ㅛ (gyo~hyo)",
+    "de": "2.2 (3) Vokal ㅛ (gyo–hyo)",
+    "es": "2.2 (3) Vocal ㅛ (gyo~hyo)",
+    "ru": "2.2 (3) Гласный ㅛ (gyo~hyo)",
+    "mn": "2.2 (3) Эгшиг ㅛ (gyo~hyo)"
+  },
+  "assetConventions": {
+    "strokeJson": "assets/strokes/syllables/{glyph}.json",
+    "audioMp3": "assets/audio/syllables/{glyph}.mp3"
+  },
+  "practice": {
+    "enabled": true,
+    "strokeAsset": "template",
+    "audio": true,
+    "repeat": 3
+  },
+  "sequence": [
+    "교","뇨","됴","료","묘","뵤","쇼","요","죠","쵸","쿄","툐","표","효"
+  ],
+  "uiHints": {
+    "grid": 7,
+    "rowGap": 8,
+    "colGap": 8
+  }
+}

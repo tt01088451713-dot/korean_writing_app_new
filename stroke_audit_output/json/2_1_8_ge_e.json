@@ -1,0 +1,206 @@
+{
+  "id": "2_1_8",
+  "title": {
+    "ko": "(8) 게 계열(…ㅔ)",
+    "en": "(8) GE set (…ㅔ)"
+  },
+  "description": {
+    "ko": "자음과 ㅔ가 좌우로 결합한 음절(게~헤).",
+    "en": "Consonant + ㅔ in a left–right layout (ge…he).",
+    "zh": "子音与ㅔ的左右结合法（게~헤）。",
+    "ja": "子音とㅔの左右結合（게〜헤）。",
+    "vi": "Phụ âm + ㅔ theo bố cục trái–phải (ge…he).",
+    "fr": "Consonne + ㅔ en disposition gauche‑droite (ge…he).",
+    "es": "Consonante + ㅔ en disposición izquierda‑derecha (ge…he).",
+    "ru": "Согласная + ㅔ в лево‑правой компоновке (ge…he).",
+    "mn": "Гийгүүлэгч + ㅔ зүүн‑баруун байрлалтай (ge…he)."
+  },
+  "chars": [
+    {
+      "label": "게",
+      "ttsKey": "ge",
+      "core": true,
+      "strokeOrder": "assets/strokes/ge.json",
+      "guideOnly": true,
+      "freq": "high",
+      "writing": {
+        "order": "assets/strokes/ge.json",
+        "strokes": [],
+        "guideOnly": true
+      }
+    },
+    {
+      "label": "네",
+      "ttsKey": "ne",
+      "core": true,
+      "strokeOrder": "assets/strokes/ne.json",
+      "guideOnly": true,
+      "freq": "high",
+      "writing": {
+        "order": "assets/strokes/ne.json",
+        "strokes": [],
+        "guideOnly": true
+      }
+    },
+    {
+      "label": "데",
+      "ttsKey": "de",
+      "core": true,
+      "strokeOrder": "assets/strokes/de.json",
+      "guideOnly": true,
+      "freq": "high",
+      "writing": {
+        "order": "assets/strokes/de.json",
+        "strokes": [],
+        "guideOnly": true
+      }
+    },
+    {
+      "label": "레",
+      "ttsKey": "re",
+      "core": true,
+      "strokeOrder": "assets/strokes/re.json",
+      "guideOnly": true,
+      "freq": "high",
+      "writing": {
+        "order": "assets/strokes/re.json",
+        "strokes": [],
+        "guideOnly": true
+      }
+    },
+    {
+      "label": "메",
+      "ttsKey": "me",
+      "core": true,
+      "strokeOrder": "assets/strokes/me.json",
+      "guideOnly": true,
+      "freq": "high",
+      "writing": {
+        "order": "assets/strokes/me.json",
+        "strokes": [],
+        "guideOnly": true
+      }
+    },
+    {
+      "label": "베",
+      "ttsKey": "be",
+      "core": true,
+      "strokeOrder": "assets/strokes/be.json",
+      "guideOnly": true,
+      "freq": "high",
+      "writing": {
+        "order": "assets/strokes/be.json",
+        "strokes": [],
+        "guideOnly": true
+      }
+    },
+    {
+      "label": "세",
+      "ttsKey": "se",
+      "core": true,
+      "strokeOrder": "assets/strokes/se.json",
+      "guideOnly": true,
+      "freq": "high",
+      "writing": {
+        "order": "assets/strokes/se.json",
+        "strokes": [],
+        "guideOnly": true
+      }
+    },
+    {
+      "label": "에",
+      "ttsKey": "e",
+      "core": true,
+      "strokeOrder": "assets/strokes/e.json",
+      "guideOnly": true,
+      "freq": "high",
+      "writing": {
+        "order": "assets/strokes/e.json",
+        "strokes": [],
+        "guideOnly": true
+      }
+    },
+    {
+      "label": "제",
+      "ttsKey": "je",
+      "core": true,
+      "strokeOrder": "assets/strokes/je.json",
+      "guideOnly": true,
+      "freq": "high",
+      "writing": {
+        "order": "assets/strokes/je.json",
+        "strokes": [],
+        "guideOnly": true
+      }
+    },
+    {
+      "label": "체",
+      "ttsKey": "che",
+      "core": true,
+      "strokeOrder": "assets/strokes/che.json",
+      "guideOnly": true,
+      "freq": "high",
+      "writing": {
+        "order": "assets/strokes/che.json",
+        "strokes": [],
+        "guideOnly": true
+      }
+    },
+    {
+      "label": "케",
+      "ttsKey": "ke",
+      "core": true,
+      "strokeOrder": "assets/strokes/ke.json",
+      "guideOnly": true,
+      "freq": "high",
+      "writing": {
+        "order": "assets/strokes/ke.json",
+        "strokes": [],
+        "guideOnly": true
+      }
+    },
+    {
+      "label": "테",
+      "ttsKey": "te",
+      "core": true,
+      "strokeOrder": "assets/strokes/te.json",
+      "guideOnly": true,
+      "freq": "high",
+      "writing": {
+        "order": "assets/strokes/te.json",
+        "strokes": [],
+        "guideOnly": true
+      }
+    },
+    {
+      "label": "페",
+      "ttsKey": "pe",
+      "core": true,
+      "strokeOrder": "assets/strokes/pe.json",
+      "guideOnly": true,
+      "freq": "high",
+      "writing": {
+        "order": "assets/strokes/pe.json",
+        "strokes": [],
+        "guideOnly": true
+      }
+    },
+    {
+      "label": "헤",
+      "ttsKey": "he",
+      "core": true,
+      "strokeOrder": "assets/strokes/he.json",
+      "guideOnly": true,
+      "freq": "high",
+      "writing": {
+        "order": "assets/strokes/he.json",
+        "strokes": [],
+        "guideOnly": true
+      }
+    }
+  ],
+  "definition": {
+    "ko": "(8) 게 계열(…ㅔ) 단원의 핵심 정의",
+    "en": "Core definition of (8) GE set (…ㅔ) section"
+  }
+}

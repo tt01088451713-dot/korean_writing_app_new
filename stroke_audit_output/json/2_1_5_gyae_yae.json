@@ -1,0 +1,89 @@
+{
+  "id": "2_1_5",
+  "title": {
+    "ko": "(5) 걔 계열(…ㅒ)",
+    "en": "(5) GYAE set (…ㅒ)"
+  },
+  "description": {
+    "ko": "자음과 ㅒ(yae)가 좌우로 결합한 음절. 현대 한국어에서 사용 빈도가 매우 낮아 보충 학습으로 제시합니다.",
+    "en": "Consonant + ㅒ (yae) in a left–right layout. Very low frequency in modern Korean; offered as supplementary.",
+    "zh": "子音与ㅒ（yae）的左右结合法。现代韩语中使用频率极低，作为补充学习提供。",
+    "ja": "子音とㅒ（yae）の左右結合。現代韓国語では使用頻度が非常に低く、補足学習として提示。",
+    "vi": "Phụ âm + ㅒ (yae) theo bố cục trái–phải. Tần suất dùng rất thấp, cung cấp như bổ sung.",
+    "fr": "Consonne + ㅒ (yae) en disposition gauche‑droite. Très peu fréquent en coréen moderne ; présenté en complément.",
+    "es": "Consonante + ㅒ (yae) en disposición izquierda‑derecha. Frecuencia muy baja; se ofrece como material suplementario.",
+    "ru": "Согласная + ㅒ (yae) в лево‑правой компоновке. В современном корейском крайне редка; как дополнительный материал.",
+    "mn": "Гийгүүлэгч + ㅒ (yae) зүүн‑баруун байрлалтай. Орчин үеийн солонгост маш ховор; нэмэлтээр санал болгоно."
+  },
+  "chars": [
+    {
+      "label": "걔",
+      "ttsKey": "gyae",
+      "core": false,
+      "strokeOrder": "assets/strokes/gyae.json",
+      "guideOnly": true,
+      "freq": "low",
+      "writing": {
+        "order": "assets/strokes/gyae.json",
+        "strokes": [],
+        "guideOnly": true
+      }
+    },
+    {
+      "label": "냬",
+      "ttsKey": "nyae",
+      "core": false,
+      "strokeOrder": "assets/strokes/nyae.json",
+      "guideOnly": true,
+      "freq": "low",
+      "writing": {
+        "order": "assets/strokes/nyae.json",
+        "strokes": [],
+        "guideOnly": true
+      }
+    },
+    {
+      "label": "쟤",
+      "ttsKey": "jyae",
+      "core": false,
+      "strokeOrder": "assets/strokes/jyae.json",
+      "guideOnly": true,
+      "freq": "low",
+      "writing": {
+        "order": "assets/strokes/jyae.json",
+        "strokes": [],
+        "guideOnly": true
+      }
+    },
+    {
+      "label": "얘",
+      "ttsKey": "yae",
+      "core": true,
+      "strokeOrder": "assets/strokes/yae.json",
+      "guideOnly": true,
+      "freq": "high",
+      "writing": {
+        "order": "assets/strokes/yae.json",
+        "strokes": [],
+        "guideOnly": true
+      }
+    },
+    {
+      "label": "햬",
+      "ttsKey": "hyae",
+      "core": false,
+      "strokeOrder": "assets/strokes/hyae.json",
+      "guideOnly": true,
+      "freq": "low",
+      "writing": {
+        "order": "assets/strokes/hyae.json",
+        "strokes": [],
+        "guideOnly": true
+      }
+    }
+  ],
+  "definition": {
+    "ko": "(5) 걔 계열(…ㅒ) 단원의 핵심 정의",
+    "en": "Core definition of (5) GYAE set (…ㅒ) section"
+  }
+}

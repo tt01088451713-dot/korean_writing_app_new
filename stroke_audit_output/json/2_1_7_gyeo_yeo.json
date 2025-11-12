@@ -1,0 +1,206 @@
+{
+  "id": "2_1_7",
+  "title": {
+    "ko": "(7) 겨 계열(…ㅕ)",
+    "en": "(7) GYEO set (…ㅕ)"
+  },
+  "description": {
+    "ko": "자음과 ㅕ가 좌우로 결합한 음절(겨~혀). 일부 조합은 사용 빈도가 낮습니다.",
+    "en": "Consonant + ㅕ in a left–right layout (gyeo…hyeo). Some combinations are low‑frequency.",
+    "zh": "子音与ㅕ的左右结合法（겨~혀）。部分组合较少使用。",
+    "ja": "子音とㅕの左右結合（겨〜혀）。一部は使用頻度が低いです。",
+    "vi": "Phụ âm + ㅕ theo bố cục trái–phải (gyeo…hyeo). Một số tổ hợp ít dùng.",
+    "fr": "Consonne + ㅕ en disposition gauche‑droite (gyeo…hyeo). Certaines combinaisons sont peu fréquentes.",
+    "es": "Consonante + ㅕ en disposición izquierda‑derecha (gyeo…hyeo). Algunas combinaciones son poco frecuentes.",
+    "ru": "Согласная + ㅕ в лево‑правой компоновке (gyeo…hyeo). Некоторые сочетания редки.",
+    "mn": "Гийгүүлэгч + ㅕ зүүн‑баруун байрлалтай (gyeo…hyeo). Зарим нийлбэр ховор."
+  },
+  "chars": [
+    {
+      "label": "겨",
+      "ttsKey": "gyeo",
+      "core": true,
+      "strokeOrder": "assets/strokes/gyeo.json",
+      "guideOnly": true,
+      "freq": "high",
+      "writing": {
+        "order": "assets/strokes/gyeo.json",
+        "strokes": [],
+        "guideOnly": true
+      }
+    },
+    {
+      "label": "녀",
+      "ttsKey": "nyeo",
+      "core": true,
+      "strokeOrder": "assets/strokes/nyeo.json",
+      "guideOnly": true,
+      "freq": "high",
+      "writing": {
+        "order": "assets/strokes/nyeo.json",
+        "strokes": [],
+        "guideOnly": true
+      }
+    },
+    {
+      "label": "뎌",
+      "ttsKey": "dyeo",
+      "core": false,
+      "strokeOrder": "assets/strokes/dyeo.json",
+      "guideOnly": true,
+      "freq": "low",
+      "writing": {
+        "order": "assets/strokes/dyeo.json",
+        "strokes": [],
+        "guideOnly": true
+      }
+    },
+    {
+      "label": "려",
+      "ttsKey": "ryeo",
+      "core": true,
+      "strokeOrder": "assets/strokes/ryeo.json",
+      "guideOnly": true,
+      "freq": "high",
+      "writing": {
+        "order": "assets/strokes/ryeo.json",
+        "strokes": [],
+        "guideOnly": true
+      }
+    },
+    {
+      "label": "며",
+      "ttsKey": "myeo",
+      "core": true,
+      "strokeOrder": "assets/strokes/myeo.json",
+      "guideOnly": true,
+      "freq": "high",
+      "writing": {
+        "order": "assets/strokes/myeo.json",
+        "strokes": [],
+        "guideOnly": true
+      }
+    },
+    {
+      "label": "벼",
+      "ttsKey": "byeo",
+      "core": true,
+      "strokeOrder": "assets/strokes/byeo.json",
+      "guideOnly": true,
+      "freq": "high",
+      "writing": {
+        "order": "assets/strokes/byeo.json",
+        "strokes": [],
+        "guideOnly": true
+      }
+    },
+    {
+      "label": "셔",
+      "ttsKey": "syeo",
+      "core": true,
+      "strokeOrder": "assets/strokes/syeo.json",
+      "guideOnly": true,
+      "freq": "high",
+      "writing": {
+        "order": "assets/strokes/syeo.json",
+        "strokes": [],
+        "guideOnly": true
+      }
+    },
+    {
+      "label": "여",
+      "ttsKey": "yeo",
+      "core": true,
+      "strokeOrder": "assets/strokes/yeo.json",
+      "guideOnly": true,
+      "freq": "high",
+      "writing": {
+        "order": "assets/strokes/yeo.json",
+        "strokes": [],
+        "guideOnly": true
+      }
+    },
+    {
+      "label": "져",
+      "ttsKey": "jyeo",
+      "core": true,
+      "strokeOrder": "assets/strokes/jyeo.json",
+      "guideOnly": true,
+      "freq": "high",
+      "writing": {
+        "order": "assets/strokes/jyeo.json",
+        "strokes": [],
+        "guideOnly": true
+      }
+    },
+    {
+      "label": "쳐",
+      "ttsKey": "chyeo",
+      "core": true,
+      "strokeOrder": "assets/strokes/chyeo.json",
+      "guideOnly": true,
+      "freq": "high",
+      "writing": {
+        "order": "assets/strokes/chyeo.json",
+        "strokes": [],
+        "guideOnly": true
+      }
+    },
+    {
+      "label": "켜",
+      "ttsKey": "kyeo",
+      "core": true,
+      "strokeOrder": "assets/strokes/kyeo.json",
+      "guideOnly": true,
+      "freq": "high",
+      "writing": {
+        "order": "assets/strokes/kyeo.json",
+        "strokes": [],
+        "guideOnly": true
+      }
+    },
+    {
+      "label": "텨",
+      "ttsKey": "tyeo",
+      "core": false,
+      "strokeOrder": "assets/strokes/tyeo.json",
+      "guideOnly": true,
+      "freq": "low",
+      "writing": {
+        "order": "assets/strokes/tyeo.json",
+        "strokes": [],
+        "guideOnly": true
+      }
+    },
+    {
+      "label": "펴",
+      "ttsKey": "pyeo",
+      "core": true,
+      "strokeOrder": "assets/strokes/pyeo.json",
+      "guideOnly": true,
+      "freq": "high",
+      "writing": {
+        "order": "assets/strokes/pyeo.json",
+        "strokes": [],
+        "guideOnly": true
+      }
+    },
+    {
+      "label": "혀",
+      "ttsKey": "hyeo",
+      "core": true,
+      "strokeOrder": "assets/strokes/hyeo.json",
+      "guideOnly": true,
+      "freq": "high",
+      "writing": {
+        "order": "assets/strokes/hyeo.json",
+        "strokes": [],
+        "guideOnly": true
+      }
+    }
+  ],
+  "definition": {
+    "ko": "(7) 겨 계열(…ㅕ) 단원의 핵심 정의",
+    "en": "Core definition of (7) GYEO set (…ㅕ) section"
+  }
+}

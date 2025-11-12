@@ -1,0 +1,206 @@
+{
+  "id": "2_1_1",
+  "title": {
+    "ko": "(1) 기본자 계열(…ㅣ)",
+    "en": "(1) Basic set (…ㅣ)"
+  },
+  "description": {
+    "ko": "자음과 ㅣ가 좌우로 결합한 음절(기~히).",
+    "en": "Consonant + ㅣ in a left–right layout (gi…hi).",
+    "zh": "子音与ㅣ的左右结合法（기~히）。",
+    "ja": "子音とㅣの左右結合（기〜히）。",
+    "vi": "Phụ âm + ㅣ theo bố cục trái–phải (gi…hi).",
+    "fr": "Consonne + ㅣ en disposition gauche‑droite (gi…hi).",
+    "es": "Consonante + ㅣ en disposición izquierda‑derecha (gi…hi).",
+    "ru": "Согласная + ㅣ в лево‑правой компоновке (gi…hi).",
+    "mn": "Гийгүүлэгч + ㅣ зүүн‑баруун байрлалтай (gi…hi)."
+  },
+  "chars": [
+    {
+      "label": "기",
+      "ttsKey": "gi",
+      "core": true,
+      "strokeOrder": "assets/strokes/gi.json",
+      "guideOnly": true,
+      "freq": "high",
+      "writing": {
+        "order": "assets/strokes/gi.json",
+        "strokes": [],
+        "guideOnly": true
+      }
+    },
+    {
+      "label": "니",
+      "ttsKey": "ni",
+      "core": true,
+      "strokeOrder": "assets/strokes/ni.json",
+      "guideOnly": true,
+      "freq": "high",
+      "writing": {
+        "order": "assets/strokes/ni.json",
+        "strokes": [],
+        "guideOnly": true
+      }
+    },
+    {
+      "label": "디",
+      "ttsKey": "di",
+      "core": true,
+      "strokeOrder": "assets/strokes/di.json",
+      "guideOnly": true,
+      "freq": "high",
+      "writing": {
+        "order": "assets/strokes/di.json",
+        "strokes": [],
+        "guideOnly": true
+      }
+    },
+    {
+      "label": "리",
+      "ttsKey": "ri",
+      "core": true,
+      "strokeOrder": "assets/strokes/ri.json",
+      "guideOnly": true,
+      "freq": "high",
+      "writing": {
+        "order": "assets/strokes/ri.json",
+        "strokes": [],
+        "guideOnly": true
+      }
+    },
+    {
+      "label": "미",
+      "ttsKey": "mi",
+      "core": true,
+      "strokeOrder": "assets/strokes/mi.json",
+      "guideOnly": true,
+      "freq": "high",
+      "writing": {
+        "order": "assets/strokes/mi.json",
+        "strokes": [],
+        "guideOnly": true
+      }
+    },
+    {
+      "label": "비",
+      "ttsKey": "bi",
+      "core": true,
+      "strokeOrder": "assets/strokes/bi.json",
+      "guideOnly": true,
+      "freq": "high",
+      "writing": {
+        "order": "assets/strokes/bi.json",
+        "strokes": [],
+        "guideOnly": true
+      }
+    },
+    {
+      "label": "시",
+      "ttsKey": "si",
+      "core": true,
+      "strokeOrder": "assets/strokes/si.json",
+      "guideOnly": true,
+      "freq": "high",
+      "writing": {
+        "order": "assets/strokes/si.json",
+        "strokes": [],
+        "guideOnly": true
+      }
+    },
+    {
+      "label": "이",
+      "ttsKey": "i",
+      "core": true,
+      "strokeOrder": "assets/strokes/yi.json",
+      "guideOnly": true,
+      "freq": "high",
+      "writing": {
+        "order": "assets/strokes/yi.json",
+        "strokes": [],
+        "guideOnly": true
+      }
+    },
+    {
+      "label": "지",
+      "ttsKey": "ji",
+      "core": true,
+      "strokeOrder": "assets/strokes/ji.json",
+      "guideOnly": true,
+      "freq": "high",
+      "writing": {
+        "order": "assets/strokes/ji.json",
+        "strokes": [],
+        "guideOnly": true
+      }
+    },
+    {
+      "label": "치",
+      "ttsKey": "chi",
+      "core": true,
+      "strokeOrder": "assets/strokes/chi.json",
+      "guideOnly": true,
+      "freq": "high",
+      "writing": {
+        "order": "assets/strokes/chi.json",
+        "strokes": [],
+        "guideOnly": true
+      }
+    },
+    {
+      "label": "키",
+      "ttsKey": "ki",
+      "core": true,
+      "strokeOrder": "assets/strokes/ki_.json",
+      "guideOnly": true,
+      "freq": "high",
+      "writing": {
+        "order": "assets/strokes/ki_.json",
+        "strokes": [],
+        "guideOnly": true
+      }
+    },
+    {
+      "label": "티",
+      "ttsKey": "ti",
+      "core": true,
+      "strokeOrder": "assets/strokes/ti.json",
+      "guideOnly": true,
+      "freq": "high",
+      "writing": {
+        "order": "assets/strokes/ti.json",
+        "strokes": [],
+        "guideOnly": true
+      }
+    },
+    {
+      "label": "피",
+      "ttsKey": "pi",
+      "core": true,
+      "strokeOrder": "assets/strokes/pi.json",
+      "guideOnly": true,
+      "freq": "high",
+      "writing": {
+        "order": "assets/strokes/pi.json",
+        "strokes": [],
+        "guideOnly": true
+      }
+    },
+    {
+      "label": "히",
+      "ttsKey": "hi",
+      "core": true,
+      "strokeOrder": "assets/strokes/hi.json",
+      "guideOnly": true,
+      "freq": "high",
+      "writing": {
+        "order": "assets/strokes/hi.json",
+        "strokes": [],
+        "guideOnly": true
+      }
+    }
+  ],
+  "definition": {
+    "ko": "(1) 기본자 계열(…ㅣ) 단원의 핵심 정의",
+    "en": "Core definition of (1) Basic set (…ㅣ) section"
+  }
+}

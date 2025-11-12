@@ -1,0 +1,42 @@
+{
+  "unitId": "2_3_1_a_ya_ae_yae_coda",
+  "type": "letters",
+
+  "title": {
+    "ko": "2.3 (1) ㅏ·ㅑ·ㅐ·ㅒ + 종성(받침)",
+    "en": "2.3 (1) a/ya/ae/yae + final (CVC)",
+    "ja": "2.3 (1) a/ya/ae/yae + 終声 (CVC)",
+    "zh": "2.3 (1) a/ya/ae/yae + 终声 (CVC)",
+    "vi": "2.3 (1) a/ya/ae/yae + final (CVC)",
+    "fr": "2.3 (1) a/ya/ae/yae + final (CVC)",
+    "de": "2.3 (1) a/ya/ae/yae + Endkonsonant (CVC)",
+    "es": "2.3 (1) a/ya/ae/yae + final (CVC)",
+    "ru": "2.3 (1) a/ya/ae/yae + final (CVC)",
+    "mn": "2.3 (1) a/ya/ae/yae + final (CVC)"
+  },
+
+  "assetConventions": {
+    "strokeJson": "assets/strokes/syllables/{glyph}.json",
+    "audioMp3": "assets/audio/syllables/{glyph}.mp3"
+  },
+
+  "practice": {
+    "enabled": true,
+    "strokeAsset": "template",
+    "audio": true,
+    "repeat": 3
+  },
+
+  "sequence": [
+    "각","간","갈","감","강","갑","갓",
+    "갹","갼","갤","갬","갱","갭","갯",
+    "객","갠","갤","갬","갱","갭","갯",
+    "걕","걘","걜","걤","걩","걥","걧"
+  ],
+
+  "uiHints": {
+    "grid": 7,
+    "rowGap": 8,
+    "colGap": 8
+  }
+}

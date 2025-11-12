@@ -1,0 +1,38 @@
+{
+  "id": "2_2_2_b",
+  "unitId": "2_2_2_o_batchim",
+  "type": "letters",
+  "title": {
+    "ko": "2.2 (2-b) ㅗ 받침 확장 (온~옹)",
+    "en": "2.2 (2-b) Vowel ㅗ with finals (on~ong)",
+    "ja": "2.2 (2-b) 母音 ㅗ の終声拡張（on〜ong）",
+    "zh": "2.2 (2-b) 元音 ㅗ 的终声扩展（on~ong）",
+    "vi": "2.2 (2-b) Nguyên âm ㅗ với phụ âm cuối (on~ong)",
+    "fr": "2.2 (2-b) Voyelle ㅗ avec finales (on~ong)",
+    "de": "2.2 (2-b) Vokal ㅗ mit Endkonsonanten (on–ong)",
+    "es": "2.2 (2-b) Vocal ㅗ con finales (on~ong)",
+    "ru": "2.2 (2-b) Гласный ㅗ с конечными согласными (on–ong)",
+    "mn": "2.2 (2-b) Эгшиг ㅗ төгсгөлийн гийгүүлэгчтэй (on–ong)"
+  },
+  "assetConventions": {
+    "strokeJson": "assets/strokes/syllables/{glyph}.json",
+    "audioMp3": "assets/audio/syllables/{glyph}.mp3"
+  },
+  "practice": {
+    "enabled": true,
+    "strokeAsset": "template",
+    "audio": true,
+    "repeat": 3
+  },
+  "sequence": [
+    "온",
+    "올",
+    "옴",
+    "옹"
+  ],
+  "uiHints": {
+    "grid": 4,
+    "rowGap": 8,
+    "colGap": 8
+  }
+}

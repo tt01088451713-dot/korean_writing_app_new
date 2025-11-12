@@ -1,0 +1,35 @@
+{
+  "id": "2_2_2_a",
+  "unitId": "2_2_2_go",
+  "type": "letters",
+  "title": {
+    "ko": "2.2 (2) 고~호 세트 (…오)",
+    "en": "2.2 (2) Vowel ㅗ (go~ho)",
+    "ja": "2.2 (2) 母音 ㅗ（go〜ho）",
+    "zh": "2.2 (2) 元音 ㅗ（go~ho）",
+    "vi": "2.2 (2) Nguyên âm ㅗ (go~ho)",
+    "fr": "2.2 (2) Voyelle ㅗ (go~ho)",
+    "de": "2.2 (2) Vokal ㅗ (go–ho)",
+    "es": "2.2 (2) Vocal ㅗ (go~ho)",
+    "ru": "2.2 (2) Гласный ㅗ (go~ho)",
+    "mn": "2.2 (2) Эгшиг ㅗ (go~ho)"
+  },
+  "assetConventions": {
+    "strokeJson": "assets/strokes/syllables/{glyph}.json",
+    "audioMp3": "assets/audio/syllables/{glyph}.mp3"
+  },
+  "practice": {
+    "enabled": true,
+    "strokeAsset": "template",
+    "audio": true,
+    "repeat": 3
+  },
+  "sequence": [
+    "고","노","도","로","모","보","소","오","조","초","코","토","포","호"
+  ],
+  "uiHints": {
+    "grid": 7,
+    "rowGap": 8,
+    "colGap": 8
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "2_3_complex_index",
+  "title": { 
+    "ko": "좌우상하결합형(복합형)", 
+    "en": "Complex (Left–Right + Top–Bottom)",
+    "ja": "左右上下複合型",
+    "zh": "左右上下复合型",
+    "vi": "Kiểu hỗn hợp (Trái‑phải + Trên‑dưới)",
+    "fr": "Type complexe (Gauche‑droite + Haut‑bas)",
+    "de": "Komplex (Links–Rechts + Oben–Unten)",
+    "es": "Tipo complejo (Izq‑Der + Arriba‑Abajo)",
+    "ru": "Сложный тип (слева‑справа + сверху‑снизу)",
+    "mn": "Нийлмэл төрөл (зүүн‑баруун + дээр‑доор)" 
+  },
+  "overviewRef": "assets/data/letters/overviews/2_3_overview.json",
+  "parts": [
+    {
+      "id": "2_3_1",
+      "title": { "ko": "(1) ㅏ·ㅑ·ㅐ·ㅒ + 받침", "en": "(1) a/ya/ae/yae + finals" },
+      "route": "assets/data/letters/2_3/2_3_1_a_ya_ae_yae_cvc.json",
+      "hasCV": false, "hasCVC": true
+    },
+    {
+      "id": "2_3_2",
+      "title": { "ko": "(2) ㅓ·ㅕ·ㅔ·ㅖ + 받침", "en": "(2) eo/yeo/e/ye + finals" },
+      "route": "assets/data/letters/2_3/2_3_2_eo_yeo_e_ye_cvc.json",
+      "hasCV": false, "hasCVC": true
+    },
+    {
+      "id": "2_3_3",
+      "title": { "ko": "(3) ㅣ + 받침", "en": "(3) i + finals" },
+      "route": "assets/data/letters/2_3/2_3_3_i_cvc.json",
+      "hasCV": false, "hasCVC": true
+    }
+  ]
+}

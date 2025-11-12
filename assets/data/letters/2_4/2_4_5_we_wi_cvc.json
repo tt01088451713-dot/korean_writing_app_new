@@ -1,0 +1,41 @@
+{
+  "id": "2_4_5_we_wi_cvc",
+  "unitId": "2_4_5_we_wi_cvc",
+  "type": "letters",
+
+  "title": {
+    "ko": "2.4.5 ㅞ·ㅟ — 받침 있음(CVC)",
+    "en": "2.4.5 ㅞ/ㅟ — With Final (CVC)",
+    "ja": "2.4.5 ㅞ・ㅟ — パッチムあり（CVC）",
+    "zh": "2.4.5 ㅞ/ㅟ — 有收音（CVC）",
+    "vi": "2.4.5 ㅞ/ㅟ — Có phụ âm cuối (CVC)",
+    "fr": "2.4.5 ㅞ/ㅟ — Avec finale (CVC)",
+    "de": "2.4.5 ㅞ/ㅟ — Mit Endkonsonant (CVC)",
+    "es": "2.4.5 ㅞ/ㅟ — Con final (CVC)",
+    "ru": "2.4.5 ㅞ/ㅟ — С конечным согласным (CVC)",
+    "mn": "2.4.5 ㅞ/ㅟ — Төгсгөлтэй (CVC)"
+  },
+
+  "description": {
+    "ko": "복합 모음 ㅞ·ㅟ에 자주 쓰이는 CVC(받침) 조합을 익힙니다.",
+    "en": "Learn frequent CVC (final) combinations with the compound vowels ㅞ and ㅟ.",
+    "ja": "複合母音 ㅞ・ㅟ によく用いられるパッチム（CVC）組み合わせを学びます。",
+    "zh": "学习与复合元音 ㅞ、ㅟ 常用的收音（CVC）组合。",
+    "vi": "Học các tổ hợp CVC (phụ âm cuối) thông dụng với nguyên âm ghép ㅞ, ㅟ.",
+    "fr": "Apprenez les combinaisons CVC fréquentes avec les voyelles composées ㅞ et ㅟ.",
+    "de": "Lernen Sie häufige CVC-Kombinationen mit den zusammengesetzten Vokalen ㅞ und ㅟ.",
+    "es": "Aprende combinaciones CVC frecuentes con las vocales compuestas ㅞ y ㅟ.",
+    "ru": "Освойте частые CVC-сочетания с составными гласными ㅞ и ㅟ.",
+    "mn": "Нийлмэл эгшиг ㅞ, ㅟ-тэй түгээмэл CVC хослолуудыг сурна."
+  },
+
+  "vowels": ["ㅞ","ㅟ"],
+  "sequence": ["웬","웰","윈","윌","윙"],
+
+  "assetConventions": {
+    "strokeJson": "assets/strokes/syllables/{glyph}.json",
+    "audioMp3": "assets/audio/syllables/{glyph}.mp3"
+  },
+  "practice": { "enabled": true, "strokeAsset": "template", "audio": true, "repeat": 3 },
+  "uiHints": { "grid": 5, "rowGap": 8, "colGap": 8 }
+}

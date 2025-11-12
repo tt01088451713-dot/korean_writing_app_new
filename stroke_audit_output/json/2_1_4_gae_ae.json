@@ -1,0 +1,206 @@
+{
+  "id": "2_1_4",
+  "title": {
+    "ko": "(4) 개 계열(…ㅐ)",
+    "en": "(4) GAE set (…ㅐ)"
+  },
+  "description": {
+    "ko": "자음과 ㅐ가 좌우로 결합한 음절(개~해).",
+    "en": "Consonant + ㅐ in a left–right layout (gae…hae).",
+    "zh": "子音与ㅐ的左右结合法（개~해）。",
+    "ja": "子音とㅐの左右結合（개〜해）。",
+    "vi": "Phụ âm + ㅐ theo bố cục trái–phải (gae…hae).",
+    "fr": "Consonne + ㅐ en disposition gauche‑droite (gae…hae).",
+    "es": "Consonante + ㅐ en disposición izquierda‑derecha (gae…hae).",
+    "ru": "Согласная + ㅐ в лево‑правой компоновке (gae…hae).",
+    "mn": "Гийгүүлэгч + ㅐ зүүн‑баруун байрлалтай (gae…hae)."
+  },
+  "chars": [
+    {
+      "label": "개",
+      "ttsKey": "gae",
+      "core": true,
+      "strokeOrder": "assets/strokes/gae.json",
+      "guideOnly": true,
+      "freq": "high",
+      "writing": {
+        "order": "assets/strokes/gae.json",
+        "strokes": [],
+        "guideOnly": true
+      }
+    },
+    {
+      "label": "내",
+      "ttsKey": "nae",
+      "core": true,
+      "strokeOrder": "assets/strokes/nae.json",
+      "guideOnly": true,
+      "freq": "high",
+      "writing": {
+        "order": "assets/strokes/nae.json",
+        "strokes": [],
+        "guideOnly": true
+      }
+    },
+    {
+      "label": "대",
+      "ttsKey": "dae",
+      "core": true,
+      "strokeOrder": "assets/strokes/dae.json",
+      "guideOnly": true,
+      "freq": "high",
+      "writing": {
+        "order": "assets/strokes/dae.json",
+        "strokes": [],
+        "guideOnly": true
+      }
+    },
+    {
+      "label": "래",
+      "ttsKey": "rae",
+      "core": true,
+      "strokeOrder": "assets/strokes/rae.json",
+      "guideOnly": true,
+      "freq": "high",
+      "writing": {
+        "order": "assets/strokes/rae.json",
+        "strokes": [],
+        "guideOnly": true
+      }
+    },
+    {
+      "label": "매",
+      "ttsKey": "mae",
+      "core": true,
+      "strokeOrder": "assets/strokes/mae.json",
+      "guideOnly": true,
+      "freq": "high",
+      "writing": {
+        "order": "assets/strokes/mae.json",
+        "strokes": [],
+        "guideOnly": true
+      }
+    },
+    {
+      "label": "배",
+      "ttsKey": "bae",
+      "core": true,
+      "strokeOrder": "assets/strokes/bae.json",
+      "guideOnly": true,
+      "freq": "high",
+      "writing": {
+        "order": "assets/strokes/bae.json",
+        "strokes": [],
+        "guideOnly": true
+      }
+    },
+    {
+      "label": "새",
+      "ttsKey": "sae",
+      "core": true,
+      "strokeOrder": "assets/strokes/sae.json",
+      "guideOnly": true,
+      "freq": "high",
+      "writing": {
+        "order": "assets/strokes/sae.json",
+        "strokes": [],
+        "guideOnly": true
+      }
+    },
+    {
+      "label": "애",
+      "ttsKey": "ae",
+      "core": true,
+      "strokeOrder": "assets/strokes/ae.json",
+      "guideOnly": true,
+      "freq": "high",
+      "writing": {
+        "order": "assets/strokes/ae.json",
+        "strokes": [],
+        "guideOnly": true
+      }
+    },
+    {
+      "label": "재",
+      "ttsKey": "jae",
+      "core": true,
+      "strokeOrder": "assets/strokes/jae.json",
+      "guideOnly": true,
+      "freq": "high",
+      "writing": {
+        "order": "assets/strokes/jae.json",
+        "strokes": [],
+        "guideOnly": true
+      }
+    },
+    {
+      "label": "채",
+      "ttsKey": "chae",
+      "core": true,
+      "strokeOrder": "assets/strokes/chae.json",
+      "guideOnly": true,
+      "freq": "high",
+      "writing": {
+        "order": "assets/strokes/chae.json",
+        "strokes": [],
+        "guideOnly": true
+      }
+    },
+    {
+      "label": "캐",
+      "ttsKey": "kae",
+      "core": true,
+      "strokeOrder": "assets/strokes/kae.json",
+      "guideOnly": true,
+      "freq": "high",
+      "writing": {
+        "order": "assets/strokes/kae.json",
+        "strokes": [],
+        "guideOnly": true
+      }
+    },
+    {
+      "label": "태",
+      "ttsKey": "tae",
+      "core": true,
+      "strokeOrder": "assets/strokes/tae.json",
+      "guideOnly": true,
+      "freq": "high",
+      "writing": {
+        "order": "assets/strokes/tae.json",
+        "strokes": [],
+        "guideOnly": true
+      }
+    },
+    {
+      "label": "패",
+      "ttsKey": "pae",
+      "core": true,
+      "strokeOrder": "assets/strokes/pae.json",
+      "guideOnly": true,
+      "freq": "high",
+      "writing": {
+        "order": "assets/strokes/pae.json",
+        "strokes": [],
+        "guideOnly": true
+      }
+    },
+    {
+      "label": "해",
+      "ttsKey": "hae",
+      "core": true,
+      "strokeOrder": "assets/strokes/hae.json",
+      "guideOnly": true,
+      "freq": "high",
+      "writing": {
+        "order": "assets/strokes/hae.json",
+        "strokes": [],
+        "guideOnly": true
+      }
+    }
+  ],
+  "definition": {
+    "ko": "(4) 개 계열(…ㅐ) 단원의 핵심 정의",
+    "en": "Core definition of (4) GAE set (…ㅐ) section"
+  }
+}

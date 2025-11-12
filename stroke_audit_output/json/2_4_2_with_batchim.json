@@ -1,0 +1,526 @@
+{
+  "id": "2_4_2",
+  "ttsVersion": "1.0",
+  "title": {
+    "ko": "2.4 ‘ㅢ형’ 확장: 받침 포함(CVC)",
+    "en": "2.4 UI-type Extension: With Finals (CVC)",
+    "zh": "2.4 “ㅢ型”扩展：含终声 (CVC)",
+    "ja": "2.4 「ㅢ型」拡張：終声付き (CVC)",
+    "vi": "2.4 Mở rộng dạng “ㅢ”: có 받침 (CVC)",
+    "fr": "2.4 Type « ㅢ » : extension avec finale (CVC)",
+    "es": "2.4 Tipo «ㅢ»: extensión con final (CVC)",
+    "ru": "2.4 Тип «ㅢ»: расширение с финалью (CVC)",
+    "mn": "2.4 “ㅢ” төрөл өргөтгөл: 받чим‑тай (CVC)"
+  },
+  "description": {
+    "ko": "‘ㅢ형’(ㄴ/L자 배열)의 복합모음(ㅘ·ㅙ·ㅚ·ㅝ·ㅞ·ㅟ·ㅢ)에 자주 쓰이는 받침(CVC)을 우선 제시합니다. 실제 사용 빈도가 낮은 조합과 겹받침은 최소화하고, 필요한 경우 노트로 안내합니다.",
+    "en": "Frequent CVC forms with UI-type vowels (ㅘ/ㅙ/ㅚ/ㅝ/ㅞ/ㅟ/ㅢ) in the L-shaped layout. Rare combos and double finals are minimized; notes are provided where helpful.",
+    "zh": "列出“ㅢ型”（ㄴ/L形）复合元音常见的CVC组合。罕见组合与复合终声尽量减少，必要时以注释提示。",
+    "ja": "「ㅢ型」（ㄴ/L字）の複合母音で頻用されるCVCを優先掲載します。稀な組合せや複合終声は最小限にし、必要に応じて注記します。",
+    "vi": "Liệt kê các dạng CVC hay dùng với nguyên âm ghép kiểu ㅢ (bố cục ㄴ/L). Tổ hợp hiếm và 받침 kép được tối giản; có ghi chú khi cần.",
+    "fr": "CVC fréquents avec voyelles composées du type « ㅢ » (disposition en ㄴ/L). Les combinaisons rares et finales doubles sont limitées, avec notes si besoin.",
+    "es": "CVC frecuentes con las vocales compuestas del tipo «ㅢ» (disposición ㄴ/L). Combinaciones raras y finales dobles se limitan; se añaden notas cuando conviene.",
+    "ru": "Частотные CVC для составных гласных типа «ㅢ» (раскладка ㄴ/L). Редкие сочетания и двойные финали сведены к минимуму; при необходимости добавлены примечания.",
+    "mn": "“ㅢ” төрлийн (ㄴ/L) нийлмэл эгшигт түгээмэл CVC‑г түрүүлж үзүүлэв. Ховор ба давхар 받чимыг багасгаж, шаардлагатай үед тэмдэглэл хавсаргав."
+  },
+  "ttsRulesRoute": "/assets/data/common/tts_rules.json",
+  "notes": {
+    "ko": "종성 실현음: ㄱ·ㅋ·ㄲ→[k̚], ㅂ·ㅍ→[p̚], ㄷ/ㅅ/ㅆ/ㅈ/ㅊ/ㅌ/ㅎ→[t̚], ㄴ[n], ㄹ[l], ㅁ[m], ㅇ[ŋ]. ㅢ(의/희)는 위치에 따라 [의/이/에]로 변동될 수 있습니다.",
+    "en": "Coda allophones as standard (e.g., ㄱ/ㅋ/ㄲ→[k̚], ㅂ/ㅍ→[p̚], …). ㅢ may surface as [ɰi]/[i]/[e] depending on position.",
+    "zh": "终声同位异音遵循常规；ㅢ在不同位置可读作[ɰi]/[i]/[e]。",
+    "ja": "終声の実現音は一般則に従う。ㅢは位置により[ɰi]/[i]/[e]となる場合あり。",
+    "vi": "Âm cuối theo quy tắc chuẩn; ㅢ có thể phát âm [ɰi]/[i]/[e] tùy vị trí.",
+    "fr": "Finales selon les règles standard ; ㅢ peut se réaliser [ɰi]/[i]/[e] selon la position.",
+    "es": "Finales según reglas estándar; ㅢ puede sonar [ɰi]/[i]/[e] según la posición.",
+    "ru": "Финали по стандартным правилам; ㅢ может звучать как [ɰi]/[i]/[e] в зависимости от позиции.",
+    "mn": "Эцсийн гийгүүлэгчийн авиалалт стандартын дагуу; ㅢ нь байрлалаас хамаарч [ɰi]/[i]/[e] байж болно."
+  },
+  "sections": {
+    "cvc": {
+      "groups": [
+        {
+          "vowel": "ㅘ",
+          "baseExamples": [
+            "과"
+          ],
+          "commonFinals": [
+            "ㄴ",
+            "ㄹ",
+            "ㅁ",
+            "ㅇ",
+            "ㄱ"
+          ],
+          "items": [
+            {
+              "syllable": "관",
+              "final": "ㄴ",
+              "tts": {
+                "ko": "관",
+                "ipa": "kwan",
+                "roman": "gwan",
+                "final": "n",
+                "rule": "auto"
+              },
+              "samples": [
+                "관계",
+                "관광"
+              ],
+              "writing": {
+                "strokes": [],
+                "guideOnly": true
+              },
+              "guideOnly": true
+            },
+            {
+              "syllable": "괄",
+              "final": "ㄹ",
+              "tts": {
+                "ko": "괄",
+                "ipa": "kwal",
+                "roman": "gwal",
+                "final": "l",
+                "rule": "auto"
+              },
+              "samples": [
+                "괄호"
+              ],
+              "writing": {
+                "strokes": [],
+                "guideOnly": true
+              },
+              "guideOnly": true
+            },
+            {
+              "syllable": "괌",
+              "final": "ㅁ",
+              "tts": {
+                "ko": "괌",
+                "ipa": "kwam",
+                "roman": "gwam",
+                "final": "m",
+                "rule": "auto"
+              },
+              "samples": [
+                "괌"
+              ],
+              "writing": {
+                "strokes": [],
+                "guideOnly": true
+              },
+              "guideOnly": true
+            },
+            {
+              "syllable": "광",
+              "final": "ㅇ",
+              "tts": {
+                "ko": "광",
+                "ipa": "kwaŋ",
+                "roman": "gwang",
+                "final": "ŋ",
+                "rule": "auto"
+              },
+              "samples": [
+                "광고",
+                "광장"
+              ],
+              "writing": {
+                "strokes": [],
+                "guideOnly": true
+              },
+              "guideOnly": true
+            },
+            {
+              "syllable": "곽",
+              "final": "ㄱ",
+              "tts": {
+                "ko": "곽",
+                "ipa": "kwak̚",
+                "roman": "gwak",
+                "final": "k̚",
+                "rule": "auto"
+              },
+              "samples": [
+                "곽(姓)"
+              ],
+              "writing": {
+                "strokes": [],
+                "guideOnly": true
+              },
+              "guideOnly": true
+            }
+          ]
+        },
+        {
+          "vowel": "ㅙ·ㅚ",
+          "baseExamples": [
+            "괘",
+            "괴"
+          ],
+          "commonFinals": [
+            "ㄴ",
+            "ㄹ",
+            "ㅁ",
+            "ㅇ"
+          ],
+          "items": [
+            {
+              "syllable": "괜",
+              "final": "ㄴ",
+              "tts": {
+                "ko": "괜",
+                "ipa": "kwɛn",
+                "roman": "gwaen",
+                "final": "n",
+                "rule": "auto"
+              },
+              "samples": [
+                "괜찮다"
+              ],
+              "writing": {
+                "strokes": [],
+                "guideOnly": true
+              },
+              "guideOnly": true
+            },
+            {
+              "syllable": "괼",
+              "final": "ㄹ",
+              "tts": {
+                "ko": "괼",
+                "ipa": "kwɛl",
+                "roman": "gwael",
+                "final": "l",
+                "rule": "auto"
+              },
+              "writing": {
+                "strokes": [],
+                "guideOnly": true
+              },
+              "guideOnly": true
+            },
+            {
+              "syllable": "괸",
+              "final": "ㄴ",
+              "tts": {
+                "ko": "괸",
+                "ipa": "kwen",
+                "roman": "goen",
+                "final": "n",
+                "rule": "auto"
+              },
+              "writing": {
+                "strokes": [],
+                "guideOnly": true
+              },
+              "guideOnly": true
+            },
+            {
+              "syllable": "괼(괴)",
+              "final": "ㄹ",
+              "tts": {
+                "ko": "괼",
+                "ipa": "kwel",
+                "roman": "goel",
+                "final": "l",
+                "rule": "auto"
+              },
+              "writing": {
+                "strokes": [],
+                "guideOnly": true
+              },
+              "guideOnly": true
+            }
+          ],
+          "note": {
+            "ko": "ㅙ/ㅚ는 사용 빈도가 낮아 대표 조합 위주로 제시합니다.",
+            "en": "ㅙ/ㅚ are less frequent; we keep only representative pairs."
+          }
+        },
+        {
+          "vowel": "ㅝ",
+          "baseExamples": [
+            "워"
+          ],
+          "commonFinals": [
+            "ㄴ",
+            "ㄹ",
+            "ㅁ",
+            "ㅇ",
+            "ㅂ"
+          ],
+          "items": [
+            {
+              "syllable": "원",
+              "final": "ㄴ",
+              "tts": {
+                "ko": "원",
+                "ipa": "wʌn",
+                "roman": "won",
+                "final": "n",
+                "rule": "auto"
+              },
+              "samples": [
+                "원인",
+                "원화"
+              ],
+              "writing": {
+                "strokes": [],
+                "guideOnly": true
+              },
+              "guideOnly": true
+            },
+            {
+              "syllable": "월",
+              "final": "ㄹ",
+              "tts": {
+                "ko": "월",
+                "ipa": "wʌl",
+                "roman": "wol",
+                "final": "l",
+                "rule": "auto"
+              },
+              "samples": [
+                "월요일",
+                "월급"
+              ],
+              "writing": {
+                "strokes": [],
+                "guideOnly": true
+              },
+              "guideOnly": true
+            },
+            {
+              "syllable": "웜",
+              "final": "ㅁ",
+              "tts": {
+                "ko": "웜",
+                "ipa": "wʌm",
+                "roman": "wom",
+                "final": "m",
+                "rule": "auto"
+              },
+              "writing": {
+                "strokes": [],
+                "guideOnly": true
+              },
+              "guideOnly": true
+            },
+            {
+              "syllable": "웅",
+              "final": "ㅇ",
+              "tts": {
+                "ko": "웅",
+                "ipa": "uŋ",
+                "roman": "ung",
+                "final": "ŋ",
+                "rule": "auto"
+              },
+              "samples": [
+                "웅변"
+              ],
+              "writing": {
+                "strokes": [],
+                "guideOnly": true
+              },
+              "guideOnly": true
+            },
+            {
+              "syllable": "웝",
+              "final": "ㅂ",
+              "tts": {
+                "ko": "웝",
+                "ipa": "wʌp̚",
+                "roman": "wop",
+                "final": "p̚",
+                "rule": "auto"
+              },
+              "writing": {
+                "strokes": [],
+                "guideOnly": true
+              },
+              "guideOnly": true
+            }
+          ]
+        },
+        {
+          "vowel": "ㅞ·ㅟ",
+          "baseExamples": [
+            "웨",
+            "위"
+          ],
+          "commonFinals": [
+            "ㄴ",
+            "ㄹ",
+            "ㅁ",
+            "ㅇ",
+            "ㄱ"
+          ],
+          "items": [
+            {
+              "syllable": "웬",
+              "final": "ㄴ",
+              "tts": {
+                "ko": "웬",
+                "ipa": "wen",
+                "roman": "wen",
+                "final": "n",
+                "rule": "auto"
+              },
+              "samples": [
+                "웬일"
+              ],
+              "writing": {
+                "strokes": [],
+                "guideOnly": true
+              },
+              "guideOnly": true
+            },
+            {
+              "syllable": "웰",
+              "final": "ㄹ",
+              "tts": {
+                "ko": "웰",
+                "ipa": "wel",
+                "roman": "wel",
+                "final": "l",
+                "rule": "auto"
+              },
+              "samples": [
+                "웰빙"
+              ],
+              "writing": {
+                "strokes": [],
+                "guideOnly": true
+              },
+              "guideOnly": true
+            },
+            {
+              "syllable": "윈",
+              "final": "ㄴ",
+              "tts": {
+                "ko": "윈",
+                "ipa": "win",
+                "roman": "win",
+                "final": "n",
+                "rule": "auto"
+              },
+              "samples": [
+                "윈도우"
+              ],
+              "writing": {
+                "strokes": [],
+                "guideOnly": true
+              },
+              "guideOnly": true
+            },
+            {
+              "syllable": "윌",
+              "final": "ㄹ",
+              "tts": {
+                "ko": "윌",
+                "ipa": "wil",
+                "roman": "wil",
+                "final": "l",
+                "rule": "auto"
+              },
+              "writing": {
+                "strokes": [],
+                "guideOnly": true
+              },
+              "guideOnly": true
+            },
+            {
+              "syllable": "윙",
+              "final": "ㅇ",
+              "tts": {
+                "ko": "윙",
+                "ipa": "wiŋ",
+                "roman": "wing",
+                "final": "ŋ",
+                "rule": "auto"
+              },
+              "samples": [
+                "윙크"
+              ],
+              "writing": {
+                "strokes": [],
+                "guideOnly": true
+              },
+              "guideOnly": true
+            }
+          ],
+          "note": {
+            "ko": "ㅞ/ㅟ의 CVC는 외래어·신조어 의존도가 높습니다.",
+            "en": "CVC with ㅞ/ㅟ often appears in loans/neologisms."
+          }
+        },
+        {
+          "vowel": "ㅢ",
+          "baseExamples": [
+            "의",
+            "희"
+          ],
+          "commonFinals": [
+            "ㄴ",
+            "ㄹ"
+          ],
+          "items": [
+            {
+              "syllable": "흰",
+              "final": "ㄴ",
+              "tts": {
+                "ko": "흰",
+                "ipa": "hin",
+                "roman": "hwin",
+                "final": "n",
+                "rule": "override",
+                "note": {
+                  "ko": "현대 발음 [힌] 경향",
+                  "en": "Surfaces as [hin] in modern speech"
+                }
+              },
+              "samples": [
+                "흰색"
+              ],
+              "writing": {
+                "strokes": [],
+                "guideOnly": true
+              },
+              "guideOnly": true
+            },
+            {
+              "syllable": "힐",
+              "final": "ㄹ",
+              "tts": {
+                "ko": "힐",
+                "ipa": "hil",
+                "roman": "hwil",
+                "final": "l",
+                "rule": "override",
+                "note": {
+                  "ko": "‘희’ 기반의 현대 발음 [히l] 경향",
+                  "en": "Often pronounced [hil]"
+                }
+              },
+              "writing": {
+                "strokes": [],
+                "guideOnly": true
+              },
+              "guideOnly": true
+            }
+          ],
+          "note": {
+            "ko": "‘의’의 CVC(읜 등)는 현대 국어에서 극히 드뭅니다. 표기와 발음의 괴리를 주의하세요(의/이/에).",
+            "en": "CVC with 의 (e.g., 읜) is very rare in modern Korean. Mind orthography–pronunciation mismatch (ui/i/e)."
+          }
+        }
+      ],
+      "doubleFinals": {
+        "note": {
+          "ko": "‘ㅢ형’에서는 겹받침 CVC의 실제 사용이 매우 제한적입니다. 교육적 혼란 방지를 위해 본 단원에서는 예시를 생략하고, 겹받침 일반 규칙은 공통 노트에서 안내합니다.",
+          "en": "Double-final CVCs are extremely limited for the UI-type. To avoid confusion, examples are omitted here; see common notes for general rules."
+        }
+      }
+    }
+  }
+}

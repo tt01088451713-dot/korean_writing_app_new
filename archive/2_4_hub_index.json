@@ -1,0 +1,48 @@
+{
+  "id": "2_4_hub_index",
+  "type": "subhub",
+  "title": {
+    "ko": "ㅢ형",
+    "en": "Ui-type (ㅢ)",
+    "ja": "ㅢ型",
+    "zh": "“ㅢ”型",
+    "vi": "Dạng ㅢ",
+    "fr": "Type ㅢ",
+    "de": "ㅢ-Typ",
+    "es": "Tipo ㅢ",
+    "ru": "Тип ㅢ",
+    "mn": "ㅢ хэлбэр"
+  },
+  "subtitle": {
+    "ko": "‘ㅢ’형 배치 규칙에 맞춘 글자 구조",
+    "en": "Syllable layout following the Ui-type rules",
+    "ja": "「ㅢ型」の配置規則に基づく文字構造",
+    "zh": "符合“ㅢ型”布局规则的字形结构",
+    "vi": "Cấu trúc chữ theo quy tắc bố cục kiểu ㅢ",
+    "fr": "Structure conforme aux règles de mise en page de type ㅢ",
+    "de": "Struktur gemäß den Layout-Regeln des ㅢ-Typs",
+    "es": "Estructura acorde a las reglas del tipo ㅢ",
+    "ru": "Структура по правилам компоновки типа ㅢ",
+    "mn": "“ㅢ” төрлийн байрлалын дүрэмд нийцсэн бүтэц"
+  },
+  "overviewRef": "assets/data/letters/overviews/2_4_overview.json",
+  "defaultVariant": "base",
+  "variants": [
+    {
+      "key": "base",
+      "title": {
+        "ko": "초성+중성 (받침 없음)",
+        "en": "Initial+Medial (no final)"
+      },
+      "route": "assets/data/letters/2_4_index.json"
+    },
+    {
+      "key": "batchim",
+      "title": {
+        "ko": "초성+중성+종성 (받침 포함)",
+        "en": "Initial+Medial+Final (with batchim)"
+      },
+      "route": "assets/data/letters/2_4_with_batchim_index.json"
+    }
+  ]
+}

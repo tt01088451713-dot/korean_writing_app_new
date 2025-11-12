@@ -1,0 +1,230 @@
+{
+  "unit": "4. 문장",
+  "lesson_id": "4_1",
+  "title": {
+    "ko": "기초 문장",
+    "en": "Basic Sentences",
+    "ja": "基礎文",
+    "zh": "基础句子",
+    "vi": "Câu cơ bản",
+    "fr": "Phrases de base",
+    "de": "Einfache Sätze",
+    "es": "Oraciones básicas",
+    "ru": "Базовые предложения",
+    "mn": "Үндсэн өгүүлбэрүүд"
+  },
+  "patterns": [
+    {
+      "id": "p_sov_01",
+      "name": {
+        "ko": "SOV 기본형",
+        "en": "SOV Basic",
+        "ja": "SOV基本型",
+        "zh": "SOV 基本型",
+        "vi": "Mẫu SOV cơ bản",
+        "fr": "SOV de base",
+        "de": "SOV-Grundmuster",
+        "es": "SOV básico",
+        "ru": "Базовый SOV",
+        "mn": "SOV үндсэн хэлбэр"
+      },
+      "explain": {
+        "ko": "한국어의 기본 어순은 주어-목적어-서술어(SOV)입니다.",
+        "en": "Korean basic word order is Subject–Object–Verb (SOV).",
+        "ja": "韓国語の基本語順は主語–目的語–述語（SOV）です。",
+        "zh": "韩语的基本语序是主语–宾语–谓语（SOV）。",
+        "vi": "Trật tự cơ bản của tiếng Hàn là Chủ ngữ–Tân ngữ–Vị ngữ (SOV).",
+        "fr": "L’ordre de base en coréen est Sujet–Objet–Verbe (SOV).",
+        "de": "Die Grundwortstellung im Koreanischen ist Subjekt–Objekt–Verb (SOV).",
+        "es": "El orden básico en coreano es Sujeto–Objeto–Verbo (SOV).",
+        "ru": "Базовый порядок слов: Подлежащее–Дополнение–Сказуемое (SOV).",
+        "mn": "Үндсэн дараалал нь Эзэгнэгч–Тусагдсан–Өгүүлэхүй (SOV) юм."
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": "s_0001",
+      "type": "sentence",
+      "text": "저는 책을 읽어요.",
+      "translations": {
+        "ko": "",
+        "en": "I read a book.",
+        "ja": "私は本を読みます。",
+        "zh": "我看书。",
+        "vi": "Tôi đọc sách.",
+        "fr": "Je lis un livre.",
+        "de": "Ich lese ein Buch.",
+        "es": "Leo un libro.",
+        "ru": "Я читаю книгу.",
+        "mn": "Би ном уншдаг."
+      },
+      "reading": { "enabled": true, "display": "text", "fragments": ["저는", "책을", "읽어요."] },
+      "writing": { "enabled": true, "guides": ["저는", "책을", "읽어요."] },
+      "tts": { "text": "저는 책을 읽어요.", "lang": "ko-KR", "rate": 0.5, "pitch": 1.0, "volume": 1.0 },
+      "metadata": { "pattern": "SOV", "politeness": "해요체", "themes": ["독서", "일상"] }
+    },
+    {
+      "id": "s_0002",
+      "type": "sentence",
+      "text": "학생이 교실에 있어요.",
+      "translations": {
+        "ko": "",
+        "en": "The student is in the classroom.",
+        "ja": "学生が教室にいます。",
+        "zh": "学生在教室里。",
+        "vi": "Học sinh ở trong lớp học.",
+        "fr": "L'élève est dans la salle de classe.",
+        "de": "Der Schüler ist im Klassenzimmer.",
+        "es": "El estudiante está en el aula.",
+        "ru": "Студент находится в классе.",
+        "mn": "Оюутан анги дотор байна."
+      },
+      "reading": { "enabled": true, "display": "text", "fragments": ["학생이", "교실에", "있어요."] },
+      "writing": { "enabled": true, "guides": ["학생이", "교실에", "있어요."] },
+      "tts": { "text": "학생이 교실에 있어요.", "lang": "ko-KR", "rate": 0.5, "pitch": 1.0, "volume": 1.0 },
+      "metadata": { "pattern": "S-LOC-V", "politeness": "해요체", "themes": ["학교", "위치"] }
+    },
+    {
+      "id": "s_0003",
+      "type": "sentence",
+      "text": "친구를 만나요.",
+      "translations": {
+        "ko": "",
+        "en": "I meet a friend.",
+        "ja": "友だちに会います。",
+        "zh": "见朋友。",
+        "vi": "Tôi gặp bạn.",
+        "fr": "Je rencontre un ami.",
+        "de": "Ich treffe einen Freund.",
+        "es": "Me encuentro con un amigo.",
+        "ru": "Встречаюсь с другом.",
+        "mn": "Би найзтайгаа уулздаг."
+      },
+      "reading": { "enabled": true, "display": "text", "fragments": ["친구를", "만나요."] },
+      "writing": { "enabled": true, "guides": ["친구를", "만나요."] },
+      "tts": { "text": "친구를 만나요.", "lang": "ko-KR", "rate": 0.5, "pitch": 1.0, "volume": 1.0 },
+      "metadata": { "pattern": "OV-V", "politeness": "해요체", "themes": ["사람/관계"] }
+    },
+    {
+      "id": "s_0004",
+      "type": "sentence",
+      "text": "저는 학교에 가요.",
+      "translations": {
+        "ko": "",
+        "en": "I go to school.",
+        "ja": "私は学校へ行きます。",
+        "zh": "我去学校。",
+        "vi": "Tôi đi đến trường.",
+        "fr": "Je vais à l'école.",
+        "de": "Ich gehe zur Schule.",
+        "es": "Voy a la escuela.",
+        "ru": "Я иду в школу.",
+        "mn": "Би сургууль руу явдаг."
+      },
+      "reading": { "enabled": true, "display": "text", "fragments": ["저는", "학교에", "가요."] },
+      "writing": { "enabled": true, "guides": ["저는", "학교에", "가요."] },
+      "tts": { "text": "저는 학교에 가요.", "lang": "ko-KR", "rate": 0.5, "pitch": 1.0, "volume": 1.0 },
+      "metadata": { "pattern": "S-LOC-V", "politeness": "해요체", "themes": ["이동", "학교"] }
+    },
+    {
+      "id": "s_0005",
+      "type": "sentence",
+      "text": "물을 마셔요.",
+      "translations": {
+        "ko": "",
+        "en": "I drink water.",
+        "ja": "水を飲みます。",
+        "zh": "我喝水。",
+        "vi": "Tôi uống nước.",
+        "fr": "Je bois de l'eau.",
+        "de": "Ich trinke Wasser.",
+        "es": "Bebo agua.",
+        "ru": "Я пью воду.",
+        "mn": "Би ус уудаг."
+      },
+      "reading": { "enabled": true, "display": "text", "fragments": ["물을", "마셔요."] },
+      "writing": { "enabled": true, "guides": ["물을", "마셔요."] },
+      "tts": { "text": "물을 마셔요.", "lang": "ko-KR", "rate": 0.5, "pitch": 1.0, "volume": 1.0 },
+      "metadata": { "pattern": "OV-V", "politeness": "해요체", "themes": ["음식/음료"] }
+    },
+    {
+      "id": "s_0006",
+      "type": "sentence",
+      "text": "집이 커요.",
+      "translations": {
+        "ko": "",
+        "en": "The house is big.",
+        "ja": "家が大きいです。",
+        "zh": "房子很大。",
+        "vi": "Ngôi nhà lớn.",
+        "fr": "La maison est grande.",
+        "de": "Das Haus ist groß.",
+        "es": "La casa es grande.",
+        "ru": "Дом большой.",
+        "mn": "Байшин том байна."
+      },
+      "reading": { "enabled": true, "display": "text", "fragments": ["집이", "커요."] },
+      "writing": { "enabled": true, "guides": ["집이", "커요."] },
+      "tts": { "text": "집이 커요.", "lang": "ko-KR", "rate": 0.5, "pitch": 1.0, "volume": 1.0 },
+      "metadata": { "pattern": "S-V", "politeness": "해요체", "themes": ["가정", "묘사"] }
+    }
+  ],
+  "activities": [
+    {
+      "id": "a_read_sent_01",
+      "type": "read_sentences",
+      "title": {
+        "ko": "읽기 모드",
+        "en": "Reading Mode",
+        "ja": "読む",
+        "zh": "阅读",
+        "vi": "Đọc",
+        "fr": "Lecture",
+        "de": "Lesen",
+        "es": "Lectura",
+        "ru": "Чтение",
+        "mn": "Унших"
+      },
+      "options": { "items": ["s_0001","s_0002","s_0003","s_0004","s_0005","s_0006"], "autoShuffle": false }
+    },
+    {
+      "id": "a_read_reorder_01",
+      "type": "read_reorder_fragments",
+      "title": {
+        "ko": "어절 순서 배열",
+        "en": "Reorder Words",
+        "ja": "語順並べ替え",
+        "zh": "词序排列",
+        "vi": "Sắp xếp trật tự từ",
+        "fr": "Remettre en ordre",
+        "de": "Wörter ordnen",
+        "es": "Ordenar palabras",
+        "ru": "Упорядочить слова",
+        "mn": "Үгийг дарааллуулах"
+      },
+      "options": { "target": "s_0001", "fragments": ["저는","책을","읽어요."] }
+    },
+    {
+      "id": "a_write_sent_01",
+      "type": "write_sentences",
+      "title": {
+        "ko": "문장 따라 쓰기",
+        "en": "Copy the Sentences",
+        "ja": "文を書き写す",
+        "zh": "抄写句子",
+        "vi": "Chép câu",
+        "fr": "Copier les phrases",
+        "de": "Sätze abschreiben",
+        "es": "Copiar las oraciones",
+        "ru": "Переписать предложения",
+        "mn": "Өгүүлбэр хуулж бич"
+      },
+      "options": { "items": ["s_0002","s_0004","s_0005"] }
+    }
+  ],
+  "routing": {
+    "hubRoute": "/sentences/hub",
+    "detailRoute": "/sentences/lesson"
+  }
+}

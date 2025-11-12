@@ -33,7 +33,9 @@ class Tts {
     await _ensureInit();
     final voice = kVoiceByLang[lang];
     if (voice != null) {
-      try { await _tts.setLanguage(voice); } catch (_) {}
+      try {
+        await _tts.setLanguage(voice);
+      } catch (_) {}
     }
     await _tts.speak(t);
   }

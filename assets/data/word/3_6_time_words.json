@@ -1,0 +1,128 @@
+{
+  "unit": "3. 단어",
+  "lesson_id": "3_6",
+  "title": {
+    "ko": "시간/날짜 단어",
+    "en": "Time/Date Words",
+    "ja": "時間/日付の単語",
+    "zh": "时间/日期词汇",
+    "vi": "Từ về thời gian/ngày tháng",
+    "fr": "Mots du temps/de la date",
+    "de": "Wörter zu Zeit/Datum",
+    "es": "Palabras de tiempo/fecha",
+    "ru": "Слова: время/дата",
+    "mn": "Цаг/огнооны үгс"
+  },
+  "themes": [
+    { "id": "t_basic", "name": { "ko": "기본", "en": "Basics" } },
+    { "id": "t_day", "name": { "ko": "날짜/요일", "en": "Date/Weekday" } },
+    { "id": "t_clock", "name": { "ko": "시각", "en": "Clock Time" } }
+  ],
+  "items": [
+    {
+      "id": "tw_0001",
+      "type": "word",
+      "text": "오늘",
+      "meanings": { "ko": "", "en": "today", "ja": "今日", "zh": "今天", "vi": "hôm nay", "fr": "aujourd'hui", "de": "heute", "es": "hoy", "ru": "сегодня", "mn": "өнөөдөр" },
+      "reading": { "enabled": true },
+      "writing": { "enabled": true, "guides": ["오","늘"] },
+      "tts": { "text": "오늘", "lang": "ko-KR", "rate": 0.5 },
+      "metadata": { "theme": "기본" }
+    },
+    {
+      "id": "tw_0002",
+      "type": "word",
+      "text": "내일",
+      "meanings": { "ko": "", "en": "tomorrow", "ja": "明日", "zh": "明天", "vi": "ngày mai", "fr": "demain", "de": "morgen", "es": "mañana", "ru": "завтра", "mn": "маргааш" },
+      "reading": { "enabled": true },
+      "writing": { "enabled": true, "guides": ["내","일"] },
+      "tts": { "text": "내일", "lang": "ko-KR", "rate": 0.5 },
+      "metadata": { "theme": "기본" }
+    },
+    {
+      "id": "tw_0003",
+      "type": "word",
+      "text": "어제",
+      "meanings": { "ko": "", "en": "yesterday", "ja": "昨日", "zh": "昨天", "vi": "hôm qua", "fr": "hier", "de": "gestern", "es": "ayer", "ru": "вчера", "mn": "өчигдөр" },
+      "reading": { "enabled": true },
+      "writing": { "enabled": true, "guides": ["어","제"] },
+      "tts": { "text": "어제", "lang": "ko-KR", "rate": 0.5 },
+      "metadata": { "theme": "기본" }
+    },
+    {
+      "id": "tw_0004",
+      "type": "word",
+      "text": "지금",
+      "meanings": { "ko": "", "en": "now", "ja": "今", "zh": "现在", "vi": "bây giờ", "fr": "maintenant", "de": "jetzt", "es": "ahora", "ru": "сейчас", "mn": "одоо" },
+      "reading": { "enabled": true },
+      "writing": { "enabled": true, "guides": ["지","금"] },
+      "tts": { "text": "지금", "lang": "ko-KR", "rate": 0.5 },
+      "metadata": { "theme": "기본" }
+    },
+    {
+      "id": "tw_0005",
+      "type": "word",
+      "text": "시계",
+      "meanings": { "ko": "", "en": "clock/watch", "ja": "時計", "zh": "钟表", "vi": "đồng hồ", "fr": "montre/horloge", "de": "Uhr", "es": "reloj", "ru": "часы", "mn": "цаг" },
+      "reading": { "enabled": true },
+      "writing": { "enabled": true, "guides": ["시","계"] },
+      "tts": { "text": "시계", "lang": "ko-KR", "rate": 0.48 },
+      "metadata": { "theme": "시각" }
+    },
+    {
+      "id": "tw_0006",
+      "type": "word",
+      "text": "시간",
+      "meanings": { "ko": "", "en": "time (duration/hour)", "ja": "時間", "zh": "时间", "vi": "thời gian", "fr": "temps/heure", "de": "Zeit/Stunde", "es": "tiempo/hora", "ru": "время/час", "mn": "цаг хугацаа" },
+      "reading": { "enabled": true },
+      "writing": { "enabled": true, "guides": ["시","간"] },
+      "tts": { "text": "시간", "lang": "ko-KR", "rate": 0.48 },
+      "metadata": { "theme": "시각" }
+    },
+    {
+      "id": "tw_0007",
+      "type": "word",
+      "text": "분",
+      "meanings": { "ko": "", "en": "minute", "ja": "分", "zh": "分钟", "vi": "phút", "fr": "minute", "de": "Minute", "es": "minuto", "ru": "минута", "mn": "минут" },
+      "reading": { "enabled": true },
+      "writing": { "enabled": true, "guides": ["분"] },
+      "tts": { "text": "분", "lang": "ko-KR", "rate": 0.48 },
+      "metadata": { "theme": "시각" }
+    },
+    {
+      "id": "tw_0008",
+      "type": "word",
+      "text": "요일",
+      "meanings": { "ko": "", "en": "day of the week", "ja": "曜日", "zh": "星期（几）", "vi": "thứ/Ngày trong tuần", "fr": "jour de la semaine", "de": "Wochentag", "es": "día de la semana", "ru": "день недели", "mn": "гараг" },
+      "reading": { "enabled": true },
+      "writing": { "enabled": true, "guides": ["요","일"] },
+      "tts": { "text": "요일", "lang": "ko-KR", "rate": 0.5 },
+      "metadata": { "theme": "날짜/요일" }
+    },
+    {
+      "id": "tw_0009",
+      "type": "word",
+      "text": "오늘 밤",
+      "meanings": { "ko": "", "en": "tonight", "ja": "今夜", "zh": "今晚", "vi": "tối nay", "fr": "ce soir", "de": "heute Abend", "es": "esta noche", "ru": "сегодня вечером", "mn": "өнөө орой" },
+      "reading": { "enabled": true },
+      "writing": { "enabled": true, "guides": ["오","늘","밤"] },
+      "tts": { "text": "오늘 밤", "lang": "ko-KR", "rate": 0.5 },
+      "metadata": { "theme": "기본" }
+    },
+    {
+      "id": "tw_0010",
+      "type": "word",
+      "text": "내년",
+      "meanings": { "ko": "", "en": "next year", "ja": "来年", "zh": "明年", "vi": "năm sau", "fr": "l'année prochaine", "de": "nächstes Jahr", "es": "el próximo año", "ru": "следующий год", "mn": "ирэх жил" },
+      "reading": { "enabled": true },
+      "writing": { "enabled": true, "guides": ["내","년"] },
+      "tts": { "text": "내년", "lang": "ko-KR", "rate": 0.5 },
+      "metadata": { "theme": "날짜/요일" }
+    }
+  ],
+  "activities": [
+    { "id": "a_read_cards_time_basic", "type": "read_cards", "title": { "ko": "읽기 카드: 기본", "en": "Reading Cards: Basics" }, "options": { "items": ["tw_0001","tw_0002","tw_0003","tw_0004"], "autoShuffle": true } },
+    { "id": "a_write_time_clock", "type": "write_words", "title": { "ko": "따라 쓰기: 시각", "en": "Copy Words: Clock Time" }, "options": { "items": ["tw_0005","tw_0006","tw_0007"] } }
+  ],
+  "routing": { "hubRoute": "/words/hub", "detailRoute": "/words/lesson" }
+}

@@ -1,0 +1,343 @@
+{
+  "unitId": "2_4_ui_index",
+  "id": "2_4",
+  "type": "hub",
+  "title": {
+    "ko": "2.4 ㅢ형 글자",
+    "en": "2.4 Ui-type Syllable Blocks",
+    "ja": "2.4 ㅢ型の音節",
+    "zh": "2.4 ㅢ型音节",
+    "vi": "2.4 Âm tiết kiểu ㅢ",
+    "fr": "2.4 Blocs syllabiques de type ㅢ",
+    "de": "2.4 Ui-Typ Silbenblöcke",
+    "es": "2.4 Bloques silábicos tipo ㅢ",
+    "ru": "2.4 Слоговые блоки типа ㅢ",
+    "mn": "2.4 ㅢ төрлийн үеийн блокууд"
+  },
+  "overviewRef": "assets/data/letters/overviews/2_4_overview.json",
+  "description": {
+    "ko": "복합 모음군을 초성+중성 → 초성+중성+종성(받침) 순서로 연습합니다. 카드를 누르면 곧바로 글자 선택 팝업이 뜨고, 선택 즉시 쓰기 연습으로 이동합니다. (ㅢ→ㅘ→ㅙ/ㅚ→ㅝ→ㅞ/ㅟ)",
+    "en": "Practice compound vowels in order: onset+vowel → onset+vowel+coda (batchim). Tap a card to open the picker and start practice immediately. (ㅢ→ㅘ→ㅙ/ㅚ→ㅝ→ㅞ/ㅟ)",
+    "ja": "複合母音を「初声+中声 → 初声+中声+終声（パッチム）」の順に練習します。カードをタップで選択ポップアップが開き、すぐ練習へ進みます。（ㅢ→ㅘ→ㅙ/ㅚ→ㅝ→ㅞ/ㅟ）",
+    "zh": "按“声母+韵母 → 声母+韵母+终声(收音)”的顺序练习复合元音。点按卡片可弹出选择器并立即进入练习。（ㅢ→ㅘ→ㅙ/ㅚ→ㅝ→ㅞ/ㅟ）",
+    "vi": "Luyện các nguyên âm ghép theo thứ tự: Âm đầu+Nguyên âm → Âm đầu+Nguyên âm+Âm cuối (받침). Chạm thẻ để mở bộ chọn và luyện ngay. (ㅢ→ㅘ→ㅙ/ㅚ→ㅝ→ㅞ/ㅟ)",
+    "fr": "Entraînez les voyelles composées : initiale+voyelle → initiale+voyelle+finale (batchim). Touchez une carte pour ouvrir le sélecteur et commencer aussitôt. (ㅢ→ㅘ→ㅙ/ㅚ→ㅝ→ㅞ/ㅟ)",
+    "de": "Üben Sie zusammengesetzte Vokale: Anlaut+Vokal → Anlaut+Vokal+Auslaut (Batchim). Tippen Sie auf eine Karte, um den Picker zu öffnen und sofort zu üben. (ㅢ→ㅘ→ㅙ/ㅚ→ㅝ→ㅞ/ㅟ)",
+    "es": "Practique las vocales compuestas: inicial+vocal → inicial+vocal+coda (batchim). Toca una tarjeta para abrir el selector y practicar de inmediato. (ㅢ→ㅘ→ㅙ/ㅚ→ㅝ→ㅞ/ㅟ)",
+    "ru": "Тренируйте составные гласные: нач. согл.+гласный → нач. согл.+гласный+конечн. (батчим). Нажмите на карточку, чтобы сразу перейти к письму. (ㅢ→ㅘ→ㅙ/ㅚ→ㅝ→ㅞ/ㅟ)",
+    "mn": "Хос эгшгийг дарааллаар: Эх+Эгшиг → Эх+Эгшиг+Төгсгөл (받침). Карт дарж сонгоод шууд бичих дасгал руу орно. (ㅢ→ㅘ→ㅙ/ㅚ→ㅝ→ㅞ/ㅟ)"
+  },
+  "items": [
+    {
+      "id": "2_4_1_cv_ui",
+      "title": {
+        "ko": "초성+중성 — ㅢ",
+        "en": "Onset+Vowel — ㅢ",
+        "ja": "初声+中声 — ㅢ",
+        "zh": "声母+韵母 — ㅢ",
+        "vi": "Âm đầu+Nguyên âm — ㅢ",
+        "fr": "Initiale+Voyelle — ㅢ",
+        "de": "Anlaut+Vokal — ㅢ",
+        "es": "Inicial+Vocal — ㅢ",
+        "ru": "Нач. согл.+гласн. — ㅢ",
+        "mn": "Эх гийгүүлэгч+Эгшиг — ㅢ"
+      },
+      "route": "assets/data/letters/2_4/2_4_1_ui_cv.json",
+      "directPractice": true,
+      "practicePickerTitle": {
+        "ko": "2.4.1 ㅢ — 쓰기 연습",
+        "en": "2.4.1 Ui — Writing practice",
+        "ja": "2.4.1 ㅢ — 書き取り練習",
+        "zh": "2.4.1 ㅢ — 书写练习",
+        "vi": "2.4.1 ㅢ — Luyện viết",
+        "fr": "2.4.1 ㅢ — Exercice d’écriture",
+        "de": "2.4.1 ㅢ — Schreibübung",
+        "es": "2.4.1 ㅢ — Práctica de escritura",
+        "ru": "2.4.1 ㅢ — Тренировка письма",
+        "mn": "2.4.1 ㅢ — Бичих дасгал"
+      },
+      "practiceSource": { "route": "assets/data/letters/2_4/2_4_1_ui_cv.json", "key": "sequence" }
+    },
+    {
+      "id": "2_4_1_cvc_ui",
+      "title": {
+        "ko": "초성+중성+종성(받침) — ㅢ",
+        "en": "Onset+Vowel+Coda (batchim) — ㅢ",
+        "ja": "初声+中声+終声（パッチム）— ㅢ",
+        "zh": "声母+韵母+终声（收音）— ㅢ",
+        "vi": "Âm đầu+Nguyên âm+Âm cuối (받침) — ㅢ",
+        "fr": "Initiale+Voyelle+Finale (batchim) — ㅢ",
+        "de": "Anlaut+Vokal+Auslaut (Batchim) — ㅢ",
+        "es": "Inicial+Vocal+Coda (batchim) — ㅢ",
+        "ru": "Нач. согл.+гласн.+конечн. согл. (батчим) — ㅢ",
+        "mn": "Эх+Эгшиг+Төгсгөлийн (받침) — ㅢ"
+      },
+      "route": "assets/data/letters/2_4/2_4_1_ui_cvc.json",
+      "directPractice": true,
+      "practicePickerTitle": {
+        "ko": "2.4.1 ㅢ(받침 포함) — 쓰기 연습",
+        "en": "2.4.1 Ui (with coda) — Writing practice",
+        "ja": "2.4.1 ㅢ（パッチムあり）— 書き取り練習",
+        "zh": "2.4.1 ㅢ（含收音）— 书写练习",
+        "vi": "2.4.1 ㅢ (có 받침) — Luyện viết",
+        "fr": "2.4.1 ㅢ (avec finale) — Exercice d’écriture",
+        "de": "2.4.1 ㅢ (mit Auslaut) — Schreibübung",
+        "es": "2.4.1 ㅢ (con coda) — Práctica de escritura",
+        "ru": "2.4.1 ㅢ (с конечн.) — Тренировка письма",
+        "mn": "2.4.1 ㅢ (받침-тай) — Бичих дасгал"
+      },
+      "practiceSource": { "route": "assets/data/letters/2_4/2_4_1_ui_cvc.json", "key": "sequence" }
+    },
+    {
+      "id": "2_4_2_cv_wa",
+      "title": {
+        "ko": "초성+중성 — ㅘ",
+        "en": "Onset+Vowel — ㅘ",
+        "ja": "初声+中声 — ㅘ",
+        "zh": "声母+韵母 — ㅘ",
+        "vi": "Âm đầu+Nguyên âm — ㅘ",
+        "fr": "Initiale+Voyelle — ㅘ",
+        "de": "Anlaut+Vokal — ㅘ",
+        "es": "Inicial+Vocal — ㅘ",
+        "ru": "Нач. согл.+гласн. — ㅘ",
+        "mn": "Эх гийгүүлэгч+Эгшиг — ㅘ"
+      },
+      "route": "assets/data/letters/2_4/2_4_2_wa_cv.json",
+      "directPractice": true,
+      "practicePickerTitle": {
+        "ko": "2.4.2 ㅘ — 쓰기 연습",
+        "en": "2.4.2 Wa — Writing practice",
+        "ja": "2.4.2 ㅘ — 書き取り練習",
+        "zh": "2.4.2 ㅘ — 书写练习",
+        "vi": "2.4.2 ㅘ — Luyện viết",
+        "fr": "2.4.2 ㅘ — Exercice d’écriture",
+        "de": "2.4.2 ㅘ — Schreibübung",
+        "es": "2.4.2 ㅘ — Práctica de escritura",
+        "ru": "2.4.2 ㅘ — Тренировка письма",
+        "mn": "2.4.2 ㅘ — Бичих дасгал"
+      },
+      "practiceSource": { "route": "assets/data/letters/2_4/2_4_2_wa_cv.json", "key": "sequence" }
+    },
+    {
+      "id": "2_4_2_cvc_wa",
+      "title": {
+        "ko": "초성+중성+종성(받침) — ㅘ",
+        "en": "Onset+Vowel+Coda (batchim) — ㅘ",
+        "ja": "初声+中声+終声（パッチム）— ㅘ",
+        "zh": "声母+韵母+终声（收音）— ㅘ",
+        "vi": "Âm đầu+Nguyên âm+Âm cuối (받침) — ㅘ",
+        "fr": "Initiale+Voyelle+Finale (batchim) — ㅘ",
+        "de": "Anlaut+Vokal+Auslaut (Batchim) — ㅘ",
+        "es": "Inicial+Vocal+Coda (batchim) — ㅘ",
+        "ru": "Нач. согл.+гласн.+конечн. согл. (батчим) — ㅘ",
+        "mn": "Эх+Эгшиг+Төгсгөлийн (받침) — ㅘ"
+      },
+      "route": "assets/data/letters/2_4/2_4_2_wa_cvc.json",
+      "directPractice": true,
+      "practicePickerTitle": {
+        "ko": "2.4.2 ㅘ(받침 포함) — 쓰기 연습",
+        "en": "2.4.2 Wa (with coda) — Writing practice",
+        "ja": "2.4.2 ㅘ（パッチムあり）— 書き取り練習",
+        "zh": "2.4.2 ㅘ（含收音）— 书写练习",
+        "vi": "2.4.2 ㅘ (có 받침) — Luyện viết",
+        "fr": "2.4.2 ㅘ (avec finale) — Exercice d’écriture",
+        "de": "2.4.2 ㅘ (mit Auslaut) — Schreibübung",
+        "es": "2.4.2 ㅘ (con coda) — Práctica de escritura",
+        "ru": "2.4.2 ㅘ (с конечн.) — Тренировка письма",
+        "mn": "2.4.2 ㅘ (받침-тай) — Бичих дасгал"
+      },
+      "practiceSource": { "route": "assets/data/letters/2_4/2_4_2_wa_cvc.json", "key": "sequence" }
+    },
+    {
+      "id": "2_4_3_cv_wae_oe",
+      "title": {
+        "ko": "초성+중성 — ㅙ·ㅚ",
+        "en": "Onset+Vowel — ㅙ/ㅚ",
+        "ja": "初声+中声 — ㅙ/ㅚ",
+        "zh": "声母+韵母 — ㅙ/ㅚ",
+        "vi": "Âm đầu+Nguyên âm — ㅙ/ㅚ",
+        "fr": "Initiale+Voyelle — ㅙ/ㅚ",
+        "de": "Anlaut+Vokal — ㅙ/ㅚ",
+        "es": "Inicial+Vocal — ㅙ/ㅚ",
+        "ru": "Нач. согл.+гласн. — ㅙ/ㅚ",
+        "mn": "Эх гийгүүлэгч+Эгшиг — ㅙ/ㅚ"
+      },
+      "route": "assets/data/letters/2_4/2_4_3_wae_oe_cv.json",
+      "directPractice": true,
+      "practicePickerTitle": {
+        "ko": "2.4.3 ㅙ·ㅚ — 쓰기 연습",
+        "en": "2.4.3 Wae/Oe — Writing practice",
+        "ja": "2.4.3 ㅙ・ㅚ — 書き取り練習",
+        "zh": "2.4.3 ㅙ·ㅚ — 书写练习",
+        "vi": "2.4.3 ㅙ/ㅚ — Luyện viết",
+        "fr": "2.4.3 ㅙ/ㅚ — Exercice d’écriture",
+        "de": "2.4.3 ㅙ/ㅚ — Schreibübung",
+        "es": "2.4.3 ㅙ/ㅚ — Práctica de escritura",
+        "ru": "2.4.3 ㅙ/ㅚ — Тренировка письма",
+        "mn": "2.4.3 ㅙ/ㅚ — Бичих дасгал"
+      },
+      "practiceSource": { "route": "assets/data/letters/2_4/2_4_3_wae_oe_cv.json", "key": "sequence" }
+    },
+    {
+      "id": "2_4_3_cvc_wae_oe",
+      "title": {
+        "ko": "초성+중성+종성(받침) — ㅙ·ㅚ",
+        "en": "Onset+Vowel+Coda (batchim) — ㅙ/ㅚ",
+        "ja": "初声+中声+終声（パッチム）— ㅙ/ㅚ",
+        "zh": "声母+韵母+终声（收音）— ㅙ/ㅚ",
+        "vi": "Âm đầu+Nguyên âm+Âm cuối (받침) — ㅙ/ㅚ",
+        "fr": "Initiale+Voyelle+Finale (batchim) — ㅙ/ㅚ",
+        "de": "Anlaut+Vokal+Auslaut (Batchim) — ㅙ/ㅚ",
+        "es": "Inicial+Vocal+Coda (batchim) — ㅙ/ㅚ",
+        "ru": "Нач. согл.+гласн.+конечн. (батчим) — ㅙ/ㅚ",
+        "mn": "Эх+Эгшиг+Төгсгөлийн (받침) — ㅙ/ㅚ"
+      },
+      "route": "assets/data/letters/2_4/2_4_3_wae_oe_cvc.json",
+      "directPractice": true,
+      "practicePickerTitle": {
+        "ko": "2.4.3 ㅙ·ㅚ(받침 포함) — 쓰기 연습",
+        "en": "2.4.3 Wae/Oe (with coda) — Writing practice",
+        "ja": "2.4.3 ㅙ・ㅚ（パッチムあり）— 書き取り練習",
+        "zh": "2.4.3 ㅙ·ㅚ（含收音）— 书写练习",
+        "vi": "2.4.3 ㅙ/ㅚ (có 받침) — Luyện viết",
+        "fr": "2.4.3 ㅙ/ㅚ (avec finale) — Exercice d’écriture",
+        "de": "2.4.3 ㅙ/ㅚ (mit Auslaut) — Schreibübung",
+        "es": "2.4.3 ㅙ/ㅚ (con coda) — Práctica de escritura",
+        "ru": "2.4.3 ㅙ/ㅚ (с конечн.) — Тренировка письма",
+        "mn": "2.4.3 ㅙ/ㅚ (받침-тай) — Бичих дасгал"
+      },
+      "practiceSource": { "route": "assets/data/letters/2_4/2_4_3_wae_oe_cvc.json", "key": "sequence" }
+    },
+    {
+      "id": "2_4_4_cv_wo",
+      "title": {
+        "ko": "초성+중성 — ㅝ",
+        "en": "Onset+Vowel — ㅝ",
+        "ja": "初声+中声 — ㅝ",
+        "zh": "声母+韵母 — ㅝ",
+        "vi": "Âm đầu+Nguyên âm — ㅝ",
+        "fr": "Initiale+Voyelle — ㅝ",
+        "de": "Anlaut+Vokal — ㅝ",
+        "es": "Inicial+Vocal — ㅝ",
+        "ru": "Нач. согл.+гласн. — ㅝ",
+        "mn": "Эх гийгүүлэгч+Эгшиг — ㅝ"
+      },
+      "route": "assets/data/letters/2_4/2_4_4_wo_cv.json",
+      "directPractice": true,
+      "practicePickerTitle": {
+        "ko": "2.4.4 ㅝ — 쓰기 연습",
+        "en": "2.4.4 Wo — Writing practice",
+        "ja": "2.4.4 ㅝ — 書き取り練習",
+        "zh": "2.4.4 ㅝ — 书写练习",
+        "vi": "2.4.4 ㅝ — Luyện viết",
+        "fr": "2.4.4 ㅝ — Exercice d’écriture",
+        "de": "2.4.4 ㅝ — Schreibübung",
+        "es": "2.4.4 ㅝ — Práctica de escritura",
+        "ru": "2.4.4 ㅝ — Тренировка письма",
+        "mn": "2.4.4 ㅝ — Бичих дасгал"
+      },
+      "practiceSource": { "route": "assets/data/letters/2_4/2_4_4_wo_cv.json", "key": "sequence" }
+    },
+    {
+      "id": "2_4_4_cvc_wo",
+      "title": {
+        "ko": "초성+중성+종성(받침) — ㅝ",
+        "en": "Onset+Vowel+Coda (batchim) — ㅝ",
+        "ja": "初声+中声+終声（パッチム）— ㅝ",
+        "zh": "声母+韵母+终声（收音）— ㅝ",
+        "vi": "Âm đầu+Nguyên âm+Âm cuối (받침) — ㅝ",
+        "fr": "Initiale+Voyelle+Finale (batchim) — ㅝ",
+        "de": "Anlaut+Vokal+Auslaut (Batchim) — ㅝ",
+        "es": "Inicial+Vocal+Coda (batchim) — ㅝ",
+        "ru": "Нач. согл.+гласн.+конечн. (батчим) — ㅝ",
+        "mn": "Эх+Эгшиг+Төгсгөлийн (받침) — ㅝ"
+      },
+      "route": "assets/data/letters/2_4/2_4_4_wo_cvc.json",
+      "directPractice": true,
+      "practicePickerTitle": {
+        "ko": "2.4.4 ㅝ(받침 포함) — 쓰기 연습",
+        "en": "2.4.4 Wo (with coda) — Writing practice",
+        "ja": "2.4.4 ㅝ（パッチムあり）— 書き取り練習",
+        "zh": "2.4.4 ㅝ（含收音）— 书写练习",
+        "vi": "2.4.4 ㅝ (có 받침) — Luyện viết",
+        "fr": "2.4.4 ㅝ (avec finale) — Exercice d’écriture",
+        "de": "2.4.4 ㅝ (mit Auslaut) — Schreibübung",
+        "es": "2.4.4 ㅝ (con coda) — Práctica de escritura",
+        "ru": "2.4.4 ㅝ (с конечн.) — Тренировка письма",
+        "mn": "2.4.4 ㅝ (받침-тай) — Бичих дасгал"
+      },
+      "practiceSource": { "route": "assets/data/letters/2_4/2_4_4_wo_cvc.json", "key": "sequence" }
+    },
+    {
+      "id": "2_4_5_cv_we_wi",
+      "title": {
+        "ko": "초성+중성 — ㅞ·ㅟ",
+        "en": "Onset+Vowel — ㅞ/ㅟ",
+        "ja": "初声+中声 — ㅞ/ㅟ",
+        "zh": "声母+韵母 — ㅞ/ㅟ",
+        "vi": "Âm đầu+Nguyên âm — ㅞ/ㅟ",
+        "fr": "Initiale+Voyelle — ㅞ/ㅟ",
+        "de": "Anlaut+Vokal — ㅞ/ㅟ",
+        "es": "Inicial+Vocal — ㅞ/ㅟ",
+        "ru": "Нач. согл.+гласн. — ㅞ/ㅟ",
+        "mn": "Эх гийгүүлэгч+Эгшиг — ㅞ/ㅟ"
+      },
+      "route": "assets/data/letters/2_4/2_4_5_we_wi_cv.json",
+      "directPractice": true,
+      "practicePickerTitle": {
+        "ko": "2.4.5 ㅞ·ㅟ — 쓰기 연습",
+        "en": "2.4.5 We/Wi — Writing practice",
+        "ja": "2.4.5 ㅞ・ㅟ — 書き取り練習",
+        "zh": "2.4.5 ㅞ·ㅟ — 书写练习",
+        "vi": "2.4.5 ㅞ/ㅟ — Luyện viết",
+        "fr": "2.4.5 ㅞ/ㅟ — Exercice d’écriture",
+        "de": "2.4.5 ㅞ/ㅟ — Schreibübung",
+        "es": "2.4.5 ㅞ/ㅟ — Práctica de escritura",
+        "ru": "2.4.5 ㅞ/ㅟ — Тренировка письма",
+        "mn": "2.4.5 ㅞ/ㅟ — Бичих дасгал"
+      },
+      "practiceSource": { "route": "assets/data/letters/2_4/2_4_5_we_wi_cv.json", "key": "sequence" }
+    },
+    {
+      "id": "2_4_5_cvc_we_wi",
+      "title": {
+        "ko": "초성+중성+종성(받침) — ㅞ·ㅟ",
+        "en": "Onset+Vowel+Coda (batchim) — ㅞ/ㅟ",
+        "ja": "初声+中声+終声（パッチム）— ㅞ/ㅟ",
+        "zh": "声母+韵母+终声（收音）— ㅞ/ㅟ",
+        "vi": "Âm đầu+Nguyên âm+Âm cuối (받침) — ㅞ/ㅟ",
+        "fr": "Initiale+Voyelle+Finale (batchim) — ㅞ/ㅟ",
+        "de": "Anlaut+Vokal+Auslaut (Batchim) — ㅞ/ㅟ",
+        "es": "Inicial+Vocal+Coda (batchim) — ㅞ/ㅟ",
+        "ru": "Нач. согл.+гласн.+конечн. (батчим) — ㅞ/ㅟ",
+        "mn": "Эх+Эгшиг+Төгсгөлийн (받침) — ㅞ/ㅟ"
+      },
+      "route": "assets/data/letters/2_4/2_4_5_we_wi_cvc.json",
+      "directPractice": true,
+      "practicePickerTitle": {
+        "ko": "2.4.5 ㅞ·ㅟ(받침 포함) — 쓰기 연습",
+        "en": "2.4.5 We/Wi (with coda) — Writing practice",
+        "ja": "2.4.5 ㅞ・ㅟ（パッチムあり）— 書き取り練習",
+        "zh": "2.4.5 ㅞ·ㅟ（含收音）— 书写练习",
+        "vi": "2.4.5 ㅞ/ㅟ (có 받침) — Luyện viết",
+        "fr": "2.4.5 ㅞ/ㅟ (avec finale) — Exercice d’écriture",
+        "de": "2.4.5 ㅞ/ㅟ (mit Auslaut) — Schreibübung",
+        "es": "2.4.5 ㅞ/ㅟ (con coda) — Práctica de escritura",
+        "ru": "2.4.5 ㅞ/ㅟ (с конечн.) — Тренировка письма",
+        "mn": "2.4.5 ㅞ/ㅟ (받침-тай) — Бичих дасгал"
+      },
+      "practiceSource": { "route": "assets/data/letters/2_4/2_4_5_we_wi_cvc.json", "key": "sequence" }
+    }
+  ],
+  "meta": {
+    "sourcePages": "교본 p.28–30",
+    "notes": [
+      "카드 제목은 학습자 친화형(초성+중성 / 초성+중성+종성) 표기이며, 교사용 가이드나 주석에서 (CV/CVC) 표기를 병기할 수 있습니다.",
+      "개별 음절에 대한 다국어 번역은 포함하지 않습니다."
+    ]
+  },
+  "assetConventions": {
+    "strokeJson": "assets/strokes/syllables/{glyph}.json",
+    "audioMp3": "assets/audio/syllables/{glyph}.mp3"
+  }
+}

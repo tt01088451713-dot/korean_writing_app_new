@@ -1,0 +1,141 @@
+{
+  "id": "2_4_5",
+  "title": {
+    "ko": "(5) ㅢ + 받침",
+    "en": "(5) ㅢ + finals",
+    "zh": "（5）ㅢ — CVC",
+    "ja": "（5）ㅢ — CVC",
+    "vi": "(5) ㅢ — CVC",
+    "fr": "(5) ㅢ — CVC",
+    "es": "(5) ㅢ — CVC",
+    "ru": "(5) ㅢ — CVC",
+    "mn": "(5) ㅢ — CVC"
+  },
+  "description": {
+    "ko": "ㅢ(의/희)의 CV/CVC 예시. 실제 사용은 CV 중심이며, CVC는 ‘흰’ 등 제한적입니다. 위치에 따른 발음(의/이/에)을 함께 안내합니다.",
+    "en": "CV/CVC with ㅢ (ui). Real use is mostly CV; CVC is limited (e.g., hwin). We note position‑dependent pronunciations (ui/i/e).",
+    "zh": "ㅢ（ui）的CV/CVC示例。实际多为CV，CVC较少（如“흰”）。并提示位置性发音差异（ui/i/e）。",
+    "ja": "ㅢ（ui）のCV/CVC例。実用はCV中心で、CVCは限定的（例：흰）。位置による発音差（ui/i/e）を示します。",
+    "vi": "CV/CVC với ㅢ. Dùng chủ yếu là CV; CVC hạn chế (vd: 흰). Có ghi chú phát âm theo vị trí.",
+    "fr": "CV/CVC avec ㅢ. Usage surtout en CV; CVC limité (ex: 흰). Prononciation dépendante de la position.",
+    "es": "CV/CVC con ㅢ. Uso principalmente en CV; CVC limitado (ej.: 흰). Pronunciación depende de la posición.",
+    "ru": "CV/CVC с ㅢ. В основном CV; CVC ограничены (напр., 흰). Примечание о позиционной фонетике.",
+    "mn": "ㅢ‑гийн CV/CVC. Ихэвчлэн CV; CVC хязгаарлагдмал (ж: 흰). Байрлалаас хамаарч дуудлагын ялгаа бий."
+  },
+  "sections": {
+    "cv": {
+      "chars": [
+        {
+          "label": "의",
+          "ttsKey": "ui",
+          "tts": {
+            "ko": "의",
+            "ipa": "ɰi",
+            "roman": "ui",
+            "rule": "override",
+            "note": {
+              "ko": "단어 처음/홀로: [의], 조사 ‘의’: [에], 그 외: [이] 경향"
+            }
+          },
+          "core": true,
+          "strokeOrder": "assets/strokes/ui.json",
+          "guideOnly": true,
+          "writing": {
+            "order": "assets/strokes/ui.json",
+            "strokes": [],
+            "guideOnly": true
+          }
+        },
+        {
+          "label": "희",
+          "ttsKey": "hui",
+          "tts": {
+            "ko": "희",
+            "ipa": "hi",
+            "roman": "hui",
+            "rule": "override",
+            "note": {
+              "ko": "현대 발음 [히] 경향"
+            }
+          },
+          "core": true,
+          "strokeOrder": "assets/strokes/hui.json",
+          "guideOnly": true,
+          "writing": {
+            "order": "assets/strokes/hui.json",
+            "strokes": [],
+            "guideOnly": true
+          }
+        }
+      ]
+    },
+    "cvc": {
+      "note": {
+        "ko": "빈출 예는 ‘흰(흰색)’ 정도로 제한적입니다. ‘의+받침’ 꼴(읜 등)은 현대어에서 드뭅니다.",
+        "en": "Frequent CVC is limited (e.g., 흰 ‘white’). Forms like 읜 are rare in modern use.",
+        "zh": "빈출 예는 ‘흰(흰색)’ 정도로 제한적입니다. ‘의+받침’ 꼴(읜 등)은 현대어에서 드뭅니다.",
+        "ja": "빈출 예는 ‘흰(흰색)’ 정도로 제한적입니다. ‘의+받침’ 꼴(읜 등)은 현대어에서 드뭅니다.",
+        "vi": "빈출 예는 ‘흰(흰색)’ 정도로 제한적입니다. ‘의+받침’ 꼴(읜 등)은 현대어에서 드뭅니다.",
+        "fr": "빈출 예는 ‘흰(흰색)’ 정도로 제한적입니다. ‘의+받침’ 꼴(읜 등)은 현대어에서 드뭅니다.",
+        "es": "빈출 예는 ‘흰(흰색)’ 정도로 제한적입니다. ‘의+받침’ 꼴(읜 등)은 현대어에서 드뭅니다.",
+        "ru": "빈출 예는 ‘흰(흰색)’ 정도로 제한적입니다. ‘의+받침’ 꼴(읜 등)은 현대어에서 드뭅니다.",
+        "mn": "빈출 예는 ‘흰(흰색)’ 정도로 제한적입니다. ‘의+받침’ 꼴(읜 등)은 현대어에서 드뭅니다."
+      },
+      "examples": [
+        {
+          "base": "희",
+          "commonFinals": [
+            "ㄴ",
+            "ㄹ"
+          ],
+          "items": [
+            {
+              "syllable": "흰",
+              "final": "ㄴ",
+              "tts": {
+                "ko": "흰",
+                "ipa": "hin",
+                "roman": "hwin",
+                "final": "n",
+                "rule": "override",
+                "note": {
+                  "ko": "표기는 ㅢ, 실제 발음 [힌]"
+                }
+              },
+              "samples": [
+                "흰색"
+              ],
+              "writing": {
+                "strokes": [],
+                "guideOnly": true
+              },
+              "guideOnly": true
+            },
+            {
+              "syllable": "힐",
+              "final": "ㄹ",
+              "tts": {
+                "ko": "힐",
+                "ipa": "hil",
+                "roman": "hwil",
+                "final": "l",
+                "rule": "override",
+                "note": {
+                  "ko": "현대 발음 [힐]"
+                }
+              },
+              "samples": [
+                "힐링(loan)"
+              ],
+              "writing": {
+                "strokes": [],
+                "guideOnly": true
+              },
+              "guideOnly": true
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

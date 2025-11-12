@@ -1,23 +1,78 @@
 // lib/main.dart
+import 'dart:ui' show PointerDeviceKind;
 import 'package:flutter/material.dart';
+import 'package:flutter_localizations/flutter_localizations.dart';
 
-// Theme (색상 영구 저장 초기화)
+// Theme
 import 'package:korean_writing_app_new/theme_state.dart';
 
 // Screens
 import 'package:korean_writing_app_new/screens/language_gate.dart';
-import 'package:korean_writing_app_new/screens/home_hub.dart';                  // 커리큘럼 허브
-import 'package:korean_writing_app_new/screens/jamo_hub.dart';                  // 자모 허브
-import 'package:korean_writing_app_new/screens/coming_soon.dart';               // 임시 "준비중"
-import 'package:korean_writing_app_new/screens/unit_1_1_consonantal_letter.dart'; // 자음자 단원
-import 'package:korean_writing_app_new/screens/unit_1_2_vowel_letter.dart';     // 모음자 단원
-import 'package:korean_writing_app_new/screens/writing_practice_page.dart';     // 쓰기 연습
-import 'package:korean_writing_app_new/screens/qa_checklist_page.dart';         // ✅ QA 체크리스트(독립 화면)
+import 'package:korean_writing_app_new/screens/home_hub.dart';
+import 'package:korean_writing_app_new/screens/jamo_hub.dart';
+import 'package:korean_writing_app_new/screens/unit_1_1_consonantal_letter.dart';
+import 'package:korean_writing_app_new/screens/unit_1_2_vowel_letter.dart';
+import 'package:korean_writing_app_new/screens/writing_practice_page.dart';
+import 'package:korean_writing_app_new/screens/letters_unit_page.dart';
+import 'package:korean_writing_app_new/screens/letters_hub.dart';
+import 'package:korean_writing_app_new/screens/letters_category_page.dart';
+
+// 단어/문장 허브 & 레슨
+import 'package:korean_writing_app_new/screens/words_hub.dart';
+import 'package:korean_writing_app_new/screens/sentences_hub.dart';
+import 'package:korean_writing_app_new/screens/words_lesson_page.dart';
+import 'package:korean_writing_app_new/screens/sentences_lesson_page.dart';
+
+// I18n
+import 'package:korean_writing_app_new/i18n/language_state.dart';
+import 'package:korean_writing_app_new/i18n/ui_texts.dart';
+
+/// 글자 단원 인덱스/오버뷰 경로
+class LettersPaths {
+  static const String p21 = 'assets/data/letters/2_1_left_right_index.json';
+  static const String p22 = 'assets/data/letters/2_2_hub_index.json';
+  static const String p23 = 'assets/data/letters/2_3_hub_index.json';
+  static const String p24 = 'assets/data/letters/2_4_hub_index.json';
+
+  static const String ov21 = 'assets/data/letters/overviews/2_1_overview.json';
+  static const String ov22 = 'assets/data/letters/overviews/2_2_overview.json';
+  static const String ov23 = 'assets/data/letters/overviews/2_3_overview.json';
+  static const String ov24 = 'assets/data/letters/overviews/2_4_overview.json';
+}
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await AppTheme.init(); // 저장된 카드/글자 색 불러오기
+
+  // 전역 에러 핸들러(릴리스 안전)
+  FlutterError.onError = (FlutterErrorDetails d) {
+    FlutterError.dumpErrorToConsole(d);
+  };
+  WidgetsBinding.instance.platformDispatcher.onError =
+      (Object error, StackTrace stack) {
+    debugPrint('UNCAUGHT: $error');
+    debugPrintStack(stackTrace: stack);
+    return true;
+  };
+
+  // ✅ Firebase 제거: initializeApp 호출/의존성 없음 (안정성 우선)
+
+  // 언어/테마 초기화
+  await LanguageState.init();
+  await AppTheme.init();
+
   runApp(const AppRoot());
+}
+
+class AppScrollBehavior extends MaterialScrollBehavior {
+  const AppScrollBehavior();
+  @override
+  Set<PointerDeviceKind> get dragDevices => {
+    PointerDeviceKind.touch,
+    PointerDeviceKind.mouse,
+    PointerDeviceKind.trackpad,
+    PointerDeviceKind.stylus,
+    PointerDeviceKind.unknown,
+  };
 }
 
 class AppRoot extends StatelessWidget {
@@ -25,49 +80,148 @@ class AppRoot extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        useMaterial3: true,
-        colorSchemeSeed: Colors.teal, // 취향에 맞게 변경 가능
-      ),
-      initialRoute: '/',
-      routes: {
-        // 0) 언어 선택
-        '/': (_) => const LanguageGatePage(),
+    return AnimatedBuilder(
+      animation: LanguageState.I,
+      builder: (_, __) {
+        final locale = _codeToLocale(LanguageState.I.code);
 
-        // 1) 커리큘럼 허브 → 자모/글자/단어
-        '/home': (_) => const CurriculumHubPage(),
+        return MaterialApp(
+          title: UiText.t('appTitle'),
+          debugShowCheckedModeBanner: false,
+          scrollBehavior: const AppScrollBehavior(),
+          theme: ThemeData(
+            useMaterial3: true,
+            colorSchemeSeed: Colors.teal,
+          ),
+          locale: locale,
+          supportedLocales: const [
+            Locale('ko'),
+            Locale('en'),
+            Locale('ja'),
+            Locale('zh'),
+            Locale('vi'),
+            Locale('fr'),
+            Locale('de'),
+            Locale('es'),
+            Locale('ru'),
+            Locale('mn'),
+          ],
+          localizationsDelegates: const [
+            GlobalMaterialLocalizations.delegate,
+            GlobalCupertinoLocalizations.delegate,
+            GlobalWidgetsLocalizations.delegate,
+          ],
 
-        // 2) 자모 허브 → 자음자/모음자
-        '/jamo': (_) => const JamoHubPage(),
+          // ─────────────────────────────
+          // 고정 라우트
+          // ─────────────────────────────
+          initialRoute: '/',
+          routes: {
+            '/': (_) => const LanguageGatePage(),
+            '/home': (_) => const CurriculumHubPage(),
 
-        // 3) 자모 하위
-        '/jamo/consonants': (_) => const UnitOverviewPage(),   // 자음자 단원
-        '/jamo/vowels': (_) => const VowelOverviewPage(),      // 모음자 단원
+            // 자모
+            '/jamo': (_) => const JamoHubPage(),
+            '/jamo/consonants': (_) => const UnitOverviewPage(),
+            '/jamo/vowels': (_) => const VowelOverviewPage(),
 
-        // 4) 글자/단어(임시)
-        '/letters': (_) => const ComingSoonPage(),
-        '/words': (_) => const ComingSoonPage(),
+            // 글자 최상위 허브
+            '/letters': (_) => const LettersHubPage(),
 
-        // 5) ✅ 독립 QA 체크리스트
-        '/qa': (_) => const QaChecklistPage(),
+            // 글자 카테고리 2.1 ~ 2.4
+            '/letters/2_1': (_) => LettersCategoryPage(
+              title: _t('letters.leftRight', '좌우 결합형'),
+              overviewRef: LettersPaths.ov21,
+              indexAssetPath: LettersPaths.p21,
+              sectionId: '2_1',
+            ),
+            '/letters/2_2': (_) => LettersCategoryPage(
+              title: _t('letters.topBottom', '상하 결합형'),
+              overviewRef: LettersPaths.ov22,
+              indexAssetPath: LettersPaths.p22,
+              sectionId: '2_2',
+            ),
+            '/letters/2_3': (_) => LettersCategoryPage(
+              title: _t('letters.lrTb', '좌우상하 결합형'),
+              overviewRef: LettersPaths.ov23,
+              indexAssetPath: LettersPaths.p23,
+              sectionId: '2_3',
+            ),
+            '/letters/2_4': (_) => LettersCategoryPage(
+              title: _t('letters.uhShape', 'ㅡ형'),
+              overviewRef: LettersPaths.ov24,
+              indexAssetPath: LettersPaths.p24,
+              sectionId: '2_4',
+            ),
+
+            // 단어 / 문장 허브
+            '/words': (_) => const WordsHubPage(),
+            '/sentences': (_) => const SentencesHubPage(),
+
+            // 단어 / 문장 레슨
+            '/words/lesson': (_) => const WordsLessonPage(),
+            '/sentences/lesson': (_) => const SentencesLessonPage()
+          },
+
+          // ─────────────────────────────
+          // 동적 라우트
+          // ─────────────────────────────
+          onGenerateRoute: (settings) {
+            // 쓰기 연습(자모/글자)
+            if (settings.name == '/write' || settings.name == '/practice') {
+              final args = settings.arguments;
+              final String glyph = args is String
+                  ? args
+                  : (args is Map && args['char'] is String
+                  ? args['char'] as String
+                  : (args is Map && args['charGlyph'] is String
+                  ? args['charGlyph'] as String
+                  : '가'));
+              return MaterialPageRoute(
+                settings: settings,
+                builder: (_) => WritingPracticePage(charGlyph: glyph),
+              );
+            }
+
+            // 글자 유닛(인자는 내부에서 ModalRoute로 처리)
+            if (settings.name == '/letters/unit') {
+              return MaterialPageRoute(
+                settings: settings,
+                builder: (_) => const LettersUnitPage(),
+              );
+            }
+
+            return null;
+          },
+
+          onUnknownRoute: (_) =>
+              MaterialPageRoute(builder: (_) => const CurriculumHubPage()),
+        );
       },
-
-      // 쓰기 연습으로 직접 진입: Navigator.pushNamed('/write', arguments: 'ㄱ')
-      onGenerateRoute: (settings) {
-        if (settings.name == '/write' && settings.arguments is String) {
-          return MaterialPageRoute(
-            builder: (_) =>
-                WritingPracticePage(charGlyph: settings.arguments as String),
-          );
-        }
-        return null;
-      },
-
-      // 알 수 없는 경로 → 커리큘럼 허브로
-      onUnknownRoute: (_) =>
-          MaterialPageRoute(builder: (_) => const CurriculumHubPage()),
     );
   }
+}
+
+/// 코드 문자열을 Locale로 변환
+Locale _codeToLocale(String code) {
+  if (code.isEmpty) return const Locale('ko');
+  try {
+    if (code.contains('-')) {
+      final parts = code.split('-');
+      if (parts.length >= 2) return Locale(parts[0], parts[1]);
+      return Locale(parts[0]);
+    }
+    return Locale(code);
+  } catch (_) {
+    return const Locale('ko');
+  }
+}
+
+/// i18n 키 조회(없으면 기본값)
+String _t(String key, String fallback) {
+  try {
+    final s = UiText.t(key);
+    if (s.trim().isNotEmpty) return s;
+  } catch (_) {}
+  return fallback;
 }

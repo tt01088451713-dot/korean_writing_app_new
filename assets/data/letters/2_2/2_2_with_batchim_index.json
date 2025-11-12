@@ -1,0 +1,132 @@
+{
+  "unitId": "2_2_with_batchim_index",
+  "id": "2_2_with_coda",
+  "type": "hub",
+  "sort": "manual",
+
+  "title": {
+    "ko": "2.2 상하결합형 — 받침 포함(CVC) 확장",
+    "en": "2.2 Top–Bottom — Extension with Finals (CVC)",
+    "ja": "2.2 上下結合型 — 終声付き拡張（CVC）",
+    "zh": "2.2 上下结合型——含终声扩展（CVC）",
+    "vi": "2.2 Trên–Dưới — Mở rộng có phụ âm cuối (CVC)",
+    "fr": "2.2 Haut–Bas — Extension avec finale (CVC)",
+    "de": "2.2 Oben–Unten — Erweiterung mit Endkonsonant (CVC)",
+    "es": "2.2 Arriba–Abajo — Extensión con final (CVC)",
+    "ru": "2.2 «Верх–низ» — расширение с конечной согласной (CVC)",
+    "mn": "2.2 Дээд–Доод — төгсгөлтэй (CVC) өргөтгөл"
+  },
+
+  "overviewRef": "assets/data/letters/overviews/2_2_overview.json",
+
+  "description": {
+    "ko": "기본 CV 세트와 분리된 CVC(받침 포함) 심화입니다. 아래에서 모음별 확장을 선택하면 종성이 포함된 음절 그리드와 쓰기 연습으로 이동합니다.",
+    "en": "An advanced CVC track (with finals) separated from the basic CV sets. Choose a vowel extension to open its syllable grid and start practice.",
+    "ja": "基本CVセットとは別の、終声を含むCVCの発展ユニットです。下のカードから母音別の拡張を選ぶと、音節グリッドと書き練習に進みます。",
+    "zh": "与基础 CV 集合分开的含终声 CVC 进阶单元。选择对应元音的扩展即可进入音节网格并开始书写练习。",
+    "vi": "Chuyên đề CVC (có phụ âm cuối) tách khỏi bộ CV cơ bản. Chọn phần mở rộng theo nguyên âm để mở lưới âm tiết và luyện viết.",
+    "fr": "Parcours CVC avancé (avec finale) distinct des ensembles CV de base. Choisissez une extension par voyelle pour ouvrir la grille des syllabes et commencer l’entraînement.",
+    "de": "Fortgeschrittener CVC-Zweig (mit Endkonsonant), getrennt von den Grund-CV-Sätzen. Wählen Sie eine Vokalerweiterung, um das Silbenraster zu öffnen und mit dem Schreibtraining zu beginnen.",
+    "es": "Módulo CVC avanzado (con consonante final), separado de los conjuntos CV básicos. Elija la extensión por vocal para abrir la cuadrícula de sílabas y comenzar la práctica.",
+    "ru": "Продвинутый модуль CVC (с конечной согласной), отделённый от базовых наборов CV. Выберите расширение по гласной, чтобы открыть сетку слогов и приступить к практике.",
+    "mn": "CV-ийн суурь хэсгээс тусдаа, төгсгөлтэй CVC-ийн ахисан хэсэг. Эгшгээр нь өргөтгөл сонгоод үеийн хүснэгт ба бичгийн дасгал руу орно уу."
+  },
+
+  "cards": [
+    {
+      "order": 1,
+      "id": "2_2_b1",
+      "title": {
+        "ko": "…으(ㅡ) 받침 확장",
+        "en": "Vowel ㅡ with finals",
+        "ja": "…ㅡ の終声拡張",
+        "zh": "…ㅡ 终声扩展",
+        "vi": "Mở rộng ㅡ có phụ âm cuối",
+        "fr": "Extension ㅡ avec finale",
+        "de": "Erweiterung ㅡ mit Endkonsonant",
+        "es": "Extensión ㅡ con final",
+        "ru": "Расширение ㅡ с конечной",
+        "mn": "ㅡ төгсгөлтэй өргөтгөл"
+      },
+      "route": "assets/data/letters/2_2/2_2_with_batchim_eu.json",
+      "indexAsset": "assets/data/letters/2_2/2_2_with_batchim_eu.json"
+    },
+    {
+      "order": 2,
+      "id": "2_2_b2",
+      "title": {
+        "ko": "…오(ㅗ) 받침 확장",
+        "en": "Vowel ㅗ with finals",
+        "ja": "…ㅗ の終声拡張",
+        "zh": "…ㅗ 终声扩展",
+        "vi": "Mở rộng ㅗ có phụ âm cuối",
+        "fr": "Extension ㅗ avec finale",
+        "de": "Erweiterung ㅗ mit Endkonsonant",
+        "es": "Extensión ㅗ con final",
+        "ru": "Расширение ㅗ с конечной",
+        "mn": "ㅗ төгсгөлтэй өргөтгөл"
+      },
+      "route": "assets/data/letters/2_2/2_2_with_batchim_o.json",
+      "indexAsset": "assets/data/letters/2_2/2_2_with_batchim_o.json"
+    },
+    {
+      "order": 3,
+      "id": "2_2_b3",
+      "title": {
+        "ko": "…요(ㅛ) 받침 확장",
+        "en": "Vowel ㅛ with finals",
+        "ja": "…ㅛ の終声拡張",
+        "zh": "…ㅛ 终声扩展",
+        "vi": "Mở rộng ㅛ có phụ âm cuối",
+        "fr": "Extension ㅛ avec finale",
+        "de": "Erweiterung ㅛ mit Endkonsonant",
+        "es": "Extensión ㅛ con final",
+        "ru": "Расширение ㅛ с конечной",
+        "mn": "ㅛ төгсгөлтэй өргөтгөл"
+      },
+      "route": "assets/data/letters/2_2/2_2_with_batchim_yo.json",
+      "indexAsset": "assets/data/letters/2_2/2_2_with_batchim_yo.json"
+    },
+    {
+      "order": 4,
+      "id": "2_2_b4",
+      "title": {
+        "ko": "…우(ㅜ) 받침 확장",
+        "en": "Vowel ㅜ with finals",
+        "ja": "…ㅜ の終声拡張",
+        "zh": "…ㅜ 终声扩展",
+        "vi": "Mở rộng ㅜ có phụ âm cuối",
+        "fr": "Extension ㅜ avec finale",
+        "de": "Erweiterung ㅜ mit Endkonsonant",
+        "es": "Extensión ㅜ con final",
+        "ru": "Расширение ㅜ с конечной",
+        "mn": "ㅜ төгсгөлтэй өргөтгөл"
+      },
+      "route": "assets/data/letters/2_2/2_2_with_batchim_u.json",
+      "indexAsset": "assets/data/letters/2_2/2_2_with_batchim_u.json"
+    },
+    {
+      "order": 5,
+      "id": "2_2_b5",
+      "title": {
+        "ko": "…유(ㅠ) 받침 확장",
+        "en": "Vowel ㅠ with finals",
+        "ja": "…ㅠ の終声拡張",
+        "zh": "…ㅠ 终声扩展",
+        "vi": "Mở rộng ㅠ có phụ âm cuối",
+        "fr": "Extension ㅠ avec finale",
+        "de": "Erweiterung ㅠ mit Endkonsonant",
+        "es": "Extensión ㅠ con final",
+        "ru": "Расширение ㅠ с конечной",
+        "mn": "ㅠ төгсгөлтэй өргөтгөл"
+      },
+      "route": "assets/data/letters/2_2/2_2_with_batchim_yu.json",
+      "indexAsset": "assets/data/letters/2_2/2_2_with_batchim_yu.json"
+    }
+  ],
+
+  "assetConventions": {
+    "strokeJson": "assets/strokes/syllables/{glyph}.json",
+    "audioMp3": "assets/audio/syllables/{glyph}.mp3"
+  }
+}

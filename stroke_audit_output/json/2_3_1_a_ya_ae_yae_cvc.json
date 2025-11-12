@@ -1,0 +1,356 @@
+{
+  "id": "2_3_1",
+  "title": {
+    "ko": "(1) ㅏ·ㅑ·ㅐ·ㅒ + 받침",
+    "en": "(1) ㅏ/ㅑ/ㅐ/ㅒ + finals (CVC)",
+    "zh": "(1) ㅏ/ㅑ/ㅐ/ㅒ + 终声 (CVC)",
+    "ja": "（1）ㅏ・ㅑ・ㅐ・ㅒ + 終声（CVC）",
+    "vi": "(1) ㅏ/ㅑ/ㅐ/ㅒ + 받chim (CVC)",
+    "fr": "(1) ㅏ/ㅑ/ㅐ/ㅒ + finale (CVC)",
+    "es": "(1) ㅏ/ㅑ/ㅐ/ㅒ + final (CVC)",
+    "ru": "(1) ㅏ/ㅑ/ㅐ/ㅒ + финаль (CVC)",
+    "mn": "(1) ㅏ/ㅑ/ㅐ/ㅒ + 받чим (CVC)"
+  },
+  "description": {
+    "ko": "ㅏ·ㅑ·ㅐ·ㅒ 계열의 복합형(CVC) 예시입니다. 빈출 받침을 우선 제시하고, 겹받침은 별도 표시합니다.",
+    "en": "CVC with ㅏ/ㅑ/ㅐ/ㅒ. Common finals first; double finals are flagged.",
+    "zh": "展示 ㅏ/ㅑ/ㅐ/ㅒ 系列的 CVC 复合结构。优先列出常见终声，复合终声另行标注。",
+    "ja": "ㅏ・ㅑ・ㅐ・ㅒ 系の CVC 複合例。頻出の終声を優先し、復合終声は別途明示します。",
+    "vi": "Ví dụ CVC với ㅏ/ㅑ/ㅐ/ㅒ. Ưu tiên các 받침 thường gặp; 받침 kép được đánh dấu riêng.",
+    "fr": "Exemples CVC avec ㅏ/ㅑ/ㅐ/ㅒ. Finales fréquentes d’abord ; doubles finales signalées.",
+    "es": "CVC con ㅏ/ㅑ/ㅐ/ㅒ. Primero finales comunes; finales dobles se indican aparte.",
+    "ru": "CVC с ㅏ/ㅑ/ㅐ/ㅒ. Сначала частые финали; двойные финали помечены отдельно.",
+    "mn": "ㅏ/ㅑ/ㅐ/ㅒ-тэй CVC нийлмэл жишээ. Түгээмэл 받чимыг түрүүлж, давхар 받чимыг тусад нь тэмдэглэв."
+  },
+  "sections": {
+    "cvc": {
+      "note": {
+        "ko": "받침 실현음: ㄱ/ㅋ/ㄲ→[k̚], ㅂ/ㅍ→[p̚], ㄷ·ㅅ·ㅆ·ㅈ·ㅊ·ㅌ·ㅎ→[t̚], ㄴ[n], ㄹ[l], ㅁ[m], ㅇ[ŋ]. 겹받침은 단독 종성에서 한 음가만 실현되는 경우가 많습니다.",
+        "en": "Coda allophones as standard; double finals usually realize one coda in isolation.",
+        "zh": "终声的实现音遵循常规；复合终声在单独收尾位置常仅实现一个音值。",
+        "ja": "終声の実現音は一般則に従う。複合終声は単独の場合、片方のみ実現されることが多い。",
+        "vi": "Âm cuối theo quy tắc chuẩn; với 받침 kép, khi đứng một mình thường chỉ hiện một âm.",
+        "fr": "Allophones finaux selon les règles standard ; les doubles finales réalisent souvent un seul son en position isolée.",
+        "es": "Alófonos finales según reglas estándar; las finales dobles suelen realizar un solo sonido en posición aislada.",
+        "ru": "Финальные аллофоны по стандартным правилам; двойные финали часто реализуются как один звук в изоляции.",
+        "mn": "Эцсийн авиалалт нь ердийн дүрмээр; давхар 받чим нь дангаар ихэвчлэн нэг авиаг л илэрхийлнэ."
+      },
+      "examples": [
+        {
+          "base": "가",
+          "commonFinals": [
+            "ㄴ",
+            "ㄹ",
+            "ㅁ",
+            "ㅇ",
+            "ㅄ",
+            "ㄺ"
+          ],
+          "items": [
+            {
+              "syllable": "간",
+              "final": "ㄴ",
+              "tts": {
+                "ko": "간",
+                "ipa": "kan",
+                "roman": "gan",
+                "final": "n",
+                "rule": "auto"
+              },
+              "samples": [
+                "간식",
+                "기간"
+              ],
+              "writing": {
+                "strokes": [],
+                "guideOnly": true
+              },
+              "guideOnly": true
+            },
+            {
+              "syllable": "갈",
+              "final": "ㄹ",
+              "tts": {
+                "ko": "갈",
+                "ipa": "kal",
+                "roman": "gal",
+                "final": "l",
+                "rule": "auto"
+              },
+              "samples": [
+                "갈비",
+                "갈색"
+              ],
+              "writing": {
+                "strokes": [],
+                "guideOnly": true
+              },
+              "guideOnly": true
+            },
+            {
+              "syllable": "감",
+              "final": "ㅁ",
+              "tts": {
+                "ko": "감",
+                "ipa": "kam",
+                "roman": "gam",
+                "final": "m",
+                "rule": "auto"
+              },
+              "samples": [
+                "감자",
+                "감각"
+              ],
+              "writing": {
+                "strokes": [],
+                "guideOnly": true
+              },
+              "guideOnly": true
+            },
+            {
+              "syllable": "강",
+              "final": "ㅇ",
+              "tts": {
+                "ko": "강",
+                "ipa": "kaŋ",
+                "roman": "gang",
+                "final": "ŋ",
+                "rule": "auto"
+              },
+              "samples": [
+                "강",
+                "강의"
+              ],
+              "writing": {
+                "strokes": [],
+                "guideOnly": true
+              },
+              "guideOnly": true
+            },
+            {
+              "syllable": "값",
+              "final": "ㅄ",
+              "doubleFinal": true,
+              "tts": {
+                "ko": "값",
+                "ipa": "kap̚",
+                "roman": "gabs",
+                "final": "p̚",
+                "rule": "override",
+                "note": {
+                  "ko": "단독 종성 ㅄ→[p̚]"
+                }
+              },
+              "writing": {
+                "strokes": [],
+                "guideOnly": true
+              },
+              "guideOnly": true
+            },
+            {
+              "syllable": "갉",
+              "final": "ㄺ",
+              "doubleFinal": true,
+              "tts": {
+                "ko": "갉",
+                "ipa": "kalk̚",
+                "roman": "galk",
+                "final": "k̚",
+                "rule": "override",
+                "note": {
+                  "ko": "단독 종성 ㄺ→[k̚]"
+                }
+              },
+              "writing": {
+                "strokes": [],
+                "guideOnly": true
+              },
+              "guideOnly": true
+            }
+          ]
+        },
+        {
+          "base": "개",
+          "commonFinals": [
+            "ㄴ",
+            "ㄹ",
+            "ㅁ",
+            "ㅇ",
+            "ㅅ"
+          ],
+          "items": [
+            {
+              "syllable": "갠",
+              "final": "ㄴ",
+              "tts": {
+                "ko": "갠",
+                "ipa": "kɛn",
+                "roman": "gaen",
+                "final": "n",
+                "rule": "auto"
+              },
+              "writing": {
+                "strokes": [],
+                "guideOnly": true
+              },
+              "guideOnly": true
+            },
+            {
+              "syllable": "갤",
+              "final": "ㄹ",
+              "tts": {
+                "ko": "갤",
+                "ipa": "kɛl",
+                "roman": "gael",
+                "final": "l",
+                "rule": "auto"
+              },
+              "writing": {
+                "strokes": [],
+                "guideOnly": true
+              },
+              "guideOnly": true
+            },
+            {
+              "syllable": "갬",
+              "final": "ㅁ",
+              "tts": {
+                "ko": "갬",
+                "ipa": "kɛm",
+                "roman": "gaem",
+                "final": "m",
+                "rule": "auto"
+              },
+              "writing": {
+                "strokes": [],
+                "guideOnly": true
+              },
+              "guideOnly": true
+            },
+            {
+              "syllable": "갱",
+              "final": "ㅇ",
+              "tts": {
+                "ko": "갱",
+                "ipa": "kɛŋ",
+                "roman": "gaeng",
+                "final": "ŋ",
+                "rule": "auto"
+              },
+              "writing": {
+                "strokes": [],
+                "guideOnly": true
+              },
+              "guideOnly": true
+            },
+            {
+              "syllable": "갯",
+              "final": "ㅅ",
+              "tts": {
+                "ko": "갯",
+                "ipa": "kɛt̚",
+                "roman": "gaes",
+                "final": "t̚",
+                "rule": "auto"
+              },
+              "samples": [
+                "갯벌"
+              ],
+              "writing": {
+                "strokes": [],
+                "guideOnly": true
+              },
+              "guideOnly": true
+            }
+          ]
+        },
+        {
+          "base": "야",
+          "commonFinals": [
+            "ㄴ",
+            "ㄹ",
+            "ㅁ",
+            "ㅇ"
+          ],
+          "items": [
+            {
+              "syllable": "얀",
+              "final": "ㄴ",
+              "tts": {
+                "ko": "얀",
+                "ipa": "jan",
+                "roman": "yan",
+                "final": "n",
+                "rule": "auto"
+              },
+              "writing": {
+                "strokes": [],
+                "guideOnly": true
+              },
+              "guideOnly": true
+            },
+            {
+              "syllable": "얄",
+              "final": "ㄹ",
+              "tts": {
+                "ko": "얄",
+                "ipa": "jal",
+                "roman": "yal",
+                "final": "l",
+                "rule": "auto"
+              },
+              "writing": {
+                "strokes": [],
+                "guideOnly": true
+              },
+              "guideOnly": true
+            },
+            {
+              "syllable": "얌",
+              "final": "ㅁ",
+              "tts": {
+                "ko": "얌",
+                "ipa": "jam",
+                "roman": "yam",
+                "final": "m",
+                "rule": "auto"
+              },
+              "writing": {
+                "strokes": [],
+                "guideOnly": true
+              },
+              "guideOnly": true
+            },
+            {
+              "syllable": "양",
+              "final": "ㅇ",
+              "tts": {
+                "ko": "양",
+                "ipa": "jaŋ",
+                "roman": "yang",
+                "final": "ŋ",
+                "rule": "auto"
+              },
+              "writing": {
+                "strokes": [],
+                "guideOnly": true
+              },
+              "guideOnly": true
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "definition": {
+    "ko": "세로형 모음(ㅏ·ㅑ·ㅐ·ㅒ)이 좌우로 배치되고, 하단에 받침이 결합되는 복합(CVC) 구조입니다.",
+    "en": "Vertical vowels (ㅏ/ㅑ/ㅐ/ㅒ) combine left–right with a bottom final, forming a complex CVC layout.",
+    "zh": "竖直元音（ㅏ/ㅑ/ㅐ/ㅒ）与初声左右排列，并在下方加终声，形成 CVC 复合结构。",
+    "ja": "縦型母音（ㅏ/ㅑ/ㅐ/ㅒ）が左右に配置され、下部に終声が加わる CVC 複合構造です。",
+    "vi": "Nguyên âm dọc (ㅏ/ㅑ/ㅐ/ㅒ) kết hợp trái‑phải và thêm 받침 phía dưới, tạo bố cục CVC phức hợp.",
+    "fr": "Voyelles verticales (ㅏ/ㅑ/ㅐ/ㅒ) disposées gauche‑droite, avec une finale en bas : schéma CVC complexe.",
+    "es": "Vocales verticales (ㅏ/ㅑ/ㅐ/ㅒ) en disposición izq‑der con final abajo: estructura CVC compleja.",
+    "ru": "Вертикальные гласные (ㅏ/ㅑ/ㅐ/ㅒ) в раскладке лево‑право с нижней финалью: сложный CVC.",
+    "mn": "Босоо эгшиг (ㅏ/ㅑ/ㅐ/ㅒ) нь зүүн‑баруун байрлалтай, доор 받чим нэмэгдсэн CVC нийлмэл бүтэц."
+  }
+}

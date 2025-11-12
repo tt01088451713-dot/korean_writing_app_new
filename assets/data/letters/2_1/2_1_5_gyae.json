@@ -1,0 +1,23 @@
+{
+  "unitId": "2_1_5_gyae",
+  "type": "letters",
+  "title": {
+  "ko": "걔~햬 (…얘)",
+  "en": "Gyae–Hyae (…-yae series)",
+  "ja": "ギェ〜ヒェ（…-yae 系）",
+  "zh": "加耶~哈耶（…-yae 系列）",
+  "vi": "Gyae–Hyae (nhóm …-yae)",
+  "fr": "Gyae–Hyae (série …-yae)",
+  "de": "Gyae–Hyae (…-yae-Reihe)",
+  "es": "Gyae–Hyae (serie …-yae)",
+  "ru": "Gyae–Hyae (ряд …-yae)",
+  "mn": "Gyae–Hyae (…-yae цуврал)"
+  },
+  "practice": { "enabled": true, "strokeAsset": "template", "audio": true, "repeat": 3 },
+  "sequence": ["걔","냬","댸","럐","먜","뱨","섀","얘","쟤","햬"],
+  "assetConventions": {
+    "strokeJson": "assets/strokes/syllables/{glyph}.json",
+    "audioMp3": "assets/audio/syllables/{glyph}.mp3"
+  },
+  "uiHints": { "grid": 7, "rowGap": 8, "colGap": 8 }
+}

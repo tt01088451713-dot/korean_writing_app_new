@@ -1,0 +1,128 @@
+{
+  "unit": "3. 단어",
+  "lesson_id": "3_5",
+  "title": {
+    "ko": "가게와 시장에서",
+    "en": "At a Store or Market",
+    "ja": "お店・市場で",
+    "zh": "在商店或市场",
+    "vi": "Ở cửa hàng hoặc chợ",
+    "fr": "Au magasin ou au marché",
+    "de": "Im Geschäft oder auf dem Markt",
+    "es": "En la tienda o en el mercado",
+    "ru": "В магазине или на рынке",
+    "mn": "Дэлгүүр эсвэл зах дээр"
+  },
+  "themes": [
+    { "id": "m_goods", "name": { "ko": "물건", "en": "Goods" } },
+    { "id": "m_payment", "name": { "ko": "계산", "en": "Payment" } },
+    { "id": "m_quality", "name": { "ko": "품질과 가격", "en": "Quality and Price" } }
+  ],
+  "items": [
+    {
+      "id": "mw_001",
+      "type": "word",
+      "text": "물건",
+      "meanings": { "ko": "", "en": "item / goods", "ja": "物 / 商品", "zh": "物品", "vi": "hàng hóa", "fr": "objet / article", "de": "Ware", "es": "artículo", "ru": "товар", "mn": "бараа" },
+      "writing": { "enabled": true, "guides": ["물","건"] },
+      "tts": { "text": "물건", "lang": "ko-KR" },
+      "metadata": { "theme": "물건" }
+    },
+    {
+      "id": "mw_002",
+      "type": "word",
+      "text": "가격",
+      "meanings": { "ko": "", "en": "price", "ja": "値段", "zh": "价格", "vi": "giá cả", "fr": "prix", "de": "Preis", "es": "precio", "ru": "цена", "mn": "үнэ" },
+      "writing": { "enabled": true, "guides": ["가","격"] },
+      "tts": { "text": "가격", "lang": "ko-KR" },
+      "metadata": { "theme": "품질과 가격" }
+    },
+    {
+      "id": "mw_003",
+      "type": "word",
+      "text": "할인",
+      "meanings": { "ko": "", "en": "discount", "ja": "割引", "zh": "打折", "vi": "giảm giá", "fr": "réduction", "de": "Rabatt", "es": "descuento", "ru": "скидка", "mn": "хямдрал" },
+      "writing": { "enabled": true, "guides": ["할","인"] },
+      "tts": { "text": "할인", "lang": "ko-KR" },
+      "metadata": { "theme": "품질과 가격" }
+    },
+    {
+      "id": "mw_004",
+      "type": "word",
+      "text": "현금",
+      "meanings": { "ko": "", "en": "cash", "ja": "現金", "zh": "现金", "vi": "tiền mặt", "fr": "argent liquide", "de": "Bargeld", "es": "efectivo", "ru": "наличные", "mn": "бэлэн мөнгө" },
+      "writing": { "enabled": true, "guides": ["현","금"] },
+      "tts": { "text": "현금", "lang": "ko-KR" },
+      "metadata": { "theme": "계산" }
+    },
+    {
+      "id": "mw_005",
+      "type": "word",
+      "text": "카드",
+      "meanings": { "ko": "", "en": "card", "ja": "カード", "zh": "卡", "vi": "thẻ", "fr": "carte", "de": "Karte", "es": "tarjeta", "ru": "карта", "mn": "карт" },
+      "writing": { "enabled": true, "guides": ["카","드"] },
+      "tts": { "text": "카드", "lang": "ko-KR" },
+      "metadata": { "theme": "계산" }
+    },
+    {
+      "id": "mw_006",
+      "type": "word",
+      "text": "영수증",
+      "meanings": { "ko": "", "en": "receipt", "ja": "レシート / 領収書", "zh": "收据", "vi": "hóa đơn", "fr": "reçu", "de": "Quittung", "es": "recibo", "ru": "чек", "mn": "баримт" },
+      "writing": { "enabled": true, "guides": ["영","수","증"] },
+      "tts": { "text": "영수증", "lang": "ko-KR" },
+      "metadata": { "theme": "계산" }
+    },
+    {
+      "id": "mw_007",
+      "type": "word",
+      "text": "사다",
+      "meanings": { "ko": "", "en": "to buy", "ja": "買う", "zh": "买", "vi": "mua", "fr": "acheter", "de": "kaufen", "es": "comprar", "ru": "покупать", "mn": "худалдаж авах" },
+      "writing": { "enabled": true, "guides": ["사","다"] },
+      "tts": { "text": "사다", "lang": "ko-KR" },
+      "metadata": { "theme": "물건" }
+    },
+    {
+      "id": "mw_008",
+      "type": "word",
+      "text": "팔다",
+      "meanings": { "ko": "", "en": "to sell", "ja": "売る", "zh": "卖", "vi": "bán", "fr": "vendre", "de": "verkaufen", "es": "vender", "ru": "продавать", "mn": "зарах" },
+      "writing": { "enabled": true, "guides": ["팔","다"] },
+      "tts": { "text": "팔다", "lang": "ko-KR" },
+      "metadata": { "theme": "물건" }
+    },
+    {
+      "id": "mw_009",
+      "type": "word",
+      "text": "싸다",
+      "meanings": { "ko": "", "en": "cheap", "ja": "安い", "zh": "便宜", "vi": "rẻ", "fr": "bon marché", "de": "billig", "es": "barato", "ru": "дешёвый", "mn": "хямд" },
+      "writing": { "enabled": true, "guides": ["싸","다"] },
+      "tts": { "text": "싸다", "lang": "ko-KR" },
+      "metadata": { "theme": "품질과 가격" }
+    },
+    {
+      "id": "mw_010",
+      "type": "word",
+      "text": "비싸다",
+      "meanings": { "ko": "", "en": "expensive", "ja": "高い", "zh": "贵", "vi": "đắt", "fr": "cher", "de": "teuer", "es": "caro", "ru": "дорогой", "mn": "үнэтэй" },
+      "writing": { "enabled": true, "guides": ["비","싸","다"] },
+      "tts": { "text": "비싸다", "lang": "ko-KR" },
+      "metadata": { "theme": "품질과 가격" }
+    }
+  ],
+  "activities": [
+    {
+      "id": "a_read_cards_market",
+      "type": "read_cards",
+      "title": { "ko": "읽기 카드: 가게", "en": "Reading Cards: Store" },
+      "options": { "items": ["mw_001","mw_002","mw_003","mw_004","mw_005"], "autoShuffle": true }
+    },
+    {
+      "id": "a_write_words_market",
+      "type": "write_words",
+      "title": { "ko": "따라 쓰기: 시장 단어", "en": "Copy Words: Market" },
+      "options": { "items": ["mw_002","mw_006","mw_009","mw_010"] }
+    }
+  ],
+  "routing": { "hubRoute": "/words/hub", "detailRoute": "/words/lesson" }
+}

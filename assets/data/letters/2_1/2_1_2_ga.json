@@ -1,0 +1,23 @@
+{
+  "unitId": "2_1_2_ga",
+  "type": "letters",
+  "title": {
+    "ko": "2.1.2 가~하 세트 (…아)",
+    "en": "2.1.2 Vowel 'a' (ga~ha)",
+    "ja": "2.1.2 子音＋母音「ㅏ」セット",
+    "zh": "2.1.2 元音“ㅏ”系列（ga~ha）",
+    "vi": "2.1.2 Nguyên âm 'a' (ga~ha)",
+    "fr": "2.1.2 Voyelle « a » (ga~ha)",
+    "de": "2.1.2 Vokal „a“ (ga~ha)",
+    "es": "2.1.2 Vocal « a » (ga~ha)",
+    "ru": "2.1.2 Гласная « a » (ga~ha)",
+    "mn": "2.1.2 Эгшиг 'a' (ga~ha)"
+  },
+  "practice": { "enabled": true, "strokeAsset": "template", "audio": true, "repeat": 3 },
+  "sequence": ["가","나","다","라","마","바","사","아","자","차","카","타","파","하"],
+  "assetConventions": {
+    "strokeJson": "assets/strokes/syllables/{glyph}.json",
+    "audioMp3": "assets/audio/syllables/{glyph}.mp3"
+  },
+  "uiHints": { "grid": 7, "rowGap": 8, "colGap": 8 }
+}

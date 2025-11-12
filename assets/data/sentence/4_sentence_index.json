@@ -1,0 +1,163 @@
+{
+  "unit": "4. 문장",
+  "title": {
+    "ko": "문장",
+    "en": "Sentences",
+    "ja": "文",
+    "zh": "句子",
+    "vi": "Câu",
+    "fr": "Phrases",
+    "de": "Sätze",
+    "es": "Oraciones",
+    "ru": "Предложения",
+    "mn": "Өгүүлбэрүүд"
+  },
+  "description": {
+    "ko": "문장은 단어가 모여 생각을 완성하는 말의 단위입니다.",
+    "en": "A sentence is a unit of language that expresses a complete thought.",
+    "ja": "文は単語が集まって一つの考えを表します。",
+    "zh": "句子是表达完整思想的语言单位。",
+    "vi": "Câu là đơn vị ngôn ngữ diễn đạt ý trọn vẹn.",
+    "fr": "Une phrase exprime une pensée complète.",
+    "de": "Ein Satz drückt einen vollständigen Gedanken aus.",
+    "es": "Una oración expresa un pensamiento completo.",
+    "ru": "Предложение выражает законченную мысль.",
+    "mn": "Өгүүлбэр нь бүрэн санааг илэрхийлдэг."
+  },
+  "sections": [
+    {
+      "id": "4_1",
+      "title": {
+        "ko": "기초 문장",
+        "en": "Basic Sentences",
+        "ja": "基礎文",
+        "zh": "基础句子",
+        "vi": "Câu cơ bản",
+        "fr": "Phrases de base",
+        "de": "Einfache Sätze",
+        "es": "Oraciones básicas",
+        "ru": "Базовые предложения",
+        "mn": "Үндсэн өгүүлбэрүүд"
+      },
+      "file": "4_1_basic_sentences.json",
+      "hasReading": true,
+      "hasWriting": true,
+      "hasTTS": true
+    },
+    {
+      "id": "4_2",
+      "title": {
+        "ko": "문장 패턴: SOV",
+        "en": "Sentence Pattern: SOV",
+        "ja": "文型：SOV",
+        "zh": "句型：SOV",
+        "vi": "Mẫu câu: SOV",
+        "fr": "Schéma de phrase : SOV",
+        "de": "Satzmuster: SOV",
+        "es": "Patrón de oración: SOV",
+        "ru": "Модель предложения: SOV",
+        "mn": "Өгүүлбэрийн хэв: SOV"
+      },
+      "file": "4_2_pattern_SOV.json",
+      "hasReading": true,
+      "hasWriting": true,
+      "hasTTS": true
+    },
+    {
+      "id": "4_3",
+      "title": {
+        "ko": "인사와 대화",
+        "en": "Greetings and Conversation",
+        "ja": "あいさつと会話",
+        "zh": "问候与会话",
+        "vi": "Chào hỏi và hội thoại",
+        "fr": "Salutations et conversations",
+        "de": "Begrüßung und Gespräch",
+        "es": "Saludos y conversación",
+        "ru": "Приветствия и разговор",
+        "mn": "Мэндчилгээ ба яриа"
+      },
+      "file": "4_3_conversation_sentences.json",
+      "hasReading": true,
+      "hasWriting": true,
+      "hasTTS": true
+    },
+    {
+      "id": "4_4",
+      "title": {
+        "ko": "식당에서",
+        "en": "At a Restaurant",
+        "ja": "レストランで",
+        "zh": "在餐厅",
+        "vi": "Tại nhà hàng",
+        "fr": "Au restaurant",
+        "de": "Im Restaurant",
+        "es": "En el restaurante",
+        "ru": "В ресторане",
+        "mn": "Ресторанд"
+      },
+      "file": "4_4_restaurant_sentences.json",
+      "hasReading": true,
+      "hasWriting": true,
+      "hasTTS": true
+    },
+    {
+      "id": "4_5",
+      "title": {
+        "ko": "가게에서",
+        "en": "At a Store/Market",
+        "ja": "お店・市場で",
+        "zh": "在商店/市场",
+        "vi": "Ở cửa hàng/chợ",
+        "fr": "Au magasin/au marché",
+        "de": "Im Geschäft/auf dem Markt",
+        "es": "En la tienda/mercado",
+        "ru": "В магазине/на рынке",
+        "mn": "Дэлгүүр/зах дээр"
+      },
+      "file": "4_5_store_sentences.json",
+      "hasReading": true,
+      "hasWriting": true,
+      "hasTTS": true
+    },
+    {
+      "id": "4_6",
+      "title": {
+        "ko": "길 묻기/이동",
+        "en": "Asking Directions & Getting Around",
+        "ja": "道を聞く・移動",
+        "zh": "问路与出行",
+        "vi": "Hỏi đường & di chuyển",
+        "fr": "Demander son chemin & se déplacer",
+        "de": "Nach dem Weg fragen & unterwegs sein",
+        "es": "Pedir direcciones y desplazarse",
+        "ru": "Спросить дорогу и передвигаться",
+        "mn": "Зам асуух/зорчих"
+      },
+      "file": "4_6_direction_sentences.json",
+      "hasReading": true,
+      "hasWriting": true,
+      "hasTTS": true
+    },
+    {
+      "id": "4_7",
+      "title": {
+        "ko": "시간/약속",
+        "en": "Time & Appointments",
+        "ja": "時間・約束",
+        "zh": "时间与约定",
+        "vi": "Thời gian & cuộc hẹn",
+        "fr": "Heure & rendez-vous",
+        "de": "Zeit & Verabredungen",
+        "es": "Hora y citas",
+        "ru": "Время и встречи",
+        "mn": "Цаг/уулзалт"
+      },
+      "file": "4_7_time_sentences.json",
+      "hasReading": true,
+      "hasWriting": true,
+      "hasTTS": true
+    }
+  ],
+  "routing": { "hubRoute": "/sentences/hub", "detailRoute": "/sentences/lesson" }
+}

@@ -1,0 +1,41 @@
+{
+  "id": "2_4_b3_wae_oe_cvc",
+  "unitId": "2_4_b3_wae_oe_cvc",
+  "type": "list",
+  "title": {
+    "ko": "2.4 확장 — ㅙ·ㅚ 받침(CVC)",
+    "en": "2.4 Extension — vowels ㅙ/ㅚ with finals (CVC)",
+    "ja": "2.4 拡張 — ㅙ・ㅚ の終声（CVC）",
+    "zh": "2.4 扩展 — 元音 ㅙ/ㅚ 含终声（CVC）",
+    "vi": "2.4 Mở rộng — nguyên âm ㅙ/ㅚ có phụ âm cuối (CVC)",
+    "fr": "2.4 Extension — voyelles ㅙ/ㅚ avec finale (CVC)",
+    "de": "2.4 Erweiterung — Vokale ㅙ/ㅚ mit Endkonsonant (CVC)",
+    "es": "2.4 Extensión — vocales ㅙ/ㅚ con final (CVC)",
+    "ru": "2.4 Расширение — гласные ㅙ/ㅚ с конечной (CVC)",
+    "mn": "2.4 Өргөтгөл — ㅙ/ㅚ эгшиг төгсгөлтэй (CVC)"
+  },
+  "description": {
+    "ko": "복합모음 ㅙ·ㅚ에 자주 쓰이는 받침 조합을 함께 연습합니다.",
+    "en": "Practice frequent final combinations used with the compound vowels ㅙ and ㅚ."
+  },
+  "ttsRulesRoute": "assets/data/common/tts_rules.json",
+  "assetConventions": {
+    "strokeJson": "assets/strokes/syllables/{glyph}.json",
+    "audioMp3": "assets/audio/syllables/{glyph}.mp3"
+  },
+  "practice": { "enabled": true, "strokeAsset": "template", "audio": true, "repeat": 3 },
+  "uiHints": { "grid": 7, "rowGap": 8, "colGap": 8 },
+  "vowel": "ㅙ/ㅚ",
+  "base": "왜/외",
+  "commonFinals": ["ㄴ", "ㄹ", "ㅁ", "ㅇ"],
+  "items": [
+    { "syllable": "왠", "title": { "ko": "왠" }, "final": "ㄴ", "tts": { "ko": "왠", "roman": "waen" } },
+    { "syllable": "왤", "title": { "ko": "왤" }, "final": "ㄹ", "tts": { "ko": "왤", "roman": "wael" } },
+    { "syllable": "왬", "title": { "ko": "왬" }, "final": "ㅁ", "tts": { "ko": "왬", "roman": "waem" } },
+    { "syllable": "왱", "title": { "ko": "왱" }, "final": "ㅇ", "tts": { "ko": "왱", "roman": "waeng" } },
+    { "syllable": "왼", "title": { "ko": "왼" }, "final": "ㄴ", "tts": { "ko": "왼", "roman": "oen" } },
+    { "syllable": "괼", "title": { "ko": "괼" }, "final": "ㄹ", "tts": { "ko": "괼", "roman": "goel" } },
+    { "syllable": "굉", "title": { "ko": "굉" }, "final": "ㅇ", "tts": { "ko": "굉", "roman": "goeng" } }
+  ],
+  "sequence": ["왠", "왤", "왬", "왱", "왼", "괼", "굉"]
+}

@@ -1,0 +1,81 @@
+{
+  "id": "2_3_index",
+  "ttsVersion": "1.0",
+  "title": {
+    "ko": "좌우상하결합형(복합형)",
+    "en": "Complex (Left–Right + Top–Bottom)",
+    "zh": "左右上下复合型",
+    "ja": "左右上下の複合型",
+    "vi": "Phức hợp trái‑phải + trên‑dưới",
+    "fr": "Forme complexe (gauche‑droite + haut‑bas)",
+    "es": "Forma compleja (izq‑der + arriba‑abajo)",
+    "ru": "Сложный тип (лево‑право + верх‑низ)",
+    "mn": "Нийлмэл (зүүн‑баруун + дээд‑доод)"
+  },
+  "definition": {
+    "ko": "세로형 모음(ㅣ, ㅏ, ㅓ, ㅔ 등)에 받침이 결합하여 좌우+하부가 함께 나타나는 CVC 복합 배열입니다. 복합모음(ㅘ·ㅙ·ㅚ·ㅝ·ㅞ·ㅟ·ㅢ)은 2.4에서 별도로 학습합니다.",
+    "en": "With vertical vowels, adding a final yields a complex CVC layout (left–right + bottom). Compound vowels (ㅘ/ㅙ/ㅚ/ㅝ/ㅞ/ㅟ/ㅢ) are in 2.4.",
+    "zh": "竖直元音加终声形成左右+下部的CVC复合结构。复合元音在2.4单独学习。",
+    "ja": "縦母音に終声が加わると左右＋下部のCVC複合配置になります。複合母音は2.4で扱います。",
+    "vi": "Với nguyên âm dọc, thêm 받침 tạo bố cục CVC (trái‑phải + đáy). Nguyên âm ghép học ở 2.4.",
+    "fr": "Avec une voyelle verticale, l’ajout d’une finale produit un CVC complexe (gauche‑droite + bas). Les voyelles composées sont en 2.4.",
+    "es": "Con vocal vertical, añadir final da un CVC complejo (izq‑der + abajo). Las vocales compuestas están en 2.4.",
+    "ru": "Для вертикальных гласных финаль даёт сложный CVC (лево‑право + низ). Составные гласные — в 2.4.",
+    "mn": "Босоо эгшигт 받чим нэмэхэд зүүн‑баруун + доод бүхий CVC болно. Нийлмэл эгшгийг 2.4‑т үзнэ."
+  },
+  "description": {
+    "ko": "세로형 모음(ㅣ, ㅏ, ㅑ, ㅐ, ㅒ, ㅓ, ㅕ, ㅔ, ㅖ)에 받침이 결합하면 좌우+하부가 동시에 나타나는 복합형(CVC) 배열이 됩니다. 이 단원에서는 단순 받침과 겹받침 예를 함께 학습합니다. (주의: ㅘ·ㅙ·ㅚ·ㅝ·ㅞ·ㅟ·ㅢ는 2.4 ‘ㅢ형’에서 다룹니다.)",
+    "en": "With vertical vowels, adding a final produces a complex layout (left–right plus bottom). This unit covers both single and double finals. (Note: ㅘ/ㅙ/ㅚ/ㅝ/ㅞ/ㅟ/ㅢ are covered in 2.4.)",
+    "zh": "竖直元音与终声结合时形成左右加下部的复合结构(CVC)。本单元学习单终声和复合终声。（注：ㅘ/ㅙ/ㅚ/ㅝ/ㅞ/ㅟ/ㅢ 在 2.4 学习。）",
+    "ja": "縦母音に終声を加えると左右＋下部の複合構造（CVC）になります。本単元では単終声と複合終声を扱います。（※ㅘ・ㅙ・ㅚ・ㅝ・ㅞ・ㅟ・ㅢは 2.4）",
+    "vi": "Với nguyên âm dọc, thêm 받침 tạo bố cục phức hợp (trái‑phải + dưới). Bài này gồm 받침 đơn và kép. (Lưu ý: ㅘ/ㅙ/ㅚ/ㅝ/ㅞ/ㅟ/ㅢ ở mục 2.4.)",
+    "fr": "Avec une voyelle verticale, l’ajout d’une finale produit une disposition complexe (gauche‑droite + bas). Cette section couvre finales simples et doubles. (ㅘ/ㅙ/ㅚ/ㅝ/ㅞ/ㅟ/ㅢ en 2.4.)",
+    "es": "Con vocal vertical y final, la sílaba tiene estructura compleja (izq‑der + abajo). Incluye finales simples y dobles. (ㅘ/ㅙ/ㅚ/ㅝ/ㅞ/ㅟ/ㅢ en 2.4.)",
+    "ru": "При вертикальных гласных добавление финали даёт сложную компоновку (лево‑право + низ). Здесь — одиночные и двойные финали. (ㅘ/ㅙ/ㅚ/ㅝ/ㅞ/ㅟ/ㅢ — в 2.4.)",
+    "mn": "Босоо эгшигт 받чим нэмэхэд зүүн‑баруун + доод бүхий нийлмэл бүтэц (CVC) болно. Энд дан ба давхар 받чимыг хамарна. (ㅘ/ㅙ/ㅚ/ㅝ/ㅞ/ㅟ/ㅢ нь 2.4‑т.)"
+  },
+  "parts": [
+    {
+      "id": "2_3_1",
+      "title": {
+        "ko": "(1) ㅏ·ㅑ·ㅐ·ㅒ + 받침",
+        "en": "(1) ㅏ/ㅑ/ㅐ/ㅒ + finals (CVC)"
+      },
+      "subtitle": {
+        "ko": "간·갈·감·강 / 값·갉…",
+        "en": "gan/gal/gam/gang / gabs/galk…"
+      },
+      "route": "/letters/2_3_1_a_ya_ae_yae_cvc.json",
+      "hasCV": false,
+      "hasCVC": true
+    },
+    {
+      "id": "2_3_2",
+      "title": {
+        "ko": "(2) ㅓ·ㅕ·ㅔ·ㅖ + 받침",
+        "en": "(2) ㅓ/ㅕ/ㅔ/ㅖ + finals (CVC)"
+      },
+      "subtitle": {
+        "ko": "건·걸·검·경 / 않…",
+        "en": "geon/geol/geom/gyeong / anh…"
+      },
+      "route": "/letters/2_3_2_eo_yeo_e_ye_cvc.json",
+      "hasCV": false,
+      "hasCVC": true
+    },
+    {
+      "id": "2_3_3",
+      "title": {
+        "ko": "(3) ㅣ + 받침",
+        "en": "(3) ㅣ + finals (CVC)"
+      },
+      "subtitle": {
+        "ko": "긴·길·김·잉 / 읽·잃·읊…",
+        "en": "gin/gil/gim/ing / ilg/ilh/eulp…"
+      },
+      "route": "/letters/2_3_3_i_cvc.json",
+      "hasCV": false,
+      "hasCVC": true
+    }
+  ]
+}

@@ -1,0 +1,219 @@
+{
+  "id": "2_4_4",
+  "title": {
+    "ko": "(4) ㅞ·ㅟ + 받침",
+    "en": "(4) ㅞ/ㅟ + finals",
+    "zh": "（4）ㅞ·ㅟ — CVC",
+    "ja": "（4）ㅞ・ㅟ — CVC",
+    "vi": "(4) ㅞ/ㅟ — CVC",
+    "fr": "(4) ㅞ/ㅟ — CVC",
+    "es": "(4) ㅞ/ㅟ — CVC",
+    "ru": "(4) ㅞ/ㅟ — CVC",
+    "mn": "(4) ㅞ/ㅟ — CVC"
+  },
+  "description": {
+    "ko": "ㅞ·ㅟ의 CV/CVC 예시. 실제 사용은 제한적이므로 웰·윈·윌·윙 등 실용 조합 위주로 제시합니다.",
+    "en": "CV/CVC with ㅞ/ㅟ. Usage is limited; we focus on practical pairs (wel, win, wil, wing…).",
+    "zh": "ㅞ与ㅟ的CV/CVC示例，实用组合为主（웰、윈、윌、윙等）。",
+    "ja": "ㅞ・ㅟのCV/CVC例。実用的な組合せ（웰・윈・윌・윙など）中心。",
+    "vi": "CV/CVC với ㅞ/ㅟ; ưu tiên dạng thực dụng (웰, 윈, 윌, 윙…).",
+    "fr": "CV/CVC avec ㅞ/ㅟ; focalisation sur wel, win, wil, wing…",
+    "es": "CV/CVC con ㅞ/ㅟ; foco en wel, win, wil, wing…",
+    "ru": "CV/CVC с ㅞ/ㅟ; акцент на wel, win, wil, wing…",
+    "mn": "ㅞ/ㅟ‑ийн CV/CVC. 웰, 윈, 윌, 윙 гэх мэт хэрэгцээтэй жишээнүүд."
+  },
+  "sections": {
+    "cv": {
+      "chars": [
+        {
+          "label": "웨",
+          "ttsKey": "we",
+          "tts": {
+            "ko": "웨",
+            "ipa": "we",
+            "roman": "we",
+            "rule": "auto"
+          },
+          "core": true,
+          "strokeOrder": "assets/strokes/we.json",
+          "guideOnly": true,
+          "writing": {
+            "order": "assets/strokes/we.json",
+            "strokes": [],
+            "guideOnly": true
+          }
+        },
+        {
+          "label": "위",
+          "ttsKey": "wi",
+          "tts": {
+            "ko": "위",
+            "ipa": "wi",
+            "roman": "wi",
+            "rule": "auto"
+          },
+          "core": true,
+          "strokeOrder": "assets/strokes/wi.json",
+          "guideOnly": true,
+          "writing": {
+            "order": "assets/strokes/wi.json",
+            "strokes": [],
+            "guideOnly": true
+          }
+        }
+      ]
+    },
+    "cvc": {
+      "examples": [
+        {
+          "base": "웨",
+          "commonFinals": [
+            "ㄴ",
+            "ㄹ",
+            "ㄱ"
+          ],
+          "items": [
+            {
+              "syllable": "웬",
+              "final": "ㄴ",
+              "tts": {
+                "ko": "웬",
+                "ipa": "wen",
+                "roman": "wen",
+                "final": "n",
+                "rule": "auto"
+              },
+              "samples": [
+                "웬일"
+              ],
+              "writing": {
+                "strokes": [],
+                "guideOnly": true
+              },
+              "guideOnly": true
+            },
+            {
+              "syllable": "웰",
+              "final": "ㄹ",
+              "tts": {
+                "ko": "웰",
+                "ipa": "wel",
+                "roman": "wel",
+                "final": "l",
+                "rule": "auto"
+              },
+              "samples": [
+                "웰빙"
+              ],
+              "writing": {
+                "strokes": [],
+                "guideOnly": true
+              },
+              "guideOnly": true
+            },
+            {
+              "syllable": "웩",
+              "final": "ㄱ",
+              "tts": {
+                "ko": "웩",
+                "ipa": "wek̚",
+                "roman": "wek",
+                "final": "k̚",
+                "rule": "auto"
+              },
+              "note": {
+                "ko": "감탄·의성"
+              },
+              "writing": {
+                "strokes": [],
+                "guideOnly": true
+              },
+              "guideOnly": true
+            }
+          ]
+        },
+        {
+          "base": "위",
+          "commonFinals": [
+            "ㄴ",
+            "ㄹ",
+            "ㅁ",
+            "ㅇ"
+          ],
+          "items": [
+            {
+              "syllable": "윈",
+              "final": "ㄴ",
+              "tts": {
+                "ko": "윈",
+                "ipa": "win",
+                "roman": "win",
+                "final": "n",
+                "rule": "auto"
+              },
+              "samples": [
+                "윈도우(loan)"
+              ],
+              "writing": {
+                "strokes": [],
+                "guideOnly": true
+              },
+              "guideOnly": true
+            },
+            {
+              "syllable": "윌",
+              "final": "ㄹ",
+              "tts": {
+                "ko": "윌",
+                "ipa": "wil",
+                "roman": "wil",
+                "final": "l",
+                "rule": "auto"
+              },
+              "writing": {
+                "strokes": [],
+                "guideOnly": true
+              },
+              "guideOnly": true
+            },
+            {
+              "syllable": "윔",
+              "final": "ㅁ",
+              "tts": {
+                "ko": "윔",
+                "ipa": "wim",
+                "roman": "wim",
+                "final": "m",
+                "rule": "auto"
+              },
+              "writing": {
+                "strokes": [],
+                "guideOnly": true
+              },
+              "guideOnly": true
+            },
+            {
+              "syllable": "윙",
+              "final": "ㅇ",
+              "tts": {
+                "ko": "윙",
+                "ipa": "wiŋ",
+                "roman": "wing",
+                "final": "ŋ",
+                "rule": "auto"
+              },
+              "samples": [
+                "윙크"
+              ],
+              "writing": {
+                "strokes": [],
+                "guideOnly": true
+              },
+              "guideOnly": true
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

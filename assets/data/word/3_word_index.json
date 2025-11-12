@@ -1,0 +1,37 @@
+{
+  "unit": "3. 단어",
+  "title": {
+    "ko": "단어",
+    "en": "Words",
+    "ja": "単語",
+    "zh": "单词",
+    "vi": "Từ",
+    "fr": "Mots",
+    "de": "Wörter",
+    "es": "Palabras",
+    "ru": "Слова",
+    "mn": "Үгс"
+  },
+  "description": {
+    "ko": "단어는 의미를 가진 가장 작은 말의 단위입니다.",
+    "en": "A word is the smallest meaningful unit of language.",
+    "ja": "単語は意味を持つ最小の言語単位です。",
+    "zh": "单词是语言中最小的有意义单位。",
+    "vi": "Từ là đơn vị nhỏ nhất mang nghĩa trong ngôn ngữ.",
+    "fr": "Un mot est la plus petite unité porteuse de sens.",
+    "de": "Ein Wort ist die kleinste bedeutungstragende Einheit der Sprache.",
+    "es": "Una palabra es la unidad más pequeña con significado.",
+    "ru": "Слово — наименьшая единица языка, имеющая значение.",
+    "mn": "Үг нь утгатай хэлний хамгийн жижиг нэгж юм."
+  },
+  "sections": [
+    { "id": "3_1", "title": { "ko": "기초 단어", "en": "Basic Words", "ja": "基礎単語", "zh": "基础词汇", "vi": "Từ cơ bản", "fr": "Mots de base", "de": "Grundwörter", "es": "Palabras básicas", "ru": "Базовые слова", "mn": "Үндсэн үгс" }, "file": "3_1_basic_words.json", "hasReading": true, "hasWriting": true, "hasTTS": true },
+    { "id": "3_2", "title": { "ko": "품사별 단어", "en": "Words by Part of Speech", "ja": "品詞別の単語", "zh": "按词性分类的词汇", "vi": "Từ theo từ loại", "fr": "Mots par catégorie grammaticale", "de": "Wörter nach Wortarten", "es": "Palabras por categoría gramatical", "ru": "Слова по частям речи", "mn": "Үгсийг үгийн аймагаар" }, "file": "3_2_pos_words.json", "hasReading": true, "hasWriting": true, "hasTTS": true },
+    { "id": "3_3", "title": { "ko": "의미별 단어", "en": "Semantic Words", "ja": "意味別単語", "zh": "意义词汇", "vi": "Từ theo nghĩa", "fr": "Mots sémantiques", "de": "Semantische Wörter", "es": "Palabras semánticas", "ru": "Семантические слова", "mn": "Утгын үгс" }, "file": "3_3_semantic_words.json", "hasReading": true, "hasWriting": true, "hasTTS": true },
+    { "id": "3_4", "title": { "ko": "상황별 단어", "en": "Situation-based Words", "ja": "場面別単語", "zh": "情境词汇", "vi": "Từ theo tình huống", "fr": "Mots selon la situation", "de": "Situationswörter", "es": "Palabras por situación", "ru": "Слова по ситуациям", "mn": "Нөхцөл байдлын үгс" }, "file": "3_4_situational_words.json", "hasReading": true, "hasWriting": true, "hasTTS": true },
+    { "id": "3_5", "title": { "ko": "가게/시장 단어", "en": "Store/Market Words", "ja": "店・市場の単語", "zh": "商店/市场词汇", "vi": "Từ vựng cửa hàng/chợ", "fr": "Mots : magasin/marché", "de": "Wörter: Geschäft/Markt", "es": "Palabras de tienda/mercado", "ru": "Слова: магазин/рынок", "mn": "Дэлгүүр/захын үгс" }, "file": "3_5_market_words.json", "hasReading": true, "hasWriting": true, "hasTTS": true },
+    { "id": "3_6", "title": { "ko": "시간/날짜 단어", "en": "Time/Date Words", "ja": "時間/日付の単語", "zh": "时间/日期词汇", "vi": "Từ về thời gian/ngày tháng", "fr": "Mots du temps/de la date", "de": "Wörter zu Zeit/Datum", "es": "Palabras de tiempo/fecha", "ru": "Слова: время/дата", "mn": "Цаг/огнооны үгс" }, "file": "3_6_time_words.json", "hasReading": true, "hasWriting": true, "hasTTS": true },
+    { "id": "3_7", "title": { "ko": "길/교통 단어", "en": "Transport/Direction Words", "ja": "交通/道案内の単語", "zh": "交通/问路词汇", "vi": "Từ về giao thông/hỏi đường", "fr": "Mots du transport/de l’orientation", "de": "Wörter zu Verkehr/Wegbeschreibung", "es": "Palabras de transporte/direcciones", "ru": "Слова: транспорт/направления", "mn": "Тээвэр/зам заах үгс" }, "file": "3_7_transport_words.json", "hasReading": true, "hasWriting": true, "hasTTS": true }
+  ],
+  "routing": { "hubRoute": "/words/hub", "detailRoute": "/words/lesson" }
+}

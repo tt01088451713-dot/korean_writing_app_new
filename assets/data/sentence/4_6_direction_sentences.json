@@ -1,0 +1,233 @@
+{
+  "unit": "4. 문장",
+  "lesson_id": "4_6",
+  "title": {
+    "ko": "길 묻기/이동",
+    "en": "Asking Directions & Getting Around",
+    "ja": "道を聞く・移動",
+    "zh": "问路与出行",
+    "vi": "Hỏi đường & di chuyển",
+    "fr": "Demander son chemin & se déplacer",
+    "de": "Nach dem Weg fragen & unterwegs sein",
+    "es": "Pedir direcciones y desplazarse",
+    "ru": "Спросить дорогу и передвигаться",
+    "mn": "Зам асуух/зорчих"
+  },
+  "patterns": [
+    {
+      "id": "p_ask_dir",
+      "name": { "ko": "길 묻기", "en": "Asking Directions" },
+      "explain": {
+        "ko": "장소 위치를 정중하게 묻는 표현입니다.",
+        "en": "Polite expressions to ask for a place/location."
+      }
+    },
+    {
+      "id": "p_give_dir",
+      "name": { "ko": "길 안내하기", "en": "Giving Directions" },
+      "explain": {
+        "ko": "방향/이동 경로를 간단히 안내하는 표현입니다.",
+        "en": "Simple expressions to give directions and routes."
+      }
+    },
+    {
+      "id": "p_transport",
+      "name": { "ko": "교통/탑승", "en": "Transport & Tickets" },
+      "explain": {
+        "ko": "대중교통 이용과 표 관련 표현입니다.",
+        "en": "Expressions for public transport and tickets."
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": "dir_0001",
+      "type": "sentence",
+      "text": "지하철역이 어디예요?",
+      "translations": {
+        "ko": "",
+        "en": "Where is the subway station?",
+        "ja": "地下鉄の駅はどこですか。",
+        "zh": "地铁站在哪里？",
+        "vi": "Ga tàu điện ngầm ở đâu?",
+        "fr": "Où est la station de métro ?",
+        "de": "Wo ist die U-Bahn-Station?",
+        "es": "¿Dónde está la estación de metro?",
+        "ru": "Где станция метро?",
+        "mn": "Метроны буудал хаана вэ?"
+      },
+      "reading": { "enabled": true, "fragments": ["지하철역이","어디예요?"] },
+      "writing": { "enabled": true, "guides": ["지","하","철","역","이","어","디","예","요?"] },
+      "tts": { "text": "지하철역이 어디예요?", "lang": "ko-KR", "rate": 0.5 },
+      "metadata": { "theme": "위치", "pattern": "의문문" }
+    },
+    {
+      "id": "dir_0002",
+      "type": "sentence",
+      "text": "버스 정류장은 저쪽이에요.",
+      "translations": {
+        "ko": "",
+        "en": "The bus stop is over there.",
+        "ja": "バス停はあちらです。",
+        "zh": "公交车站在那边。",
+        "vi": "Trạm xe buýt ở đằng kia.",
+        "fr": "L'arrêt de bus est par là-bas.",
+        "de": "Die Bushaltestelle ist da drüben.",
+        "es": "La parada de autobús está por allí.",
+        "ru": "Автобусная остановка вон там.",
+        "mn": "Автобусны буудал тийшээ байна."
+      },
+      "reading": { "enabled": true },
+      "writing": { "enabled": true, "guides": ["버","스","정","류","장","은","저","쪽","이","에","요."] },
+      "tts": { "text": "버스 정류장은 저쪽이에요.", "lang": "ko-KR", "rate": 0.48 },
+      "metadata": { "theme": "위치", "pattern": "평서문" }
+    },
+    {
+      "id": "dir_0003",
+      "type": "sentence",
+      "text": "왼쪽으로 가세요.",
+      "translations": {
+        "ko": "",
+        "en": "Go to the left.",
+        "ja": "左へ進んでください。",
+        "zh": "向左走。",
+        "vi": "Đi về bên trái.",
+        "fr": "Allez à gauche.",
+        "de": "Gehen Sie nach links.",
+        "es": "Vaya a la izquierda.",
+        "ru": "Идите налево.",
+        "mn": "Зүүн тийш очоорой."
+      },
+      "reading": { "enabled": true },
+      "writing": { "enabled": true, "guides": ["왼","쪽","으","로","가","세","요."] },
+      "tts": { "text": "왼쪽으로 가세요.", "lang": "ko-KR", "rate": 0.5 },
+      "metadata": { "theme": "방향", "pattern": "명령문" }
+    },
+    {
+      "id": "dir_0004",
+      "type": "sentence",
+      "text": "직진하고 신호등에서 오른쪽이에요.",
+      "translations": {
+        "ko": "",
+        "en": "Go straight and turn right at the traffic light.",
+        "ja": "まっすぐ進んで、信号で右です。",
+        "zh": "直走，到红绿灯处向右转。",
+        "vi": "Đi thẳng rồi rẽ phải ở đèn giao thông.",
+        "fr": "Allez tout droit et tournez à droite au feu.",
+        "de": "Gehen Sie geradeaus und am Ampel rechts.",
+        "es": "Siga recto y gire a la derecha en el semáforo.",
+        "ru": "Идите прямо и на светофоре направо.",
+        "mn": "Шулуун яваад гэрлэн дохион дээр баруун тийш."
+      },
+      "reading": { "enabled": true, "fragments": ["직진하고","신호등에서","오른쪽이에요."] },
+      "writing": { "enabled": true, "guides": ["직","진","하","고","신","호","등","에","서","오","른","쪽","이","에","요."] },
+      "tts": { "text": "직진하고 신호등에서 오른쪽이에요.", "lang": "ko-KR", "rate": 0.5 },
+      "metadata": { "theme": "방향", "pattern": "연속 지시" }
+    },
+    {
+      "id": "dir_0005",
+      "type": "sentence",
+      "text": "이 버스는 시청에 가요?",
+      "translations": {
+        "ko": "",
+        "en": "Does this bus go to City Hall?",
+        "ja": "このバスは市役所に行きますか。",
+        "zh": "这班公交到市政府吗？",
+        "vi": "Xe buýt này có đi đến tòa thị chính không?",
+        "fr": "Ce bus va à l'hôtel de ville ?",
+        "de": "Fährt dieser Bus zum Rathaus?",
+        "es": "¿Este bus va al ayuntamiento?",
+        "ru": "Этот автобус идёт к мэрии?",
+        "mn": "Энэ автобус хотын захиргааг очих уу?"
+      },
+      "reading": { "enabled": true },
+      "writing": { "enabled": true, "guides": ["이","버","스","는","시","청","에","가","요?"] },
+      "tts": { "text": "이 버스는 시청에 가요?", "lang": "ko-KR", "rate": 0.52 },
+      "metadata": { "theme": "교통", "pattern": "의문문" }
+    },
+    {
+      "id": "dir_0006",
+      "type": "sentence",
+      "text": "카드 충전은 어디에서 해요?",
+      "translations": {
+        "ko": "",
+        "en": "Where can I recharge my transport card?",
+        "ja": "交通カードのチャージはどこでしますか。",
+        "zh": "在哪里可以给交通卡充值？",
+        "vi": "Nạp thẻ giao thông ở đâu?",
+        "fr": "Où recharger la carte de transport ?",
+        "de": "Wo lade ich die Karte auf?",
+        "es": "¿Dónde recargo la tarjeta de transporte?",
+        "ru": "Где пополнить транспортную карту?",
+        "mn": "Тээврийн картаа хаана цэнэглэдэг вэ?"
+      },
+      "reading": { "enabled": true },
+      "writing": { "enabled": true, "guides": ["카","드","충","전","은","어","디","에","서","해","요?"] },
+      "tts": { "text": "카드 충전은 어디에서 해요?", "lang": "ko-KR", "rate": 0.52 },
+      "metadata": { "theme": "교통", "pattern": "의문문" }
+    },
+    {
+      "id": "dir_0007",
+      "type": "sentence",
+      "text": "한 정거장만 더 가요.",
+      "translations": {
+        "ko": "",
+        "en": "We go just one more stop.",
+        "ja": "もう一つ先の停留所まで行きます。",
+        "zh": "再坐一站就到。",
+        "vi": "Đi thêm một bến nữa thôi.",
+        "fr": "On va encore un arrêt.",
+        "de": "Nur noch eine Haltestelle.",
+        "es": "Solo una parada más.",
+        "ru": "Ещё одну остановку.",
+        "mn": "Дахиад нэг буудал явна."
+      },
+      "reading": { "enabled": true },
+      "writing": { "enabled": true, "guides": ["한","정","거","장","만","더","가","요."] },
+      "tts": { "text": "한 정거장만 더 가요.", "lang": "ko-KR", "rate": 0.5 },
+      "metadata": { "theme": "교통", "pattern": "평서문" }
+    },
+    {
+      "id": "dir_0008",
+      "type": "sentence",
+      "text": "택시 좀 불러 주세요.",
+      "translations": {
+        "ko": "",
+        "en": "Please call a taxi.",
+        "ja": "タクシーを呼んでください。",
+        "zh": "请帮我叫辆出租车。",
+        "vi": "Làm ơn gọi giúp tôi một taxi.",
+        "fr": "Appelez un taxi, s'il vous plaît.",
+        "de": "Bitte rufen Sie ein Taxi.",
+        "es": "Llame un taxi, por favor.",
+        "ru": "Вызовите, пожалуйста, такси.",
+        "mn": "Такси дуудан өгнө үү."
+      },
+      "reading": { "enabled": true },
+      "writing": { "enabled": true, "guides": ["택","시","좀","불","러","주","세","요."] },
+      "tts": { "text": "택시 좀 불러 주세요.", "lang": "ko-KR", "rate": 0.48 },
+      "metadata": { "theme": "교통", "pattern": "요청문" }
+    }
+  ],
+  "activities": [
+    {
+      "id": "a_read_cards_direction",
+      "type": "read_cards",
+      "title": { "ko": "읽기 카드: 길 묻기", "en": "Reading Cards: Directions" },
+      "options": { "items": ["dir_0001","dir_0003","dir_0004","dir_0005","dir_0006","dir_0008"], "autoShuffle": true }
+    },
+    {
+      "id": "a_reorder_turn_right",
+      "type": "read_reorder_fragments",
+      "title": { "ko": "어절 순서 배열(방향)", "en": "Reorder Words (Direction)" },
+      "options": { "target": "dir_0004", "fragments": ["직진하고","오른쪽이에요.","신호등에서"] }
+    },
+    {
+      "id": "a_write_direction",
+      "type": "write_sentences",
+      "title": { "ko": "문장 따라 쓰기: 이동", "en": "Copy the Sentences: Getting Around" },
+      "options": { "items": ["dir_0001","dir_0003","dir_0008"] }
+    }
+  ],
+  "routing": { "hubRoute": "/sentences/hub", "detailRoute": "/sentences/lesson" }
+}

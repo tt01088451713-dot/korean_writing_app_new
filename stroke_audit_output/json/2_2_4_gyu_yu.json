@@ -1,0 +1,667 @@
+{
+  "id": "2_2_4",
+  "title": {
+    "ko": "(4) 규 계열(…ㅠ)",
+    "en": "(4) GYU set (…ㅠ)"
+  },
+  "description": {
+    "ko": "자음과 ㅠ가 상하로 결합하는 배열. CV와 CVC(받침) 예시를 함께 제공합니다.",
+    "en": "Top–bottom layout with ㅠ. Includes both CV and CVC (with finals).",
+    "zh": "与ㅠ的上下结合，同时给出CV与CVC示例。",
+    "ja": "ㅠとの上下結合。CVとCVC（終声付き）を併載。",
+    "vi": "Bố cục với ㅠ. Gồm cả CV và CVC (có 받침).",
+    "fr": "Disposition avec ㅠ. CV et CVC (avec finale).",
+    "es": "Disposición con ㅠ. Incluye CV y CVC (con finales).",
+    "ru": "Компоновка с ㅠ. Есть CV и CVC (с финалями).",
+    "mn": "ㅠ‑тай дээд‑доод байрлал. CV ба CVC‑г хамтад нь өгнө."
+  },
+  "sections": {
+    "cv": {
+      "chars": [
+        {
+          "label": "규",
+          "ttsKey": "gyu",
+          "core": true,
+          "strokeOrder": "assets/strokes/gyu.json",
+          "guideOnly": true,
+          "glyph": "규",
+          "type": "CV",
+          "sound": {
+            "ko": "규",
+            "ipa": "kju"
+          },
+          "writing": {
+            "strokes": [],
+            "order": "assets/strokes/gyu.json",
+            "guideOnly": true
+          },
+          "tts": {
+            "ko": "규",
+            "en": "gyu",
+            "rule": "auto"
+          }
+        },
+        {
+          "label": "뉴",
+          "ttsKey": "nyu",
+          "core": true,
+          "strokeOrder": "assets/strokes/nyu.json",
+          "guideOnly": true,
+          "glyph": "뉴",
+          "type": "CV",
+          "sound": {
+            "ko": "뉴",
+            "ipa": "nju"
+          },
+          "writing": {
+            "strokes": [],
+            "order": "assets/strokes/nyu.json",
+            "guideOnly": true
+          },
+          "tts": {
+            "ko": "뉴",
+            "en": "nyu",
+            "rule": "auto"
+          }
+        },
+        {
+          "label": "류",
+          "ttsKey": "ryu",
+          "core": true,
+          "strokeOrder": "assets/strokes/ryu.json",
+          "guideOnly": true,
+          "glyph": "류",
+          "type": "CV",
+          "sound": {
+            "ko": "류",
+            "ipa": "ɾju"
+          },
+          "writing": {
+            "strokes": [],
+            "order": "assets/strokes/ryu.json",
+            "guideOnly": true
+          },
+          "tts": {
+            "ko": "류",
+            "en": "ryu",
+            "rule": "auto"
+          }
+        },
+        {
+          "label": "뮤",
+          "ttsKey": "myu",
+          "core": true,
+          "strokeOrder": "assets/strokes/myu.json",
+          "guideOnly": true,
+          "glyph": "뮤",
+          "type": "CV",
+          "sound": {
+            "ko": "뮤",
+            "ipa": "mju"
+          },
+          "writing": {
+            "strokes": [],
+            "order": "assets/strokes/myu.json",
+            "guideOnly": true
+          },
+          "tts": {
+            "ko": "뮤",
+            "en": "myu",
+            "rule": "auto"
+          }
+        },
+        {
+          "label": "뷰",
+          "ttsKey": "byu",
+          "core": false,
+          "strokeOrder": "assets/strokes/byu.json",
+          "guideOnly": true,
+          "glyph": "뷰",
+          "type": "CV",
+          "sound": {
+            "ko": "뷰",
+            "ipa": "pju"
+          },
+          "writing": {
+            "strokes": [],
+            "order": "assets/strokes/byu.json",
+            "guideOnly": true
+          },
+          "tts": {
+            "ko": "뷰",
+            "en": "byu",
+            "rule": "auto"
+          }
+        },
+        {
+          "label": "슈",
+          "ttsKey": "syu",
+          "core": false,
+          "strokeOrder": "assets/strokes/syu.json",
+          "guideOnly": true,
+          "glyph": "슈",
+          "type": "CV",
+          "sound": {
+            "ko": "슈",
+            "ipa": "sju"
+          },
+          "writing": {
+            "strokes": [],
+            "order": "assets/strokes/syu.json",
+            "guideOnly": true
+          },
+          "tts": {
+            "ko": "슈",
+            "en": "syu",
+            "rule": "auto"
+          }
+        },
+        {
+          "label": "유",
+          "ttsKey": "yu",
+          "core": true,
+          "strokeOrder": "assets/strokes/yu.json",
+          "guideOnly": true,
+          "glyph": "유",
+          "type": "CV",
+          "sound": {
+            "ko": "유",
+            "ipa": "ju"
+          },
+          "writing": {
+            "strokes": [],
+            "order": "assets/strokes/yu.json",
+            "guideOnly": true
+          },
+          "tts": {
+            "ko": "유",
+            "en": "yu",
+            "rule": "auto"
+          }
+        },
+        {
+          "label": "쥬",
+          "ttsKey": "jyu",
+          "core": false,
+          "strokeOrder": "assets/strokes/jyu.json",
+          "guideOnly": true,
+          "glyph": "쥬",
+          "type": "CV",
+          "sound": {
+            "ko": "쥬",
+            "ipa": "tɕju"
+          },
+          "writing": {
+            "strokes": [],
+            "order": "assets/strokes/jyu.json",
+            "guideOnly": true
+          },
+          "tts": {
+            "ko": "쥬",
+            "en": "jyu",
+            "rule": "auto"
+          }
+        },
+        {
+          "label": "츄",
+          "ttsKey": "chyu",
+          "core": false,
+          "strokeOrder": "assets/strokes/chyu.json",
+          "guideOnly": true,
+          "glyph": "츄",
+          "type": "CV",
+          "sound": {
+            "ko": "츄",
+            "ipa": "tɕʰju"
+          },
+          "writing": {
+            "strokes": [],
+            "order": "assets/strokes/chyu.json",
+            "guideOnly": true
+          },
+          "tts": {
+            "ko": "츄",
+            "en": "chyu",
+            "rule": "auto"
+          }
+        },
+        {
+          "label": "큐",
+          "ttsKey": "kyu",
+          "core": true,
+          "strokeOrder": "assets/strokes/kyu.json",
+          "guideOnly": true,
+          "glyph": "큐",
+          "type": "CV",
+          "sound": {
+            "ko": "큐",
+            "ipa": "kʰju"
+          },
+          "writing": {
+            "strokes": [],
+            "order": "assets/strokes/kyu.json",
+            "guideOnly": true
+          },
+          "tts": {
+            "ko": "큐",
+            "en": "kyu",
+            "rule": "auto"
+          }
+        },
+        {
+          "label": "튜",
+          "ttsKey": "tyu",
+          "core": false,
+          "strokeOrder": "assets/strokes/tyu.json",
+          "guideOnly": true,
+          "glyph": "튜",
+          "type": "CV",
+          "sound": {
+            "ko": "튜",
+            "ipa": "tʰju"
+          },
+          "writing": {
+            "strokes": [],
+            "order": "assets/strokes/tyu.json",
+            "guideOnly": true
+          },
+          "tts": {
+            "ko": "튜",
+            "en": "tyu",
+            "rule": "auto"
+          }
+        },
+        {
+          "label": "퓨",
+          "ttsKey": "pyu",
+          "core": false,
+          "strokeOrder": "assets/strokes/pyu.json",
+          "guideOnly": true,
+          "glyph": "퓨",
+          "type": "CV",
+          "sound": {
+            "ko": "퓨",
+            "ipa": "pʰju"
+          },
+          "writing": {
+            "strokes": [],
+            "order": "assets/strokes/pyu.json",
+            "guideOnly": true
+          },
+          "tts": {
+            "ko": "퓨",
+            "en": "pyu",
+            "rule": "auto"
+          }
+        },
+        {
+          "label": "휴",
+          "ttsKey": "hyu",
+          "core": true,
+          "strokeOrder": "assets/strokes/hyu.json",
+          "guideOnly": true,
+          "glyph": "휴",
+          "type": "CV",
+          "sound": {
+            "ko": "휴",
+            "ipa": "hju"
+          },
+          "writing": {
+            "strokes": [],
+            "order": "assets/strokes/hyu.json",
+            "guideOnly": true
+          },
+          "tts": {
+            "ko": "휴",
+            "en": "hyu",
+            "rule": "auto"
+          }
+        }
+      ]
+    },
+    "cvc": {
+      "note": {
+        "ko": "ㅛ와 마찬가지로 ㅠ 계열의 CVC는 제한적입니다. 실사용이 있는 예만 선별했습니다.",
+        "en": "As with ㅛ, ㅠ‑CVC combinations are limited; only practical cases are shown.",
+        "zh": "与ㅛ类似，ㅠ的CVC组合有限，仅选取实用示例。",
+        "ja": "ㅛ同様に、ㅠのCVCは限定的で、実用例のみ掲載。",
+        "vi": "Tương tự ㅛ, CVC với ㅠ khá hạn chế; chỉ nêu ví dụ thực dụng.",
+        "fr": "Comme pour ㅛ, les CVC avec ㅠ sont limités ; exemples pratiques uniquement.",
+        "es": "Como con ㅛ, las CVC con ㅠ son limitadas; se muestran casos prácticos.",
+        "ru": "Как и для ㅛ, CVC с ㅠ ограничены; приведены практичные примеры.",
+        "mn": "ㅛ‑той адил ㅠ‑гийн CVC хязгаарлагдмал; хэрэгцээтэй жишээг л оруулав."
+      },
+      "examples": [
+        {
+          "base": "규",
+          "commonFinals": [
+            "ㄴ",
+            "ㄹ"
+          ],
+          "items": [
+            {
+              "syllable": "균",
+              "final": "ㄴ",
+              "samples": [
+                "균형",
+                "세균"
+              ],
+              "glyph": "균",
+              "type": "CVC",
+              "sound": {
+                "ko": "균",
+                "ipa": "kjun"
+              },
+              "writing": {
+                "strokes": [],
+                "order": null,
+                "guideOnly": true
+              },
+              "tts": {
+                "ko": "균",
+                "en": "gyun",
+                "rule": "auto",
+                "finalRoman": "n",
+                "finalIpa": "n"
+              },
+              "ttsKey": "gyun",
+              "guideOnly": true,
+              "strokeOrder": null
+            },
+            {
+              "syllable": "귤",
+              "final": "ㄹ",
+              "samples": [
+                "귤"
+              ],
+              "glyph": "귤",
+              "type": "CVC",
+              "sound": {
+                "ko": "귤",
+                "ipa": "kjul"
+              },
+              "writing": {
+                "strokes": [],
+                "order": null,
+                "guideOnly": true
+              },
+              "tts": {
+                "ko": "귤",
+                "en": "gyul",
+                "rule": "auto",
+                "finalRoman": "l",
+                "finalIpa": "l"
+              },
+              "ttsKey": "gyul",
+              "guideOnly": true,
+              "strokeOrder": null
+            }
+          ]
+        },
+        {
+          "base": "류",
+          "commonFinals": [
+            "ㄴ",
+            "ㄹ",
+            "ㅇ"
+          ],
+          "items": [
+            {
+              "syllable": "륜",
+              "final": "ㄴ",
+              "samples": [
+                "윤리(音韻 변동)→ ‘륜’ 한자음 표기"
+              ],
+              "note": {
+                "ko": "한자어 표기 학습 연결"
+              },
+              "glyph": "륜",
+              "type": "CVC",
+              "sound": {
+                "ko": "륜",
+                "ipa": "ɾjun"
+              },
+              "writing": {
+                "strokes": [],
+                "order": null,
+                "guideOnly": true
+              },
+              "tts": {
+                "ko": "륜",
+                "en": "ryun",
+                "rule": "auto",
+                "finalRoman": "n",
+                "finalIpa": "n"
+              },
+              "ttsKey": "ryun",
+              "guideOnly": true,
+              "strokeOrder": null
+            },
+            {
+              "syllable": "률",
+              "final": "ㄹ",
+              "samples": [
+                "비율(율/률 교체 규칙)"
+              ],
+              "note": {
+                "ko": "율/률 교체 규칙"
+              },
+              "glyph": "률",
+              "type": "CVC",
+              "sound": {
+                "ko": "률",
+                "ipa": "ɾjul"
+              },
+              "writing": {
+                "strokes": [],
+                "order": null,
+                "guideOnly": true
+              },
+              "tts": {
+                "ko": "률",
+                "en": "ryul",
+                "rule": "auto",
+                "finalRoman": "l",
+                "finalIpa": "l"
+              },
+              "ttsKey": "ryul",
+              "guideOnly": true,
+              "strokeOrder": null
+            },
+            {
+              "syllable": "릉",
+              "final": "ㅇ",
+              "samples": [
+                "능(음운 변동)"
+              ],
+              "note": {
+                "ko": "두음 법칙 연계"
+              },
+              "glyph": "릉",
+              "type": "CVC",
+              "sound": {
+                "ko": "릉",
+                "ipa": "ɾɯŋ"
+              },
+              "writing": {
+                "strokes": [],
+                "order": null,
+                "guideOnly": true
+              },
+              "tts": {
+                "ko": "릉",
+                "en": "reung",
+                "rule": "auto",
+                "finalRoman": "ng",
+                "finalIpa": "ŋ"
+              },
+              "ttsKey": "reung",
+              "guideOnly": true,
+              "strokeOrder": null
+            }
+          ]
+        },
+        {
+          "base": "유",
+          "commonFinals": [
+            "ㄴ",
+            "ㄹ",
+            "ㅁ",
+            "ㅇ",
+            "ㅅ"
+          ],
+          "items": [
+            {
+              "syllable": "윤",
+              "final": "ㄴ",
+              "samples": [
+                "윤달",
+                "윤리"
+              ],
+              "glyph": "윤",
+              "type": "CVC",
+              "sound": {
+                "ko": "윤",
+                "ipa": "jun"
+              },
+              "writing": {
+                "strokes": [],
+                "order": null,
+                "guideOnly": true
+              },
+              "tts": {
+                "ko": "윤",
+                "en": "yun",
+                "rule": "auto",
+                "finalRoman": "n",
+                "finalIpa": "n"
+              },
+              "ttsKey": "yun",
+              "guideOnly": true,
+              "strokeOrder": null
+            },
+            {
+              "syllable": "율",
+              "final": "ㄹ",
+              "samples": [
+                "율동",
+                "비율"
+              ],
+              "glyph": "율",
+              "type": "CVC",
+              "sound": {
+                "ko": "율",
+                "ipa": "jul"
+              },
+              "writing": {
+                "strokes": [],
+                "order": null,
+                "guideOnly": true
+              },
+              "tts": {
+                "ko": "율",
+                "en": "yul",
+                "rule": "auto",
+                "finalRoman": "l",
+                "finalIpa": "l"
+              },
+              "ttsKey": "yul",
+              "guideOnly": true,
+              "strokeOrder": null
+            },
+            {
+              "syllable": "움",
+              "final": "ㅁ",
+              "samples": [
+                "유물(어근 ‘움’)"
+              ],
+              "note": {
+                "ko": "어근 변이 예시"
+              },
+              "glyph": "움",
+              "type": "CVC",
+              "sound": {
+                "ko": "움",
+                "ipa": "um"
+              },
+              "writing": {
+                "strokes": [],
+                "order": null,
+                "guideOnly": true
+              },
+              "tts": {
+                "ko": "움",
+                "en": "um",
+                "rule": "auto",
+                "finalRoman": "m",
+                "finalIpa": "m"
+              },
+              "ttsKey": "um",
+              "guideOnly": true,
+              "strokeOrder": null
+            },
+            {
+              "syllable": "융",
+              "final": "ㅇ",
+              "samples": [
+                "융합"
+              ],
+              "glyph": "융",
+              "type": "CVC",
+              "sound": {
+                "ko": "융",
+                "ipa": "juŋ"
+              },
+              "writing": {
+                "strokes": [],
+                "order": null,
+                "guideOnly": true
+              },
+              "tts": {
+                "ko": "융",
+                "en": "yung",
+                "rule": "auto",
+                "finalRoman": "ng",
+                "finalIpa": "ŋ"
+              },
+              "ttsKey": "yung",
+              "guideOnly": true,
+              "strokeOrder": null
+            },
+            {
+              "syllable": "욧",
+              "final": "ㅅ",
+              "samples": [
+                "욧값(표기 변형)"
+              ],
+              "note": {
+                "ko": "표기 예시성"
+              },
+              "glyph": "욧",
+              "type": "CVC",
+              "sound": {
+                "ko": "욧",
+                "ipa": "jot̚"
+              },
+              "writing": {
+                "strokes": [],
+                "order": null,
+                "guideOnly": true
+              },
+              "tts": {
+                "ko": "욧",
+                "en": "yot",
+                "rule": "auto",
+                "finalRoman": "t",
+                "finalIpa": "t̚"
+              },
+              "ttsKey": "yot",
+              "guideOnly": true,
+              "strokeOrder": null
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

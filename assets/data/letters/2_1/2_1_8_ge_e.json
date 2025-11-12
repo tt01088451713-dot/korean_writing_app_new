@@ -1,0 +1,23 @@
+{
+  "unitId": "2_1_8_ge_e",
+  "type": "letters",
+  "title": {
+  "ko": "게~헤 (…에)",
+  "en": "Ge–He (…-e series)",
+  "ja": "ゲ〜ヘ（…-e 系）",
+  "zh": "给~黑（…-e 系列）",
+  "vi": "Ge–He (nhóm …-e)",
+  "fr": "Ge–He (série …-e)",
+  "de": "Ge–He (…-e-Reihe)",
+  "es": "Ge–He (serie …-e)",
+  "ru": "Ge–He (ряд …-e)",
+  "mn": "Ge–He (…-e цуврал)"
+  },
+  "practice": { "enabled": true, "strokeAsset": "template", "audio": true, "repeat": 3 },
+  "sequence": ["게","네","데","레","메","베","세","에","제","체","케","테","페","헤"],
+  "assetConventions": {
+    "strokeJson": "assets/strokes/syllables/{glyph}.json",
+    "audioMp3": "assets/audio/syllables/{glyph}.mp3"
+  },
+  "uiHints": { "grid": 7, "rowGap": 8, "colGap": 8 }
+}

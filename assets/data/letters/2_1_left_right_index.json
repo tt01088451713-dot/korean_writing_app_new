@@ -1,0 +1,319 @@
+{
+  "unitId": "2_1_left_right_index",
+  "id": "2_1",
+  "type": "hub",
+
+  "title": {
+    "ko": "2.1 좌우 결합형 글자",
+    "en": "2.1 Left–Right Syllable Blocks",
+    "ja": "2.1 左右結合型の音節",
+    "zh": "2.1 左右结合法音节",
+    "vi": "2.1 Âm tiết kiểu trái–phải",
+    "fr": "2.1 Blocs syllabiques gauche–droite",
+    "de": "2.1 Silbenblöcke: Links–Rechts",
+    "es": "2.1 Bloques silábicos izquierda–derecha",
+    "ru": "2.1 Слоговые блоки лево–правого типа",
+    "mn": "2.1 Зүүн–баруун байрлалтай үеийн блокууд"
+  },
+
+  "overviewRef": "assets/data/letters/overviews/2_1_overview.json",
+
+  "description": {
+    "ko": "세로형 모음(ㅣ 계열)이 오른쪽에 놓이는 좌우 결합(CV) 배열입니다. 카드를 누르면 곧바로 글자 선택 팝업이 뜨고, 글자를 선택하면 쓰기 연습으로 이동합니다.",
+    "en": "Left–right (CV) layout where vertical vowels (ㅣ-series) sit on the right. Tap a card to open the syllable picker and jump straight into handwriting practice.",
+    "ja": "縦母音（ㅣ 系）が右側に置かれる左右結合（CV）配置です。カードをタップすると音節選択ポップアップが開き、選択後すぐ書き取り練習へ進みます。",
+    "zh": "左右结合（CV）布局：竖直元音（ㅣ系列）位于右侧。点按卡片将直接弹出音节选择，并进入书写练习。",
+    "vi": "Bố cục trái–phải (CV) với nguyên âm dọc (nhóm ㅣ) ở bên phải. Chạm thẻ để mở bộ chọn âm tiết và vào luyện viết ngay.",
+    "fr": "Disposition gauche–droite (CV) où les voyelles verticales (série ㅣ) se placent à droite. Touchez une carte pour ouvrir le sélecteur et démarrer l’écriture.",
+    "de": "Links–Rechts-Anordnung (CV), bei der vertikale Vokale (ㅣ-Reihe) rechts stehen. Tippen Sie auf eine Karte, um den Auswahldialog zu öffnen und sofort zu üben.",
+    "es": "Disposición izquierda–derecha (CV) con las vocales verticales (serie ㅣ) a la derecha. Toca una tarjeta para abrir el selector y pasar a practicar la escritura.",
+    "ru": "Лево-правое расположение (CV), где вертикальные гласные (ряд ㅣ) стоят справа. Нажмите на карточку, чтобы выбрать слог и сразу перейти к письму.",
+    "mn": "Зүүн–баруун (CV) байрлалд босоо эгшиг (ㅣ цуврал) баруун талд байрлана. Карт дармагц үе сонгох цонх нээгдэж шууд бичих дасгал руу орно."
+  },
+
+  "items": [
+    {
+      "id": "2_1_1",
+      "title": {
+        "ko": "기~히 (…이)",
+        "en": "Gi–Hi (…-i series)",
+        "ja": "キ〜ヒ（…-i 系）",
+        "zh": "基~希（…-i 系列）",
+        "vi": "Gi–Hi (nhóm …-i)",
+        "fr": "Gi–Hi (série …-i)",
+        "de": "Gi–Hi (…-i-Reihe)",
+        "es": "Gi–Hi (serie …-i)",
+        "ru": "Gi–Hi (ряд …-i)",
+        "mn": "Gi–Hi (…-i цуврал)"
+      },
+      "route": "assets/data/letters/2_1/2_1_1_basic.json",
+      "directPractice": true,
+      "practicePickerTitle": {
+        "ko": "2.1.1 기~히 세트 (…이) — 쓰기 연습",
+        "en": "2.1.1 Gi–Hi set (…-i) — Writing practice",
+        "ja": "2.1.1 キ〜ヒ セット（…-i）— 書き取り練習",
+        "zh": "2.1.1 基~希 组（…-i）— 书写练习",
+        "vi": "2.1.1 Gi–Hi (…-i) — Luyện viết",
+        "fr": "2.1.1 Gi–Hi (…-i) — Exercice d’écriture",
+        "de": "2.1.1 Gi–Hi (…-i) — Schreibübung",
+        "es": "2.1.1 Gi–Hi (…-i) — Práctica de escritura",
+        "ru": "2.1.1 Gi–Hi (…-i) — Тренировка письма",
+        "mn": "2.1.1 Gi–Hi (…-i) — Бичих дасгал"
+      },
+      "practiceSource": { "route": "assets/data/letters/2_1/2_1_1_basic.json", "key": "sequence" }
+    },
+    {
+      "id": "2_1_2",
+      "title": {
+        "ko": "가~하 (…아)",
+        "en": "Ga–Ha (…-a series)",
+        "ja": "カ〜ハ（…-a 系）",
+        "zh": "加~哈（…-a 系列）",
+        "vi": "Ga–Ha (nhóm …-a)",
+        "fr": "Ga–Ha (série …-a)",
+        "de": "Ga–Ha (…-a-Reihe)",
+        "es": "Ga–Ha (serie …-a)",
+        "ru": "Ga–Ha (ряд …-a)",
+        "mn": "Ga–Ha (…-a цуврал)"
+      },
+      "route": "assets/data/letters/2_1/2_1_2_ga.json",
+      "directPractice": true,
+      "practicePickerTitle": {
+        "ko": "2.1.2 가~하 세트 (…아) — 쓰기 연습",
+        "en": "2.1.2 Ga–Ha set (…-a) — Writing practice",
+        "ja": "2.1.2 カ〜ハ（…-a）— 書き取り練習",
+        "zh": "2.1.2 加~哈（…-a）— 书写练习",
+        "vi": "2.1.2 Ga–Ha (…-a) — Luyện viết",
+        "fr": "2.1.2 Ga–Ha (…-a) — Exercice d’écriture",
+        "de": "2.1.2 Ga–Ha (…-a) — Schreibübung",
+        "es": "2.1.2 Ga–Ha (…-a) — Práctica de escritura",
+        "ru": "2.1.2 Ga–Ha (…-a) — Тренировка письма",
+        "mn": "2.1.2 Ga–Ha (…-a) — Бичих дасгал"
+      },
+      "practiceSource": { "route": "assets/data/letters/2_1/2_1_2_ga.json", "key": "sequence" }
+    },
+    {
+      "id": "2_1_3",
+      "title": {
+        "ko": "갸~햐 (…야)",
+        "en": "Gya–Hya (…-ya series)",
+        "ja": "キャ〜ヒャ（…-ya 系）",
+        "zh": "加亚~哈亚（…-ya 系列）",
+        "vi": "Gya–Hya (nhóm …-ya)",
+        "fr": "Gya–Hya (série …-ya)",
+        "de": "Gya–Hya (…-ya-Reihe)",
+        "es": "Gya–Hya (serie …-ya)",
+        "ru": "Gya–Hya (ряд …-ya)",
+        "mn": "Gya–Hya (…-ya цуврал)"
+      },
+      "route": "assets/data/letters/2_1/2_1_3_gya.json",
+      "directPractice": true,
+      "practicePickerTitle": {
+        "ko": "2.1.3 갸~햐 세트 (…야) — 쓰기 연습",
+        "en": "2.1.3 Gya–Hya set (…-ya) — Writing practice",
+        "ja": "2.1.3 キャ〜ヒャ（…-ya）— 書き取り練習",
+        "zh": "2.1.3 加亚~哈亚（…-ya）— 书写练习",
+        "vi": "2.1.3 Gya–Hya (…-ya) — Luyện viết",
+        "fr": "2.1.3 Gya–Hya (…-ya) — Exercice d’écriture",
+        "de": "2.1.3 Gya–Hya (…-ya) — Schreibübung",
+        "es": "2.1.3 Gya–Hya (…-ya) — Práctica de escritura",
+        "ru": "2.1.3 Gya–Hya (…-ya) — Тренировка письма",
+        "mn": "2.1.3 Gya–Hya (…-ya) — Бичих дасгал"
+      },
+      "practiceSource": { "route": "assets/data/letters/2_1/2_1_3_gya.json", "key": "sequence" }
+    },
+    {
+      "id": "2_1_4",
+      "title": {
+        "ko": "개~해 (…애)",
+        "en": "Gae–Hae (…-ae series)",
+        "ja": "ゲ〜ヘ（…-ae 系）",
+        "zh": "介~海（…-ae 系列）",
+        "vi": "Gae–Hae (nhóm …-ae)",
+        "fr": "Gae–Hae (série …-ae)",
+        "de": "Gae–Hae (…-ae-Reihe)",
+        "es": "Gae–Hae (serie …-ae)",
+        "ru": "Gae–Hae (ряд …-ae)",
+        "mn": "Gae–Hae (…-ae цуврал)"
+      },
+      "route": "assets/data/letters/2_1/2_1_4_gae.json",
+      "directPractice": true,
+      "practicePickerTitle": {
+        "ko": "2.1.4 개~해 세트 (…애) — 쓰기 연습",
+        "en": "2.1.4 Gae–Hae set (…-ae) — Writing practice",
+        "ja": "2.1.4 ゲ〜ヘ（…-ae）— 書き取り練習",
+        "zh": "2.1.4 介~海（…-ae）— 书写练习",
+        "vi": "2.1.4 Gae–Hae (…-ae) — Luyện viết",
+        "fr": "2.1.4 Gae–Hae (…-ae) — Exercice d’écriture",
+        "de": "2.1.4 Gae–Hae (…-ae) — Schreibübung",
+        "es": "2.1.4 Gae–Hae (…-ae) — Práctica de escritura",
+        "ru": "2.1.4 Gae–Hae (…-ae) — Тренировка письма",
+        "mn": "2.1.4 Gae–Hae (…-ae) — Бичих дасгал"
+      },
+      "practiceSource": { "route": "assets/data/letters/2_1/2_1_4_gae.json", "key": "sequence" }
+    },
+    {
+      "id": "2_1_5",
+      "title": {
+        "ko": "걔~햬 (…얘)",
+        "en": "Gyae–Hyae (…-yae series)",
+        "ja": "ギェ〜ヒェ（…-yae 系）",
+        "zh": "加耶~哈耶（…-yae 系列）",
+        "vi": "Gyae–Hyae (nhóm …-yae)",
+        "fr": "Gyae–Hyae (série …-yae)",
+        "de": "Gyae–Hyae (…-yae-Reihe)",
+        "es": "Gyae–Hyae (serie …-yae)",
+        "ru": "Gyae–Hyae (ряд …-yae)",
+        "mn": "Gyae–Hyae (…-yae цуврал)"
+      },
+      "route": "assets/data/letters/2_1/2_1_5_gyae.json",
+      "directPractice": true,
+      "practicePickerTitle": {
+        "ko": "2.1.5 걔~햬 세트 (…얘) — 쓰기 연습",
+        "en": "2.1.5 Gyae–Hyae set (…-yae) — Writing practice",
+        "ja": "2.1.5 ギェ〜ヒェ（…-yae）— 書き取り練習",
+        "zh": "2.1.5 加耶~哈耶（…-yae）— 书写练习",
+        "vi": "2.1.5 Gyae–Hyae (…-yae) — Luyện viết",
+        "fr": "2.1.5 Gyae–Hyae (…-yae) — Exercice d’écriture",
+        "de": "2.1.5 Gyae–Hyae (…-yae) — Schreibübung",
+        "es": "2.1.5 Gyae–Hyae (…-yae) — Práctica de escritura",
+        "ru": "2.1.5 Gyae–Hyae (…-yae) — Тренировка письма",
+        "mn": "2.1.5 Gyae–Hyae (…-yae) — Бичих дасгал"
+      },
+      "practiceSource": { "route": "assets/data/letters/2_1/2_1_5_gyae.json", "key": "sequence" }
+    },
+    {
+      "id": "2_1_6",
+      "title": {
+        "ko": "거~허 (…어)",
+        "en": "Geo–Heo (…-eo series)",
+        "ja": "コ〜ホ（…-eo 系）",
+        "zh": "格~何（…-eo 系列）",
+        "vi": "Geo–Heo (nhóm …-eo)",
+        "fr": "Geo–Heo (série …-eo)",
+        "de": "Geo–Heo (…-eo-Reihe)",
+        "es": "Geo–Heo (serie …-eo)",
+        "ru": "Geo–Heo (ряд …-eo)",
+        "mn": "Geo–Heo (…-eo цуврал)"
+      },
+      "route": "assets/data/letters/2_1/2_1_6_geo_eo.json",
+      "directPractice": true,
+      "practicePickerTitle": {
+        "ko": "2.1.6 거~허 세트 (…어) — 쓰기 연습",
+        "en": "2.1.6 Geo–Heo set (…-eo) — Writing practice",
+        "ja": "2.1.6 コ〜ホ（…-eo）— 書き取り練習",
+        "zh": "2.1.6 格~何（…-eo）— 书写练习",
+        "vi": "2.1.6 Geo–Heo (…-eo) — Luyện viết",
+        "fr": "2.1.6 Geo–Heo (…-eo) — Exercice d’écriture",
+        "de": "2.1.6 Geo–Heo (…-eo) — Schreibübung",
+        "es": "2.1.6 Geo–Heo (…-eo) — Práctica de escritura",
+        "ru": "2.1.6 Geo–Heo (…-eo) — Тренировка письма",
+        "mn": "2.1.6 Geo–Heo (…-eo) — Бичих дасгал"
+      },
+      "practiceSource": { "route": "assets/data/letters/2_1/2_1_6_geo_eo.json", "key": "sequence" }
+    },
+    {
+      "id": "2_1_7",
+      "title": {
+        "ko": "겨~혀 (…여)",
+        "en": "Gyeo–Hyeo (…-yeo series)",
+        "ja": "キョ〜ヒョ（…-yeo 系）",
+        "zh": "敬~许（…-yeo 系列）",
+        "vi": "Gyeo–Hyeo (nhóm …-yeo)",
+        "fr": "Gyeo–Hyeo (série …-yeo)",
+        "de": "Gyeo–Hyeo (…-yeo-Reihe)",
+        "es": "Gyeo–Hyeo (serie …-yeo)",
+        "ru": "Gyeo–Hyeo (ряд …-yeo)",
+        "mn": "Gyeo–Hyeo (…-yeo цуврал)"
+      },
+      "route": "assets/data/letters/2_1/2_1_7_gyeo_yeo.json",
+      "directPractice": true,
+      "practicePickerTitle": {
+        "ko": "2.1.7 겨~혀 세트 (…여) — 쓰기 연습",
+        "en": "2.1.7 Gyeo–Hyeo set (…-yeo) — Writing practice",
+        "ja": "2.1.7 キョ〜ヒョ（…-yeo）— 書き取り練習",
+        "zh": "2.1.7 敬~许（…-yeo）— 书写练习",
+        "vi": "2.1.7 Gyeo–Hyeo (…-yeo) — Luyện viết",
+        "fr": "2.1.7 Gyeo–Hyeo (…-yeo) — Exercice d’écriture",
+        "de": "2.1.7 Gyeo–Hyeo (…-yeo) — Schreibübung",
+        "es": "2.1.7 Gyeo–Hyeo (…-yeo) — Práctica de escritura",
+        "ru": "2.1.7 Gyeo–Hyeo (…-yeo) — Тренировка письма",
+        "mn": "2.1.7 Gyeo–Hyeo (…-yeo) — Бичих дасгал"
+      },
+      "practiceSource": { "route": "assets/data/letters/2_1/2_1_7_gyeo_yeo.json", "key": "sequence" }
+    },
+    {
+      "id": "2_1_8",
+      "title": {
+        "ko": "게~헤 (…에)",
+        "en": "Ge–He (…-e series)",
+        "ja": "ゲ〜ヘ（…-e 系）",
+        "zh": "给~黑（…-e 系列）",
+        "vi": "Ge–He (nhóm …-e)",
+        "fr": "Ge–He (série …-e)",
+        "de": "Ge–He (…-e-Reihe)",
+        "es": "Ge–He (serie …-e)",
+        "ru": "Ge–He (ряд …-e)",
+        "mn": "Ge–He (…-e цуврал)"
+      },
+      "route": "assets/data/letters/2_1/2_1_8_ge_e.json",
+      "directPractice": true,
+      "practicePickerTitle": {
+        "ko": "2.1.8 게~헤 세트 (…에) — 쓰기 연습",
+        "en": "2.1.8 Ge–He set (…-e) — Writing practice",
+        "ja": "2.1.8 ゲ〜ヘ（…-e）— 書き取り練習",
+        "zh": "2.1.8 给~黑（…-e）— 书写练习",
+        "vi": "2.1.8 Ge–He (…-e) — Luyện viết",
+        "fr": "2.1.8 Ge–He (…-e) — Exercice d’écriture",
+        "de": "2.1.8 Ge–He (…-e) — Schreibübung",
+        "es": "2.1.8 Ge–He (…-e) — Práctica de escritura",
+        "ru": "2.1.8 Ge–He (…-e) — Тренировка письма",
+        "mn": "2.1.8 Ge–He (…-e) — Бичих дасгал"
+      },
+      "practiceSource": { "route": "assets/data/letters/2_1/2_1_8_ge_e.json", "key": "sequence" }
+    },
+    {
+      "id": "2_1_9",
+      "title": {
+        "ko": "계~혜 (…예)",
+        "en": "Gye–Hye (…-ye series)",
+        "ja": "ゲェ〜ヘェ（…-ye 系）",
+        "zh": "桂~惠（…-ye 系列）",
+        "vi": "Gye–Hye (nhóm …-ye)",
+        "fr": "Gye–Hye (série …-ye)",
+        "de": "Gye–Hye (…-ye-Reihe)",
+        "es": "Gye–Hye (serie …-ye)",
+        "ru": "Gye–Hye (ряд …-ye)",
+        "mn": "Gye–Hye (…-ye цуврал)"
+      },
+      "route": "assets/data/letters/2_1/2_1_9_gye_ye.json",
+      "directPractice": true,
+      "practicePickerTitle": {
+        "ko": "2.1.9 계~혜 세트 (…예) — 쓰기 연습",
+        "en": "2.1.9 Gye–Hye set (…-ye) — Writing practice",
+        "ja": "2.1.9 ゲェ〜ヘェ（…-ye）— 書き取り練習",
+        "zh": "2.1.9 桂~惠（…-ye）— 书写练习",
+        "vi": "2.1.9 Gye–Hye (…-ye) — Luyện viết",
+        "fr": "2.1.9 Gye–Hye (…-ye) — Exercice d’écriture",
+        "de": "2.1.9 Gye–Hye (…-ye) — Schreibübung",
+        "es": "2.1.9 Gye–Hye (…-ye) — Práctica de escritura",
+        "ru": "2.1.9 Gye–Hye (…-ye) — Тренировка письма",
+        "mn": "2.1.9 Gye–Hye (…-ye) — Бичих дасгал"
+      },
+      "practiceSource": { "route": "assets/data/letters/2_1/2_1_9_gye_ye.json", "key": "sequence" }
+    }
+  ],
+
+  "meta": {
+    "sourcePages": "교본 p.24–28 (요약)",
+    "notes": [
+      "각 카드의 글자 목록은 해당 세트 JSON의 sequence를 그대로 사용합니다.",
+      "개별 음절의 다국어 번역은 포함하지 않습니다."
+    ]
+  },
+
+  "assetConventions": {
+    "strokeJson": "assets/strokes/syllables/{glyph}.json",
+    "audioMp3": "assets/audio/syllables/{glyph}.mp3"
+  }
+}

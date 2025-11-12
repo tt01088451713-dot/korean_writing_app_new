@@ -1,0 +1,27 @@
+{
+  "id": "letters_overview",
+  "title": {
+    "ko": "글자 단원",
+    "en": "Syllable Blocks",
+    "ja": "文字ブロック",
+    "zh": "音节块",
+    "vi": "Khối âm tiết",
+    "fr": "Blocs syllabiques",
+    "de": "Silbenblöcke",
+    "es": "Bloques silábicos",
+    "ru": "Слоговые блоки",
+    "mn": "Үгийн үеийн блокууд"
+  },
+  "description": {
+    "ko": "한글 글자는 초성(자음), 중성(모음), 필요에 따라 종성(받침)이 한 칸 안에서 결합하여 이루어집니다. 이 단원에서는 좌우 결합형, 상하 결합형, 좌우상하 결합형, ‘ㅢ’형 등으로 나누어 연습합니다.",
+    "en": "A Hangul syllable block is formed by combining the initial consonant, the medial vowel, and optionally a final (coda) in a single square. Here you will practice the main block layouts: left–right, top–bottom, complex (LR+TB), and the 'ㅢ' pattern.",
+    "ja": "ハングルの音節ブロックは、初声・中声・必要に応じて終声を一つの枠に組み合わせて作られます。ここでは左右結合、上下結合、複合（左右＋上下）、「ㅢ」型を練習します。",
+    "zh": "韩文字节块由声母、介母，及可选的终声在同一方格中组合而成。本单元将练习左右、上下、复合（左右+上下）以及“ㅢ”型等主要布局。",
+    "vi": "Một khối âm tiết Hangul được tạo bởi phụ âm đầu, nguyên âm chính và (nếu có) phụ âm cuối trong một ô vuông. Ở đây bạn sẽ luyện các bố cục chính: trái–phải, trên–dưới, phức hợp (LR+TB) và dạng ‘ㅢ’.",
+    "fr": "Un bloc syllabique coréen combine l'initiale, la médiane et éventuellement une finale dans un carré. Vous pratiquerez ici les dispositions principales : gauche–droite, haut–bas, complexe (LR+HB) et le motif « ㅢ ».",
+    "de": "Ein koreanischer Silbenblock kombiniert Anlaut, Inlaut und optional einen Auslaut in einem Quadrat. Hier üben Sie die wichtigsten Anordnungen: Links–Rechts, Oben–Unten, komplex (LR+OB) und das „ㅢ“-Muster.",
+    "es": "Un bloque silábico hangul combina la consonante inicial, la vocal medial y opcionalmente una final en un solo cuadrado. Aquí practicarás los diseños principales: izquierda–derecha, arriba–abajo, complejo (LR+AB) y el patrón «ㅢ».",
+    "ru": "Слоговый блок хангыля формируется из начальной, срединной и при необходимости конечной (коды) в одном квадрате. Здесь вы потренируете основные схемы: слева–справа, сверху–снизу, сложную (ЛП+ВС) и шаблон «ㅢ».",
+    "mn": "Хангал үгийн үе нь эх, гол, шаардлагатай бол төгсгөл гийгүүлэгчийг нэг дөрвөлжин дотор хослуулж бүрдэнэ. Энэ хэсэгт зүүн–баруун, дээр–доор, нийлмэл (ЗБ+ДД) болон “ㅢ” хэв маягийг дадлага хийнэ."
+  }
+}

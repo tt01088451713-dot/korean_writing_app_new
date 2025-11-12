@@ -1,0 +1,247 @@
+{
+  "id": "2_3_3",
+  "title": {
+    "ko": "(3) ㅣ + 받침",
+    "en": "(3) ㅣ + finals (CVC)",
+    "zh": "(3) ㅣ + 终声 (CVC)",
+    "ja": "（3）ㅣ + 終声（CVC）",
+    "vi": "(3) ㅣ + 받chim (CVC)",
+    "fr": "(3) ㅣ + finale (CVC)",
+    "es": "(3) ㅣ + final (CVC)",
+    "ru": "(3) ㅣ + финаль (CVC)",
+    "mn": "(3) ㅣ + 받чим (CVC)"
+  },
+  "description": {
+    "ko": "ㅣ 모음의 복합형(CVC) 예시입니다. 빈출 받침과 겹받침을 함께 제시합니다.",
+    "en": "CVC with ㅣ, including common and double finals.",
+    "zh": "ㅣ 元音的 CVC 复合结构示例，含常见与复合终声。",
+    "ja": "母音 ㅣ の CVC 複合例。頻出および複合終声を含みます。",
+    "vi": "Ví dụ CVC với ㅣ, gồm cả 받침 thường gặp và 받침 kép.",
+    "fr": "Exemples CVC avec la voyelle ㅣ, incluant finales communes et doubles.",
+    "es": "CVC con la vocal ㅣ, incluyendo finales comunes y dobles.",
+    "ru": "CVC с гласной ㅣ, включая распространённые и двойные финали.",
+    "mn": "Эгшиг ㅣ‑тэй CVC нийлмэл жишээ; түгээмэл ба давхар 받чим орно."
+  },
+  "sections": {
+    "cvc": {
+      "examples": [
+        {
+          "base": "기",
+          "commonFinals": [
+            "ㄴ",
+            "ㄹ",
+            "ㅁ",
+            "ㅇ",
+            "ㄺ"
+          ],
+          "items": [
+            {
+              "syllable": "긴",
+              "final": "ㄴ",
+              "tts": {
+                "ko": "긴",
+                "ipa": "kin",
+                "roman": "gin",
+                "final": "n",
+                "rule": "auto"
+              },
+              "samples": [
+                "긴급",
+                "긴장"
+              ],
+              "writing": {
+                "strokes": [],
+                "guideOnly": true
+              },
+              "guideOnly": true
+            },
+            {
+              "syllable": "길",
+              "final": "ㄹ",
+              "tts": {
+                "ko": "길",
+                "ipa": "kil",
+                "roman": "gil",
+                "final": "l",
+                "rule": "auto"
+              },
+              "samples": [
+                "길"
+              ],
+              "writing": {
+                "strokes": [],
+                "guideOnly": true
+              },
+              "guideOnly": true
+            },
+            {
+              "syllable": "김",
+              "final": "ㅁ",
+              "tts": {
+                "ko": "김",
+                "ipa": "kim",
+                "roman": "gim",
+                "final": "m",
+                "rule": "auto"
+              },
+              "samples": [
+                "김밥",
+                "김치"
+              ],
+              "writing": {
+                "strokes": [],
+                "guideOnly": true
+              },
+              "guideOnly": true
+            },
+            {
+              "syllable": "긍",
+              "final": "ㅇ",
+              "tts": {
+                "ko": "깅",
+                "ipa": "kiŋ",
+                "roman": "ging",
+                "final": "ŋ",
+                "rule": "auto"
+              },
+              "note": {
+                "ko": "‘긍정’의 ‘긍’은 ㅡ 모음, 본 항목은 ㅣ 계열 예시로 ‘깅(음운 변형 예시)’은 사용 지양 가능"
+              },
+              "writing": {
+                "strokes": [],
+                "guideOnly": true
+              },
+              "guideOnly": true
+            },
+            {
+              "syllable": "읽",
+              "final": "ㄺ",
+              "doubleFinal": true,
+              "tts": {
+                "ko": "읽",
+                "ipa": "ik̚",
+                "roman": "ilg",
+                "final": "k̚",
+                "rule": "override",
+                "note": {
+                  "ko": "단독 종성 ㄺ→[k̚]; ‘읽다’[익따]"
+                }
+              },
+              "writing": {
+                "strokes": [],
+                "guideOnly": true
+              },
+              "guideOnly": true
+            }
+          ]
+        },
+        {
+          "base": "이",
+          "commonFinals": [
+            "ㄴ",
+            "ㄹ",
+            "ㅁ",
+            "ㅇ",
+            "ㅅ"
+          ],
+          "items": [
+            {
+              "syllable": "인",
+              "final": "ㄴ",
+              "tts": {
+                "ko": "인",
+                "ipa": "in",
+                "roman": "in",
+                "final": "n",
+                "rule": "auto"
+              },
+              "writing": {
+                "strokes": [],
+                "guideOnly": true
+              },
+              "guideOnly": true
+            },
+            {
+              "syllable": "일",
+              "final": "ㄹ",
+              "tts": {
+                "ko": "일",
+                "ipa": "il",
+                "roman": "il",
+                "final": "l",
+                "rule": "auto"
+              },
+              "samples": [
+                "일"
+              ],
+              "writing": {
+                "strokes": [],
+                "guideOnly": true
+              },
+              "guideOnly": true
+            },
+            {
+              "syllable": "임",
+              "final": "ㅁ",
+              "tts": {
+                "ko": "임",
+                "ipa": "im",
+                "roman": "im",
+                "final": "m",
+                "rule": "auto"
+              },
+              "writing": {
+                "strokes": [],
+                "guideOnly": true
+              },
+              "guideOnly": true
+            },
+            {
+              "syllable": "잉",
+              "final": "ㅇ",
+              "tts": {
+                "ko": "잉",
+                "ipa": "iŋ",
+                "roman": "ing",
+                "final": "ŋ",
+                "rule": "auto"
+              },
+              "writing": {
+                "strokes": [],
+                "guideOnly": true
+              },
+              "guideOnly": true
+            },
+            {
+              "syllable": "잇",
+              "final": "ㅅ",
+              "tts": {
+                "ko": "잇",
+                "ipa": "it̚",
+                "roman": "is",
+                "final": "t̚",
+                "rule": "auto"
+              },
+              "writing": {
+                "strokes": [],
+                "guideOnly": true
+              },
+              "guideOnly": true
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "definition": {
+    "ko": "모음 ㅣ의 좌우+하부 복합(CVC) 배열 예시입니다. 빈출 받침과 겹받침을 함께 제시합니다.",
+    "en": "Complex CVC layouts with vowel ㅣ, including common and double finals.",
+    "zh": "展示含元音 ㅣ 的左右+下部 CVC 复合结构，并列出常见与复合终声。",
+    "ja": "母音 ㅣ による左右＋下部の CVC 複合配置の例で、頻出終声と複合終声を併記します。",
+    "vi": "Bố cục CVC phức hợp với nguyên âm ㅣ; liệt kê cả 받침 thường gặp và 받침 kép.",
+    "fr": "Agencements CVC complexes avec la voyelle ㅣ, avec finales fréquentes et doubles.",
+    "es": "Diseños CVC complejos con la vocal ㅣ, con finales comunes y dobles.",
+    "ru": "Сложные CVC‑раскладки с гласной ㅣ; указаны как частые, так и двойные финали.",
+    "mn": "Эгшиг ㅣ‑ийн CVC нийлмэл байршлын жишээ; түгээмэл болон давхар 받чимыг хамтатган үзүүлэв."
+  }
+}

@@ -6,6 +6,7 @@
     "zh": "元音",
     "vi": "Nguyên âm",
     "fr": "Voyelles coréennes",
+    "de": "Vokalzeichen",
     "es": "Vocales coreanas",
     "ru": "Гласные хангыль",
     "mn": "Хангыльгийн эгшиг"
@@ -17,6 +18,7 @@
     "zh": "基本元音取自「ㆍ（天）」「ㅡ（地）」「ㅣ（人）」；其余由组合或加画而成。",
     "vi": "Nguyên âm cơ bản mô phỏng trời (ㆍ), đất (ㅡ), người (ㅣ); các nguyên âm khác do kết hợp hoặc thêm nét.",
     "fr": "Les voyelles de base reflètent le ciel (ㆍ), la terre (ㅡ) et l’homme (ㅣ) ; les autres proviennent de combinaisons ou d’ajouts de traits.",
+    "de": "Die koreanischen Vokalzeichen wurden auf der Grundlage der Prinzipien von Himmel (·), Erde (ㅡ) und Mensch (ㅣ) geschaffen. Sie bestehen aus einfachen und abgeleiteten Vokalen. Die einfachen Vokale basieren auf drei Grundsymbolen, während die abgeleiteten durch Hinzufügen von Strichen oder Kombinationen gebildet werden.",
     "es": "Las vocales básicas representan cielo (ㆍ), tierra (ㅡ) y persona (ㅣ); las demás se forman combinándolas o añadiendo trazos.",
     "ru": "Базовые гласные отражают небо (ㆍ), землю (ㅡ) и человека (ㅣ); прочие образуются их комбинацией или добавлением штрихов.",
     "mn": "Үндсэн эгшиг нь тэнгэр (ㆍ), газар (ㅡ), хүн (ㅣ)-ийг дүрслэж, бусад нь тэдгээрийн хослолоор эсвэл зурлага нэмснээр бий болдог."
@@ -32,6 +34,7 @@
         "zh": "基本元音",
         "vi": "Nguyên âm cơ bản",
         "fr": "Voyelles de base",
+        "de": "Grundlegende Vokale",
         "es": "Vocales básicas",
         "ru": "Базовые гласные",
         "mn": "Үндсэн эгшиг"
@@ -43,6 +46,7 @@
         "zh": "ㆍ象征天，ㅡ象征地，ㅣ象征人。下阿(ㆍ)在现代韩语中不再使用（仅作说明）。",
         "vi": "ㆍ tượng trưng cho trời, ㅡ cho đất, ㅣ cho con người. Arae-a (ㆍ) hiện không dùng trong tiếng Hàn hiện đại (chỉ giải thích).",
         "fr": "ㆍ symbolise le ciel, ㅡ la terre et ㅣ l’homme. L’arae-a (ㆍ) n’est plus utilisé en coréen moderne (description uniquement).",
+        "de": "Die koreanischen Vokalzeichen wurden auf der Grundlage der Prinzipien von Himmel (·), Erde (ㅡ) und Mensch (ㅣ) geschaffen. Sie bestehen aus einfachen und abgeleiteten Vokalen. Die einfachen Vokale basieren auf drei Grundsymbolen, während die abgeleiteten durch Hinzufügen von Strichen oder Kombinationen gebildet werden.",
         "es": "ㆍ simboliza el cielo, ㅡ la tierra y ㅣ a la persona. El arae-a (ㆍ) ya no se usa en el coreano moderno (solo explicación).",
         "ru": "ㆍ — символ неба, ㅡ — земли, ㅣ — человека. Ареа-а (ㆍ) в современном корейском не используется (только описание).",
         "mn": "ㆍ нь тэнгэр, ㅡ нь газар, ㅣ нь хүнийг бэлгэднэ. Араэ-а (ㆍ) нь орчин үеийн солонгос хэлэнд хэрэглэгддэггүй (танилцуулга л байна)."
@@ -54,10 +58,11 @@
           "name": {
             "ko": "아래아",
             "en": "arae-a",
-            "ja": "アレア",
+            "ja": "arae-a",
             "zh": "arae-a",
             "vi": "arae-a",
             "fr": "arae-a",
+            "de": "arae-a",
             "es": "arae-a",
             "ru": "arae-a",
             "mn": "arae-a"
@@ -69,6 +74,7 @@
             "zh": "象征天空",
             "vi": "Biểu tượng bầu trời",
             "fr": "Symbole du ciel",
+            "de": "Entstehungsprinzip",
             "es": "Símbolo del cielo",
             "ru": "Символ неба",
             "mn": "Тэнгэрийн бэлгэ тэмдэг"
@@ -80,10 +86,11 @@
           "name": {
             "ko": "으",
             "en": "eu",
-            "ja": "ウ",
+            "ja": "eu",
             "zh": "eu",
             "vi": "eu",
             "fr": "eu",
+            "de": "eu",
             "es": "eu",
             "ru": "eu",
             "mn": "eu"
@@ -95,11 +102,15 @@
             "zh": "象征大地",
             "vi": "Biểu tượng mặt đất",
             "fr": "Symbole de la terre",
+            "de": "Entstehungsprinzip",
             "es": "Símbolo de la tierra",
             "ru": "Символ земли",
             "mn": "Газрын бэлгэ тэмдэг"
           },
-          "pronunciation": { "ko": "으", "en": "eu" }
+          "pronunciation": {
+            "ko": "으",
+            "en": "eu"
+          }
         },
         {
           "id": "i",
@@ -107,10 +118,11 @@
           "name": {
             "ko": "이",
             "en": "i",
-            "ja": "イ",
+            "ja": "i",
             "zh": "i",
             "vi": "i",
             "fr": "i",
+            "de": "i",
             "es": "i",
             "ru": "i",
             "mn": "i"
@@ -122,11 +134,15 @@
             "zh": "象征人",
             "vi": "Biểu tượng con người",
             "fr": "Symbole de l’homme",
+            "de": "Entstehungsprinzip",
             "es": "Símbolo de la persona",
             "ru": "Символ человека",
             "mn": "Хүний бэлгэ тэмдэг"
           },
-          "pronunciation": { "ko": "이", "en": "i" }
+          "pronunciation": {
+            "ko": "이",
+            "en": "i"
+          }
         }
       ]
     },
@@ -151,6 +167,7 @@
         "zh": "由ㆍ、ㅡ、ㅣ组合而成的元音。",
         "vi": "Nguyên âm tạo bởi sự kết hợp ㆍ, ㅡ, ㅣ.",
         "fr": "Voyelles issues de la combinaison de ㆍ, ㅡ et ㅣ.",
+        "de": "Die koreanischen Vokalzeichen wurden auf der Grundlage der Prinzipien von Himmel (·), Erde (ㅡ) und Mensch (ㅣ) geschaffen. Sie bestehen aus einfachen und abgeleiteten Vokalen. Die einfachen Vokale basieren auf drei Grundsymbolen, während die abgeleiteten durch Hinzufügen von Strichen oder Kombinationen gebildet werden.",
         "es": "Vocales formadas combinando ㆍ, ㅡ y ㅣ.",
         "ru": "Гласные, образованные комбинацией ㆍ, ㅡ и ㅣ.",
         "mn": "ㆍ, ㅡ, ㅣ-гийн хослолын үр дүн."
@@ -159,26 +176,82 @@
         {
           "id": "a",
           "glyph": "ㅏ",
-          "name": { "ko": "아", "en": "a", "ja": "ア", "zh": "a", "vi": "a", "fr": "a", "es": "a", "ru": "a", "mn": "a" },
-          "pronunciation": { "ko": "아", "en": "a" }
+          "name": {
+            "ko": "아",
+            "en": "a",
+            "ja": "a",
+            "zh": "a",
+            "vi": "a",
+            "fr": "a",
+            "de": "a",
+            "es": "a",
+            "ru": "a",
+            "mn": "a"
+          },
+          "pronunciation": {
+            "ko": "아",
+            "en": "a"
+          }
         },
         {
           "id": "eo",
           "glyph": "ㅓ",
-          "name": { "ko": "어", "en": "eo", "ja": "オ", "zh": "eo", "vi": "eo", "fr": "eo", "es": "eo", "ru": "eo", "mn": "eo" },
-          "pronunciation": { "ko": "어", "en": "eo" }
+          "name": {
+            "ko": "어",
+            "en": "eo",
+            "ja": "eo",
+            "zh": "eo",
+            "vi": "eo",
+            "fr": "eo",
+            "de": "eo",
+            "es": "eo",
+            "ru": "eo",
+            "mn": "eo"
+          },
+          "pronunciation": {
+            "ko": "어",
+            "en": "eo"
+          }
         },
         {
           "id": "o",
           "glyph": "ㅗ",
-          "name": { "ko": "오", "en": "o", "ja": "オ", "zh": "o", "vi": "o", "fr": "o", "es": "o", "ru": "o", "mn": "o" },
-          "pronunciation": { "ko": "오", "en": "o" }
+          "name": {
+            "ko": "오",
+            "en": "o",
+            "ja": "o",
+            "zh": "o",
+            "vi": "o",
+            "fr": "o",
+            "de": "o",
+            "es": "o",
+            "ru": "o",
+            "mn": "o"
+          },
+          "pronunciation": {
+            "ko": "오",
+            "en": "o"
+          }
         },
         {
           "id": "u",
           "glyph": "ㅜ",
-          "name": { "ko": "우", "en": "u", "ja": "ウ", "zh": "u", "vi": "u", "fr": "u", "es": "u", "ru": "u", "mn": "u" },
-          "pronunciation": { "ko": "우", "en": "u" }
+          "name": {
+            "ko": "우",
+            "en": "u",
+            "ja": "u",
+            "zh": "u",
+            "vi": "u",
+            "fr": "u",
+            "de": "u",
+            "es": "u",
+            "ru": "u",
+            "mn": "u"
+          },
+          "pronunciation": {
+            "ko": "우",
+            "en": "u"
+          }
         }
       ]
     },
@@ -203,6 +276,7 @@
         "zh": "在初出字基础上加画而成。",
         "vi": "Thêm nét vào nhóm bậc một để tạo thành.",
         "fr": "Créées en ajoutant des traits aux premières dérivées.",
+        "de": "Die koreanischen Vokalzeichen wurden auf der Grundlage der Prinzipien von Himmel (·), Erde (ㅡ) und Mensch (ㅣ) geschaffen. Sie bestehen aus einfachen und abgeleiteten Vokalen. Die einfachen Vokale basieren auf drei Grundsymbolen, während die abgeleiteten durch Hinzufügen von Strichen oder Kombinationen gebildet werden.",
         "es": "Creadas añadiendo trazos a las derivadas de primer grado.",
         "ru": "Создаются добавлением штрихов к первичным производным.",
         "mn": "Анхны нийлэмж дээр зурлага нэмж үүсгэнэ."
@@ -211,26 +285,82 @@
         {
           "id": "ya",
           "glyph": "ㅑ",
-          "name": { "ko": "야", "en": "ya", "ja": "ヤ", "zh": "ya", "vi": "ya", "fr": "ya", "es": "ya", "ru": "ya", "mn": "ya" },
-          "pronunciation": { "ko": "야", "en": "ya" }
+          "name": {
+            "ko": "야",
+            "en": "ya",
+            "ja": "ya",
+            "zh": "ya",
+            "vi": "ya",
+            "fr": "ya",
+            "de": "ya",
+            "es": "ya",
+            "ru": "ya",
+            "mn": "ya"
+          },
+          "pronunciation": {
+            "ko": "야",
+            "en": "ya"
+          }
         },
         {
           "id": "yeo",
           "glyph": "ㅕ",
-          "name": { "ko": "여", "en": "yeo", "ja": "ヨ", "zh": "yeo", "vi": "yeo", "fr": "yeo", "es": "yeo", "ru": "yeo", "mn": "yeo" },
-          "pronunciation": { "ko": "여", "en": "yeo" }
+          "name": {
+            "ko": "여",
+            "en": "yeo",
+            "ja": "yeo",
+            "zh": "yeo",
+            "vi": "yeo",
+            "fr": "yeo",
+            "de": "yeo",
+            "es": "yeo",
+            "ru": "yeo",
+            "mn": "yeo"
+          },
+          "pronunciation": {
+            "ko": "여",
+            "en": "yeo"
+          }
         },
         {
           "id": "yo",
           "glyph": "ㅛ",
-          "name": { "ko": "요", "en": "yo", "ja": "ヨ", "zh": "yo", "vi": "yo", "fr": "yo", "es": "yo", "ru": "yo", "mn": "yo" },
-          "pronunciation": { "ko": "요", "en": "yo" }
+          "name": {
+            "ko": "요",
+            "en": "yo",
+            "ja": "yo",
+            "zh": "yo",
+            "vi": "yo",
+            "fr": "yo",
+            "de": "yo",
+            "es": "yo",
+            "ru": "yo",
+            "mn": "yo"
+          },
+          "pronunciation": {
+            "ko": "요",
+            "en": "yo"
+          }
         },
         {
           "id": "yu",
           "glyph": "ㅠ",
-          "name": { "ko": "유", "en": "yu", "ja": "ユ", "zh": "yu", "vi": "yu", "fr": "yu", "es": "yu", "ru": "yu", "mn": "yu" },
-          "pronunciation": { "ko": "유", "en": "yu" }
+          "name": {
+            "ko": "유",
+            "en": "yu",
+            "ja": "yu",
+            "zh": "yu",
+            "vi": "yu",
+            "fr": "yu",
+            "de": "yu",
+            "es": "yu",
+            "ru": "yu",
+            "mn": "yu"
+          },
+          "pronunciation": {
+            "ko": "유",
+            "en": "yu"
+          }
         }
       ]
     },
@@ -255,6 +385,7 @@
         "zh": "由两个基本元音组合而成。",
         "vi": "Hình thành bằng cách kết hợp hai nguyên âm cơ bản.",
         "fr": "Formées par combinaison de deux voyelles de base.",
+        "de": "Die koreanischen Vokalzeichen wurden auf der Grundlage der Prinzipien von Himmel (·), Erde (ㅡ) und Mensch (ㅣ) geschaffen. Sie bestehen aus einfachen und abgeleiteten Vokalen. Die einfachen Vokale basieren auf drei Grundsymbolen, während die abgeleiteten durch Hinzufügen von Strichen oder Kombinationen gebildet werden.",
         "es": "Formadas combinando dos vocales básicas.",
         "ru": "Образованы комбинацией двух базовых гласных.",
         "mn": "Хоёр үндсэн эгшгийг нэгтгэж бүтсэн."
@@ -263,14 +394,42 @@
         {
           "id": "wa",
           "glyph": "ㅘ",
-          "name": { "ko": "와", "en": "wa", "ja": "ワ", "zh": "wa", "vi": "wa", "fr": "wa", "es": "wa", "ru": "wa", "mn": "wa" },
-        "pronunciation": { "ko": "와", "en": "wa" }
+          "name": {
+            "ko": "와",
+            "en": "wa",
+            "ja": "wa",
+            "zh": "wa",
+            "vi": "wa",
+            "fr": "wa",
+            "de": "wa",
+            "es": "wa",
+            "ru": "wa",
+            "mn": "wa"
+          },
+          "pronunciation": {
+            "ko": "와",
+            "en": "wa"
+          }
         },
         {
           "id": "wo",
           "glyph": "ㅝ",
-          "name": { "ko": "워", "en": "wo", "ja": "ウォ", "zh": "wo", "vi": "wo", "fr": "wo", "es": "wo", "ru": "wo", "mn": "wo" },
-          "pronunciation": { "ko": "워", "en": "wo" }
+          "name": {
+            "ko": "워",
+            "en": "wo",
+            "ja": "wo",
+            "zh": "wo",
+            "vi": "wo",
+            "fr": "wo",
+            "de": "wo",
+            "es": "wo",
+            "ru": "wo",
+            "mn": "wo"
+          },
+          "pronunciation": {
+            "ko": "워",
+            "en": "wo"
+          }
         }
       ]
     },
@@ -295,6 +454,7 @@
         "zh": "与ㅣ结合形成的双元音。",
         "vi": "Nguyên âm đôi được tạo cùng với ㅣ.",
         "fr": "Diphtongues formées avec ㅣ.",
+        "de": "Die koreanischen Vokalzeichen wurden auf der Grundlage der Prinzipien von Himmel (·), Erde (ㅡ) und Mensch (ㅣ) geschaffen. Sie bestehen aus einfachen und abgeleiteten Vokalen. Die einfachen Vokale basieren auf drei Grundsymbolen, während die abgeleiteten durch Hinzufügen von Strichen oder Kombinationen gebildet werden.",
         "es": "Diptongos formados con ㅣ.",
         "ru": "Дифтонги, образованные с ㅣ.",
         "mn": "ㅣ-тэй нийлж бүрдсэн хос эгшиг."
@@ -303,56 +463,182 @@
         {
           "id": "ae",
           "glyph": "ㅐ",
-          "name": { "ko": "애", "en": "ae", "ja": "エ", "zh": "ae", "vi": "ae", "fr": "ae", "es": "ae", "ru": "ae", "mn": "ae" },
-          "pronunciation": { "ko": "애", "en": "ae" }
+          "name": {
+            "ko": "애",
+            "en": "ae",
+            "ja": "ae",
+            "zh": "ae",
+            "vi": "ae",
+            "fr": "ae",
+            "de": "ae",
+            "es": "ae",
+            "ru": "ae",
+            "mn": "ae"
+          },
+          "pronunciation": {
+            "ko": "애",
+            "en": "ae"
+          }
         },
         {
           "id": "e",
           "glyph": "ㅔ",
-          "name": { "ko": "에", "en": "e", "ja": "エ", "zh": "e", "vi": "e", "fr": "e", "es": "e", "ru": "e", "mn": "e" },
-          "pronunciation": { "ko": "에", "en": "e" }
+          "name": {
+            "ko": "에",
+            "en": "e",
+            "ja": "e",
+            "zh": "e",
+            "vi": "e",
+            "fr": "e",
+            "de": "e",
+            "es": "e",
+            "ru": "e",
+            "mn": "e"
+          },
+          "pronunciation": {
+            "ko": "에",
+            "en": "e"
+          }
         },
         {
           "id": "yae",
           "glyph": "ㅒ",
-          "name": { "ko": "얘", "en": "yae", "ja": "イェ", "zh": "yae", "vi": "yae", "fr": "yae", "es": "yae", "ru": "yae", "mn": "yae" },
-          "pronunciation": { "ko": "얘", "en": "yae" }
+          "name": {
+            "ko": "얘",
+            "en": "yae",
+            "ja": "yae",
+            "zh": "yae",
+            "vi": "yae",
+            "fr": "yae",
+            "de": "yae",
+            "es": "yae",
+            "ru": "yae",
+            "mn": "yae"
+          },
+          "pronunciation": {
+            "ko": "얘",
+            "en": "yae"
+          }
         },
         {
           "id": "ye",
           "glyph": "ㅖ",
-          "name": { "ko": "예", "en": "ye", "ja": "イェ", "zh": "ye", "vi": "ye", "fr": "ye", "es": "ye", "ru": "ye", "mn": "ye" },
-          "pronunciation": { "ko": "예", "en": "ye" }
+          "name": {
+            "ko": "예",
+            "en": "ye",
+            "ja": "ye",
+            "zh": "ye",
+            "vi": "ye",
+            "fr": "ye",
+            "de": "ye",
+            "es": "ye",
+            "ru": "ye",
+            "mn": "ye"
+          },
+          "pronunciation": {
+            "ko": "예",
+            "en": "ye"
+          }
         },
         {
           "id": "oe",
           "glyph": "ㅚ",
-          "name": { "ko": "외", "en": "oe", "ja": "ウェ", "zh": "oe", "vi": "oe", "fr": "oe", "es": "oe", "ru": "oe", "mn": "oe" },
-          "pronunciation": { "ko": "외", "en": "oe" }
+          "name": {
+            "ko": "외",
+            "en": "oe",
+            "ja": "oe",
+            "zh": "oe",
+            "vi": "oe",
+            "fr": "oe",
+            "de": "oe",
+            "es": "oe",
+            "ru": "oe",
+            "mn": "oe"
+          },
+          "pronunciation": {
+            "ko": "외",
+            "en": "oe"
+          }
         },
         {
           "id": "wi",
           "glyph": "ㅟ",
-          "name": { "ko": "위", "en": "wi", "ja": "ウィ", "zh": "wi", "vi": "wi", "fr": "wi", "es": "wi", "ru": "wi", "mn": "wi" },
-          "pronunciation": { "ko": "위", "en": "wi" }
+          "name": {
+            "ko": "위",
+            "en": "wi",
+            "ja": "wi",
+            "zh": "wi",
+            "vi": "wi",
+            "fr": "wi",
+            "de": "wi",
+            "es": "wi",
+            "ru": "wi",
+            "mn": "wi"
+          },
+          "pronunciation": {
+            "ko": "위",
+            "en": "wi"
+          }
         },
         {
           "id": "ui",
           "glyph": "ㅢ",
-          "name": { "ko": "의", "en": "ui", "ja": "ウイ", "zh": "ui", "vi": "ui", "fr": "ui", "es": "ui", "ru": "ui", "mn": "ui" },
-          "pronunciation": { "ko": "의", "en": "ui" }
+          "name": {
+            "ko": "의",
+            "en": "ui",
+            "ja": "ui",
+            "zh": "ui",
+            "vi": "ui",
+            "fr": "ui",
+            "de": "ui",
+            "es": "ui",
+            "ru": "ui",
+            "mn": "ui"
+          },
+          "pronunciation": {
+            "ko": "의",
+            "en": "ui"
+          }
         },
         {
           "id": "wae",
           "glyph": "ㅙ",
-          "name": { "ko": "왜", "en": "wae", "ja": "ウェ", "zh": "wae", "vi": "wae", "fr": "wae", "es": "wae", "ru": "wae", "mn": "wae" },
-          "pronunciation": { "ko": "왜", "en": "wae" }
+          "name": {
+            "ko": "왜",
+            "en": "wae",
+            "ja": "wae",
+            "zh": "wae",
+            "vi": "wae",
+            "fr": "wae",
+            "de": "wae",
+            "es": "wae",
+            "ru": "wae",
+            "mn": "wae"
+          },
+          "pronunciation": {
+            "ko": "왜",
+            "en": "wae"
+          }
         },
         {
           "id": "we",
           "glyph": "ㅞ",
-          "name": { "ko": "웨", "en": "we", "ja": "ウェ", "zh": "we", "vi": "we", "fr": "we", "es": "we", "ru": "we", "mn": "we" },
-          "pronunciation": { "ko": "웨", "en": "we" }
+          "name": {
+            "ko": "웨",
+            "en": "we",
+            "ja": "we",
+            "zh": "we",
+            "vi": "we",
+            "fr": "we",
+            "de": "we",
+            "es": "we",
+            "ru": "we",
+            "mn": "we"
+          },
+          "pronunciation": {
+            "ko": "웨",
+            "en": "we"
+          }
         }
       ]
     }

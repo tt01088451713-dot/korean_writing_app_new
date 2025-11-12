@@ -1,0 +1,261 @@
+{
+  "unit": "3. 단어",
+  "lesson_id": "3_3",
+  "title": {
+    "ko": "주제별 단어",
+    "en": "Thematic Words",
+    "ja": "テーマ別単語",
+    "zh": "主题词汇",
+    "vi": "Từ theo chủ đề",
+    "fr": "Mots thématiques",
+    "de": "Thematische Wörter",
+    "es": "Palabras temáticas",
+    "ru": "Тематические слова",
+    "mn": "Сэдвийн үгс"
+  },
+  "themes": [
+    { "id": "theme_school", "name": { "ko": "학교", "en": "School" } },
+    { "id": "theme_food",   "name": { "ko": "음식", "en": "Food" } },
+    { "id": "theme_nature", "name": { "ko": "자연", "en": "Nature" } },
+    { "id": "theme_home",   "name": { "ko": "가정/사람", "en": "Home/People" } }
+  ],
+  "constraints": { "allowed_syllables_ref": "unit2_letters", "max_syllables_per_word": 4 },
+  "items": [
+    {
+      "id": "tw_school_01",
+      "type": "word",
+      "text": "학생",
+      "meanings": { "ko": "학생", "en": "student", "ja": "学生", "zh": "学生", "vi": "học sinh", "fr": "élève / étudiant(e)", "de": "Schüler(in)", "es": "estudiante", "ru": "студент", "mn": "оюутан" },
+      "reading": { "enabled": true, "display": "text" },
+      "writing": { "enabled": true, "guides": ["학","생"] },
+      "tts": { "text": "학생", "lang": "ko-KR", "rate": 0.5, "pitch": 1.0, "volume": 1.0 },
+      "metadata": { "theme": "학교", "pos": "명사" }
+    },
+    {
+      "id": "tw_school_02",
+      "type": "word",
+      "text": "선생님",
+      "meanings": { "ko": "선생님", "en": "teacher", "ja": "先生", "zh": "老师", "vi": "giáo viên", "fr": "enseignant(e)", "de": "Lehrer(in)", "es": "profesor(a)", "ru": "учитель", "mn": "багш" },
+      "reading": { "enabled": true },
+      "writing": { "enabled": true, "guides": ["선","생","님"] },
+      "tts": { "text": "선생님", "lang": "ko-KR", "rate": 0.45, "pitch": 1.0, "volume": 1.0 },
+      "metadata": { "theme": "학교", "pos": "명사" }
+    },
+    {
+      "id": "tw_school_03",
+      "type": "word",
+      "text": "교실",
+      "meanings": { "ko": "교실", "en": "classroom", "ja": "教室", "zh": "教室", "vi": "lớp học", "fr": "salle de classe", "de": "Klassenzimmer", "es": "aula", "ru": "класс", "mn": "анги" },
+      "reading": { "enabled": true },
+      "writing": { "enabled": true, "guides": ["교","실"] },
+      "tts": { "text": "교실", "lang": "ko-KR", "rate": 0.5, "pitch": 1.0, "volume": 1.0 },
+      "metadata": { "theme": "학교", "pos": "명사" }
+    },
+    {
+      "id": "tw_school_04",
+      "type": "word",
+      "text": "공책",
+      "meanings": { "ko": "공책", "en": "notebook", "ja": "ノート", "zh": "笔记本", "vi": "vở", "fr": "cahier", "de": "Heft", "es": "cuaderno", "ru": "тетрадь", "mn": "дэвтэр" },
+      "reading": { "enabled": true },
+      "writing": { "enabled": true, "guides": ["공","책"] },
+      "tts": { "text": "공책", "lang": "ko-KR", "rate": 0.52, "pitch": 1.0, "volume": 1.0 },
+      "metadata": { "theme": "학교", "pos": "명사" }
+    },
+    {
+      "id": "tw_school_05",
+      "type": "word",
+      "text": "시험",
+      "meanings": { "ko": "시험", "en": "exam", "ja": "試験", "zh": "考试", "vi": "kỳ thi", "fr": "examen", "de": "Prüfung", "es": "examen", "ru": "экзамен", "mn": "шалгалт" },
+      "reading": { "enabled": true },
+      "writing": { "enabled": true, "guides": ["시","험"] },
+      "tts": { "text": "시험", "lang": "ko-KR", "rate": 0.52, "pitch": 1.0, "volume": 1.0 },
+      "metadata": { "theme": "학교", "pos": "명사" }
+    },
+
+    {
+      "id": "tw_food_01",
+      "type": "word",
+      "text": "밥",
+      "meanings": { "ko": "밥", "en": "cooked rice/meal", "ja": "ご飯", "zh": "饭", "vi": "cơm/bữa ăn", "fr": "riz cuit/repas", "de": "Reis/Mahlzeit", "es": "arroz cocido/comida", "ru": "рис/еда", "mn": "агшаасан будаа/хоол" },
+      "reading": { "enabled": true },
+      "writing": { "enabled": true, "guides": ["밥"] },
+      "tts": { "text": "밥", "lang": "ko-KR", "rate": 0.48, "pitch": 1.0, "volume": 1.0 },
+      "metadata": { "theme": "음식", "pos": "명사" }
+    },
+    {
+      "id": "tw_food_02",
+      "type": "word",
+      "text": "김치",
+      "meanings": { "ko": "김치", "en": "kimchi", "ja": "キムチ", "zh": "泡菜", "vi": "kimchi", "fr": "kimchi", "de": "Kimchi", "es": "kimchi", "ru": "кимчи", "mn": "кимчи" },
+      "reading": { "enabled": true },
+      "writing": { "enabled": true, "guides": ["김","치"] },
+      "tts": { "text": "김치", "lang": "ko-KR", "rate": 0.48, "pitch": 1.0, "volume": 1.0 },
+      "metadata": { "theme": "음식", "pos": "명사" }
+    },
+    {
+      "id": "tw_food_03",
+      "type": "word",
+      "text": "과일",
+      "meanings": { "ko": "과일", "en": "fruit", "ja": "果物", "zh": "水果", "vi": "trái cây", "fr": "fruit", "de": "Obst", "es": "fruta", "ru": "фрукты", "mn": "жимс" },
+      "reading": { "enabled": true },
+      "writing": { "enabled": true, "guides": ["과","일"] },
+      "tts": { "text": "과일", "lang": "ko-KR", "rate": 0.5, "pitch": 1.0, "volume": 1.0 },
+      "metadata": { "theme": "음식", "pos": "명사" }
+    },
+    {
+      "id": "tw_food_04",
+      "type": "word",
+      "text": "국",
+      "meanings": { "ko": "국", "en": "soup", "ja": "スープ/汁物", "zh": "汤", "vi": "canh", "fr": "soupe", "de": "Suppe", "es": "sopa", "ru": "суп", "mn": "шөл" },
+      "reading": { "enabled": true },
+      "writing": { "enabled": true, "guides": ["국"] },
+      "tts": { "text": "국", "lang": "ko-KR", "rate": 0.48, "pitch": 1.0, "volume": 1.0 },
+      "metadata": { "theme": "음식", "pos": "명사" }
+    },
+    {
+      "id": "tw_food_05",
+      "type": "word",
+      "text": "물",
+      "meanings": { "ko": "물", "en": "water", "ja": "水", "zh": "水", "vi": "nước", "fr": "eau", "de": "Wasser", "es": "agua", "ru": "вода", "mn": "ус" },
+      "reading": { "enabled": true },
+      "writing": { "enabled": true, "guides": ["물"] },
+      "tts": { "text": "물", "lang": "ko-KR", "rate": 0.46, "pitch": 1.0, "volume": 1.0 },
+      "metadata": { "theme": "음식", "pos": "명사" }
+    },
+
+    {
+      "id": "tw_nature_01",
+      "type": "word",
+      "text": "하늘",
+      "meanings": { "ko": "하늘", "en": "sky", "ja": "空", "zh": "天空", "vi": "bầu trời", "fr": "ciel", "de": "Himmel", "es": "cielo", "ru": "небо", "mn": "тэнгэр" },
+      "reading": { "enabled": true },
+      "writing": { "enabled": true, "guides": ["하","늘"] },
+      "tts": { "text": "하늘", "lang": "ko-KR", "rate": 0.5, "pitch": 1.0, "volume": 1.0 },
+      "metadata": { "theme": "자연", "pos": "명사" }
+    },
+    {
+      "id": "tw_nature_02",
+      "type": "word",
+      "text": "나무",
+      "meanings": { "ko": "나무", "en": "tree", "ja": "木", "zh": "树", "vi": "cây", "fr": "arbre", "de": "Baum", "es": "árbol", "ru": "дерево", "mn": "мод" },
+      "reading": { "enabled": true },
+      "writing": { "enabled": true, "guides": ["나","무"] },
+      "tts": { "text": "나무", "lang": "ko-KR", "rate": 0.46, "pitch": 1.0, "volume": 1.0 },
+      "metadata": { "theme": "자연", "pos": "명사" }
+    },
+    {
+      "id": "tw_nature_03",
+      "type": "word",
+      "text": "꽃",
+      "meanings": { "ko": "꽃", "en": "flower", "ja": "花", "zh": "花", "vi": "hoa", "fr": "fleur", "de": "Blume", "es": "flor", "ru": "цветок", "mn": "цэцэг" },
+      "reading": { "enabled": true },
+      "writing": { "enabled": true, "guides": ["꽃"] },
+      "tts": { "text": "꽃", "lang": "ko-KR", "rate": 0.46, "pitch": 1.0, "volume": 1.0 },
+      "metadata": { "theme": "자연", "pos": "명사" }
+    },
+    {
+      "id": "tw_nature_04",
+      "type": "word",
+      "text": "산",
+      "meanings": { "ko": "산", "en": "mountain", "ja": "山", "zh": "山", "vi": "núi", "fr": "montagne", "de": "Berg", "es": "montaña", "ru": "гора", "mn": "уул" },
+      "reading": { "enabled": true },
+      "writing": { "enabled": true, "guides": ["산"] },
+      "tts": { "text": "산", "lang": "ko-KR", "rate": 0.46, "pitch": 1.0, "volume": 1.0 },
+      "metadata": { "theme": "자연", "pos": "명사" }
+    },
+    {
+      "id": "tw_nature_05",
+      "type": "word",
+      "text": "바다",
+      "meanings": { "ko": "바다", "en": "sea", "ja": "海", "zh": "海", "vi": "biển", "fr": "mer", "de": "Meer", "es": "mar", "ru": "море", "mn": "тэнгис" },
+      "reading": { "enabled": true },
+      "writing": { "enabled": true, "guides": ["바","다"] },
+      "tts": { "text": "바다", "lang": "ko-KR", "rate": 0.48, "pitch": 1.0, "volume": 1.0 },
+      "metadata": { "theme": "자연", "pos": "명사" }
+    },
+
+    {
+      "id": "tw_home_01",
+      "type": "word",
+      "text": "가족",
+      "meanings": { "ko": "가족", "en": "family", "ja": "家族", "zh": "家人/家庭", "vi": "gia đình", "fr": "famille", "de": "Familie", "es": "familia", "ru": "семья", "mn": "гэр бүл" },
+      "reading": { "enabled": true },
+      "writing": { "enabled": true, "guides": ["가","족"] },
+      "tts": { "text": "가족", "lang": "ko-KR", "rate": 0.5, "pitch": 1.0, "volume": 1.0 },
+      "metadata": { "theme": "가정/사람", "pos": "명사" }
+    },
+    {
+      "id": "tw_home_02",
+      "type": "word",
+      "text": "엄마",
+      "meanings": { "ko": "엄마", "en": "mom/mother", "ja": "お母さん", "zh": "妈妈", "vi": "mẹ", "fr": "maman/mère", "de": "Mama/Mutter", "es": "mamá/madre", "ru": "мама", "mn": "ээж" },
+      "reading": { "enabled": true },
+      "writing": { "enabled": true, "guides": ["엄","마"] },
+      "tts": { "text": "엄마", "lang": "ko-KR", "rate": 0.48, "pitch": 1.0, "volume": 1.0 },
+      "metadata": { "theme": "가정/사람", "pos": "명사" }
+    },
+    {
+      "id": "tw_home_03",
+      "type": "word",
+      "text": "아빠",
+      "meanings": { "ko": "아빠", "en": "dad/father", "ja": "お父さん", "zh": "爸爸", "vi": "bố/ba", "fr": "papa/père", "de": "Papa/Vater", "es": "papá/padre", "ru": "папа", "mn": "аав" },
+      "reading": { "enabled": true },
+      "writing": { "enabled": true, "guides": ["아","빠"] },
+      "tts": { "text": "아빠", "lang": "ko-KR", "rate": 0.48, "pitch": 1.0, "volume": 1.0 },
+      "metadata": { "theme": "가정/사람", "pos": "명사" }
+    },
+    {
+      "id": "tw_home_04",
+      "type": "word",
+      "text": "집",
+      "meanings": { "ko": "집", "en": "house/home", "ja": "家/うち", "zh": "房子/家", "vi": "nhà", "fr": "maison/foyer", "de": "Haus/Zuhause", "es": "casa/hogar", "ru": "дом", "mn": "байшин/гэр" },
+      "reading": { "enabled": true },
+      "writing": { "enabled": true, "guides": ["집"] },
+      "tts": { "text": "집", "lang": "ko-KR", "rate": 0.46, "pitch": 1.0, "volume": 1.0 },
+      "metadata": { "theme": "가정/사람", "pos": "명사" }
+    },
+    {
+      "id": "tw_home_05",
+      "type": "word",
+      "text": "방",
+      "meanings": { "ko": "방", "en": "room", "ja": "部屋", "zh": "房间", "vi": "phòng", "fr": "pièce/chambre", "de": "Zimmer", "es": "cuarto/habitación", "ru": "комната", "mn": "өрөө" },
+      "reading": { "enabled": true },
+      "writing": { "enabled": true, "guides": ["방"] },
+      "tts": { "text": "방", "lang": "ko-KR", "rate": 0.46, "pitch": 1.0, "volume": 1.0 },
+      "metadata": { "theme": "가정/사람", "pos": "명사" }
+    }
+  ],
+  "activities": [
+    {
+      "id": "a_read_cards_school",
+      "type": "read_cards",
+      "title": { "ko": "읽기 카드: 학교", "en": "Reading Cards: School", "ja": "カードで読む：学校", "zh": "阅读卡片：学校", "vi": "Thẻ đọc: Trường học", "fr": "Cartes de lecture : École", "de": "Lesekarten: Schule", "es": "Tarjetas de lectura: Escuela", "ru": "Карточки для чтения: Школа", "mn": "Унших карт: Сургууль" },
+      "options": { "items": ["tw_school_01","tw_school_02","tw_school_03","tw_school_04","tw_school_05"], "autoShuffle": true }
+    },
+    {
+      "id": "a_read_cards_food",
+      "type": "read_cards",
+      "title": { "ko": "읽기 카드: 음식", "en": "Reading Cards: Food", "ja": "カードで読む：食べ物", "zh": "阅读卡片：食物", "vi": "Thẻ đọc: Thức ăn", "fr": "Cartes de lecture : Nourriture", "de": "Lesekarten: Essen", "es": "Tarjetas de lectura: Comida", "ru": "Карточки для чтения: Еда", "mn": "Унших карт: Хоол" },
+      "options": { "items": ["tw_food_01","tw_food_02","tw_food_03","tw_food_04","tw_food_05"], "autoShuffle": true }
+    },
+    {
+      "id": "a_read_match_theme",
+      "type": "read_match_meaning",
+      "title": { "ko": "뜻과 연결(주제별)", "en": "Match Meaning (Thematic)", "ja": "意味マッチ（テーマ別）", "zh": "配对词义（主题）", "vi": "Nối nghĩa (theo chủ đề)", "fr": "Associer le sens (thématique)", "de": "Bedeutung zuordnen (Thema)", "es": "Relacionar significado (temático)", "ru": "Соотнесите значение (темат.)", "mn": "Утга тааруулах (сэдэв)" },
+      "options": { "pairs": [["tw_school_01","student"],["tw_food_03","fruit"],["tw_nature_05","sea"],["tw_home_01","family"]] }
+    },
+    {
+      "id": "a_write_words_theme_school",
+      "type": "write_words",
+      "title": { "ko": "따라 쓰기: 학교", "en": "Copy: School", "ja": "書き写し：学校", "zh": "抄写：学校", "vi": "Chép theo: Trường", "fr": "Copier : École", "de": "Abschreiben: Schule", "es": "Copiar: Escuela", "ru": "Переписать: Школа", "mn": "Хуулж бич: Сургууль" },
+      "options": { "items": ["tw_school_02","tw_school_03","tw_school_04"] }
+    },
+    {
+      "id": "a_write_words_theme_nature",
+      "type": "write_words",
+      "title": { "ko": "따라 쓰기: 자연", "en": "Copy: Nature", "ja": "書き写し：自然", "zh": "抄写：自然", "vi": "Chép theo: Thiên nhiên", "fr": "Copier : Nature", "de": "Abschreiben: Natur", "es": "Copiar: Naturaleza", "ru": "Переписать: Природа", "mn": "Хуулж бич: Байгаль" },
+      "options": { "items": ["tw_nature_01","tw_nature_02","tw_nature_03"] }
+    }
+  ],
+  "routing": { "hubRoute": "/words/hub", "detailRoute": "/words/lesson" }
+}

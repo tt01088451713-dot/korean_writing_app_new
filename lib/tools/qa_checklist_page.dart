@@ -31,8 +31,7 @@ class _QaChecklistPageState extends State<QaChecklistPage> {
     final map = jsonDecode(raw) as Map<String, dynamic>;
     // 2) 진행상태는 로컬에만 저장
     final prefs = await SharedPreferences.getInstance();
-    _done = (prefs.getStringList(_kProgressKey) ?? const <String>[])
-        .toSet();
+    _done = (prefs.getStringList(_kProgressKey) ?? const <String>[]).toSet();
     setState(() {
       _data = map;
       _loading = false;
@@ -107,9 +106,8 @@ class _QaChecklistPageState extends State<QaChecklistPage> {
 
   Widget _buildBody() {
     final sections = (_data?['sections'] as List?) ?? const [];
-    final total = sections
-        .expand((s) => (s['items'] as List? ?? const []))
-        .length;
+    final total =
+        sections.expand((s) => (s['items'] as List? ?? const [])).length;
     final done = _done.length.clamp(0, total);
     return ListView(
       padding: const EdgeInsets.fromLTRB(12, 12, 12, 24),
@@ -118,17 +116,17 @@ class _QaChecklistPageState extends State<QaChecklistPage> {
             style: Theme.of(context).textTheme.titleMedium),
         const SizedBox(height: 8),
         ...sections.map((s) => _Section(
-          title: '${s['title'] ?? ''}',
-          items: (s['items'] as List? ?? const [])
-              .map((e) => _Item.fromJson(e))
-              .where((it) =>
-          _query.isEmpty ||
-              it.label.contains(_query) ||
-              it.note.contains(_query))
-              .toList(),
-          done: _done,
-          onToggle: _toggle,
-        )),
+              title: '${s['title'] ?? ''}',
+              items: (s['items'] as List? ?? const [])
+                  .map((e) => _Item.fromJson(e))
+                  .where((it) =>
+                      _query.isEmpty ||
+                      it.label.contains(_query) ||
+                      it.note.contains(_query))
+                  .toList(),
+              done: _done,
+              onToggle: _toggle,
+            )),
       ],
     );
   }
@@ -177,8 +175,8 @@ class _Item {
   final String note;
   const _Item({required this.id, required this.label, required this.note});
   factory _Item.fromJson(Map j) => _Item(
-    id: '${j['id']}',
-    label: '${j['label'] ?? ''}',
-    note: '${j['note'] ?? ''}',
-  );
+        id: '${j['id']}',
+        label: '${j['label'] ?? ''}',
+        note: '${j['note'] ?? ''}',
+      );
 }

@@ -1,0 +1,41 @@
+{
+  "id": "2_4_3_wo_cv",
+  "unitId": "2_4_3_wo_cv",
+  "type": "letters",
+
+  "title": {
+    "ko": "2.4.3 ㅝ — 받침 없음(CV)",
+    "en": "2.4.3 ㅝ — No Final (CV)",
+    "ja": "2.4.3 ㅝ — パッチムなし（CV）",
+    "zh": "2.4.3 ㅝ — 无收音（CV）",
+    "vi": "2.4.3 ㅝ — Không phụ âm cuối (CV)",
+    "fr": "2.4.3 ㅝ — Sans finale (CV)",
+    "de": "2.4.3 ㅝ — Ohne Endkonsonant (CV)",
+    "es": "2.4.3 ㅝ — Sin final (CV)",
+    "ru": "2.4.3 ㅝ — Без финали (CV)",
+    "mn": "2.4.3 ㅝ — Төгсгөлгүй (CV)"
+  },
+
+  "description": {
+    "ko": "복합 모음 ㅝ(ㅜ+ㅓ)로 이루어진 받침 없는(CV) 음절을 연습합니다.",
+    "en": "Practice CV syllables with the compound vowel ㅝ (ㅜ+ㅓ).",
+    "ja": "複合母音 ㅝ（ㅜ+ㅓ）を用いたパッチムなし（CV）の音節を練習します。",
+    "zh": "练习由复合元音 ㅝ（ㅜ+ㅓ）构成的无收音（CV）音节。",
+    "vi": "Luyện các âm tiết CV với nguyên âm ghép ㅝ (ㅜ+ㅓ).",
+    "fr": "Entraînez des syllabes CV avec la voyelle composée ㅝ (ㅜ+ㅓ).",
+    "de": "Üben Sie CV-Silben mit dem zusammengesetzten Vokal ㅝ (ㅜ+ㅓ).",
+    "es": "Practica sílabas CV con la vocal compuesta ㅝ (ㅜ+ㅓ).",
+    "ru": "Тренируйте слоги CV с составной гласной ㅝ (ㅜ+ㅓ).",
+    "mn": "Нийлмэл эгшиг ㅝ (ㅜ+ㅓ)-той төгсгөлгүй (CV) үеийг дадлага хийнэ."
+  },
+
+  "vowels": ["ㅝ"],
+  "initials": ["ㄱ","ㄴ","ㄷ","ㄹ","ㅁ","ㅂ","ㅅ","ㅇ","ㅈ","ㅊ","ㅋ","ㅌ","ㅍ","ㅎ"],
+
+  "sequence": ["궈","눠","둬","뤄","뭐","붜","숴","워","줘","춰","쿼","퉈","풔","훠"],
+
+  "assetConventions": {
+    "strokeJson": "assets/strokes/syllables/{glyph}.json",
+    "audioMp3": "assets/audio/syllables/{glyph}.mp3"
+  }
+}

@@ -73,7 +73,17 @@ class StrokeAssets {
 
   /// 합용병서(쓰기 없음, 가이드만) 집합 — 자음에만 해당
   static const Set<String> compositeByeongseo = {
-    'ㄳ', 'ㄵ', 'ㄶ', 'ㄺ', 'ㄻ', 'ㄼ', 'ㄽ', 'ㄾ', 'ㄿ', 'ㅀ', 'ㅄ',
+    'ㄳ',
+    'ㄵ',
+    'ㄶ',
+    'ㄺ',
+    'ㄻ',
+    'ㄼ',
+    'ㄽ',
+    'ㄾ',
+    'ㄿ',
+    'ㅀ',
+    'ㅄ',
   };
 
   /// 합용병서 여부(자음 병서 전용)
@@ -89,7 +99,7 @@ class StrokeAssets {
       final r = glyph.runes.toList();
       final a = String.fromCharCode(r[0]);
       final b = String.fromCharCode(r[1]);
-      return '${_baseCons}stroke_${a}_${b}.png';
+      return '${_baseCons}stroke_${a}_$b.png';
     }
     return null;
   }

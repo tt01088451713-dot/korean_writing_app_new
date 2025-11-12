@@ -1,0 +1,35 @@
+{
+  "id": "2_2_4_a",
+  "unitId": "2_2_4_gu",
+  "type": "letters",
+  "title": {
+    "ko": "2.2 (4) 구~후 세트 (…우)",
+    "en": "2.2 (4) Vowel ㅜ (gu~hu)",
+    "ja": "2.2 (4) 母音 ㅜ（gu〜hu）",
+    "zh": "2.2 (4) 元音 ㅜ（gu~hu）",
+    "vi": "2.2 (4) Nguyên âm ㅜ (gu~hu)",
+    "fr": "2.2 (4) Voyelle ㅜ (gu~hu)",
+    "de": "2.2 (4) Vokal ㅜ (gu–hu)",
+    "es": "2.2 (4) Vocal ㅜ (gu~hu)",
+    "ru": "2.2 (4) Гласный ㅜ (gu~hu)",
+    "mn": "2.2 (4) Эгшиг ㅜ (gu~hu)"
+  },
+  "assetConventions": {
+    "strokeJson": "assets/strokes/syllables/{glyph}.json",
+    "audioMp3": "assets/audio/syllables/{glyph}.mp3"
+  },
+  "practice": {
+    "enabled": true,
+    "strokeAsset": "template",
+    "audio": true,
+    "repeat": 3
+  },
+  "sequence": [
+    "구","누","두","루","무","부","수","우","주","추","쿠","투","푸","후"
+  ],
+  "uiHints": {
+    "grid": 7,
+    "rowGap": 8,
+    "colGap": 8
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "unitId": "2_1_1_basic",
+  "type": "letters",
+  "title": {
+    "ko": "2.1.1 기~히 세트 (…이)",
+    "en": "2.1.1 Vowel 'i' (gi~hi)",
+    "ja": "2.1.1 子音＋母音「ㅣ」セット",
+    "zh": "2.1.1 元音“ㅣ”系列（gi~hi）",
+    "vi": "2.1.1 Nguyên âm 'i' (gi~hi)",
+    "fr": "2.1.1 Voyelle « i » (gi~hi)",
+    "de": "2.1.1 Vokal „i“ (gi~hi)",
+    "es": "2.1.1 Vocal « i » (gi~hi)",
+    "ru": "2.1.1 Гласная « i » (gi~hi)",
+    "mn": "2.1.1 Эгшиг 'i' (gi~hi)"
+  },
+  "practice": { "enabled": true, "strokeAsset": "template", "audio": true, "repeat": 3 },
+  "sequence": ["기","니","디","리","미","비","시","이","지","치","키","티","피","히"],
+  "assetConventions": {
+    "strokeJson": "assets/strokes/syllables/{glyph}.json",
+    "audioMp3": "assets/audio/syllables/{glyph}.mp3"
+  },
+  "uiHints": { "grid": 7, "rowGap": 8, "colGap": 8 }
+}

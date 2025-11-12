@@ -1,0 +1,38 @@
+{
+  "id": "2_4_b4_wo_cvc",
+  "unitId": "2_4_b4_wo_cvc",
+  "type": "list",
+  "title": {
+    "ko": "2.4 확장 — ㅝ 받침(CVC)",
+    "en": "2.4 Extension — vowel ㅝ with finals (CVC)",
+    "ja": "2.4 拡張 — ㅝ の終声（CVC）",
+    "zh": "2.4 扩展 — 元音 ㅝ 含终声（CVC）",
+    "vi": "2.4 Mở rộng — nguyên âm ㅝ có phụ âm cuối (CVC)",
+    "fr": "2.4 Extension — voyelle ㅝ avec finale (CVC)",
+    "de": "2.4 Erweiterung — Vokal ㅝ mit Endkonsonant (CVC)",
+    "es": "2.4 Extensión — vocal ㅝ con final (CVC)",
+    "ru": "2.4 Расширение — гласная ㅝ с конечной (CVC)",
+    "mn": "2.4 Өргөтгөл — ㅝ эгшиг төгсгөлтэй (CVC)"
+  },
+  "description": {
+    "ko": "복합모음 ㅝ와 결합하는 CVC(받침 포함) 음절을 연습합니다.",
+    "en": "Practice CVC syllables combining the compound vowel ㅝ with final consonants."
+  },
+  "ttsRulesRoute": "assets/data/common/tts_rules.json",
+  "assetConventions": {
+    "strokeJson": "assets/strokes/syllables/{glyph}.json",
+    "audioMp3": "assets/audio/syllables/{glyph}.mp3"
+  },
+  "practice": { "enabled": true, "strokeAsset": "template", "audio": true, "repeat": 3 },
+  "uiHints": { "grid": 7, "rowGap": 8, "colGap": 8 },
+  "vowel": "ㅝ",
+  "base": "워",
+  "commonFinals": ["ㄴ", "ㄹ", "ㅅ", "ㅇ"],
+  "items": [
+    { "syllable": "원", "title": { "ko": "원" }, "final": "ㄴ", "tts": { "ko": "원", "roman": "won" } },
+    { "syllable": "월", "title": { "ko": "월" }, "final": "ㄹ", "tts": { "ko": "월", "roman": "wol" } },
+    { "syllable": "웟", "title": { "ko": "웟" }, "final": "ㅅ", "tts": { "ko": "웟", "roman": "wot" } },
+    { "syllable": "웡", "title": { "ko": "웡" }, "final": "ㅇ", "tts": { "ko": "웡", "roman": "wong" } }
+  ],
+  "sequence": ["원", "월", "웟", "웡"]
+}

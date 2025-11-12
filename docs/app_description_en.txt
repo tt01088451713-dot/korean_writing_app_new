@@ -1,0 +1,30 @@
+===========================================
+App Store Description (English)
+===========================================
+
+App Name: Korean Writing App
+Subtitle: Based on “Easy Korean Writing Textbook”
+
+[About this app]
+"Korean Writing App" is a Hangul learning application based on the textbook
+“쉽게 배우는 한국어 쓰기 교본 (Easy Korean Writing Textbook)”.
+It helps learners master Korean writing step by step — from consonants and vowels
+to full syllables, words, and sentences.
+
+[Main Features]
+• Stroke-order based writing practice with interactive animations
+• Practice for left-right combined syllables (가~하, 갸~햐, etc.)
+• Pronunciation playback via built-in TTS
+• Multilingual interface: Korean, English, Chinese, Japanese, Vietnamese, and more
+• Designed for both mobile and desktop environments (Windows, Android, iOS)
+
+[Recommended For]
+• International students learning Korean
+• Children from multicultural families
+• Korean language teachers and tutors
+• Beginners preparing for TOPIK
+
+Developer: KST Lingua Studio  
+Support Email: support-kst@naver.com  
+Version: 1.0.0 (Initial Release)
+===========================================

@@ -1,0 +1,206 @@
+{
+  "id": "2_1_2",
+  "title": {
+    "ko": "(2) 가 계열(…ㅏ)",
+    "en": "(2) GA set (…ㅏ)"
+  },
+  "description": {
+    "ko": "자음과 ㅏ가 좌우로 결합한 기본 음절(가~하).",
+    "en": "Consonant + ㅏ in a left–right layout (ga…ha).",
+    "zh": "子音与ㅏ的左右结合法（가~하）。",
+    "ja": "子音とㅏの左右結合（가〜하）。",
+    "vi": "Phụ âm + ㅏ theo bố cục trái–phải (ga…ha).",
+    "fr": "Consonne + ㅏ en disposition gauche‑droite (ga…ha).",
+    "es": "Consonante + ㅏ en disposición izquierda‑derecha (ga…ha).",
+    "ru": "Согласная + ㅏ в лево‑правой компоновке (ga…ha).",
+    "mn": "Гийгүүлэгч + ㅏ зүүн‑баруун байрлалтай (ga…ha)."
+  },
+  "chars": [
+    {
+      "label": "가",
+      "ttsKey": "ga",
+      "core": true,
+      "strokeOrder": "assets/strokes/ga.json",
+      "guideOnly": true,
+      "freq": "high",
+      "writing": {
+        "order": "assets/strokes/ga.json",
+        "strokes": [],
+        "guideOnly": true
+      }
+    },
+    {
+      "label": "나",
+      "ttsKey": "na",
+      "core": true,
+      "strokeOrder": "assets/strokes/na.json",
+      "guideOnly": true,
+      "freq": "high",
+      "writing": {
+        "order": "assets/strokes/na.json",
+        "strokes": [],
+        "guideOnly": true
+      }
+    },
+    {
+      "label": "다",
+      "ttsKey": "da",
+      "core": true,
+      "strokeOrder": "assets/strokes/da.json",
+      "guideOnly": true,
+      "freq": "high",
+      "writing": {
+        "order": "assets/strokes/da.json",
+        "strokes": [],
+        "guideOnly": true
+      }
+    },
+    {
+      "label": "라",
+      "ttsKey": "ra",
+      "core": true,
+      "strokeOrder": "assets/strokes/ra.json",
+      "guideOnly": true,
+      "freq": "high",
+      "writing": {
+        "order": "assets/strokes/ra.json",
+        "strokes": [],
+        "guideOnly": true
+      }
+    },
+    {
+      "label": "마",
+      "ttsKey": "ma",
+      "core": true,
+      "strokeOrder": "assets/strokes/ma.json",
+      "guideOnly": true,
+      "freq": "high",
+      "writing": {
+        "order": "assets/strokes/ma.json",
+        "strokes": [],
+        "guideOnly": true
+      }
+    },
+    {
+      "label": "바",
+      "ttsKey": "ba",
+      "core": true,
+      "strokeOrder": "assets/strokes/ba.json",
+      "guideOnly": true,
+      "freq": "high",
+      "writing": {
+        "order": "assets/strokes/ba.json",
+        "strokes": [],
+        "guideOnly": true
+      }
+    },
+    {
+      "label": "사",
+      "ttsKey": "sa",
+      "core": true,
+      "strokeOrder": "assets/strokes/sa.json",
+      "guideOnly": true,
+      "freq": "high",
+      "writing": {
+        "order": "assets/strokes/sa.json",
+        "strokes": [],
+        "guideOnly": true
+      }
+    },
+    {
+      "label": "아",
+      "ttsKey": "a",
+      "core": true,
+      "strokeOrder": "assets/strokes/a.json",
+      "guideOnly": true,
+      "freq": "high",
+      "writing": {
+        "order": "assets/strokes/a.json",
+        "strokes": [],
+        "guideOnly": true
+      }
+    },
+    {
+      "label": "자",
+      "ttsKey": "ja",
+      "core": true,
+      "strokeOrder": "assets/strokes/ja.json",
+      "guideOnly": true,
+      "freq": "high",
+      "writing": {
+        "order": "assets/strokes/ja.json",
+        "strokes": [],
+        "guideOnly": true
+      }
+    },
+    {
+      "label": "차",
+      "ttsKey": "cha",
+      "core": true,
+      "strokeOrder": "assets/strokes/cha.json",
+      "guideOnly": true,
+      "freq": "high",
+      "writing": {
+        "order": "assets/strokes/cha.json",
+        "strokes": [],
+        "guideOnly": true
+      }
+    },
+    {
+      "label": "카",
+      "ttsKey": "ka",
+      "core": true,
+      "strokeOrder": "assets/strokes/ka.json",
+      "guideOnly": true,
+      "freq": "high",
+      "writing": {
+        "order": "assets/strokes/ka.json",
+        "strokes": [],
+        "guideOnly": true
+      }
+    },
+    {
+      "label": "타",
+      "ttsKey": "ta",
+      "core": true,
+      "strokeOrder": "assets/strokes/ta.json",
+      "guideOnly": true,
+      "freq": "high",
+      "writing": {
+        "order": "assets/strokes/ta.json",
+        "strokes": [],
+        "guideOnly": true
+      }
+    },
+    {
+      "label": "파",
+      "ttsKey": "pa",
+      "core": true,
+      "strokeOrder": "assets/strokes/pa.json",
+      "guideOnly": true,
+      "freq": "high",
+      "writing": {
+        "order": "assets/strokes/pa.json",
+        "strokes": [],
+        "guideOnly": true
+      }
+    },
+    {
+      "label": "하",
+      "ttsKey": "ha",
+      "core": true,
+      "strokeOrder": "assets/strokes/ha.json",
+      "guideOnly": true,
+      "freq": "high",
+      "writing": {
+        "order": "assets/strokes/ha.json",
+        "strokes": [],
+        "guideOnly": true
+      }
+    }
+  ],
+  "definition": {
+    "ko": "(2) 가 계열(…ㅏ) 단원의 핵심 정의",
+    "en": "Core definition of (2) GA set (…ㅏ) section"
+  }
+}

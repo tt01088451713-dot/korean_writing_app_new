@@ -1,0 +1,36 @@
+{
+  "id": "2_2_with_batchim_yo",
+  "unitId": "2_2_with_batchim_yo",
+  "type": "list",
+  "title": {
+    "ko": "2.2 받침 확장 — ㅛ 모음",
+    "en": "2.2 Finals Extension — vowel ㅛ",
+    "ja": "2.2 終声拡張 — 母音 ㅛ",
+    "zh": "2.2 终声扩展 — 元音 ㅛ",
+    "vi": "2.2 Mở rộng phụ âm cuối — nguyên âm ㅛ",
+    "fr": "2.2 Extension des finales — voyelle ㅛ",
+    "de": "2.2 Erweiterung mit Endkonsonant — Vokal ㅛ",
+    "es": "2.2 Extensión con final — vocal ㅛ",
+    "ru": "2.2 Расширение с финалью — гласный ㅛ",
+    "mn": "2.2 Төгсгөлийн өргөтгөл — эгшиг ㅛ"
+  },
+  "ttsRulesRoute": "assets/data/common/tts_rules.json",
+  "notes": {
+    "ko": "종성 실현음: ㄱ/ㅋ/ㄲ→[k̚], ㅂ/ㅍ→[p̚], ㄷ/ㅅ/ㅆ/ㅈ/ㅊ/ㅌ/ㅎ→[t̚], ㄴ[n], ㄹ[l], ㅁ[m], ㅇ[ŋ]. 겹받침은 단독 종성에서 한 음가만 실현되는 경우가 많습니다.",
+    "en": "Coda allophones: ㄱ/ㅋ/ㄲ→[k̚], ㅂ/ㅍ→[p̚], ㄷ/ㅅ/ㅆ/ㅈ/ㅊ/ㅌ/ㅎ→[t̚], ㄴ[n], ㄹ[l], ㅁ[m], ㅇ[ŋ]. Double finals often surface as a single coda in isolation."
+  },
+  "assetConventions": { "strokeJson": "assets/strokes/syllables/{glyph}.json", "audioMp3": "assets/audio/syllables/{glyph}.mp3" },
+  "practice": { "enabled": true, "strokeAsset": "template", "audio": true, "repeat": 3 },
+  "uiHints": { "grid": 7, "rowGap": 8, "colGap": 8 },
+  "vowel": "ㅛ",
+  "base": "요",
+  "commonFinals": ["ㄴ", "ㄹ", "ㅁ", "ㅇ"],
+  "items": [
+    { "syllable": "욘", "title": { "ko": "욘" }, "final": "ㄴ", "tts": { "ko": "욘", "ipa": "jon",  "roman": "yon",  "final": "n", "rule": "auto" } },
+    { "syllable": "욜", "title": { "ko": "욜" }, "final": "ㄹ", "tts": { "ko": "욜", "ipa": "jol",  "roman": "yol",  "final": "l", "rule": "auto" } },
+    { "syllable": "욤", "title": { "ko": "욤" }, "final": "ㅁ", "tts": { "ko": "욤", "ipa": "jom",  "roman": "yom",  "final": "m", "rule": "auto" } },
+    { "syllable": "용", "title": { "ko": "용" }, "final": "ㅇ", "tts": { "ko": "용", "ipa": "joŋ", "roman": "yong", "final": "ŋ", "rule": "auto" } }
+  ],
+  "doubleFinals": [],
+  "sequence": ["욘", "욜", "욤", "용"]
+}

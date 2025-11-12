@@ -121,8 +121,10 @@ class _QaChecklistPageState extends State<QaChecklistPage> {
     }
 
     final dir = await getApplicationDocumentsDirectory();
-    final file = File('${dir.path}/qa_export_${DateTime.now().millisecondsSinceEpoch}.json');
-    await file.writeAsString(const JsonEncoder.withIndent('  ').convert(export), encoding: const Utf8Codec());
+    final file = File(
+        '${dir.path}/qa_export_${DateTime.now().millisecondsSinceEpoch}.json');
+    await file.writeAsString(const JsonEncoder.withIndent('  ').convert(export),
+        encoding: const Utf8Codec());
 
     if (!mounted) return;
     ScaffoldMessenger.of(context).showSnackBar(
@@ -136,7 +138,11 @@ class _QaChecklistPageState extends State<QaChecklistPage> {
       total++;
       if (_done[ref.key] == true) done++;
     }
-    return {'done': done, 'total': total, 'ratio': total == 0 ? 0 : done / total};
+    return {
+      'done': done,
+      'total': total,
+      'ratio': total == 0 ? 0 : done / total
+    };
   }
 
   @override
@@ -171,129 +177,144 @@ class _QaChecklistPageState extends State<QaChecklistPage> {
       body: _data == null
           ? const Center(child: Text('No data.'))
           : Column(
-        children: [
-          // 상단 검색 + 진행률
-          Padding(
-            padding: const EdgeInsets.fromLTRB(12, 10, 12, 6),
-            child: Row(
               children: [
-                Expanded(
-                  child: TextField(
-                    decoration: const InputDecoration(
-                      hintText: '검색(텍스트 포함)',
-                      prefixIcon: Icon(Icons.search),
-                      isDense: true,
-                      border: OutlineInputBorder(),
-                    ),
-                    onChanged: (v) => setState(() => _query = v.trim()),
-                  ),
-                ),
-                const SizedBox(width: 12),
-                Column(
-                  crossAxisAlignment: CrossAxisAlignment.end,
-                  children: [
-                    Text('${prog['done']}/${prog['total']}'),
-                    SizedBox(
-                      width: 120,
-                      child: LinearProgressIndicator(value: ratio.clamp(0, 1)),
-                    ),
-                  ],
-                ),
-              ],
-            ),
-          ),
-
-          const Divider(height: 1),
-
-          // 본문
-          Expanded(
-            child: ListView.builder(
-              padding: const EdgeInsets.fromLTRB(12, 8, 12, 16),
-              itemCount: (_data!['categories'] as List).length,
-              itemBuilder: (_, catIdx) {
-                final cat = (_data!['categories'] as List)[catIdx] as Map;
-                final catTitle = pickMl(cat['title']);
-
-                final sections = (cat['sections'] as List?) ?? const [];
-                return Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    Padding(
-                      padding: const EdgeInsets.only(top: 10, bottom: 4),
-                      child: Text(
-                        catTitle,
-                        style: Theme.of(context).textTheme.titleMedium?.copyWith(
-                          fontWeight: FontWeight.bold,
+                // 상단 검색 + 진행률
+                Padding(
+                  padding: const EdgeInsets.fromLTRB(12, 10, 12, 6),
+                  child: Row(
+                    children: [
+                      Expanded(
+                        child: TextField(
+                          decoration: const InputDecoration(
+                            hintText: '검색(텍스트 포함)',
+                            prefixIcon: Icon(Icons.search),
+                            isDense: true,
+                            border: OutlineInputBorder(),
+                          ),
+                          onChanged: (v) => setState(() => _query = v.trim()),
                         ),
                       ),
-                    ),
-                    ...List.generate(sections.length, (secIdx) {
-                      final sec = sections[secIdx] as Map;
-                      final secTitle = pickMl(sec['title']);
-                      final items = (sec['items'] as List?) ?? const [];
-
-                      // 검색 필터에 의해 보이는 항목만 계산
-                      final visibleIdx = <int>[];
-                      for (var i = 0; i < items.length; i++) {
-                        final it = items[i] as Map;
-                        final text = pickMl(it['text']).toLowerCase();
-                        if (_query.isEmpty || text.contains(_query.toLowerCase())) {
-                          visibleIdx.add(i);
-                        }
-                      }
-                      if (visibleIdx.isEmpty) return const SizedBox.shrink();
-
-                      // 섹션 진행률
-                      int sTotal = visibleIdx.length;
-                      int sDone = 0;
-                      for (final i in visibleIdx) {
-                        final ref = _ref(cat, catIdx, sec, secIdx, items[i] as Map, i);
-                        if (_done[ref.key] == true) sDone++;
-                      }
-
-                      return Card(
-                        clipBehavior: Clip.hardEdge,
-                        child: ExpansionTile(
-                          tilePadding: const EdgeInsets.symmetric(horizontal: 12),
-                          title: Row(
-                            children: [
-                              Expanded(child: Text(secTitle)),
-                              Text('$sDone/$sTotal',
-                                  style: const TextStyle(color: Colors.black54)),
-                            ],
+                      const SizedBox(width: 12),
+                      Column(
+                        crossAxisAlignment: CrossAxisAlignment.end,
+                        children: [
+                          Text('${prog['done']}/${prog['total']}'),
+                          SizedBox(
+                            width: 120,
+                            child: LinearProgressIndicator(
+                                value: ratio.clamp(0, 1)),
                           ),
-                          children: [
-                            for (final i in visibleIdx)
-                              _buildItemTile(cat, catIdx, sec, secIdx, items[i] as Map, i),
-                            Padding(
-                              padding: const EdgeInsets.fromLTRB(12, 0, 12, 10),
-                              child: Row(
-                                children: [
-                                  TextButton.icon(
-                                    icon: const Icon(Icons.check_box),
-                                    onPressed: () => _markSection(catIdx, secIdx, true),
-                                    label: const Text('모두 체크'),
+                        ],
+                      ),
+                    ],
+                  ),
+                ),
+
+                const Divider(height: 1),
+
+                // 본문
+                Expanded(
+                  child: ListView.builder(
+                    padding: const EdgeInsets.fromLTRB(12, 8, 12, 16),
+                    itemCount: (_data!['categories'] as List).length,
+                    itemBuilder: (_, catIdx) {
+                      final cat = (_data!['categories'] as List)[catIdx] as Map;
+                      final catTitle = pickMl(cat['title']);
+
+                      final sections = (cat['sections'] as List?) ?? const [];
+                      return Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Padding(
+                            padding: const EdgeInsets.only(top: 10, bottom: 4),
+                            child: Text(
+                              catTitle,
+                              style: Theme.of(context)
+                                  .textTheme
+                                  .titleMedium
+                                  ?.copyWith(
+                                    fontWeight: FontWeight.bold,
                                   ),
-                                  const SizedBox(width: 8),
-                                  TextButton.icon(
-                                    icon: const Icon(Icons.check_box_outline_blank),
-                                    onPressed: () => _markSection(catIdx, secIdx, false),
-                                    label: const Text('모두 해제'),
+                            ),
+                          ),
+                          ...List.generate(sections.length, (secIdx) {
+                            final sec = sections[secIdx] as Map;
+                            final secTitle = pickMl(sec['title']);
+                            final items = (sec['items'] as List?) ?? const [];
+
+                            // 검색 필터에 의해 보이는 항목만 계산
+                            final visibleIdx = <int>[];
+                            for (var i = 0; i < items.length; i++) {
+                              final it = items[i] as Map;
+                              final text = pickMl(it['text']).toLowerCase();
+                              if (_query.isEmpty ||
+                                  text.contains(_query.toLowerCase())) {
+                                visibleIdx.add(i);
+                              }
+                            }
+                            if (visibleIdx.isEmpty) {
+                              return const SizedBox.shrink();
+                            }
+
+                            // 섹션 진행률
+                            int sTotal = visibleIdx.length;
+                            int sDone = 0;
+                            for (final i in visibleIdx) {
+                              final ref = _ref(
+                                  cat, catIdx, sec, secIdx, items[i] as Map, i);
+                              if (_done[ref.key] == true) sDone++;
+                            }
+
+                            return Card(
+                              clipBehavior: Clip.hardEdge,
+                              child: ExpansionTile(
+                                tilePadding:
+                                    const EdgeInsets.symmetric(horizontal: 12),
+                                title: Row(
+                                  children: [
+                                    Expanded(child: Text(secTitle)),
+                                    Text('$sDone/$sTotal',
+                                        style: const TextStyle(
+                                            color: Colors.black54)),
+                                  ],
+                                ),
+                                children: [
+                                  for (final i in visibleIdx)
+                                    _buildItemTile(cat, catIdx, sec, secIdx,
+                                        items[i] as Map, i),
+                                  Padding(
+                                    padding: const EdgeInsets.fromLTRB(
+                                        12, 0, 12, 10),
+                                    child: Row(
+                                      children: [
+                                        TextButton.icon(
+                                          icon: const Icon(Icons.check_box),
+                                          onPressed: () => _markSection(
+                                              catIdx, secIdx, true),
+                                          label: const Text('모두 체크'),
+                                        ),
+                                        const SizedBox(width: 8),
+                                        TextButton.icon(
+                                          icon: const Icon(
+                                              Icons.check_box_outline_blank),
+                                          onPressed: () => _markSection(
+                                              catIdx, secIdx, false),
+                                          label: const Text('모두 해제'),
+                                        ),
+                                      ],
+                                    ),
                                   ),
                                 ],
                               ),
-                            ),
-                          ],
-                        ),
+                            );
+                          }),
+                        ],
                       );
-                    }),
-                  ],
-                );
-              },
+                    },
+                  ),
+                ),
+              ],
             ),
-          ),
-        ],
-      ),
     );
   }
 
@@ -337,7 +358,11 @@ class _QaChecklistPageState extends State<QaChecklistPage> {
   }
 
   void _showTips(Map item) {
-    final tips = (item['tips'] as List?)?.map((e) => pickMl(e)).where((t) => t.isNotEmpty).toList() ?? const [];
+    final tips = (item['tips'] as List?)
+            ?.map((e) => pickMl(e))
+            .where((t) => t.isNotEmpty)
+            .toList() ??
+        const [];
     showModalBottomSheet(
       context: context,
       builder: (_) => SafeArea(
@@ -346,25 +371,26 @@ class _QaChecklistPageState extends State<QaChecklistPage> {
           child: tips.isEmpty
               ? const Text('추가 설명이 없습니다.')
               : Column(
-            mainAxisSize: MainAxisSize.min,
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              const Text('체크 항목 참고', style: TextStyle(fontWeight: FontWeight.bold)),
-              const SizedBox(height: 8),
-              ...tips.map(
-                    (t) => Padding(
-                  padding: const EdgeInsets.only(bottom: 6),
-                  child: Row(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      const Text('• '),
-                      Expanded(child: Text(t)),
-                    ],
-                  ),
+                  mainAxisSize: MainAxisSize.min,
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    const Text('체크 항목 참고',
+                        style: TextStyle(fontWeight: FontWeight.bold)),
+                    const SizedBox(height: 8),
+                    ...tips.map(
+                      (t) => Padding(
+                        padding: const EdgeInsets.only(bottom: 6),
+                        child: Row(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            const Text('• '),
+                            Expanded(child: Text(t)),
+                          ],
+                        ),
+                      ),
+                    ),
+                  ],
                 ),
-              ),
-            ],
-          ),
         ),
       ),
     );
@@ -380,8 +406,8 @@ class _QaChecklistPageState extends State<QaChecklistPage> {
 
   /// 현재 언어코드에 대해 가능한 대체 키 후보 생성
   static List<String> _langCandidates(String useRaw) {
-    final use = _normLang(useRaw);          // ex) "zh-cn"
-    final base = use.split('-').first;      // ex) "zh"
+    final use = _normLang(useRaw); // ex) "zh-cn"
+    final base = use.split('-').first; // ex) "zh"
 
     // 흔한 별칭들 (필요시 추가)
     final aliases = <String, String>{
@@ -398,15 +424,18 @@ class _QaChecklistPageState extends State<QaChecklistPage> {
     };
 
     final cand = <String>[
-      use,                  // zh-cn
-      base,                 // zh
-      if (aliases[use] != null) aliases[use]!,       // zh
-      if (aliases[base] != null) aliases[base]!,     // 별칭
+      use, // zh-cn
+      base, // zh
+      if (aliases[use] != null) aliases[use]!, // zh
+      if (aliases[base] != null) aliases[base]!, // 별칭
     ];
 
     // 중복 제거
     final seen = <String>{};
-    return [for (final c in cand) if (c.isNotEmpty && seen.add(c)) c];
+    return [
+      for (final c in cand)
+        if (c.isNotEmpty && seen.add(c)) c
+    ];
   }
 
   /// 다국어 필드에서 현재 언어 선택 (강화 버전: 정규화/별칭/폴백)

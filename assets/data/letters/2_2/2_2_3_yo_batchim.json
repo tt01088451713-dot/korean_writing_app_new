@@ -1,0 +1,38 @@
+{
+  "id": "2_2_3_b",
+  "unitId": "2_2_3_yo_batchim",
+  "type": "letters",
+  "title": {
+    "ko": "2.2 (3-b) ㅛ 받침 확장 (욘~용)",
+    "en": "2.2 (3-b) Vowel ㅛ with finals (yon~yong)",
+    "ja": "2.2 (3-b) 母音 ㅛ の終声拡張（yon〜yong）",
+    "zh": "2.2 (3-b) 元音 ㅛ 的终声扩展（yon~yong）",
+    "vi": "2.2 (3-b) Nguyên âm ㅛ với phụ âm cuối (yon~yong)",
+    "fr": "2.2 (3-b) Voyelle ㅛ avec finales (yon~yong)",
+    "de": "2.2 (3-b) Vokal ㅛ mit Endkonsonanten (yon–yong)",
+    "es": "2.2 (3-b) Vocal ㅛ con finales (yon~yong)",
+    "ru": "2.2 (3-b) Гласный ㅛ с конечными согласными (yon–yong)",
+    "mn": "2.2 (3-b) Эгшиг ㅛ төгсгөлийн гийгүүлэгчтэй (yon–yong)"
+  },
+  "assetConventions": {
+    "strokeJson": "assets/strokes/syllables/{glyph}.json",
+    "audioMp3": "assets/audio/syllables/{glyph}.mp3"
+  },
+  "practice": {
+    "enabled": true,
+    "strokeAsset": "template",
+    "audio": true,
+    "repeat": 3
+  },
+  "sequence": [
+    "욘",
+    "욜",
+    "욤",
+    "용"
+  ],
+  "uiHints": {
+    "grid": 4,
+    "rowGap": 8,
+    "colGap": 8
+  }
+}
