@@ -1,0 +1,50 @@
+Korean Writing App — Easily Learn Korean Writing
+(English–Korean bilingual version for App Store / Play Store)
+
+📘 Overview / 앱 개요
+Korean Writing App helps learners of Korean practice writing and pronunciation
+through structured lessons, real-time handwriting exercises, and clear TTS audio.
+It is based on the textbook “Easily Learn Korean Writing (쉽게 배우는 한국어 쓰기 교본)”,
+and is designed for multicultural learners around the world.
+
+Korean Writing App은 『쉽게 배우는 한국어 쓰기 교본』을 기반으로 한
+한글 쓰기 및 발음 학습 애플리케이션으로,
+자음과 모음의 필순, 필기 연습, 음성 듣기, 다국어 UI 기능을 제공합니다.
+전 세계 다문화 학습자를 위해 설계된 한국어 쓰기 학습용 앱입니다.
+
+✏️ Key Features / 주요 기능
+• ✏️ Stroke-by-stroke Writing / 필순 따라쓰기 — 자모별 필순 애니메이션 및 실시간 필기 연습
+• 🔊 TTS Pronunciation / 음성 발음 듣기 — 명확한 발음 제공 (Text-to-Speech)
+• 🌐 Multilingual Interface / 다국어 지원 — Korean, English, Japanese, Chinese, Vietnamese, French, German, Spanish, Russian, Mongolian
+• 📚 Structured Curriculum / 단계별 학습 구성 — 자음 → 모음 → 음절 → 단어 → 문장 학습
+• ☁️ Cloud Sync (coming soon) / 클라우드 연동(예정) — 학습 결과 저장 및 불러오기 기능
+• 🪄 Metaverse Learning Space (planned) / 메타버스 학습공간(예정) — 자기주도형 가상 학습 환경 지원
+
+🎓 Educational Background / 교육적 배경
+Developed under the direction of
+Prof. Sang-Tae Kim (Cheongju University)
+to support multicultural and beginner learners of Korean worldwide.
+
+본 앱은 청주대학교 김상태 교수의 교육 콘텐츠를 기반으로 개발되었으며,
+다문화 및 초급 한국어 학습자의 자기주도 학습을 지원합니다.
+
+🧾 App Information / 앱 정보
+Version: 1.0.0 (2025)
+Developer / 개발자: Prof. Sang-Tae Kim (Cheongju University)
+Organization / 소속: KST Lingua Studio
+Contact / 문의: support-kst@naver.com
+Based on / 교재 기반: Easily Learn Korean Writing (쉽게 배우는 한국어 쓰기 교본)
+
+⚙️ Technical Summary / 기술 요약
+• Framework: Flutter 3.x
+• Platforms: Android, iOS, Windows
+• Languages Supported: Korean, English, Japanese, Chinese, Vietnamese, French, German, Spanish, Russian, Mongolian
+• Audio Engine: flutter_tts
+• Cloud: Firebase (planned)
+
+© Copyright / 저작권 안내
+© 2025 KST Lingua Studio & Prof. Sang-Tae Kim.
+All rights reserved. Unauthorized reproduction, redistribution, or modification is prohibited.
+
+© 2025 KST Lingua Studio 및 청주대학교 김상태 교수.
+무단 복제, 배포 또는 수정은 금지되어 있습니다.
