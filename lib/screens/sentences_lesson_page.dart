@@ -7,6 +7,9 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:korean_writing_app_new/i18n/language_state.dart';
 import 'package:korean_writing_app_new/i18n/ui_texts.dart';
 
+// ✅ 하단 배너 광고 공용 위젯
+import 'package:korean_writing_app_new/ads/banner_ad_widget.dart';
+
 class SentencesLessonPage extends StatefulWidget {
   const SentencesLessonPage({super.key});
 
@@ -25,7 +28,7 @@ class SentencesLessonPage extends StatefulWidget {
 }
 
 class _SentencesLessonPageState extends State<SentencesLessonPage> {
-  final _tts = FlutterTts();
+  final FlutterTts _tts = FlutterTts();
 
   Map<String, dynamic>? _lesson;
   String? _error;
@@ -109,10 +112,10 @@ class _SentencesLessonPageState extends State<SentencesLessonPage> {
     if (v is Map) {
       final m = v.cast<String, dynamic>();
       final s = (m[_lang] ??
-                  m['ko'] ??
-                  m['en'] ??
-                  (m.values.isNotEmpty ? m.values.first : ''))
-              ?.toString() ??
+          m['ko'] ??
+          m['en'] ??
+          (m.values.isNotEmpty ? m.values.first : ''))
+          ?.toString() ??
           '';
       return s.isNotEmpty ? s : fallback;
     }
@@ -128,7 +131,8 @@ class _SentencesLessonPageState extends State<SentencesLessonPage> {
       final lang = (tts['lang'] ?? 'ko-KR').toString();
       final rate = ((tts['rate'] ?? 0.5) as num).toDouble().clamp(0.1, 1.0);
       final pitch = ((tts['pitch'] ?? 1.0) as num).toDouble().clamp(0.5, 2.0);
-      final volume = ((tts['volume'] ?? 1.0) as num).toDouble().clamp(0.0, 1.0);
+      final volume =
+      ((tts['volume'] ?? 1.0) as num).toDouble().clamp(0.0, 1.0);
 
       await _tts.stop();
       await _tts.setLanguage(lang);
@@ -136,7 +140,9 @@ class _SentencesLessonPageState extends State<SentencesLessonPage> {
       await _tts.setPitch(pitch);
       await _tts.setVolume(volume);
       await _tts.speak(text);
-    } catch (_) {}
+    } catch (_) {
+      // TTS 예외는 조용히 무시
+    }
   }
 
   @override
@@ -168,7 +174,18 @@ class _SentencesLessonPageState extends State<SentencesLessonPage> {
       body: RefreshIndicator(
         onRefresh: _load,
         child: _buildBody(
-            titleFs: titleFs, sentenceFs: sentenceFs, descStyle: descStyle),
+          titleFs: titleFs,
+          sentenceFs: sentenceFs,
+          descStyle: descStyle,
+        ),
+      ),
+      // ─────────────────────────────
+      // 하단 배너 광고 – 공용 BannerAdArea 사용
+      // (광고 제거는 BannerAdArea 내부에서 자동 처리)
+      // ─────────────────────────────
+      bottomNavigationBar: const SafeArea(
+        top: false,
+        child: BannerAdArea(),
       ),
     );
   }
@@ -195,8 +212,10 @@ class _SentencesLessonPageState extends State<SentencesLessonPage> {
           const SizedBox(height: 24),
           Padding(
             padding: const EdgeInsets.all(16),
-            child: SelectableText(_error!,
-                style: const TextStyle(color: Colors.red)),
+            child: SelectableText(
+              _error!,
+              style: const TextStyle(color: Colors.red),
+            ),
           ),
         ],
       );
@@ -235,7 +254,7 @@ class _SentencesLessonPageState extends State<SentencesLessonPage> {
             elevation: 0,
             color: Theme.of(context).colorScheme.surfaceContainerHighest,
             shape:
-                RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
+            RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
             child: Padding(
               padding: const EdgeInsets.all(14),
               child: Text(intro, style: descStyle),
@@ -255,12 +274,16 @@ class _SentencesLessonPageState extends State<SentencesLessonPage> {
           return Card(
             clipBehavior: Clip.antiAlias,
             shape:
-                RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
+            RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
             child: ExpansionTile(
               leading: const Icon(Icons.folder_open),
-              title: Text(t,
-                  style: TextStyle(
-                      fontSize: titleFs, fontWeight: FontWeight.w600)),
+              title: Text(
+                t,
+                style: TextStyle(
+                  fontSize: titleFs,
+                  fontWeight: FontWeight.w600,
+                ),
+              ),
               subtitle: sub.isNotEmpty
                   ? Text(sub, style: descStyle)
                   : Text('${its.length} items', style: descStyle),
@@ -292,7 +315,10 @@ class _SentencesLessonPageState extends State<SentencesLessonPage> {
         leading: const Icon(Icons.short_text),
         title: Text(
           sentence,
-          style: TextStyle(fontSize: sentenceFs, fontWeight: FontWeight.w600),
+          style: TextStyle(
+            fontSize: sentenceFs,
+            fontWeight: FontWeight.w600,
+          ),
         ),
         subtitle: gloss.isNotEmpty ? Text(gloss) : null,
         trailing: Wrap(

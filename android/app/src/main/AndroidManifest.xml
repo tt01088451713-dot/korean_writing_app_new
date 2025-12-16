@@ -1,9 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="kr.kstlingua.korean_writing_app">
+
+    <!-- 광고 및 네트워크 사용 권한 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- Android 13+에서 광고용 ID 사용을 위한 권한 -->
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
 
     <application
-        android:label="Korean Writing App"
+        android:label="Korean Writing"
         android:icon="@mipmap/ic_launcher">
+
+        <!-- ✅ 실제 AdMob Application ID -->
+        <!-- ca-app-pub-3746752589798871~2557853915 -->
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3746752589798871~2557853915" />
 
         <activity
             android:name=".MainActivity"
@@ -14,12 +27,12 @@
             android:hardwareAccelerated="true"
             android:windowSoftInputMode="adjustResize">
 
-            <!-- Flutter v2 Embedding 명시 -->
+            <!-- Flutter v2 Embedding 사용 -->
             <meta-data
                 android:name="flutterEmbedding"
                 android:value="2" />
 
-            <!-- 시스템이 Flutter 초기화 전 보여줄 테마(흰 화면 방지) -->
+            <!-- Flutter 초기화 전 표시할 테마(흰 화면 방지) -->
             <meta-data
                 android:name="io.flutter.embedding.android.NormalTheme"
                 android:resource="@style/NormalTheme" />

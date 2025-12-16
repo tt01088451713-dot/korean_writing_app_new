@@ -1,5 +1,6 @@
 // lib/screens/unit_1_1_consonantal_letter.dart
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
 
 // 데이터 로더 / TTS / 쓰기 연습
 import 'package:korean_writing_app_new/data_loader/data_loader.dart';
@@ -13,6 +14,12 @@ import 'package:korean_writing_app_new/i18n/ui_texts.dart';
 
 // 테마
 import 'package:korean_writing_app_new/theme_state.dart';
+
+// 인앱 결제/광고 제거 상태 (쓰기 저장에서 사용)
+import 'package:korean_writing_app_new/purchase_state.dart';
+
+// ✅ 공용 배너 광고 위젯
+import 'package:korean_writing_app_new/ads/banner_ad_widget.dart';
 
 /// 자음자 데이터 경로
 const String kUnitAsset = 'assets/data/1_1_consonantal_letter.json';
@@ -206,7 +213,7 @@ class _UnitOverviewPageState extends State<UnitOverviewPage> {
               PopupMenuButton<String>(
                 onSelected: (v) {
                   if (v == 'lang') {
-                    Navigator.pushReplacementNamed(context, '/'); // 언어 선택
+                    Navigator.pushReplacementNamed(context, '/'); // 언어 선택으로 이동
                   } else if (v == 'theme') {
                     _showColorSheet(context);
                   }
@@ -287,6 +294,15 @@ class _UnitOverviewPageState extends State<UnitOverviewPage> {
                 }),
               ],
             ),
+          ),
+
+          // ─────────────────────────────
+          // 하단 배너 광고 – 공용 BannerAdArea 사용
+          // (광고 제거 여부는 BannerAdArea 내부에서 처리)
+          // ─────────────────────────────
+          bottomNavigationBar: const SafeArea(
+            top: false,
+            child: BannerAdArea(),
           ),
         );
       },
@@ -390,7 +406,7 @@ class _GlyphGrid extends StatelessWidget {
     if (w >= 900) return 6;
     if (w >= 700) return 5;
     if (w >= 520) return 4;
-    // 🔧 스마트폰(좁은 화면)에서는 2칸으로 줄여 세로 공간 확보
+    // 스마트폰(좁은 화면)에서는 2칸으로 줄여 세로 공간 확보
     return 2;
   }
 
@@ -447,8 +463,7 @@ class _GlyphGrid extends StatelessWidget {
                     Navigator.push(
                       context,
                       MaterialPageRoute(
-                        builder: (_) =>
-                            WritingPracticePage(charGlyph: glyph),
+                        builder: (_) => WritingPracticePage(charGlyph: glyph),
                       ),
                     );
                   },
@@ -480,7 +495,7 @@ class _GlyphGrid extends StatelessWidget {
                                   tooltip: UiText.t('listen'),
                                   icon: const Icon(
                                     Icons.volume_up,
-                                    size: 18, // 살짝 줄여 덜 붙어 보이게
+                                    size: 18,
                                   ),
                                   padding: EdgeInsets.zero,
                                   constraints: const BoxConstraints.tightFor(
@@ -521,7 +536,7 @@ class _GlyphGrid extends StatelessWidget {
                               origin,
                               textAlign: TextAlign.center,
                               softWrap: true,
-                              maxLines: 3, // 3줄까지 표시
+                              maxLines: 3,
                               overflow: TextOverflow.ellipsis,
                               style: theme.textTheme.bodySmall?.copyWith(
                                 fontSize: originFont,
@@ -611,9 +626,8 @@ class _GlyphGrid extends StatelessWidget {
       grouped[groupOf(it)]!.add(it);
     }
 
-    final order = ['basic', 'stroked', 'variant']
-        .where((k) => grouped[k]!.isNotEmpty)
-        .toList();
+    final order =
+    ['basic', 'stroked', 'variant'].where((k) => grouped[k]!.isNotEmpty).toList();
 
     String label(String g) {
       switch (g) {
@@ -653,8 +667,7 @@ class _GlyphGrid extends StatelessWidget {
                   crossAxisCount: cols,
                   mainAxisSpacing: 8,
                   crossAxisSpacing: 8,
-                  childAspectRatio:
-                  0.85, // 세로 공간을 조금 더 확보
+                  childAspectRatio: 0.85,
                 ),
                 itemCount: grouped[g]!.length,
                 itemBuilder: (_, i) => buildCard(grouped[g]![i]),

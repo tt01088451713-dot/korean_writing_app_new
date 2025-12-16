@@ -15,6 +15,9 @@ import 'package:korean_writing_app_new/i18n/ui_texts.dart';
 import 'package:korean_writing_app_new/theme_state.dart';
 import 'package:korean_writing_app_new/data_loader/stroke_assets.dart';
 
+// ✅ 공용 배너 광고 위젯
+import 'package:korean_writing_app_new/ads/banner_ad_widget.dart';
+
 /// 모음자 데이터 경로
 const String kUnitAsset = 'assets/data/1_2_vowel_letter.json';
 
@@ -172,7 +175,8 @@ class _VowelOverviewPageState extends State<VowelOverviewPage> {
       builder: (context, snap) {
         if (snap.connectionState != ConnectionState.done) {
           return const Scaffold(
-              body: Center(child: CircularProgressIndicator()));
+            body: Center(child: CircularProgressIndicator()),
+          );
         }
         if (snap.hasError) {
           return Scaffold(
@@ -214,7 +218,8 @@ class _VowelOverviewPageState extends State<VowelOverviewPage> {
                 onSelected: (v) {
                   if (v == 'lang') {
                     try {
-                      Navigator.pushReplacementNamed(context, '/'); // 언어 선택 페이지
+                      // 언어 선택 페이지 (앱 라우팅 규칙에 맞게 변경 가능)
+                      Navigator.pushReplacementNamed(context, '/');
                     } catch (_) {}
                   } else if (v == 'theme') {
                     _showColorSheet(context);
@@ -222,9 +227,13 @@ class _VowelOverviewPageState extends State<VowelOverviewPage> {
                 },
                 itemBuilder: (_) => [
                   PopupMenuItem(
-                      value: 'lang', child: Text(UiText.t('changeLanguage'))),
+                    value: 'lang',
+                    child: Text(UiText.t('changeLanguage')),
+                  ),
                   PopupMenuItem(
-                      value: 'theme', child: Text(UiText.t('customizeColors'))),
+                    value: 'theme',
+                    child: Text(UiText.t('customizeColors')),
+                  ),
                 ],
               ),
             ],
@@ -239,7 +248,8 @@ class _VowelOverviewPageState extends State<VowelOverviewPage> {
                   Text(rawTitle, style: titleStyle),
 
                 if (subtitle.isNotEmpty) ...[
-                  if (rawTitle.isNotEmpty && !_sameTitle(rawTitle, appBarTitle))
+                  if (rawTitle.isNotEmpty &&
+                      !_sameTitle(rawTitle, appBarTitle))
                     const SizedBox(height: 4),
                   Text(subtitle, style: subtitleStyle),
                 ],
@@ -298,6 +308,15 @@ class _VowelOverviewPageState extends State<VowelOverviewPage> {
               ],
             ),
           ),
+
+          // ─────────────────────────────
+          // 하단 배너 광고 – 공용 BannerAdArea 사용
+          // (광고 제거 여부는 BannerAdArea 내부에서 처리)
+          // ─────────────────────────────
+          bottomNavigationBar: const SafeArea(
+            top: false,
+            child: BannerAdArea(),
+          ),
         );
       },
     );
@@ -313,8 +332,10 @@ class _VowelOverviewPageState extends State<VowelOverviewPage> {
           child: Column(
             mainAxisSize: MainAxisSize.min,
             children: [
-              Text(UiText.t('customizeColors'),
-                  style: const TextStyle(fontWeight: FontWeight.bold)),
+              Text(
+                UiText.t('customizeColors'),
+                style: const TextStyle(fontWeight: FontWeight.bold),
+              ),
               const SizedBox(height: 8),
               Row(
                 children: [
@@ -413,7 +434,7 @@ class _GlyphGrid extends StatelessWidget {
     }
 
     final theme = Theme.of(context);
-    // ▶ 자음자와 비슷한 크기로 살짝 줄여 여백 확보
+    // 자음자와 비슷한 크기로 살짝 줄여 여백 확보
     final glyphFont = (28 * scale).clamp(24, 34).toDouble();
     final nameFont = (14 * scale).clamp(13, 16).toDouble();
     final originFont = (12.5 * scale).clamp(12, 14.5).toDouble();
@@ -427,9 +448,9 @@ class _GlyphGrid extends StatelessWidget {
           padding: const EdgeInsets.symmetric(vertical: 4),
           gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
             crossAxisCount: cols,
+            childAspectRatio: 0.9,
             mainAxisSpacing: 8,
             crossAxisSpacing: 8,
-            childAspectRatio: 0.9,
           ),
           itemCount: items.length,
           itemBuilder: (context, i) {
@@ -462,7 +483,7 @@ class _GlyphGrid extends StatelessWidget {
 
             final guide = StrokeAssets.get(glyph);
             final hasGuide = guide != null;
-            // hasGuide는 현재 표시용으로만 사용 (레이아웃에는 영향 없음)
+            // hasGuide는 현재 “가이드 존재 여부” 확인용 (레이아웃 영향 없음)
 
             return ValueListenableBuilder<Color>(
               valueListenable: AppTheme.cardColor,
@@ -520,8 +541,7 @@ class _GlyphGrid extends StatelessWidget {
                                         tooltip: UiText.t('listen'),
                                         icon: const Icon(
                                           Icons.volume_up,
-                                          size:
-                                          18, // ▶ 자음자와 동일하게 살짝 줄여서 여유 확보
+                                          size: 18,
                                         ),
                                         padding: EdgeInsets.zero,
                                         constraints:

@@ -7,6 +7,9 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:korean_writing_app_new/i18n/language_state.dart';
 import 'package:korean_writing_app_new/i18n/ui_texts.dart';
 
+// ✅ 하단 배너 광고 공용 위젯
+import 'package:korean_writing_app_new/ads/banner_ad_widget.dart';
+
 class WordsLessonPage extends StatefulWidget {
   const WordsLessonPage({super.key});
 
@@ -59,7 +62,9 @@ class _WordsLessonPageState extends State<WordsLessonPage> {
     _titleFromArgs = (args['title'] ?? '').toString();
 
     // 언어 변경 시 즉시 리빌드(번역 표시 반영)
-    _langListener = () => mounted ? setState(() {}) : null;
+    _langListener = () {
+      if (mounted) setState(() {});
+    };
     LanguageState.I.addListener(_langListener!);
 
     WidgetsBinding.instance.addPostFrameCallback((_) => _load());
@@ -67,7 +72,9 @@ class _WordsLessonPageState extends State<WordsLessonPage> {
 
   @override
   void dispose() {
-    if (_langListener != null) LanguageState.I.removeListener(_langListener!);
+    if (_langListener != null) {
+      LanguageState.I.removeListener(_langListener!);
+    }
     _tts.stop();
     super.dispose();
   }
@@ -104,7 +111,9 @@ class _WordsLessonPageState extends State<WordsLessonPage> {
       if (!mounted) return;
       setState(() => _error = '단어 레슨 로드 실패: $e\n($_file)');
     } finally {
-      if (mounted) setState(() => _loading = false);
+      if (mounted) {
+        setState(() => _loading = false);
+      }
     }
   }
 
@@ -124,13 +133,14 @@ class _WordsLessonPageState extends State<WordsLessonPage> {
     try {
       final tts = (item['tts'] ?? {}) as Map;
       final text =
-          (tts['text'] ?? item['text'] ?? item['word'] ?? '').toString().trim();
+      (tts['text'] ?? item['text'] ?? item['word'] ?? '').toString().trim();
       if (text.isEmpty) return;
 
       final lang = (tts['lang'] ?? 'ko-KR').toString();
       final rate = ((tts['rate'] ?? 0.5) as num).toDouble().clamp(0.1, 1.0);
       final pitch = ((tts['pitch'] ?? 1.0) as num).toDouble().clamp(0.5, 2.0);
-      final volume = ((tts['volume'] ?? 1.0) as num).toDouble().clamp(0.0, 1.0);
+      final volume =
+      ((tts['volume'] ?? 1.0) as num).toDouble().clamp(0.0, 1.0);
 
       await _tts.stop();
       await _tts.setLanguage(lang);
@@ -156,6 +166,14 @@ class _WordsLessonPageState extends State<WordsLessonPage> {
         onRefresh: _load,
         child: _buildBody(context),
       ),
+      // ─────────────────────────────
+      // 하단 배너 광고 – 공용 BannerAdArea 사용
+      // (광고 제거를 구매하면 BannerAdArea 내부에서 자동으로 숨김)
+      // ─────────────────────────────
+      bottomNavigationBar: const SafeArea(
+        top: false,
+        child: BannerAdArea(),
+      ),
     );
   }
 
@@ -177,8 +195,10 @@ class _WordsLessonPageState extends State<WordsLessonPage> {
           const SizedBox(height: 24),
           Padding(
             padding: const EdgeInsets.all(16),
-            child: SelectableText(_error!,
-                style: const TextStyle(color: Colors.red)),
+            child: SelectableText(
+              _error!,
+              style: const TextStyle(color: Colors.red),
+            ),
           ),
         ],
       );
@@ -213,7 +233,8 @@ class _WordsLessonPageState extends State<WordsLessonPage> {
               elevation: 0,
               color: Theme.of(context).colorScheme.surfaceContainerHighest,
               shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(12)),
+                borderRadius: BorderRadius.circular(12),
+              ),
               child: Padding(
                 padding: const EdgeInsets.all(14),
                 child: Text(intro, style: subStyle),
@@ -227,13 +248,16 @@ class _WordsLessonPageState extends State<WordsLessonPage> {
 
           return Card(
             clipBehavior: Clip.antiAlias,
-            shape:
-                RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
+            shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.circular(12),
+            ),
             child: ExpansionTile(
               initiallyExpanded: false,
               title: Text(t, style: titleStyle),
-              subtitle:
-                  Text('${items.length} ${UiText.t('items')}', style: subStyle),
+              subtitle: Text(
+                '${items.length} ${UiText.t('items')}',
+                style: subStyle,
+              ),
               childrenPadding: const EdgeInsets.fromLTRB(8, 0, 8, 8),
               children: [
                 for (final it in items) _wordTile(context, it),
@@ -265,8 +289,9 @@ class _WordsLessonPageState extends State<WordsLessonPage> {
           return Card(
             elevation: 0,
             color: Theme.of(context).colorScheme.surfaceContainerHighest,
-            shape:
-                RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
+            shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.circular(12),
+            ),
             child: Padding(
               padding: const EdgeInsets.all(14),
               child: Text(intro, style: subStyle),
@@ -315,9 +340,12 @@ class _WordsLessonPageState extends State<WordsLessonPage> {
               icon: const Icon(Icons.edit),
               onPressed: () {
                 if (word.trim().isEmpty) return;
-                // 앱 라우터에 등록된 쓰기 연습 화면으로 이동 (프로젝트 기존 규칙 유지)
-                Navigator.pushNamed(context, '/practice',
-                    arguments: {'charGlyph': word});
+                // 쓰기 연습 화면으로 이동
+                Navigator.pushNamed(
+                  context,
+                  '/practice',
+                  arguments: {'charGlyph': word},
+                );
               },
             ),
           ],

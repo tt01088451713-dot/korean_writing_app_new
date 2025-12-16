@@ -9,14 +9,14 @@ plugins {
 
 android {
     // ✅ MainActivity 의 패키지와 100% 동일해야 합니다.
-    namespace = "com.example.korean_writing_app_new"
+    namespace = "kr.kstlingua.korean_writing_app"
 
     compileSdk = flutter.compileSdkVersion
     ndkVersion = flutter.ndkVersion
 
     defaultConfig {
         // ✅ 앱 ID도 동일해야 합니다.
-        applicationId = "com.example.korean_writing_app_new"
+        applicationId = "kr.kstlingua.korean_writing_app"
         minSdk = flutter.minSdkVersion
         targetSdk = flutter.targetSdkVersion
         versionCode = flutter.versionCode

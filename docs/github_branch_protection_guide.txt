@@ -1,0 +1,45 @@
+GitHub Main Branch Protection Guide
+(KST Lingua Studio — Korean Writing App)
+🇰🇷 1. 개요 (Overview)
+
+이 문서는 GitHub 저장소(korean_writing_app_new)의 main 브랜치 보호 설정 절차와
+현재 상태를 요약한 안내서입니다.
+브랜치 보호는 프로젝트의 안정성과 코드 무결성을 유지하기 위한 핵심 기능입니다.
+
+This document summarizes the main branch protection settings for the repository korean_writing_app_new.
+Branch protection helps maintain the stability and integrity of the project’s source code.
+
+🇰🇷 2. 현재 설정 요약 (Current Configuration Summary)
+항목	상태	설명 (Korean)	Description (English)
+Require pull request before merging	✅	모든 변경은 Pull Request를 통해 병합	All changes must be merged through pull requests
+Require approvals (1)	✅	병합 전 최소 1회 승인 필요	At least one approval required before merge
+Dismiss stale approvals	✅	새로운 커밋 시 이전 승인 무효화	Old approvals are dismissed when new commits are pushed
+Require status checks	✅	빌드/테스트 통과 후 병합 가능	Status checks must pass before merging
+Require branch up-to-date	✅	최신 main 상태와 비교 후 병합	Must be up to date with main before merging
+Include administrators / Do not allow bypass	✅	관리자도 규칙 우회 불가	Even admins must follow the same rules
+Allow force pushes	❌	강제 푸시 금지	Force pushes are disabled
+Allow deletions	❌	main 브랜치 삭제 금지	Deletion of main branch is not allowed
+🇰🇷 3. 주의 메시지 (Notice Message)
+
+⚠️ GitHub 무료 계정의 Private Repository에서는
+브랜치 보호 규칙이 완전히 강제(enforced) 되지 않습니다.
+즉, 관리자는 원할 경우 수동으로 push 할 수 있습니다.
+그러나 설정 자체는 저장되어 있어 실수 방지 및 기본 보호 기능은 유지됩니다.
+
+⚠️ On free-tier private repositories, GitHub does not enforce protection rules strictly.
+Admins can still push manually, but the rules remain stored for safety and consistency.
+
+🇰🇷 4. 선택 사항 (Options)
+옵션	설명 (Korean)	Description (English)	권장도
+유지 (Keep current)	개인 개발에는 충분하며, 규칙 저장됨	Recommended for personal/private projects	⭐⭐⭐⭐
+Public 전환	저장소를 공개로 전환 시, 규칙 자동 강제	Makes rules automatically enforced	⭐⭐⭐
+GitHub Pro 업그레이드	팀·기관 단위로 강제 적용 및 고급 보안 가능	Enforces rules and unlocks advanced tools	⭐⭐
+🇰🇷 5. 결론 (Conclusion)
+
+현재 설정으로도 main 브랜치는 안전하게 보호됩니다.
+경고 메시지는 단순 안내이며, 실제 코드 안정성에는 영향을 주지 않습니다.
+필요 시 iOS 배포나 협업 단계에서 GitHub Pro 또는 Team 요금제로 전환할 수 있습니다.
+
+The main branch is now safely protected.
+The yellow warning is informational only and does not affect functionality.
+Upgrading to GitHub Pro or Team is optional for collaborative or automated workflows.

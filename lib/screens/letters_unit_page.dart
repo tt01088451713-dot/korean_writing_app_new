@@ -2,10 +2,14 @@
 import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart' show rootBundle;
+import 'package:provider/provider.dart';
 
 import '../utils/asset_path.dart';
 import '../i18n/ui_texts.dart';
 import 'package:korean_writing_app_new/i18n/language_state.dart';
+
+// ✅ 실제 배너 광고 위젯
+import 'package:korean_writing_app_new/ads/banner_ad_widget.dart';
 
 class LettersUnitPage extends StatefulWidget {
   const LettersUnitPage({
@@ -14,8 +18,19 @@ class LettersUnitPage extends StatefulWidget {
     this.indexAssetPath,
   });
 
-  /// 일반 진입: Navigator.pushNamed(context, '/letters/unit', arguments: 'assets/....json')
-  /// 또는     : Navigator.pushNamed(context, '/letters/unit', arguments: {'title':'...', 'indexAssetPath':'assets/...json'})
+  /// 일반 진입:
+  /// Navigator.pushNamed(
+  ///   context,
+  ///   '/letters/unit',
+  ///   arguments: 'assets/....json',
+  /// );
+  ///
+  /// 또는
+  /// Navigator.pushNamed(
+  ///   context,
+  ///   '/letters/unit',
+  ///   arguments: {'title':'...', 'indexAssetPath':'assets/...json'},
+  /// );
   final String? title;
   final String? indexAssetPath;
 
@@ -100,19 +115,25 @@ class _LettersUnitPageState extends State<LettersUnitPage> {
           final ovRaw = await rootBundle.loadString(ovPath);
           final ov = jsonDecode(ovRaw);
           if (ov is Map<String, dynamic>) overview = ov;
-        } catch (_) {/* 개요 실패는 치명적 아님 */}
+        } catch (_) {
+          // 개요 로드는 실패해도 치명적이지 않음
+        }
       }
       overview ??= _inlineOverviewIfAny(data);
 
+      if (!mounted) return;
       setState(() {
         _json = data;
         _parts = parts;
         _overview = overview;
       });
     } catch (e) {
+      if (!mounted) return;
       setState(() => _error = '로드 실패: $e');
     } finally {
-      if (mounted) setState(() => _loading = false);
+      if (mounted) {
+        setState(() => _loading = false);
+      }
     }
   }
 
@@ -259,8 +280,9 @@ class _LettersUnitPageState extends State<LettersUnitPage> {
         context: context,
         showDragHandle: true,
         builder: (_) => _GlyphPickerSheet(
-            title: title.isEmpty ? UiText.t('practice') : title,
-            glyphs: glyphs),
+          title: title.isEmpty ? UiText.t('practice') : title,
+          glyphs: glyphs,
+        ),
       );
       if (chosen == null || chosen.isEmpty) return;
 
@@ -272,6 +294,18 @@ class _LettersUnitPageState extends State<LettersUnitPage> {
         SnackBar(content: Text('${UiText.t("failed")}: $e')),
       );
     }
+  }
+
+  // 현재 언어(ko-*, en 우선)에서 텍스트 꺼내기
+  String? _pickI18n(dynamic value) {
+    if (value is String) return value;
+    if (value is Map) {
+      final code = LanguageState.I.code.toLowerCase();
+      final base = code.split('-').first;
+      final s = value[code] ?? value[base] ?? value['ko'] ?? value['en'];
+      return s?.toString();
+    }
+    return null;
   }
 
   // ───────────────────────────────────────────────────────────────
@@ -289,7 +323,7 @@ class _LettersUnitPageState extends State<LettersUnitPage> {
         actions: [
           // 개요 다이얼로그 (있을 때만)
           IconButton(
-            tooltip: 'Overview',
+            tooltip: UiText.t('overview'),
             onPressed: _overview == null ? null : _showOverviewDialog,
             icon: const Icon(Icons.info_outline),
           ),
@@ -298,10 +332,20 @@ class _LettersUnitPageState extends State<LettersUnitPage> {
       body: _loading
           ? const Center(child: CircularProgressIndicator())
           : (_error != null
-              ? Center(
-                  child:
-                      Text(_error!, style: const TextStyle(color: Colors.red)))
-              : _buildBody()),
+          ? Center(
+        child: Text(
+          _error!,
+          style: const TextStyle(color: Colors.red),
+        ),
+      )
+          : _buildBody()),
+      // ─────────────────────────────
+      // 하단 배너 광고 – 실제 BannerAdArea 사용
+      // ─────────────────────────────
+      bottomNavigationBar: const SafeArea(
+        top: false,
+        child: BannerAdArea(),
+      ),
     );
   }
 
@@ -315,9 +359,11 @@ class _LettersUnitPageState extends State<LettersUnitPage> {
     int cross = 2;
     if (width >= 1200) {
       cross = 5;
-    } else if (width >= 900)
+    } else if (width >= 900) {
       cross = 4;
-    else if (width >= 600) cross = 3;
+    } else if (width >= 600) {
+      cross = 3;
+    }
 
     return GridView.builder(
       padding: const EdgeInsets.fromLTRB(16, 12, 16, 16),
@@ -332,14 +378,14 @@ class _LettersUnitPageState extends State<LettersUnitPage> {
         final p = parts[i];
         return _PartCard.fromJson(
           p,
-          onTap: () => _openPart(p), // ✅ 카드 전체 탭 = 허브면 열기, 리프면 “쓰기 연습”
+          onTap: () => _openPart(p), // 카드 전체 탭 = 허브면 열기, 리프면 “쓰기 연습”
         );
       },
     );
   }
 
   void _showOverviewDialog() {
-    final t = _pickI18n(_overview?['title']) ?? 'Overview';
+    final t = _pickI18n(_overview?['title']) ?? UiText.t('overview');
     final d = _pickI18n(_overview?['description']) ?? '';
 
     showDialog(
@@ -356,18 +402,6 @@ class _LettersUnitPageState extends State<LettersUnitPage> {
       ),
     );
   }
-
-  // 현재 언어(ko-*, en 우선)에서 텍스트 꺼내기
-  String? _pickI18n(dynamic value) {
-    if (value is String) return value;
-    if (value is Map) {
-      final code = LanguageState.I.code.toLowerCase();
-      final base = code.split('-').first;
-      final s = value[code] ?? value[base] ?? value['ko'] ?? value['en'];
-      return s?.toString();
-    }
-    return null;
-  }
 }
 
 // ───────────────────────────────────────────────────────────────
@@ -383,14 +417,15 @@ class _PartCard extends StatelessWidget {
   });
 
   factory _PartCard.fromJson(
-    Map<String, dynamic> p, {
-    required VoidCallback onTap,
-  }) {
+      Map<String, dynamic> p, {
+        required VoidCallback onTap,
+      }) {
     return _PartCard(
       id: (p['id'] ?? '').toString(),
       title: (p['title']?['ko'] ?? p['title']?['en'] ?? p['title'] ?? '')
           .toString(),
-      subtitle: (p['subtitle']?['ko'] ?? p['subtitle']?['en'] ?? '').toString(),
+      subtitle:
+      (p['subtitle']?['ko'] ?? p['subtitle']?['en'] ?? '').toString(),
       route: (p['route'] ?? '').toString(),
       layout: (p['layout'] ?? p['type'] ?? '').toString(),
       onTap: onTap,
@@ -410,70 +445,75 @@ class _PartCard extends StatelessWidget {
   Widget build(BuildContext context) {
     final disabled = route.isEmpty;
     return Card(
-      elevation: 0,
-      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
-      child: InkWell(
-        borderRadius: BorderRadius.circular(12),
-        onTap: disabled ? null : onTap,
-        child: Padding(
-          padding: const EdgeInsets.fromLTRB(14, 12, 14, 12),
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
+        elevation: 0,
+        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
+        child: InkWell(
+            borderRadius: BorderRadius.circular(12),
+            onTap: disabled ? null : onTap,
+            child: Padding(
+              padding: const EdgeInsets.fromLTRB(14, 12, 14, 12),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
               // 헤더 (넘버링)
               Row(
-                children: [
-                  CircleAvatar(
-                    radius: 18,
-                    child: Text(id.split('_').last,
-                        style: const TextStyle(fontSize: 12)),
-                  ),
-                  const SizedBox(width: 10),
-                  Expanded(
-                    child: Text(
-                      title.isNotEmpty ? title : '(untitled)',
-                      style: const TextStyle(
-                          fontSize: 16, fontWeight: FontWeight.w600),
-                      maxLines: 1,
-                      overflow: TextOverflow.ellipsis,
-                    ),
-                  ),
-                ],
+              children: [
+              CircleAvatar(
+              radius: 18,
+                child: Text(
+                  id.split('_').last,
+                  style: const TextStyle(fontSize: 12),
+                ),
               ),
-
-              // 부제 (있으면만)
-              if (subtitle.trim().isNotEmpty) ...[
-                const SizedBox(height: 6),
-                Text(
-                  subtitle,
-                  style: const TextStyle(fontSize: 13, color: Colors.black54),
-                  maxLines: 2,
+              const SizedBox(width: 10),
+              Expanded(
+                child: Text(
+                  title.isNotEmpty ? title : '(untitled)',
+                  style: const TextStyle(
+                    fontSize: 16,
+                    fontWeight: FontWeight.w600,
+                  ),
+                  maxLines: 1,
                   overflow: TextOverflow.ellipsis,
                 ),
-              ],
-
-              const Spacer(),
-              const Divider(height: 16),
-
-              // 허브면 “열기”, 리프면 “쓰기 연습”만 표기(경로 텍스트/추가 버튼 제거)
-              Align(
-                alignment: Alignment.centerLeft,
-                child: _isHub
-                    ? FilledButton.icon(
-                        onPressed: disabled ? null : onTap,
-                        icon: const Icon(Icons.play_arrow),
-                        label: const Text('열기'),
-                      )
-                    : OutlinedButton.icon(
-                        onPressed: disabled ? null : onTap,
-                        icon: const Icon(Icons.create),
-                        label: Text(UiText.t('practice')),
-                      ),
               ),
-            ],
-          ),
-        ),
-      ),
+              ],
+            ),
+
+            // 부제 (있으면만)
+            if (subtitle.trim().isNotEmpty) ...[
+    const SizedBox(height: 6),
+    Text(
+    subtitle,
+    style:
+    const TextStyle(fontSize: 13, color: Colors.black54),
+    maxLines: 2,
+    overflow: TextOverflow.ellipsis,
+    ),
+    ],
+
+    const Spacer(),
+    const Divider(height: 16),
+
+    // 허브면 “열기”, 리프면 “쓰기 연습”
+    Align(
+    alignment: Alignment.centerLeft,
+    child: _isHub
+    ? FilledButton.icon(
+    onPressed: disabled ? null : onTap,
+    icon: const Icon(Icons.play_arrow),
+    label: Text(UiText.t('open')),
+    )
+        : OutlinedButton.icon(
+    onPressed: disabled ? null : onTap,
+    icon: const Icon(Icons.create),
+    label: Text(UiText.t('practice')),
+    ),
+    ),
+    ],
+    ),
+    ),
+    ),
     );
   }
 }
@@ -497,8 +537,10 @@ class _GlyphPickerSheet extends StatelessWidget {
         child: Column(
           mainAxisSize: MainAxisSize.min,
           children: [
-            Text('$title — ${UiText.t('practice')}',
-                style: Theme.of(context).textTheme.titleMedium),
+            Text(
+              '$title — ${UiText.t('practice')}',
+              style: Theme.of(context).textTheme.titleMedium,
+            ),
             const SizedBox(height: 12),
             Align(
               alignment: Alignment.centerLeft,
@@ -510,7 +552,11 @@ class _GlyphPickerSheet extends StatelessWidget {
                     GestureDetector(
                       onTap: () => Navigator.pop(context, g), // 탭: 선택
                       child: Chip(
-                          label: Text(g, style: const TextStyle(fontSize: 18))),
+                        label: Text(
+                          g,
+                          style: const TextStyle(fontSize: 18),
+                        ),
+                      ),
                     ),
                 ],
               ),

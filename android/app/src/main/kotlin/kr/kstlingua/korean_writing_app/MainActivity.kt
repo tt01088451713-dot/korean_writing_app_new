@@ -1,4 +1,4 @@
-package com.example.korean_writing_app_new
+package kr.kstlingua.korean_writing_app
 
 import io.flutter.embedding.android.FlutterActivity
 

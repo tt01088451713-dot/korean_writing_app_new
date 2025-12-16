@@ -1,0 +1,57 @@
+Korean Writing App — JSON Correction Notes (Letters Unit)
+===============================================================
+
+Context
+-------
+This file records known minor data issues in the JSON files for the 글자 단원 (Letters Unit),
+to be fixed in a future app update (e.g., version 1.0.1 or later).
+
+Issue #1 — Misplaced Syllable in Letters Unit
+---------------------------------------------
+Type: Content placement error (NOT a JSON syntax error)
+Status: Known, does NOT break app execution
+
+Description (to be filled by author):
+- A specific Hangul syllable (글자) in the 글자 단원 JSON is placed in the wrong position.
+- It appears in a different set/sequence than intended.
+
+Details (fill in when convenient):
+- JSON file name  : ______________________________
+- Section / set ID: ______________________________
+- Wrong entry     : ______________________________
+- Correct location: ______________________________
+
+User Impact
+-----------
+- The app runs normally. There is no crash or parsing error.
+- Learners may see one 글자 in an unexpected position within the sequence.
+- Educational impact is minimal and acceptable for version 1.0.0.
+
+Decision
+--------
+- The current 1.0.0 release will NOT be delayed because of this small issue.
+- This is treated as a minor “옥의 티” (small imperfection) in the initial release.
+- The correction will be included in the next maintenance update.
+
+Planned Fix Version
+-------------------
+- Target version: 1.0.1 (or the first minor update after initial release)
+- Planned actions:
+  1) Identify the exact JSON file and array where the 글자 is misplaced.
+  2) Move the 글자 to the correct position in the array.
+  3) Run a quick regression test for the 글자 단원.
+  4) Rebuild Android/iOS/Windows release builds.
+  5) Submit updated builds to the app stores as version 1.0.x.
+
+Release Notes Template
+----------------------
+When the fix is applied, you can use the following line in the official release notes:
+
+- [Fix] Corrected a misplaced Hangul syllable in the Letters Unit JSON data.
+
+Document Info
+-------------
+File name suggestion: docs/json_fix_notes_letters_unit.txt
+Prepared for: Korean Writing App (KST Lingua Studio)
+Author: Prof. Sang-Tae Kim
+Year: 2025

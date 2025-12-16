@@ -23,9 +23,19 @@ import 'package:korean_writing_app_new/screens/sentences_hub.dart';
 import 'package:korean_writing_app_new/screens/words_lesson_page.dart';
 import 'package:korean_writing_app_new/screens/sentences_lesson_page.dart';
 
+// Settings
+import 'package:korean_writing_app_new/screens/settings_page.dart';
+
 // I18n
 import 'package:korean_writing_app_new/i18n/language_state.dart';
 import 'package:korean_writing_app_new/i18n/ui_texts.dart';
+
+// 구매/광고 상태
+import 'package:provider/provider.dart';
+import 'package:korean_writing_app_new/ads/ads_purchase_state.dart';
+
+// AdMob 서비스 (배너/보상형 초기화)
+import 'package:korean_writing_app_new/services/admob_service.dart';
 
 /// 글자 단원 인덱스/오버뷰 경로
 class LettersPaths {
@@ -54,17 +64,30 @@ Future<void> main() async {
     return true;
   };
 
-  // ✅ Firebase 제거: initializeApp 호출/의존성 없음 (안정성 우선)
-
   // 언어/테마 초기화
   await LanguageState.init();
   await AppTheme.init();
 
-  runApp(const AppRoot());
+  // AdMob 서비스 초기화 (MobileAds.initialize + 보상형 선로딩)
+  await AdmobService.instance.initialize();
+
+  // AdsPurchaseState 전역 제공
+  runApp(
+    MultiProvider(
+      providers: [
+        ChangeNotifierProvider<AdsPurchaseState>(
+          // 싱글톤 인스턴스를 Provider에 등록
+          create: (_) => AdsPurchaseState.I,
+        ),
+      ],
+      child: const AppRoot(),
+    ),
+  );
 }
 
 class AppScrollBehavior extends MaterialScrollBehavior {
   const AppScrollBehavior();
+
   @override
   Set<PointerDeviceKind> get dragDevices => {
     PointerDeviceKind.touch,
@@ -120,6 +143,9 @@ class AppRoot extends StatelessWidget {
             '/': (_) => const LanguageGatePage(),
             '/home': (_) => const CurriculumHubPage(),
 
+            // 설정 페이지 (routeName = '/settings')
+            SettingsPage.routeName: (_) => const SettingsPage(),
+
             // 자모
             '/jamo': (_) => const JamoHubPage(),
             '/jamo/consonants': (_) => const UnitOverviewPage(),
@@ -160,14 +186,14 @@ class AppRoot extends StatelessWidget {
 
             // 단어 / 문장 레슨
             '/words/lesson': (_) => const WordsLessonPage(),
-            '/sentences/lesson': (_) => const SentencesLessonPage()
+            '/sentences/lesson': (_) => const SentencesLessonPage(),
           },
 
           // ─────────────────────────────
           // 동적 라우트
           // ─────────────────────────────
           onGenerateRoute: (settings) {
-            // 쓰기 연습(자모/글자)
+            // 쓰기 연습(자모/글자/단어/문장)
             if (settings.name == '/write' || settings.name == '/practice') {
               final args = settings.arguments;
               final String glyph = args is String

@@ -386,42 +386,42 @@ class UiText {
     // ──────────────────────────────────────────────────────────────
     'tip': {
       'ko':
-          '팁: 마우스/손가락으로 따라 그리세요. 상단의 격자/가이드 토글, 되돌리기/지우기, 메뉴(⋮)에서 색·두께·저장을 사용할 수 있어요.',
+      '팁: 마우스/손가락으로 따라 그리세요. 상단의 격자/가이드 토글, 되돌리기/지우기, 메뉴(⋮)에서 색·두께·저장을 사용할 수 있어요.',
       'en':
-          'Tip: Draw with mouse/finger. Use grid/guide toggles, undo/clear, and menu (⋮) for color/width/save.',
+      'Tip: Draw with mouse/finger. Use grid/guide toggles, undo/clear, and menu (⋮) for color/width/save.',
       'ja': 'ヒント: マウスや指でなぞってください。上部のグリッド/ガイド切替、元に戻す/クリア、メニュー(⋮)で色・太さ・保存が使えます。',
       'zh': '提示：用鼠标/手指描写。可使用顶部的网格/指南开关、撤销/清除，以及菜单(⋮)中的颜色/粗细/保存。',
       'vi':
-          'Mẹo: Vẽ bằng chuột/ngón tay. Dùng các nút bật/tắt lưới & hướng dẫn, hoàn tác/xóa, và menu (⋮) để chọn màu/độ dày/lưu.',
+      'Mẹo: Vẽ bằng chuột/ngón tay. Dùng các nút bật/tắt lưới & hướng dẫn, hoàn tác/xóa, và menu (⋮) để chọn màu/độ dày/lưu.',
       'fr':
-          'Astuce : Dessinez à la souris/au doigt. Utilisez les bascules grille/guide, annuler/effacer et le menu (⋮) pour couleur/épaisseur/enregistrement.',
+      'Astuce : Dessinez à la souris/au doigt. Utilisez les bascules grille/guide, annuler/effacer et le menu (⋮) pour couleur/épaisseur/enregistrement.',
       'de':
-          'Tipp: Zeichnen Sie mit Maus/Finger. Nutzen Sie Raster/Anleitung, Rückgängig/Löschen und im Menü (⋮) Farbe/Dicke/Speichern.',
+      'Tipp: Zeichnen Sie mit Maus/Finger. Nutzen Sie Raster/Anleitung, Rückgängig/Löschen und im Menü (⋮) Farbe/Dicke/Speichern.',
       'es':
-          'Consejo: Dibuja con el ratón o el dedo. Usa los botones de guía/cuadrícula, deshacer/borrar y el menú (⋮) para color/grosor/guardar.',
+      'Consejo: Dibuja con el ratón o el dedo. Usa los botones de guía/cuadrícula, deshacer/borrar y el menú (⋮) para color/grosor/guardar.',
       'ru':
-          'Подсказка: Рисуйте мышью или пальцем. Вверху — переключатели сетки/подсказки, отмена/очистка и меню (⋮) для цвета/толщины/сохранения.',
+      'Подсказка: Рисуйте мышью или пальцем. Вверху — переключатели сетки/подсказки, отмена/очистка и меню (⋮) для цвета/толщины/сохранения.',
       'mn':
-          'Зөвлөмж: Хулгана эсвэл хуруугаар зур. Дээд талын сараалжилт/зааврыг асаах-унтраах, буцаах/устгах, мөн цэс(⋮)-ээр өнгө·зузаан·хадгалахыг сонгоно уу.',
+      'Зөвлөмж: Хулгана эсвэл хуруугаар зур. Дээд талын сараалжилт/зааврыг асаах-унтраах, буцаах/устгах, мөн цэс(⋮)-ээр өнгө·зузаан·хадгалахыг сонгоно уу.',
     },
     'compositeNote': {
       'ko': '병서 자모(합용병서)는 조합 글자라 정해진 획순이 없습니다. 가이드를 참고해 모양을 익히고 자유롭게 연습해 보세요.',
       'en':
-          'Consonant clusters have no fixed stroke order. Use the guide and practice freely.',
+      'Consonant clusters have no fixed stroke order. Use the guide and practice freely.',
       'ja': '連結子音には決まった筆順がありません。ガイドを参考に自由に練習してください。',
       'zh': '辅音连缀没有固定的笔顺。请参考指南并自由练习。',
       'vi':
-          'Cụm phụ âm không có thứ tự nét cố định. Hãy xem hướng dẫn và luyện tập tự do.',
+      'Cụm phụ âm không có thứ tự nét cố định. Hãy xem hướng dẫn và luyện tập tự do.',
       'fr':
-          'Les groupes de consonnes n’ont pas d’ordre de traits fixe. Utilisez le guide et entraînez-vous librement.',
+      'Les groupes de consonnes n’ont pas d’ordre de traits fixe. Utilisez le guide et entraînez-vous librement.',
       'de':
-          'Konsonantencluster haben keine feste Strichfolge. Nutzen Sie die Anleitung und üben Sie frei.',
+      'Konsonantencluster haben keine feste Strichfolge. Nutzen Sie die Anleitung und üben Sie frei.',
       'es':
-          'Los grupos de consonantes no tienen un orden fijo de trazos. Usa la guía y practica libremente.',
+      'Los grupos de consonantes no tienen un orden fijo de trazos. Usa la guía y practica libremente.',
       'ru':
-          'У сочетаний согласных нет фиксированного порядка штрихов. Пользуйтесь подсказкой и тренируйтесь свободно.',
+      'У сочетаний согласных нет фиксированного порядка штрихов. Пользуйтесь подсказкой и тренируйтесь свободно.',
       'mn':
-          'Нийлмэл гийгүүлэгчдэд тогтсон бичих дараалал байхгүй. Зааврыг ашиглан чөлөөтэй дадлага хийнэ үү.',
+      'Нийлмэл гийгүүлэгчдэд тогтсон бичих дараалал байхгүй. Зааврыг ашиглан чөлөөтэй дадлага хийнэ үү.',
     },
 
     // ✅ 새로 추가: 아래아 안내(다국어)
@@ -432,14 +432,14 @@ class UiText {
       'zh': '“ㆍ”在现代韩语中已不使用，仅提供说明。',
       'vi': 'Arae-a (ㆍ) không dùng trong tiếng Hàn hiện đại; chỉ có mô tả.',
       'fr':
-          'Arae-a (ㆍ) n’est pas utilisé en coréen moderne ; description seule.',
+      'Arae-a (ㆍ) n’est pas utilisé en coréen moderne ; description seule.',
       'de':
-          'Arae-a (ㆍ) wird im modernen Koreanisch nicht verwendet; nur Beschreibung.',
+      'Arae-a (ㆍ) wird im modernen Koreanisch nicht verwendet; nur Beschreibung.',
       'es': 'Arae-a (ㆍ) no se usa en coreano moderno; solo descripción.',
       'ru':
-          'Арэ-а (ㆍ) в современном корейском не используется; только описание.',
+      'Арэ-а (ㆍ) в современном корейском не используется; только описание.',
       'mn':
-          'Араэ-а (ㆍ) нь орчин үеийн солонгост хэрэглэдэггүй, тайлбар л байна.',
+      'Араэ-а (ㆍ) нь орчин үеийн солонгост хэрэглэдэггүй, тайлбар л байна.',
     },
 
     // ──────────────────────────────────────────────────────────────
@@ -659,7 +659,7 @@ class UiText {
       'vi': 'Nguyên âm ghép hỗn hợp',
       'fr': 'Voyelles composées mixtes',
       'de': 'Gemischte zusammengesetzte Vokale',
-      'es': 'Vocales compuestas mixtas',
+      'es': 'Vocales compuestas mixtes',
       'ru': 'Смешанные составные гласные',
       'mn': 'Холимог нийлмэл эгшиг',
     },
@@ -812,7 +812,7 @@ class UiText {
       'mn': 'QA шалгах',
     },
 
-// ✅ 글자(음절) 허브/카테고리용 추가 키
+    // ✅ 글자(음절) 허브/카테고리용 추가 키
     'letters': {
       'ko': '글자',
       'en': 'Letters',
@@ -882,25 +882,25 @@ class UiText {
     // ──────────────────────────────────────────────────────────────
     'jamoIntro': {
       'ko':
-          '''한글은 기존의 문자를 오랜 세월에 걸쳐 변형하거나 발전시킨 것이 아니라, 세종대왕이 독창적으로 창제한 문자이다. 이러한 점은 세계 문자 발달사에서 매우 드문 사례로, 한글의 가장 큰 특징 중 하나이다. 또한 세종대왕은 『훈민정음』에서 자음자 17자와 모음자 11자를 새롭게 만들고, 각 자모가 어떤 원리에 따라 구성되었는지를 명확히 밝히고 있다. 이러한 창제 원리 덕분에 한글은 매우 과학적인 문자로 평가받으며, 세계적으로 그 우수성을 인정받고 있다. 현대 한국어에서 사용되는 한글 자모의 수와 배열 순서는 『한글맞춤법』에 따라 규정되어 있으며, 그 순서는 다음과 같다: ‘ㄱ, ㄴ, ㄷ, ㄹ, ㅁ, ㅂ, ㅅ, ㅇ, ㅈ, ㅊ, ㅋ, ㅌ, ㅍ, ㅎ, ㅏ, ㅑ, ㅓ, ㅕ, ㅗ, ㅛ, ㅜ, ㅠ, ㅡ, ㅣ’. 이곳에서는 한글의 창제 원리를 바탕으로 자음자와 모음자를 설명하고 있으며, 이를 통해 학습자들이 한국어의 구조적 원리를 이해하고, 보다 체계적으로 문자를 익힐 수 있도록 구성하였다.''',
+      '''한글은 기존의 문자를 오랜 세월에 걸쳐 변형하거나 발전시킨 것이 아니라, 세종대왕이 독창적으로 창제한 문자이다. 이러한 점은 세계 문자 발달사에서 매우 드문 사례로, 한글의 가장 큰 특징 중 하나이다. 또한 세종대왕은 『훈민정음』에서 자음자 17자와 모음자 11자를 새롭게 만들고, 각 자모가 어떤 원리에 따라 구성되었는지를 명확히 밝히고 있다. 이러한 창제 원리 덕분에 한글은 매우 과학적인 문자로 평가받으며, 세계적으로 그 우수성을 인정받고 있다. 현대 한국어에서 사용되는 한글 자모의 수와 배열 순서는 『한글맞춤법』에 따라 규정되어 있으며, 그 순서는 다음과 같다: ‘ㄱ, ㄴ, ㄷ, ㄹ, ㅁ, ㅂ, ㅅ, ㅇ, ㅈ, ㅊ, ㅋ, ㅌ, ㅍ, ㅎ, ㅏ, ㅑ, ㅓ, ㅕ, ㅗ, ㅛ, ㅜ, ㅠ, ㅡ, ㅣ’. 이곳에서는 한글의 창제 원리를 바탕으로 자음자와 모음자를 설명하고 있으며, 이를 통해 학습자들이 한국어의 구조적 원리를 이해하고, 보다 체계적으로 문자를 익힐 수 있도록 구성하였다.''',
       'en':
-          '''Hangul was not the result of gradually modifying or evolving an older script; it was an original writing system created by King Sejong. This rarity in the history of world scripts is one of Hangul’s defining features. In the *Hunminjeongeum*, King Sejong newly presented 17 consonants and 11 vowels and clearly explained the principles by which each jamo was devised. Thanks to these principles, Hangul is regarded as a highly scientific script and is widely recognized for its excellence worldwide. In Modern Korean, the number of jamo in use and their ordering are prescribed by the *Korean Orthography*. The order is: “ㄱ, ㄴ, ㄷ, ㄹ, ㅁ, ㅂ, ㅅ, ㅇ, ㅈ, ㅊ, ㅋ, ㅌ, ㅍ, ㅎ, ㅏ, ㅑ, ㅓ, ㅕ, ㅗ, ㅛ, ㅜ, ㅠ, ㅡ, ㅣ”. Here we explain the consonant and vowel letters based on these founding principles so that learners can grasp the structural logic of Korean and study the script more systematically.''',
+      '''Hangul was not the result of gradually modifying or evolving an older script; it was an original writing system created by King Sejong. This rarity in the history of world scripts is one of Hangul’s defining features. In the *Hunminjeongeum*, King Sejong newly presented 17 consonants and 11 vowels and clearly explained the principles by which each jamo was devised. Thanks to these principles, Hangul is regarded as a highly scientific script and is widely recognized for its excellence worldwide. In Modern Korean, the number of jamo in use and their ordering are prescribed by the *Korean Orthography*. The order is: “ㄱ, ㄴ, ㄷ, ㄹ, ㅁ, ㅂ, ㅅ, ㅇ, ㅈ, ㅊ, ㅋ, ㅌ, ㅍ, ㅎ, ㅏ, ㅑ, ㅓ, ㅕ, ㅗ, ㅛ, ㅜ, ㅠ, ㅡ, ㅣ”. Here we explain the consonant and vowel letters based on these founding principles so that learners can grasp the structural logic of Korean and study the script more systematically.''',
       'zh':
-          '''韩文并非在漫长岁月中由旧文字逐步变形或演变而来，而是由世宗大王独创并创制的文字体系。这在世界文字发展史上极为罕见，是韩文最突出的特点之一。在《训民正音》中，世宗大王新制17个子音与11个母音，并清楚说明各字母的构成原理。得益于这些创制原理，韩文被评价为非常科学的文字，并在世界范围内得到认可。在现代韩语中，所使用的字母数量与排列顺序由《韩文正写法》加以规定，顺序如下：“ㄱ, ㄴ, ㄷ, ㄹ, ㅁ, ㅂ, ㅅ, ㅇ, ㅈ, ㅊ, ㅋ, ㅌ, ㅍ, ㅎ, ㅏ, ㅑ, ㅓ, ㅕ, ㅗ, ㅛ, ㅜ, ㅠ, ㅡ, ㅣ”。本应用基于这些创制原理来介绍子音与母音，帮助学习者理解韩语的结构原理并更系统地掌握文字。''',
+      '''韩文并非在漫长岁月中由旧文字逐步变形或演变而来，而是由世宗大王独创并创制的文字体系。这在世界文字发展史上极为罕见，是韩文最突出的特点之一。在《训民正音》中，世宗大王新制17个子音与11个母音，并清楚说明各字母的构成原理。得益于这些创制原理，韩文被评价为非常科学的文字，并在世界范围内得到认可。在现代韩语中，所使用的字母数量与排列顺序由《韩文正写法》加以规定，顺序如下：“ㄱ, ㄴ, ㄷ, ㄹ, ㅁ, ㅂ, ㅅ, ㅇ, ㅈ, ㅊ, ㅋ, ㅌ, ㅍ, ㅎ, ㅏ, ㅑ, ㅓ, ㅕ, ㅗ, ㅛ, ㅜ, ㅠ, ㅡ, ㅣ”。本应用基于这些创制原理来介绍子音与母音，帮助学习者理解韩语的结构原理并更系统地掌握文字。''',
       'ja':
-          '''ハングルは既存の文字を長い時間をかけて変形・発展させたものではなく、世宗大王が独創的に創製した文字体系である。これは世界の文字史においてきわめて稀な事例であり、ハングルの大きな特徴の一つである。『訓民正音』では、世宗が17の子音と11の母音を新たに示し、各字母がどのような原理で構成されたかを明確に説明している。こうした創製原理により、ハングルは非常に科学的な文字として評価され、世界的にもその優秀性が認められている。現代韓国語で用いられる字母の数や配列順は『ハングル正書法』で定められており、その順序は「ㄱ, ㄴ, ㄷ, ㄹ, ㅁ, ㅂ, ㅅ, ㅇ, ㅈ, ㅊ, ㅋ, ㅌ, ㅍ, ㅎ, ㅏ, ㅑ, ㅓ, ㅕ, ㅗ, ㅛ, ㅜ, ㅠ, ㅡ, ㅣ」である。本アプリでは、これらの創製原理に基づいて子音字と母音字を解説し、学習者が韓国語の構造적原理を理解し、より体系的に文字を身につけられるように構成している。''',
+      '''ハングルは既存の文字を長い時間をかけて変形・発展させたものではなく、世宗大王が独創的に創製した文字体系である。これは世界の文字史においてきわめて稀な事例であり、ハングルの大きな特徴の一つである。『訓民正音』では、世宗が17の子音と11の母音を新たに示し、各字母がどのような原理で構成されたかを明確に説明している。こうした創製原理により、ハングルは非常に科学的な文字として評価され、世界的にもその優秀性が認められている。現代韓国語で用いられる字母の数や配列順は『ハングル正書法』で定められており、その順序は「ㄱ, ㄴ, ㄷ, ㄹ, ㅁ, ㅂ, ㅅ, ㅇ, ㅈ, ㅊ, ㅋ, ㅌ, ㅍ, ㅎ, ㅏ, ㅑ, ㅓ, ㅕ, ㅗ, ㅛ, ㅜ, ㅠ, ㅡ, ㅣ」である。本アプリでは、これらの創製原理に基づいて子音字と母音字を解説し、学習者が韓国語の構造적原理を理解し、より体系的に文字を身につけられるように構成している。''',
       'vi':
-          '''Chữ Hangul không phải là hệ chữ được biến đổi hay phát triển dần từ một văn tự cũ, mà là hệ chữ do vua Sejong sáng tạo một cách độc đáo. Điều này rất hiếm trong lịch sử các hệ chữ trên thế giới và là một trong những đặc điểm nổi bật của Hangul. Trong *Hunminjeongeum*, nhà vua đã trình bày 17 phụ âm và 11 nguyên âm mới, đồng thời giải thích rõ nguyên lý cấu tạo của từng jamo. Nhờ những nguyên lý sáng chế đó, Hangul được đánh giá là hệ chữ rất khoa học và được công nhận rộng rãi. Trong tiếng Hàn hiện đại, số lượng jamo sử dụng và thứ tự sắp xếp được quy định bởi *Chính tả tiếng Hàn*, với thứ tự: “ㄱ, ㄴ, ㄷ, ㄹ, ㅁ, ㅂ, ㅅ, ㅇ, ㅈ, ㅊ, ㅋ, ㅌ, ㅍ, ㅎ, ㅏ, ㅑ, ㅓ, ㅕ, ㅗ, ㅛ, ㅜ, ㅠ, ㅡ, ㅣ”. Tại đây, chúng tôi trình bày phụ âm và nguyên âm dựa trên các nguyên lý sáng chế để người học hiểu được cấu trúc của tiếng Hàn và học chữ một cách có hệ thống hơn.''',
+      '''Chữ Hangul không phải là hệ chữ được biến đổi hay phát triển dần từ một văn tự cũ, mà là hệ chữ do vua Sejong sáng tạo một cách độc đáo. Điều này rất hiếm trong lịch sử các hệ chữ trên thế giới và là một trong những đặc điểm nổi bật của Hangul. Trong *Hunminjeongeum*, nhà vua đã trình bày 17 phụ âm và 11 nguyên âm mới, đồng thời giải thích rõ nguyên lý cấu tạo của từng jamo. Nhờ những nguyên lý sáng chế đó, Hangul được đánh giá là hệ chữ rất khoa học và được công nhận rộng rãi. Trong tiếng Hàn hiện đại, số lượng jamo sử dụng và thứ tự sắp xếp được quy định bởi *Chính tả tiếng Hàn*, với thứ tự: “ㄱ, ㄴ, ㄷ, ㄹ, ㅁ, ㅂ, ㅅ, ㅇ, ㅈ, ㅊ, ㅋ, ㅌ, ㅍ, ㅎ, ㅏ, ㅑ, ㅓ, ㅕ, ㅗ, ㅛ, ㅜ, ㅠ, ㅡ, ㅣ”. Tại đây, chúng tôi trình bày phụ âm và nguyên âm dựa trên các nguyên lý sáng chế để người học hiểu được cấu trúc của tiếng Hàn và học chữ một cách có hệ thống hơn.''',
       'fr':
-          '''Le hangeul n’est pas l’aboutissement d’une transformation progressive d’un système antérieur : il s’agit d’une écriture originale créée par le roi Sejong. Cette singularité, rare dans l’histoire des écritures, constitue l’un de ses traits majeurs. Dans le *Hunminjeongeum*, le roi Sejong a présenté 17 consonnes et 11 voyelles et a clairement exposé les principes de conception de chaque jamo. Grâce à ces principes, le hangeul est considéré comme une écriture hautement scientifique et son excellence est reconnue dans le monde entier. En coréen moderne, le nombre de jamo utilisés et leur ordre sont fixés par l’*Orthographe coréenne*. L’ordre est : « ㄱ, ㄴ, ㄷ, ㄹ, ㅁ, ㅂ, ㅅ, ㅇ, ㅈ, ㅊ, ㅋ, ㅌ, ㅍ, ㅎ, ㅏ, ㅑ, ㅓ, ㅕ, ㅗ, ㅛ, ㅜ, ㅠ, ㅡ, ㅣ ». Ici, nous présentons les consonnes et les voyelles selon ces principes fondateurs afin d’aider les apprenants à comprendre la structure du coréen et à étudier l’écriture de manière plus systématique.''',
+      '''Le hangeul n’est pas l’aboutissement d’une transformation progressive d’un système antérieur : il s’agit d’une écriture originale créée par le roi Sejong. Cette singularité, rare dans l’histoire des écritures, constitue l’un de ses traits majeurs. Dans le *Hunminjeongeum*, le roi Sejong a présenté 17 consonnes et 11 voyelles et a clairement exposé les principes de conception de chaque jamo. Grâce à ces principes, le hangeul est considéré comme une écriture hautement scientifique et son excellence est reconnue dans le monde entier. En coréen moderne, le nombre de jamo utilisés et leur ordre sont fixés par l’*Orthographe coréenne*. L’ordre est : « ㄱ, ㄴ, ㄷ, ㄹ, ㅁ, ㅂ, ㅅ, ㅇ, ㅈ, ㅊ, ㅋ, ㅌ, ㅍ, ㅎ, ㅏ, ㅑ, ㅓ, ㅕ, ㅗ, ㅛ, ㅜ, ㅠ, ㅡ, ㅣ ». Ici, nous présentons les consonnes et les voyelles selon ces principes fondateurs afin d’aider les apprenants à comprendre la structure du coréen et à étudier l’écriture de manière plus systématique.''',
       'de':
-          '''Hangeul ist nicht das Ergebnis einer allmählichen Veränderung einer älteren Schrift, sondern ein eigenständiges Schriftsystem, das von König Sejong geschaffen wurde. Diese Seltenheit in der Geschichte der Weltenschriften ist eines seiner Merkmale. Im *Hunminjeongeum* stellte König Sejong 17 Konsonanten und 11 Vokale vor und erläuterte die Entwurfsprinzipien jedes Jamo. Dank dieser Prinzipien gilt Hangeul als sehr wissenschaftliche Schrift und ist weltweit anerkannt. In der modernen koreanischen Sprache werden Anzahl und Reihenfolge der Jamo durch die *Koreanische Orthographie* festgelegt. Die Reihenfolge lautet: „ㄱ, ㄴ, ㄷ, ㄹ, ㅁ, ㅂ, ㅅ, ㅇ, ㅈ, ㅊ, ㅋ, ㅌ, ㅍ, ㅎ, ㅏ, ㅑ, ㅓ, ㅕ, ㅗ, ㅛ, ㅜ, ㅠ, ㅡ, ㅣ“. Hier erläutern wir Konsonanten- und Vokalzeichen auf Grundlage dieser Prinzipien, damit Lernende die Struktur des Koreanischen verstehen und die Schrift systematischer erlernen können.''',
+      '''Hangeul ist nicht das Ergebnis einer allmählichen Veränderung einer älteren Schrift, sondern ein eigenständiges Schriftsystem, das von König Sejong geschaffen wurde. Diese Seltenheit in der Geschichte der Weltenschriften ist eines seiner Merkmale. Im *Hunminjeongeum* stellte König Sejong 17 Konsonanten und 11 Vokale vor und erläuterte die Entwurfsprinzipien jedes Jamo. Dank dieser Prinzipien gilt Hangeul als sehr wissenschaftliche Schrift und ist weltweit anerkannt. In der modernen koreanischen Sprache werden Anzahl und Reihenfolge der Jamo durch die *Koreanische Orthographie* festgelegt. Die Reihenfolge lautet: „ㄱ, ㄴ, ㄷ, ㄹ, ㅁ, ㅂ, ㅅ, ㅇ, ㅈ, ㅊ, ㅋ, ㅌ, ㅍ, ㅎ, ㅏ, ㅑ, ㅓ, ㅕ, ㅗ, ㅛ, ㅜ, ㅠ, ㅡ, ㅣ“. Hier erläutern wir Konsonanten- und Vokalzeichen auf Grundlage dieser Prinzipien, damit Lernende die Struktur des Koreanischen verstehen und die Schrift systematischer erlernen können.''',
       'es':
-          '''El hangul no es el resultado de transformar o desarrollar gradualmente una escritura anterior, sino un sistema original creado por el rey Sejong. Esta rareza en la historia de las escrituras del mundo es una de sus características distintivas. En el *Hunminjeongeum*, el rey Sejong presentó 17 consonantes y 11 vocales y explicó con claridad los principios con los que se diseñó cada jamo. Gracias a estos principios, el hangul se considera un sistema muy científico y su excelencia es reconocida internacionalmente. En el coreano moderno, la cantidad de jamo usados y su orden están prescritos por la *Ortografía Coreana*. El orden es: “ㄱ, ㄴ, ㄷ, ㄹ, ㅁ, ㅂ, ㅅ, ㅇ, ㅈ, ㅊ, ㅋ, ㅌ, ㅍ, ㅏ, ㅑ, ㅓ, ㅕ, ㅗ, ㅛ, ㅜ, ㅠ, ㅡ, ㅣ”. Aquí explicamos las consonantes y las vocales con base en estos principios para que los estudiantes comprendan la lógica estructural del coreano y aprendan la escritura de forma más sistemática.''',
+      '''El hangul no es el resultado de transformar o desarrollar gradualmente una escritura anterior, sino un sistema original creado por el rey Sejong. Esta rareza en la historia de las escrituras del mundo es una de sus características distintivas. En el *Hunminjeongeum*, el rey Sejong presentó 17 consonantes y 11 vocales y explicó con claridad los principios con los que se diseñó cada jamo. Gracias a estos principios, el hangul se considera un sistema muy científico y su excelencia es reconocida internacionalmente. En el coreano moderno, la cantidad de jamo usados y su orden están prescritos por la *Ortografía Coreana*. El orden es: “ㄱ, ㄴ, ㄷ, ㄹ, ㅁ, ㅂ, ㅅ, ㅇ, ㅈ, ㅊ, ㅋ, ㅌ, ㅍ, ㅏ, ㅑ, ㅓ, ㅕ, ㅗ, ㅛ, ㅜ, ㅠ, ㅡ, ㅣ”. Aquí explicamos las consonantes y las vocales con base en estos principios para que los estudiantes comprendan la lógica estructural del coreano y aprendan la escritura de forma más sistemática.''',
       'ru':
-          '''Хангыль — это не результат постепенного изменения или развития прежней письменности; это оригинальная система письма, созданная королём Седжоном. Такая уникальность крайне редка в истории мировых письменностей и является одной из ключевых особенностей хангыля. В трактате *Хунминчонъым* король Седжон представил 17 согласных и 11 гласных и ясно изложил принципы конструирования каждого чамо. Благодаря этим принципам хангыль считается высоко научной письменностью и признан во всём мире. В современном корейском число используемых чамо и порядок их расположения закреплены *Корейской орфографией*. Порядок таков: «ㄱ, ㄴ, ㄷ, ㄹ, ㅁ, ㅂ, ㅅ, ㅇ, ㅈ, ㅊ, ㅋ, ㅌ, ㅍ, ㅎ, ㅏ, ㅑ, ㅓ, ㅕ, ㅗ, ㅛ, ㅜ, ㅠ, ㅡ, ㅣ». Здесь мы объясняем согласные и гласные на основе этих принципов, чтобы учащиеся понимали структурную логику корейского и осваивали письмо более системно.''',
+      '''Хангыль — это не результат постепенного изменения или развития прежней письменности; это оригинальная система письма, созданная королём Седжоном. Такая уникальность крайне редка в истории мировых письменностей и является одной из ключевых особенностей хангыля. В трактате *Хунминчонъым* король Седжон представил 17 согласных и 11 гласных и ясно изложил принципы конструирования каждого чамо. Благодаря этим принципам хангыль считается высоко научной письменностью и признан во всём мире. В современном корейском число используемых чамо и порядок их расположения закреплены *Корейской орфографией*. Порядок таков: «ㄱ, ㄴ, ㄷ, ㄹ, ㅁ, ㅂ, ㅅ, ㅇ, ㅈ, ㅊ, ㅋ, ㅌ, ㅍ, ㅎ, ㅏ, ㅑ, ㅓ, ㅕ, ㅗ, ㅛ, ㅜ, ㅠ, ㅡ, ㅣ». Здесь мы объясняем согласные и гласные на основе этих принципов, чтобы учащиеся понимали структурную логику корейского и осваивали письмо более системно.''',
       'mn':
-          '''Хангыль нь эртний бичгийг аажмаар өөрчилж хөгжүүлснээс бус, хаан Сэжон өөрийн биеэр зохиосон өвөрмөц бичгийн тогтолцоо юм. Энэ нь дэлхийн бичиг үсгийн түүхэнд маш ховор тохиолдол бөгөөд хангылийн чухал онцлог юм. *Хүнминжонъым*-д хаан Сэжон 17 гийгүүлэгч, 11 эгшгийг шинээр танилцуулж, тус бүрийн зохиомжийн зарчмыг тодорхой тайлбарласан байдаг. Ийм зарчмуудын ачаар хангылийг өндөр шинжлэх ухаанч бичиг гэж үнэлж, дэлхий нийтээр өргөнөөр хүлээн зөвшөөрдөг. Орчин үеийн солонгос хэлэнд хэрэглэгдэх чамо үсгийн тоо, дарааллыг *Хангулийн зөв бичих дүрэм* тогтоосон бөгөөд дараалал нь: «ㄱ, ㄴ, ㄷ, ㄹ, ㅁ, ㅂ, ㅅ, ㅇ, ㅈ, ㅊ, ㅋ, ㅌ, ㅍ, ㅎ, ㅏ, ㅑ, ㅓ, ㅕ, ㅗ, ㅛ, ㅜ, ㅠ, ㅡ, ㅣ». Энд бид эдгээр бүтээлийн зарчмуудын дагуу гийгүүлэгч ба эгшгийг танилцуулж, суралцагчид хэлний бүтцийн логикийг ойлгон илүү системтэй сурахад нь тусална.''',
+      '''Хангыль нь эртний бичгийг аажмаар өөрчилж хөгжүүлснээс бус, хаан Сэжон өөрийн биеэр зохиосон өвөрмөц бичгийн тогтолцоо юм. Энэ нь дэлхийн бичиг үсгийн түүхэнд маш ховор тохиолдол бөгөөд хангылийн чухал онцлог юм. *Хүнминжонъым*-д хаан Сэжон 17 гийгүүлэгч, 11 эгшгийг шинээр танилцуулж, тус бүрийн зохиомжийн зарчмыг тодорхой тайлбарласан байдаг. Ийм зарчмуудын ачаар хангылийг өндөр шинжлэх ухаанч бичиг гэж үнэлж, дэлхий нийтээр өргөнөөр хүлээн зөвшөөрдөг. Орчин үеийн солонгос хэлэнд хэрэглэгдэх чамо үсгийн тоо, дарааллыг *Хангулийн зөв бичих дүрэм* тогтоосон бөгөөд дараалал нь: «ㄱ, ㄴ, ㄷ, ㄹ, ㅁ, ㅂ, ㅅ, ㅇ, ㅈ, ㅊ, ㅋ, ㅌ, ㅍ, ㅎ, ㅏ, ㅑ, ㅓ, ㅕ, ㅗ, ㅛ, ㅜ, ㅠ, ㅡ, ㅣ». Энд бид эдгээр бүтээлийн зарчмуудын дагуу гийгүүлэгч ба эгшгийг танилцуулж, суралцагчид хэлний бүтцийн логикийг ойлгон илүү системтэй сурахад нь тусална.''',
     },
 
     // ──────────────────────────────────────────────────────────────
@@ -1451,6 +1451,310 @@ class UiText {
       'ru': 'Сортировать по макету',
       'mn': 'Layout-аар эрэмбэлэх',
     },
+
+    // ──────────────────────────────────────────────────────────────
+    // 광고 제거 (Remove Ads)
+    // ──────────────────────────────────────────────────────────────
+    'menuRemoveAds': {
+      'ko': '광고 제거',
+      'en': 'Remove Ads',
+      'ja': '広告削除',
+      'zh': '移除广告',
+      'vi': 'Gỡ quảng cáo',
+      'fr': 'Supprimer les publicités',
+      'de': 'Werbung entfernen',
+      'es': 'Quitar anuncios',
+      'ru': 'Убрать рекламу',
+      'mn': 'Зарыг арилгах',
+    },
+    'removeAdsTitle': {
+      'ko': '광고 제거',
+      'en': 'Remove Ads',
+      'ja': '広告を削除',
+      'zh': '移除广告',
+      'vi': 'Gỡ quảng cáo',
+      'fr': 'Supprimer les publicités',
+      'de': 'Werbung entfernen',
+      'es': 'Quitar anuncios',
+      'ru': 'Убрать рекламу',
+      'mn': 'Зарыг арилгах',
+    },
+    'removeAdsBody': {
+      'ko':
+      '현재 버전에서는 광고 제거 기능이 준비 중입니다.\n\n정식 버전에서는 인앱 결제를 통해 학습 화면에서 광고를 제거하실 수 있습니다.',
+      'en':
+      'The remove-ads purchase feature is not yet available in this test version.\n\nIn the official release, you will be able to remove ads with a one-time in-app purchase.',
+      'ja':
+      '現在のテストバージョンでは広告削除の購入機能はまだ利用できません。\n\n正式版ではアプリ内課金で広告を削除できる予定です。',
+      'zh':
+      '当前测试版暂不支持移除广告功能。\n\n正式版本中，可通过一次性应用内购买移除学习界面的广告。',
+      'vi':
+      'Trong phiên bản thử nghiệm này, chức năng mua để gỡ quảng cáo chưa khả dụng.\n\nBản chính thức sẽ cho phép bạn gỡ quảng cáo bằng một lần mua trong ứng dụng.',
+      'fr':
+      'La fonction d’achat pour supprimer les publicités n’est pas encore disponible dans cette version de test.\n\nDans la version officielle, vous pourrez supprimer les publicités grâce à un achat intégré unique.',
+      'de':
+      'In dieser Testversion ist die Kaufoption zum Entfernen von Werbung noch nicht verfügbar.\n\nIn der offiziellen Version können Sie Werbung mit einem einmaligen In-App-Kauf entfernen.',
+      'es':
+      'En esta versión de prueba, la función para quitar anuncios aún no está disponible.\n\nEn la versión official podrás quitar los anuncios mediante una compra integrada única.',
+      'ru':
+      'В этой тестовой версии функция отключения рекламы пока недоступна.\n\nВ официальном релизе вы сможете убрать рекламу с помощью разовой покупки.',
+      'mn':
+      'Энэ туршилтын хувилбарт зарыг арилгах боломж хараахан байхгүй байна.\n\nАлбан ёсны хувилбарт нэг удаагийн апп доторх худалдан авалтаар заруудыг арилгах боломжтой болно.',
+    },
+    'removeAdsOk': {
+      'ko': '확인',
+      'en': 'OK',
+      'ja': '確認',
+      'zh': '确定',
+      'vi': 'OK',
+      'fr': 'OK',
+      'de': 'OK',
+      'es': 'Aceptar',
+      'ru': 'OK',
+      'mn': 'OK',
+    },
+
+    // ──────────────────────────────────────────────────────────────
+    // ✅ 1단계: 저장 제한 + 보상형 광고 안내 문구
+    // ──────────────────────────────────────────────────────────────
+    'saveQuotaExceededTitle': {
+      'ko': '오늘 무료 저장 횟수 소진',
+      'en': 'Daily free saves used up',
+    },
+    'saveQuotaExceededBody': {
+      'ko':
+      '오늘 제공되는 무료 이미지 저장 횟수를 모두 사용했습니다.\n\n추가로 저장하려면 광고를 시청해 주세요.',
+      'en':
+      'You have used all free image saves for today.\n\nTo save more, please watch a short ad.',
+    },
+    'saveQuotaWatchAd': {
+      'ko': '광고 보고 저장하기',
+      'en': 'Watch ad and save',
+    },
+    'saveQuotaLater': {
+      'ko': '나중에 저장할게요',
+      'en': 'Maybe later',
+    },
+    'rewardAdNotReady': {
+      'ko': '광고가 아직 준비되지 않았습니다. 잠시 후 다시 시도해 주세요.',
+      'en': 'The ad is not ready yet. Please try again in a moment.',
+    },
+    'rewardAdError': {
+      'ko': '광고를 불러오는 중 오류가 발생했습니다.',
+      'en': 'An error occurred while loading the ad.',
+    },
+    'rewardAdCompleted': {
+      'ko': '광고 시청이 완료되었습니다. 이미지를 저장합니다.',
+      'en': 'Ad completed. Saving your image.',
+    },
+    'rewardAdCanceled': {
+      'ko': '광고를 끝까지 시청해야 이미지를 저장할 수 있습니다.',
+      'en': 'You need to watch the ad to the end to save the image.',
+    },
+
+    // ✅ 쓰기 화면: 무료 저장/광고 관련 다국어 문구
+    'freeSaveLeft': {
+      'ko': '오늘 남은 무료 저장 횟수: {n}회',
+      'en': 'Free saves left today: {n}',
+      'ja': '今日残りの無料保存回数: {n}回',
+      'zh': '今天剩余的免费保存次数：{n}次',
+      'vi': 'Số lần lưu miễn phí còn lại hôm nay: {n}',
+      'fr': 'Enregistrements gratuits restants aujourd’hui : {n}',
+      'de': 'Verbleibende kostenlose Speicherungen heute: {n}',
+      'es': 'Guardados gratuitos restantes hoy: {n}',
+      'ru': 'Оставшиеся бесплатные сохранения на сегодня: {n}',
+      'mn': 'Өнөөдөр үлдсэн үнэгүй хадгалалтын тоо: {n}',
+    },
+    'noFreeSaveLeft': {
+      'ko':
+      '오늘의 무료 저장 3회를 모두 사용했습니다.\n추가 저장은 광고 시청 후 가능합니다.',
+      'en':
+      'You have used all three free saves for today.\nYou can save more after watching an ad.',
+      'ja':
+      '本日の無料保存3回をすべて使い切りました。\n広告を視聴すると、追加で保存できます。',
+      'zh':
+      '今天的3次免费保存机会已用完。\n观看广告后可以继续保存。',
+      'vi':
+      'Bạn đã dùng hết 3 lần lưu miễn phí hôm nay.\nXem quảng cáo để tiếp tục lưu thêm.',
+      'fr':
+      'Vous avez utilisé vos 3 enregistrements gratuits pour aujourd’hui.\nVous pouvez en enregistrer davantage après avoir regardé une publicité.',
+      'de':
+      'Sie haben die drei kostenlosen Speicherungen für heute aufgebraucht.\nSie können nach dem Ansehen einer Werbung weiter speichern.',
+      'es':
+      'Has utilizado las 3 guardas gratuitas de hoy.\nPuedes seguir guardando después de ver un anuncio.',
+      'ru':
+      'Вы использовали все три бесплатных сохранения на сегодня.\nЧтобы сохранить ещё, посмотрите рекламу.',
+      'mn':
+      'Өнөөдрийн 3 удаагийн үнэгүй хадгалах эрхийг бүгдийг нь ашиглалаа.\nЗар үзсэний дараа үргэлжлүүлэн хадгалах боломжтой.',
+    },
+    'watchAdToSaveTitle': {
+      'ko': '광고를 보고 저장하시겠어요?',
+      'en': 'Watch an ad to save?',
+      'ja': '広告を見て保存しますか？',
+      'zh': '观看广告后保存吗？',
+      'vi': 'Xem quảng cáo để lưu chứ?',
+      'fr': 'Regarder une publicité pour enregistrer ?',
+      'de': 'Eine Werbung ansehen und speichern?',
+      'es': '¿Ver un anuncio para guardar?',
+      'ru': 'Посмотреть рекламу, чтобы сохранить?',
+      'mn': 'Зар үзээд хадгалах уу?',
+    },
+    'watchAdToSaveBody': {
+      'ko':
+      '오늘의 무료 저장 3회를 모두 사용했습니다.\n'
+          '추가로 이미지를 저장하려면 오늘 하루 한 번 광고를 시청하면 됩니다.\n'
+          '광고를 시청하면 오늘은 무제한으로 저장할 수 있어요.',
+      'en':
+      'You have used all three free saves for today.\n'
+          'To save more images, you only need to watch an ad once today.\n'
+          'After watching the ad, you can save unlimited images for the rest of the day.',
+      'ja':
+      '本日の無料保存3回をすべて使用しました。\n'
+          '追加保存をするには、本日一度だけ広告を視聴すれば大丈夫です。\n'
+          '広告視聴後は今日一日無制限で保存できます。',
+      'zh':
+      '今天的3次免费保存已用完。\n'
+          '若要继续保存，只需在今天观看一次广告即可。\n'
+          '观看广告后，今天将可无限保存。',
+      'vi':
+      'Bạn đã dùng hết 3 lần lưu miễn phí hôm nay.\n'
+          'Để lưu thêm, bạn chỉ cần xem một quảng cáo một lần trong ngày.\n'
+          'Sau khi xem quảng cáo, bạn có thể lưu không giới hạn trong ngày hôm nay.',
+      'fr':
+      'Vous avez utilisé vos 3 enregistrements gratuits du jour.\n'
+          'Pour enregistrer davantage, il suffit de regarder une publicité une seule fois aujourd’hui.\n'
+          'Après cela, vous pourrez enregistrer sans limite pour le reste de la journée.',
+      'de':
+      'Sie haben die drei kostenlosen Speicherungen für heute verwendet.\n'
+          'Um weitere Bilder zu speichern, müssen Sie heute nur einmal eine Werbung ansehen.\n'
+          'Danach können Sie den ganzen Tag unbegrenzt speichern.',
+      'es':
+      'Ya has usado las 3 guardas gratuitas de hoy.\n'
+          'Para guardar más imágenes, basta con ver un anuncio una sola vez hoy.\n'
+          'Después de verlo, podrás guardar sin límites durante el resto del día.',
+      'ru':
+      'Вы уже использовали три бесплатных сохранения на сегодня.\n'
+          'Чтобы сохранять дальше, достаточно посмотреть одну рекламу сегодня.\n'
+          'После этого вы сможете сохранять неограниченно до конца дня.',
+      'mn':
+      'Өнөөдрийн 3 үнэгүй хадгалалт бүгд ашиглагдсан байна.\n'
+          'Өнөөдөр нэг удаа зар үзэхэд л хангалттай.\n'
+          'Зар үзсэний дараа өнөөдөр хязгааргүй хадгалж болно.',
+    },
+    'rewardAdStubTitle': {
+      'ko': '테스트 모드',
+      'en': 'Test mode',
+      'ja': 'テストモード',
+      'zh': '测试模式',
+      'vi': 'Chế độ thử nghiệm',
+      'fr': 'Mode test',
+      'de': 'Testmodus',
+      'es': 'Modo de prueba',
+      'ru': 'Тестовый режим',
+      'mn': 'Туршилтын горим',
+    },
+    'rewardAdStubBody': {
+      'ko':
+      '여기에서는 실제 광고 대신,\n광고가 재생되었다고 가정합니다.\n\n정식 출시 전에 AdMob/앱스토어 보상형 광고 SDK를\n연동하면 됩니다.',
+      'en':
+      'Here we assume that an ad has been played instead of showing a real one.\n\nBefore the official release, you can integrate the rewarded-ad SDK from AdMob or the app store.',
+      'ja':
+      'ここでは実際の広告の代わりに、広告が再生されたと仮定します。\n\n正式リリース前に、AdMobやストアの報酬型広告SDKを連携してください。',
+      'zh':
+      '此处不播放真实广告，而是假设广告已播放完成。\n\n在正式发布前，可集成 AdMob 或应用商店的激励广告 SDK。',
+      'vi':
+      'Ở đây chúng ta giả định quảng cáo đã được phát, không hiển thị quảng cáo thật.\n\nTrước khi phát hành chính thức, bạn có thể tích hợp SDK quảng cáo thưởng của AdMob hoặc chợ ứng dụng.',
+      'fr':
+      'Ici, nous supposons qu’une publicité a été lue au lieu d’en afficher une réelle.\n\nAvant la sortie officielle, vous pourrez intégrer le SDK de publicité récompensée d’AdMob ou de la boutique.',
+      'de':
+      'Hier wird angenommen, dass eine Werbung bereits abgespielt wurde, statt eine echte Anzeige zu zeigen.\n\nVor dem offiziellen Release können Sie das Rewarded-Ad-SDK von AdMob oder dem App-Store integrieren.',
+      'es':
+      'Aquí suponemos que se ha reproducido un anuncio en lugar de mostrar uno real.\n\nAntes del lanzamiento oficial, puedes integrar el SDK de anuncios recompensados de AdMob o de la tienda de aplicaciones.',
+      'ru':
+      'Здесь мы предполагаем, что реклама уже была показана, вместо того чтобы показывать настоящую.\n\nПеред официальным релизом вы можете интегрировать SDK вознаграждаемой рекламы AdMob или магазина приложений.',
+      'mn':
+      'Энд бодит зар үзүүлэхийн оронд зар аль хэдийн тоглогдсон гэж үзэж байна.\n\nАлбан ёсны хувилбарын өмнө AdMob эсвэл апп-сторын шагналт зарын SDK-г нэгтгэж болно.',
+    },
+    'captureNotReady': {
+      'ko': '화면이 아직 완전히 준비되지 않았습니다. 잠시 후 다시 시도해 주세요.',
+      'en': 'The screen is not fully ready yet. Please try again in a moment.',
+      'ja': '画面がまだ完全に準備できていません。少し待ってからもう一度お試しください。',
+      'zh': '画面尚未完全准备好，请稍后再试。',
+      'vi':
+      'Màn hình vẫn chưa sẵn sàng hoàn toàn. Vui lòng thử lại sau một chút.',
+      'fr':
+      'L’écran n’est pas encore entièrement prêt. Veuillez réessayer dans un instant.',
+      'de':
+      'Der Bildschirm ist noch nicht vollständig bereit. Bitte versuchen Sie es in wenigen Augenblicken erneut.',
+      'es':
+      'La pantalla todavía no está completamente lista. Inténtalo de nuevo dentro de un momento.',
+      'ru':
+      'Экран ещё не полностью готов. Пожалуйста, попробуйте снова немного позже.',
+      'mn':
+      'Дэлгэц бүрэн ачаалагдаагүй байна. Дараа дахин оролдоно уу.',
+    },
+
+    // ✅ 배너 광고 placeholder 문구
+    'ads.bannerPlaceholder': {
+      'ko':
+      '여기에 학습용 배너 광고가 표시됩니다.\n"광고 제거(Remove Ads)"를 구매하면 이 영역이 사라집니다.',
+      'en':
+      'An educational banner ad will appear here.\nThis area will be hidden when you purchase "Remove Ads".',
+      'ja':
+      'ここに学習用バナー広告が表示されます。\n「広告削除（Remove Ads）」を購入すると、このエリアは非表示になります。',
+      'zh':
+      '此处将显示学习用横幅广告。\n购买“移除广告(Remove Ads)”后，此区域将被隐藏。',
+      'vi':
+      'Một banner quảng cáo phục vụ học tập sẽ hiển thị tại đây.\nKhi mua "Remove Ads", vùng này sẽ được ẩn đi.',
+      'fr':
+      'Une bannière publicitaire éducative s’affichera ici.\nCette zone sera masquée si vous achetez "Remove Ads".',
+      'de':
+      'Hier wird ein Lern-Banner-Werbung eingeblendet.\nWenn Sie "Remove Ads" kaufen, wird dieser Bereich ausgeblendet.',
+      'es':
+      'Aquí aparecerá un banner de anuncio educativo.\nEsta zona se ocultará cuando compres "Remove Ads".',
+      'ru':
+      'Здесь будет отображаться обучающий баннер.\nПосле покупки "Remove Ads" эта область исчезнет.',
+      'mn':
+      'Энд суралцахад зориулсан баннер зар гарна.\n"Remove Ads" худалдан авбал энэ хэсэг харагдахгүй болно.',
+    },
+
+    // ✅ 쓰기 연습 이미지 저장 안내 (다국어)
+    'saveImageResultLine1': {
+      'ko': '쓰기 연습 이미지를 저장했어요.',
+      'en': 'Your writing practice image has been saved.',
+      'ja': '書き取り練習の画像を保存しました。',
+      'zh': '已保存你的书写练习图片。',
+      'vi': 'Ảnh luyện viết của bạn đã được lưu.',
+      'fr': 'L’image de votre exercice d’écriture a été enregistrée.',
+      'de': 'Dein Schreibübungsbild wurde gespeichert.',
+      'es': 'La imagen de tu ejercicio de escritura se ha guardado.',
+      'ru': 'Изображение с упражнением по письму сохранено.',
+      'mn': 'Таны бичгийн дасгалын зураг хадгалагдлаа.',
+    },
+    'saveImageResultLine2': {
+      'ko': '휴대폰의 "내 파일" 또는 파일 관리자 앱을 열고\n"KoreanWritingApp" 폴더를 찾아보세요.',
+      'en': 'Open “My Files” or your file manager app and look for the “KoreanWritingApp” folder.',
+      'ja': 'スマホの「マイファイル」またはファイル管理アプリを開き、"KoreanWritingApp" フォルダを探してください。',
+      'zh': '在手机的“我的文件”或文件管理应用中查找 “KoreanWritingApp” 文件夹。',
+      'vi': 'Mở “Tệp của tôi” hoặc ứng dụng quản lý tệp và tìm thư mục “KoreanWritingApp”.',
+      'fr': 'Ouvrez “Mes fichiers” ou votre gestionnaire de fichiers et cherchez le dossier “KoreanWritingApp”.',
+      'de': 'Öffne „Meine Dateien“ oder deinen Dateimanager und suche den Ordner „KoreanWritingApp“.',
+      'es': 'Abre “Mis archivos” o tu gestor de archivos y busca la carpeta “KoreanWritingApp”.',
+      'ru': 'Откройте «Мои файлы» или файловый менеджер и найдите папку «KoreanWritingApp».',
+      'mn': 'Гар утасныхаа “My Files” эсвэл файлын менежер аппыг нээгээд “KoreanWritingApp” хавтсыг хайгаарай.',
+    },
+    'saveImageResultFileName': {
+      'ko': '파일 이름: {name}',
+      'en': 'File name: {name}',
+      'ja': 'ファイル名: {name}',
+      'zh': '文件名：{name}',
+      'vi': 'Tên tệp: {name}',
+      'fr': 'Nom du fichier : {name}',
+      'de': 'Dateiname: {name}',
+      'es': 'Nombre de archivo: {name}',
+      'ru': 'Имя файла: {name}',
+      'mn': 'Файлын нэр: {name}',
+    },
   };
 
   // ──────────────────────────────────────────────────────────────
@@ -1511,15 +1815,15 @@ class UiText {
 
   /// 언어 코드 → 표시명
   static Map<String, String> get supportedLangs => const {
-        'ko': '한국어 (Korean)',
-        'en': 'English',
-        'ja': '日本語 (Japanese)',
-        'zh': '中文 (Chinese)',
-        'vi': 'Tiếng Việt (Vietnamese)',
-        'fr': 'Français (French)',
-        'de': 'Deutsch (German)', // 프랑스어 다음에 배치
-        'es': 'Español (Spanish)',
-        'ru': 'Русский (Russian)',
-        'mn': 'Монгол (Mongolian)',
-      };
+    'ko': '한국어 (Korean)',
+    'en': 'English',
+    'ja': '日本語 (Japanese)',
+    'zh': '中文 (Chinese)',
+    'vi': 'Tiếng Việt (Vietnamese)',
+    'fr': 'Français (French)',
+    'de': 'Deutsch (German)', // 프랑스어 다음에 배치
+    'es': 'Español (Spanish)',
+    'ru': 'Русский (Russian)',
+    'mn': 'Монгол (Mongolian)',
+  };
 }

@@ -2,7 +2,7 @@ name: korean_writing_app_new
 description: "A new Flutter project."
 publish_to: "none"
 
-version: 1.0.0+1
+version: 1.0.0+21
 
 environment:
   sdk: ">=3.5.0 <4.0.0"
@@ -11,6 +11,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+
+  google_mobile_ads: ^5.1.0   # ✅ 새로 추가
 
   # ── 현지화 ──
   flutter_localizations:
@@ -23,11 +25,16 @@ dependencies:
   path: ^1.9.1                # 잠금 파일과 맞춤
   path_provider: ^2.1.5       # 잠금 파일과 맞춤
   shared_preferences: ^2.5.3  # 잠금 파일과 맞춤
+  provider: ^6.1.2            # ✅ 새로 추가
 
   # ── 음성 ── (메이저 업 보류: 안정 고정)
   flutter_tts: 3.8.5
 
   share_plus: any
+
+  # ── 인앱 결제 (Google Play Billing / App Store) ──
+  in_app_purchase: ^3.1.13
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
